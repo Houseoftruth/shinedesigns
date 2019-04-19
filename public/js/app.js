@@ -43,7 +43,8 @@ app.controller('mainCtrl', ['$http','$scope','$timeout','User','$interval', func
     $scope.onexServer = false;
     $scope.twoxServer = false;
     $scope.threexServer = true;
-    $scope.medStorage = true;
+    $scope.smStorage = true;
+    $scope.medStorage = false;
     $scope.largeStorage = false;
     $scope.userObject = {
         userName : "",
@@ -55,13 +56,16 @@ app.controller('mainCtrl', ['$http','$scope','$timeout','User','$interval', func
     $scope.serverSwitch = function(){
         $interval(function(){
     
-            if(!$scope.largeStorage){
-                $scope.medStorage = false;
-                $scope.largeStorage =true;
+            if($scope.largeStorage){
+                $scope.smStorage = true;
+                $scope.largeStorage =false;
 
-            }else if(!$scope.medStorage){
-                $scope.largeStorage = false;
+            }else if($scope.medStorage){
+                $scope.largeStorage = true;
+                $scope.medStorage = false;
+            }else if($scope.smStorage){
                 $scope.medStorage = true;
+                $scope.smStorage = false;
             }
              if($scope.threexServer ){
                 $scope.onexServer = false;
