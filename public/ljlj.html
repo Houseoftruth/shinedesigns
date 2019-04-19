@@ -1,0 +1,202 @@
+<html ng-controller="mainCtrl as main" ng-app="store" class = "animated fadeIn">
+
+<head>
+
+  <title>Welcome To Shine Designs!</title>
+  
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    crossorigin="anonymous" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN">
+  <link href="./css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+  <!-- Compiled and minified JavaScript -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+
+  <script src="./js/app.js" type="text/javascript"></script>
+  <script src="./js/ng-file-upload-shim.js" type="text/javascript"></script>
+  <script src="./js/ng-file-upload.js" type="text/javascript"></script>
+  <script src="./services/userServices.js" type="text/javascript"></script>
+
+</head>
+
+<body ng-class="{'nightmodenavigation':nightMode,'whitemodenavigation':!nightMode}">
+
+  <div id="navbar" class="whitemodenavigation animated fadeIn"
+    ng-class="{'nightmodenavigation': nightMode,'whitemodenavigation':!nightMode}">
+    &nbsp; <div class="row " >
+     
+      <div class="col s3">
+
+      </div>
+      <div class="col s6 center-align">
+        <div class="col s12">
+          <div class="col s3"> </div>
+          <div class="col s3"> </div>
+          <a href="#">
+            <div ng-show="nightMode" class="col s3 left-align animated slideInRight"><i
+                class="material-icons animated grey-text" ng-class="{'fadeOutLeft':menuPressedContact}"
+                style="font-size:15px;">camera</i> </div>
+          </a>
+          <a href="#">
+            <div ng-show="!nightMode" class="col s3 left-align animated slideInRight"><i
+                class="material-icons animated black-text" ng-class="{'fadeOutLeft':menuPressedContact}"
+                style="font-size:15px;">camera</i> </div>
+          </a>
+          <div class="col s3 "> </div>
+        </div>
+        <div class="col s12">
+          <a href="#">
+            <div ng-show="nightMode" class="col s4 right-align animated slideInDown"><i
+                class="material-icons animated transitions grey-text "
+                ng-class="{'fadeOutDown':menuPressedContact}">camera</i> </div>
+          </a>
+          <a href="#">
+            <div ng-show=!nightMode class="col s4 right-align animated slideInDown"><i
+                class="material-icons animated transitions black-text "
+                ng-class="{'fadeOutDown':menuPressedContact}"
+                id="hovero">camera</i> </div>
+          </a>
+          <a href="#">
+            <div ng-show="nightMode" class="col s4 "><i class="material-icons animated fadeIn grey-text "
+                style="font-size:30px" ng-class="{'fadeOut':fadeOutHome}"
+                id="hovero">home</i> </div>
+          </a>
+          <a href="#">
+            <div ng-show='!nightMode' class="col s4 "><i class="material-icons animated fadeIn black-text "
+                style="font-size:30px" ng-class="{'fadeOut':fadeOutHome}"
+                id="hovero">home</i> </div>
+          </a>
+          <a href="#">
+            <div ng-show="nightMode" class="col s4 left-align animated slideInUp " > <i
+                class="material-icons animated grey-text "
+                id="hovero"
+                ng-class="{'fadeOutUp':menuPressedContact,'makesmall':menuPressedContact }">business</i></div>
+          </a>
+          <a href="#">
+            <div ng-show="!nightMode" class="col s4 left-align animated slideInUp " > <i
+                class="material-icons animated black-text "
+                id="hovero"
+                ng-class="{'fadeOutUp':menuPressedContact,'makesmall':menuPressedContact }">business</i></div>
+          </a>
+
+        </div>
+        <div class="col s12">
+          <div class="col s3"> </div>
+          <a href="#"></a>
+          <div ng-show="nightMode" class="col s3 right-align  animated slideInLeft"> <i
+              class="material-icons animated grey-text " ng-class="{'fadeOutRight':menuPressedContact}"
+              style="font-size:35px"
+              id="hoverobuild">build</i></div></a>
+          <a href="#"></a>
+          <div ng-show="!nightMode" class="col s3 right-align  "> <i
+              class="material-icons animated black-text fadeIn" ng-class="{'fadeOutRight':menuPressedContact}"
+              
+              id="hoverobuild">build</i></div></a>
+          <div class="col s3 right-align"> </div>
+          <div class="col s3 "><i class="fas fa-moon" style="font-size:20px;"></i> </div>
+        </div>
+
+
+
+      </div>
+      <div class="col s3">
+
+
+      </div>
+      <div class="col s12 right-align">
+        <img ng-show="!nightMode" ng-click="nightModeToggle()" class="animated fadeIn" src="./images/moon.png"
+          style="height:25px; width:25px;">
+        <img ng-show="nightMode" ng-click="nightModeToggle()" class="animated fadeIn" src="./images/moon-grey.png"
+          style="height:25px; width:25px;">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+
+    <div class="col s12 center-align animated fadeIn" ng-show="loading">
+      <div class="row"></div>
+      <div class="row"></div>
+
+      <div class="row"></div>
+
+      <div class="row"></div>
+
+      <div class="row"></div>
+      <div class="row"></div>
+      <div class="row"></div>
+
+      <div class="row"></div>
+
+      <div class="row"></div>
+
+      <div class="row"></div>
+      <div ng-show="nightMode">
+        <h2 class="center-align shinedesign grey-text"
+          style="  text-align:center; opacity:.6;top:-20%;font-family:'Montserrat';">Shine
+          Designs</h2>
+      </div>
+      <div ng-show="!nightMode">
+        <h2 class="center-align shinedesign black-text text-darken-4"
+          style="  text-align:center; opacity:.6;top:-20%;font-family:'Montserrat';">Shine
+          Designs</h2>
+      </div>
+
+      <i ng-show="!nightMode && !finishedLoadingSuccess" class="fa fa-circle-o-notch fa-spin fa-3x fa-fw" style="font-size:40px;"></i>
+      <p ng-show="!nightMode && !finishedLoadingSuccess" class="montserrat animated flash infinite" style="font-size:20px; ">LOADING </p>
+      <i ng-show="nightMode && !finishedLoadingSuccess" class="fa fa-circle-o-notch fa-spin fa-3x fa-fw grey-text "
+        style="font-size:40px;" ng-class="{'animated':fadeOutLoading, 'fadeOut':fadeOutLoading}"></i>
+      <p ng-show="nightMode && !finishedLoadingSuccess" class="montserrat animated flash infinite grey-text"
+        style="font-size:20px; " ng-class="{ 'fadeOut':fadeOutLoading}">LOADING </p>
+        <i ng-show="!nightMode && finishedLoadingSuccess" class="material-icons animated  flash   " 
+        style="font-size:40px;" ng-class="{'animated':fadeOutLoading, 'fadeOut':fadeOutLoading}">build</i>
+        <p ng-show="!nightMode && finishedLoadingSuccess" class="montserrat animated  flash  "
+        style="font-size:20px; " ng-class="{ 'fadeOut':fadeOutLoading}">UNDER CONSTRUCTION! </p>
+      <i ng-show="nightMode && finishedLoadingSuccess" class="material-icons animated  flash  grey-text "
+        style="font-size:40px;" ng-class="{'animated':fadeOutLoading, 'fadeOut':fadeOutLoading}">build</i>
+      <p ng-show="nightMode && finishedLoadingSuccess" class="montserrat animated  flash  grey-text"
+        style="font-size:20px; " ng-class="{ 'fadeOut':fadeOutLoading}">UNDER CONSTRUCTION! </p>
+        <div class = "col s3"></div>
+        <div class = "col s6" id="shobo" ng-show="!nightMode && finishedLoadingSuccess">
+          <p  class="montserrat animated flow-text  flash "
+          style="font-size:20px; " ng-class="{ 'fadeOut':fadeOutLoading}">We're undergoing a full re-imagening of the Shine Designs Patented App Development Process.</p>
+          <p class="montserrat animated flow-text  flash  "
+          style="font-size:20px; " ng-class="{ 'fadeOut':fadeOutLoading}">Stay Tuned!</p>
+          </div>
+        <div class = "col s6" id="shobo" ng-show="nightMode && finishedLoadingSuccess">
+        <p  class="montserrat animated flow-text  flash  grey-text"
+        style="font-size:20px; " ng-class="{ 'fadeOut':fadeOutLoading}">We're undergoing a full re-imagening of the Shine Designs Patented App Development Process.</p>
+        <p  class="montserrat animated flow-text  flash  grey-text"
+        style="font-size:20px; " ng-class="{ 'fadeOut':fadeOutLoading}">Stay Tuned!</p>
+        </div>
+        <div class = "col s3"></div>
+
+        
+      <!--<i class="fa fa-cog fa-spin fa-3x fa-fw" ></i>-->
+
+    </div>
+  </div>
+
+  <script>
+    $(document).ready(function () {
+      $('.slider').slider();
+      $('.parallax').parallax();
+
+      $('.scrollspy').scrollSpy({
+        scrollOffset: 125
+      });
+
+
+
+
+    });
+  </script>
+</body>
+
+</html>

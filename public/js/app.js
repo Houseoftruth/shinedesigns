@@ -1,0 +1,184 @@
+(function(){
+var app = angular.module('store',['userServices','ngFileUpload']);
+
+																																																  
+
+app.config(function($httpProvider){
+
+
+	console.log("Angular.js loaded")
+
+	
+
+
+
+});
+app.controller('mainCtrl', ['$http','$scope','$timeout','User','$interval', function($http,$scope,$timeout,User,$interval) {
+
+        
+    $timeout(function(){
+        $scope.loaded = true;
+    },500)
+    $scope.contactSlideInLeft = false;
+    $scope.contactSlideUpDown = false;
+    $scope.contactSlideInRight = false;
+    $scope.contactSlideDownUp = false;
+    $scope.homePressed = false;
+    $scope.contactPressed = false;
+    $scope.fadeInSmallMenu= false;
+    $scope.removeLargeMenu = false;
+    $scope.initialLoad = true;
+    $scope.menuPressed = false;
+    $scope.fadeOutHome = false;
+    $scope.fadeOutHomePage = false;
+    $scope.fadeInContact = false;
+    $scope.menuPressedContact = false;
+    $scope.homePageOpen = true;
+    $scope.nightMode = false;
+    $scope.loading = false;
+    $scope.fadeOutLoading = false;
+    $scope.finishedLoadingSuccess = false;
+    $scope.picture="../images/moon.png"
+    $scope.progress = 0
+    $scope.onexServer = false;
+    $scope.twoxServer = false;
+    $scope.threexServer = true;
+    $scope.medStorage = true;
+    $scope.largeStorage = false;
+    $scope.userObject = {
+        userName : "",
+        name : "",
+        email : "",
+        password : ""
+    }
+     
+    $scope.serverSwitch = function(){
+        $interval(function(){
+    
+            if(!$scope.largeStorage){
+                $scope.medStorage = false;
+                $scope.largeStorage =true;
+
+            }else if(!$scope.medStorage){
+                $scope.largeStorage = false;
+                $scope.medStorage = true;
+            }
+             if($scope.threexServer ){
+                $scope.onexServer = false;
+                $scope.threexServer = false;
+                $scope.twoxServer = true;
+                
+            }
+            else if($scope.twoxServer){
+                $scope.threexServer = false;
+                $scope.twoxServer= false;
+                $scope.onexServer = true;
+                console.log(2)
+            }
+            else if($scope.onexServer){
+                $scope.twoxServer= false;
+                $scope.onexServer = false;
+                $scope.threexServer = true;
+               
+            }
+        },2000)
+    }
+    $scope.serverSwitch()
+    /*User.getProfileImage("5caa4a61b3358b21e831cd2c").then(function(data){
+        console.log(data)
+    })
+    User.uploadProfileImage().then(function(data){
+        
+    })
+    */
+    $scope.checkProgress = function(){
+        $scope.progress = 0;
+        $interval(function(){
+            if($scope.progress<86){
+                $scope.progress =$scope.progress +1;
+                console.log("og")
+            }else{
+                $timeout(function(){
+                   
+                },3000)
+            }
+           },50)
+    }
+ 
+    $scope.submitUser = function(){
+   
+        if(($scope.userObject.email !== null || "") &&
+            ($scope.userObject.password !== null || "")){
+                $scope.loading= true;
+                $timeout(function(){
+                    $scope.finishedLoadingSuccess= true;
+                    
+                },3000)
+                $timeout(function(){
+                   $scope.loading = false;
+                   $scope.finishedLoadingSuccess = false;
+
+                    $scope.fadeOutHomePage = true;
+                },5000)
+               
+                    
+               
+                
+                console.log($scope.userObject)
+               // User.create($scope.userObject).then(function(data){
+               //     console.log(data)
+               // })
+                
+            }else{
+                
+            }
+    }
+    ///$scope.submitUser()
+    $scope.nightModeToggle = function(){
+        console.log("nightModeToggled")
+        if(!$scope.nightMode){
+            $scope.nightMode = true;
+        }else{
+            $scope.nightMode = false;
+        }
+    }
+    $scope.openHome = function(){
+       // console.log("Home opened")
+        //$scope.contactSlideInLeft = false;
+        $scope.homePressed = true;
+        setTimeout(function(){
+            $scope.homePressed = false;
+            console.log("homePressed = falseo")
+        },1000)
+
+    }
+    $scope.openContact = function(){
+        console.log("Home opened")
+        //$scope.contactSlideInLeft = false;
+        //$scope.removeLargeMenu = true;
+        //$scope.contactPressed = true;
+        $scope.menuPressedContact=true
+        //$scope.fadeInSmallMenu = true;
+        //$scope.fadeOutHome = true;
+        $scope.fadeOutHomePage = true;
+
+        $timeout(function(){
+            //$scope.removeLargeMenu = true;
+            //$scope.fadeInSmallMenu = true;
+            
+            $scope.fadeOutHome = true;
+            console.log("homePressed = false",$scope.fadeOutHome)
+        },1000)
+        $timeout(function(){
+            $scope.homePageOpen = false;
+           $scope.fadeInContact = true;
+        },2000)
+
+    }
+}]);
+
+
+}());
+
+
+    

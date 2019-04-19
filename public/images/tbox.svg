@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	  viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+]]>
+</style>
+<g id="Layer_2">
+	<circle style="fill:#ddd; stroke:white;" class="st0" cx="500" cy="500" r="302.542"/>
+</g>
+<path  style="stroke:grey;" class="st2" d="M320.054,398.216l114.865,114.865c0,0-56.757,5.405-91.892-20.27
+	C307.892,467.135,303.838,403.622,320.054,398.216z"/>
+<path style="stroke:grey;" class="st2" d="M434.919,513.081"/>
+<polyline style="stroke:grey;" class="st2" points="320.054,398.216 434.919,336.054 543.027,421.189 434.919,513.081 531.589,596.088 "/>
+<polygon  style="stroke:grey;" class="st2" points="615,520 692,440 543.027,421.189 434.919,513.081 601,535 "/>
+<polygon  style="stroke:grey;" class="st2" points="692,440 692,567 608,661 601,535 "/>
+<polygon style="stroke:grey;" class="st2" points="434.919,513.081 434.919,635 608,661 "/>
+<g>
+	<polygon  style="stroke:grey;" class="st2" points="543.027,503 543.027,421.189 434.919,513.081 521.459,524.502 	"/>
+</g>
+<polygon  style="stroke:grey;" class="st2" points="692,440 543.027,421.189 543.027,503 621.996,513.081 "/>
+<path  style="stroke:grey;" class="st1" d="M434.44,335.098l106.937,86.596"/>
+</svg>
