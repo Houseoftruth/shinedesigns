@@ -30,7 +30,7 @@ app.controller('mainCtrl', ['$http','$scope','$timeout','User','$interval', func
     $scope.initialLoad = true;
     $scope.menuPressed = false;
     $scope.fadeOutHome = false;
-    $scope.fadeOutHomePage = false;
+    $scope.fadeOutHomePage = true;
     $scope.fadeInContact = false;
     $scope.menuPressedContact = false;
     $scope.homePageOpen = true;
