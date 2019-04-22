@@ -21,27 +21,27 @@
 		 }
 		 }
 		 @-webkit-keyframes hideshow {
-  0% { opacity: 0;transform:translateY(100px)}
-  5% { opacity: 1;transform:translateY(0px) }
+  0% { opacity: 0;-webkit-transform:translateY(100px)}
+  5% { opacity: 1;-webkit-transform:translateY(0px) }
  
   100% { opacity: 1; }
 } 
 		 @-webkit-keyframes hideshow2 {
-  0% { opacity: 0; transform:translateY(100px) }
-  10% { opacity: 0; transform:translateY(100px) }
+  0% { opacity: 0; -webkit-transform:translateY(100px) }
+  10% { opacity: 0; -webkit-transform:translateY(100px) }
 
-  20% { opacity: 1;transform:translateY(0px) }
+  20% { opacity: 1;-webkit-transform:translateY(0px) }
  
  
   100% { opacity: 1; }
 } 
 		 @-webkit-keyframes hideshow3 {
-  0% { opacity: 0;transform:translateY(100px) }
-    10% { opacity: 0;transform:translateY(100px) }
+  0% { opacity: 0;-webkit-transform:translateY(100px) }
+    10% { opacity: 0;-webkit-transform:translateY(100px) }
 
-  20% { opacity: 0;transform:translateY(100px) }
+  20% { opacity: 0;-webkit-transform:translateY(100px) }
 
-  30% { opacity: 1;transform:translateY(0px) }
+  30% { opacity: 1;-webkit-transform:translateY(0px) }
  
  
   100% { opacity: 1; }
@@ -97,11 +97,11 @@
   40% {opacity:0;}
   50% {opacity:0;}
   60% {opacity:0;}
-  70% {opacity:0;transform:translateY(100px)}
-  80% {opacity:1;transform:translateY(0px)}
+  70% {opacity:0;-webkit-transform:translateY(100px)}
+  80% {opacity:1;-webkit-transform:translateY(0px)}
 
 
-  100% { opacity: 1;transform:translateY(0px) }
+  100% { opacity: 1;-webkit-transform:translateY(0px) }
 } 
  @-webkit-keyframes hideshow9 {
   0% { opacity: 0; }
@@ -112,8 +112,8 @@
   50% {opacity:0;}
   60% {opacity:0;}
   70% {opacity:0;}
-  80% {opacity:0;transform:translateY(100px)}
-  90% {opacity:1; transform:translateY(0px)}
+  80% {opacity:0;-webkit-transform:translateY(100px)}
+  90% {opacity:1; -webkit-transform:translateY(0px)}
 
  
   100% { opacity: 1; }
@@ -128,23 +128,23 @@
   60% {opacity:0;}
   70% {opacity:0;}
   80% {opacity:0;}
-  90% {opacity:0; transform:translateY(100px)}
+  90% {opacity:0; -webkit-transform:translateY(100px)}
 
  
-  100% { opacity: 1; transform:translateY(0px)}
+  100% { opacity: 1; -webkit-transform:translateY(0px)}
 } 
 @-webkit-keyframes hideandshowblink{
-0%{opacity:0; transform:translateX(0px)}
+0%{opacity:0; -webkit-transform:translateX(0px)}
  10% { opacity: 1; }
    20% { opacity: 1; }
   30% {opacity:1;}
   40% {opacity:0;}
-50%{opacity:1;transform:translateX(450px)}
- 60% {opacity:0;transform:translateX(450px)}
-  70% {opacity:1;transform:translateX(450px)}
-  80% {opacity:0;transform:translateX(450px)}
-  90% {opacity:1;transform:translateX(450px)}
-100%{opacity:0; transform:translateX(450px)}
+50%{opacity:1;-webkit-transform:translateX(450px)}
+ 60% {opacity:0;-webkit-transform:translateX(450px)}
+  70% {opacity:1;-webkit-transform:translateX(450px)}
+  80% {opacity:0;-webkit-transform:translateX(450px)}
+  90% {opacity:1;-webkit-transform:translateX(450px)}
+100%{opacity:0; -webkit-transform:translateX(450px)}
 }
 .blink {
 		animation: hideandshowblink 5s  infinite;
@@ -303,7 +303,7 @@
 </g>
 
 <div class = "typewriter">
-<text transform="matrix(1 0 0 1 264.0769 578.5002)" font-family="'Montserrat-Regular'" font-size="72">www.???.com</text>
+<text -webkit-transform="matrix(1 0 0 1 264.0769 578.5002)" font-family="'Montserrat-Regular'" font-size="72">www.???.com</text>
 </div>
 
 </svg>
