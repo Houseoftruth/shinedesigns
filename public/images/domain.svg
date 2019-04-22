@@ -20,13 +20,13 @@
 		 stroke-dashoffset:0;
 		 }
 		 }
-		 @keyframes hideshow {
+		 @-webkit-keyframes hideshow {
   0% { opacity: 0;transform:translateY(100px)}
   5% { opacity: 1;transform:translateY(0px) }
  
   100% { opacity: 1; }
 } 
-		 @keyframes hideshow2 {
+		 @-webkit-keyframes hideshow2 {
   0% { opacity: 0; transform:translateY(100px) }
   10% { opacity: 0; transform:translateY(100px) }
 
@@ -35,7 +35,7 @@
  
   100% { opacity: 1; }
 } 
-		 @keyframes hideshow3 {
+		 @-webkit-keyframes hideshow3 {
   0% { opacity: 0;transform:translateY(100px) }
     10% { opacity: 0;transform:translateY(100px) }
 
@@ -46,7 +46,7 @@
  
   100% { opacity: 1; }
 } 
- @keyframes hideshow4 {
+ @-webkit-keyframes hideshow4 {
   0% { opacity: 0; }
   10% { opacity: 0; }
    20% { opacity: 0; }
@@ -55,7 +55,7 @@
  
   100% { opacity: 1; }
 } 
- @keyframes hideshow5 {
+ @-webkit-keyframes hideshow5 {
   0% { opacity: 0; }
   10% { opacity: 0; }
    20% { opacity: 0; }
@@ -65,7 +65,7 @@
  
   100% { opacity: 1; }
 } 
- @keyframes hideshow6 {
+ @-webkit-keyframes hideshow6 {
   0% { opacity: 0; }
   10% { opacity: 0; }
    20% { opacity: 0; }
@@ -77,7 +77,7 @@
  
   100% { opacity: 1; }
 } 
- @keyframes hideshow7 {
+ @-webkit-keyframes hideshow7 {
   0% { opacity: 0; }
   10% { opacity: 0; }
    20% { opacity: 0; }
@@ -89,7 +89,7 @@
  
   100% { opacity: 1; }
 } 
- @keyframes hideshow8 {
+ @-webkit-keyframes hideshow8 {
   0% { opacity: 0; }
   10% { opacity: 0; }
    20% { opacity: 0; }
@@ -103,7 +103,7 @@
 
   100% { opacity: 1;transform:translateY(0px) }
 } 
- @keyframes hideshow9 {
+ @-webkit-keyframes hideshow9 {
   0% { opacity: 0; }
   10% { opacity: 0; }
    20% { opacity: 0; }
@@ -118,7 +118,7 @@
  
   100% { opacity: 1; }
 } 
-@keyframes hideshow10 {
+@-webkit-keyframes hideshow10 {
   0% { opacity: 0; }
   10% { opacity: 0; }
    20% { opacity: 0; }
@@ -133,7 +133,7 @@
  
   100% { opacity: 1; transform:translateY(0px)}
 } 
-@keyframes hideandshowblink{
+@-webkit-keyframes hideandshowblink{
 0%{opacity:0; transform:translateX(0px)}
  10% { opacity: 1; }
    20% { opacity: 1; }
