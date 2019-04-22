@@ -303,7 +303,7 @@
 </g>
 
 <div class = "typewriter">
-<text -webkit-transform="matrix(1 0 0 1 264.0769 578.5002)" font-family="'Montserrat-Regular'" font-size="72">www.???.com</text>
+<text transform="matrix(1 0 0 1 264.0769 578.5002)" font-family="'Montserrat-Regular'" font-size="72">www.???.com</text>
 </div>
 
 </svg>
