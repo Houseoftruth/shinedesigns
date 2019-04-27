@@ -1,5 +1,5 @@
 (function(){
-var app = angular.module('store',['userServices','ngFileUpload']);
+var app = angular.module('store',['appRoutes','userServices','ngFileUpload']);
 
 																																																  
 
