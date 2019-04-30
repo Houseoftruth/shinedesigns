@@ -25,17 +25,17 @@
 } 
 	 .w{
 		
-		animation: hideshow 5s ease infinite;
+		-webkit-animation: hideshow 5s ease infinite;
 		
 		 }
 		 	 .w2{
 		
-		animation: hideshow2 5s ease infinite;
+			-webkit-animation: hideshow2 5s ease infinite;
 		
 		 }
 		 	 .w3{
 		
-		animation: hideshow3 5s ease infinite;
+			-webkit-animation: hideshow3 5s ease infinite;
 		
 		 }
 </style>
