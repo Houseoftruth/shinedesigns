@@ -7,14 +7,14 @@
   0% { opacity: 0;-webkit-transform:translateY(100px)}
   5% { opacity: 1;-webkit-transform:translateY(0px) }
  
-  100% { opacity: 1; }
+  100% { opacity: 1; -webkit-transform:translateY(0px)}
 } 
 		 @-webkit-keyframes hideshow2 {
   0% { opacity: 0;-webkit-transform:translateY(100px)}
   5% { opacity: 0;-webkit-transform:translateY(100px) }
    10% { opacity: 1;-webkit-transform:translateY(0px) }
  
-  100% { opacity: 1; }
+  100% { opacity: 1;-webkit-transform:translateY(0px) }
 } 
 		 @-webkit-keyframes hideshow3 {
   0% { opacity: 0;transform:translateY(100px)}
