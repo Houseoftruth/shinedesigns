@@ -93,6 +93,16 @@
 		L305.786,745.89z"/>
 	<path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M331.543,705.643
 		c0,0-23.866-47.571,22.729-28.69L331.543,705.643z"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="112.5,180.5 236.5,150.5 262.5,406.5 	
+		"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="468.71,44.76 602.387,81.415 
+		418.915,406.5 	"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="686.22,188.906 770.341,256.823 
+		611.196,406.5 	"/>
+	<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="273.189" cy="433.43" rx="21" ry="17.272"/>
+	<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="410.896" cy="433.43" rx="21" ry="17.271"/>
+	
+		<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="597.316" cy="430.429" rx="21" ry="17.271"/>
 </g>
 <g id="Layer_2">
 </g>
