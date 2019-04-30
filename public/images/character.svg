@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"  viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
 <g id="Layer_1">
 	<g display="none">
 		<path display="inline" d="M250.5,396.779h4.752v67.393H250.5V396.779z"/>
@@ -86,6 +86,13 @@
 	<path fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M629.592,603.745"/>
 	
 		<line fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="623.12" y1="709.564" x2="677.426" y2="679.531"/>
+	<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="317.176" cy="804.499" rx="23" ry="37.96"/>
+	<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="355.271" cy="818.5" rx="11.229" ry="14"/>
+	<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="340.176" cy="846.5" rx="9.324" ry="8"/>
+	<path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M305.786,745.89c0,0-23.866-47.571,22.73-28.69
+		L305.786,745.89z"/>
+	<path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M331.543,705.643
+		c0,0-23.866-47.571,22.729-28.69L331.543,705.643z"/>
 </g>
 <g id="Layer_2">
 </g>
