@@ -21,7 +21,7 @@
   5% { opacity: 0;transform:translateY(100px) }
   10% { opacity: 0;transform:translateY(100px) }
    15% { opacity: 1;transform:translateY(0px) }
-  100% { opacity: 1; }
+  100% { opacity: 1;transform:translateY(0px) }
 } 
 	 .w{
 		
