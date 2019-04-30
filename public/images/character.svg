@@ -17,10 +17,10 @@
   100% { opacity: 1; }
 } 
 		 @-webkit-keyframes hideshow3 {
-  0% { opacity: 0;-webkit-transform:translateY(100px)}
-  5% { opacity: 0;-webkit-transform:translateY(100px) }
-  10% { opacity: 0;-webkit-transform:translateY(100px) }
-   15% { opacity: 1;-webkit-transform:translateY(0px) }
+  0% { opacity: 0;transform:translateY(100px)}
+  5% { opacity: 0;transform:translateY(100px) }
+  10% { opacity: 0;transform:translateY(100px) }
+   15% { opacity: 1;transform:translateY(0px) }
   100% { opacity: 1; }
 } 
 	 .w{
