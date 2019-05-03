@@ -42,10 +42,10 @@
  
 } 
 .flail{
-	-webkit-animation: flail .5s ease infinite;
+	-webkit-animation: flail .3s ease infinite;
 }
 .flail2{
-	-webkit-animation: flail2 .5s ease infinite;
+	-webkit-animation: flail2 .3s ease infinite;
 }
 	 .w{
 		
