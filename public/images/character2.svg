@@ -32,8 +32,20 @@
 
  
 } 
+		 @-webkit-keyframes flail2 {
+
+  0% { opacity: 1; transform:translateX(0px);transform:translateY(-100px) }
+    50% { opacity: 1;transform:translateY(50px); }
+	
+100% { opacity: 1;transform:translateX(0px);transform:translateY(-100px) }
+
+ 
+} 
 .flail{
 	-webkit-animation: flail .5s ease infinite;
+}
+.flail2{
+	-webkit-animation: flail2 .5s ease infinite;
 }
 	 .w{
 		
@@ -163,7 +175,7 @@
 </g>
 	<g id="Layer_2">
 	
-		<ellipse  class="flail" fill="white" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="317.676" cy="654.5" rx="38.5" ry="41.488"/>
+		<ellipse  class="flail2" fill="white" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="317.676" cy="654.5" rx="38.5" ry="41.488"/>
 	
 		<ellipse display="none" fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="629.592" cy="591.394" rx="38.5" ry="41.488"/>
 	<path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M309.5,626.92h15.932H309.5z"/>
