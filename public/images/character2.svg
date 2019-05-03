@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"  viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
 <style>
 		 @-webkit-keyframes hideshow {
   0% { opacity: 0;-webkit-transform:translateY(100px)}
@@ -23,6 +23,18 @@
    15% { opacity: 1;transform:translateY(0px) }
   100% { opacity: 1;transform:translateY(0px) }
 } 
+		 @-webkit-keyframes flail {
+
+  0% { opacity: 1; transform:translateX(0px);transform:translateY(-100px) }
+    50% { opacity: 1;transform:translateX(50px); }
+	
+100% { opacity: 1;transform:translateX(0px);transform:translateY(-100px) }
+
+ 
+} 
+.flail{
+	-webkit-animation: flail .5s ease infinite;
+}
 	 .w{
 		
 		-webkit-animation: hideshow 5s ease infinite;
@@ -39,20 +51,6 @@
 		
 		 }
 </style>
-	<g id="Layer_4">
-		
-			<ellipse fill="red" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="628.77" cy="580.085" rx="38.5" ry="41.488"/>
-	</g>
-	<g id="Layer_2">
-	
-		<ellipse fill="red" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="317.676" cy="654.5" rx="38.5" ry="41.488"/>
-	
-		<ellipse display="none" fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="629.592" cy="591.394" rx="38.5" ry="41.488"/>
-	<path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M309.5,626.92h15.932H309.5z"/>
-	<g>
-		<path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M245.5,626.92"/>
-	</g>
-</g>
 <g id="Layer_1">
 	<g display="none">
 		<path display="inline" d="M250.5,396.779h4.752v67.393H250.5V396.779z"/>
@@ -67,13 +65,18 @@
 			www.???.com</text>
 	</div>
 	
-		<ellipse display="none" fill="#231F20" stroke="#000000" stroke-miterlimit="10" cx="565.363" cy="298.5" rx="65.438" ry="58.798"/>
+		<ellipse class="flail" display="none" fill="white" stroke="#000000" stroke-miterlimit="10" cx="565.363" cy="298.5" rx="65.438" ry="58.798"/>
+	<g id="Layer_4">
+		
+			<ellipse class="flail"  fill="white" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="628.77" cy="580.085" rx="38.5" ry="41.488"/>
+	</g>
+
 	<path display="none" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M516.391,340.792c0,0,30.432,36.218,21.797-3.646
 		C538.188,337.146,535.117,333.476,516.391,340.792z"/>
-	<ellipse display="none" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="609.5" cy="290" rx="11.484" ry="27.5"/>
-	<polygon class="w" display="none" fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="500.77,339.715 
+	<ellipse display="none" fill="red" stroke="#000000" stroke-miterlimit="10" cx="609.5" cy="290" rx="11.484" ry="27.5"/>
+	<polygon display="none" fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="500.77,339.715 
 		486.31,357.542 506.114,371.696 515.371,365.079 511.948,344.592 	"/>
-	<path class="w" display="none" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M497.156,376.5c0,0-7.844,5,0,19s41.92,0,41.92,0
+	<path display="none" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M497.156,376.5c0,0-7.844,5,0,19s41.92,0,41.92,0
 		l12.924-26l10.926,26l11.891-1l-11.891-41c0,0-8.773-14-23.85,0S512,374.5,512,374.5L497.156,376.5z"/>
 	<path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M381.757,626.92
 		c0,0-166.257,185.58-54.257,243.58s167.813,51,187.906,41s108.992-70.813,50.094-152c0,0,2,39-18,53s-66.408,78.217-143-17.151
@@ -95,6 +98,7 @@
 	<path fill="#DDDDDD" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M369.896,462.081
 		c0,0-62.462-5.478-73.363,29.167c-10.9,34.645,19.751,100.146,19.751,100.146l69.23-14.458L369.896,462.081z"/>
 	<polygon stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="481.066,431.429 471.717,475.044 515.406,461.765 	"/>
+	
 	<path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M324.622,461.669c0,0-23.684,40.263,0,56.842
 		l28.421-28.421C353.043,490.09,331.727,497.196,324.622,461.669z"/>
 	<path display="none" fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M413.33,708.63
@@ -144,17 +148,27 @@
 		L305.786,745.89z"/>
 	<path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M331.543,705.643
 		c0,0-23.866-47.571,22.729-28.69L331.543,705.643z"/>
-	<polygon class = "w" fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="112.5,180.5 236.5,150.5 262.5,406.5 	
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="112.5,180.5 236.5,150.5 262.5,406.5 	
 		"/>
-	<polygon  class = "w2" fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="468.71,44.76 602.387,81.415 
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="468.71,44.76 602.387,81.415 
 		418.915,406.5 	"/>
-	<polygon class = "w3"  fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="686.22,188.906 770.341,256.823 
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="686.22,188.906 770.341,256.823 
 		611.196,406.5 	"/>
-	<ellipse class="w" fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="273.189" cy="433.43" rx="21" ry="17.272"/>
-	<ellipse class = "w2" fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="410.896" cy="433.43" rx="21" ry="17.271"/>
+	<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="273.189" cy="433.43" rx="21" ry="17.272"/>
+	<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="410.896" cy="433.43" rx="21" ry="17.271"/>
 	
-		<ellipse class = "w3" fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="597.316" cy="430.429" rx="21" ry="17.271"/>
+		<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="597.316" cy="430.429" rx="21" ry="17.271"/>
 </g>
-<g id="Layer_2">
+<g id="Layer_3">
+</g>
+	<g id="Layer_2">
+	
+		<ellipse  class="flail" fill="white" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="317.676" cy="654.5" rx="38.5" ry="41.488"/>
+	
+		<ellipse display="none" fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="629.592" cy="591.394" rx="38.5" ry="41.488"/>
+	<path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M309.5,626.92h15.932H309.5z"/>
+	<g>
+		<path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M245.5,626.92"/>
+	</g>
 </g>
 </svg>
