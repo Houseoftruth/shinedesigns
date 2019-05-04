@@ -42,6 +42,42 @@
 
  
 } 
+		 @-webkit-keyframes movement {
+
+  0% { opacity: 0;-webkit-transform:translateY(50px) }
+    50% { opacity: 1;-webkit-transform:translateY(-10px) }
+	
+100% { opacity: 0;-webkit-transform:translateY(50px) }
+
+ 
+} 
+		 @-webkit-keyframes movement2 {
+
+  0% { opacity: 1; -webkit-transform:translateY(50px)}
+    50% { opacity: 0;-webkit-transform:translateY(-10px) }
+	
+100% { opacity: 1;-webkit-transform:translateY(50px) }
+
+ 
+} 
+	 @-webkit-keyframes movement3 {
+
+  0% { opacity: 1; -webkit-transform:translateY(50px)}
+    50% { opacity: 0;-webkit-transform:translateY(-20px) }
+	
+100% { opacity: 1;-webkit-transform:translateY(50px) }
+
+ 
+} 
+.movement{
+	-webkit-animation: movement .6s ease infinite;
+}
+.movement2{
+	-webkit-animation: movement2 .6s ease infinite;
+}
+.movement3{
+	-webkit-animation: movement3 .6s ease infinite;
+}
 .flail{
 	-webkit-animation: flail .3s ease infinite;
 }
@@ -72,11 +108,7 @@
 		c0,0,141.268-83.521,121.436-148.521"/>
 	
 		<rect x="173.5" y="357.734" fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-miterlimit="10" width="593.782" height="456.012"/>
-	<div  class="typewriter">
-		
-			<text  transform="matrix(1 0 0 1 264.0769 578.5002)" font-family="&apos;Montserrat-Regular&apos;" font-size="72" startOffset="0">
-			www.???.com</text>
-	</div>
+
 	
 		<ellipse display="none" fill="#231F20" stroke="#000000" stroke-miterlimit="10" cx="565.363" cy="298.5" rx="65.438" ry="58.798"/>
 	<g id="Layer_4">
@@ -187,16 +219,16 @@
 	</g>
 </g>
 <g id="Layer_7">
-	<line fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="262.5" y1="515.154" x2="262.5" y2="621.573"/>
+	<line fill="none" class="movement" stroke="black" stroke-width="3" stroke-miterlimit="10" x1="262.5" y1="515.154" x2="262.5" y2="621.573"/>
 	
-		<line fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="279.176" y1="510.282" x2="279.176" y2="575.144"/>
+		<line fill="none" stroke="black" class="movement3" stroke-width="3" stroke-miterlimit="10" x1="279.176" y1="510.282" x2="279.176" y2="575.144"/>
 	
-		<line display="none" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="262.5" y1="645.793" x2="262.5" y2="710.654"/>
+		<line display="none" class="movement" fill="none" stroke="black" stroke-width="3" stroke-miterlimit="10" x1="262.5" y1="645.793" x2="262.5" y2="710.654"/>
 	
-		<line display="none" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="279.176" y1="688.975" x2="279.176" y2="753.835"/>
+		<line display="none" class="movement2" fill="none" stroke="black" stroke-width="3" stroke-miterlimit="10" x1="279.176" y1="688.975" x2="279.176" y2="753.835"/>
 	
 		<line display="none" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="344.043" y1="601.364" x2="344.043" y2="666.224"/>
 </g>
-<line fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="279.176" y1="678.943" x2="279.176" y2="749.455"/>
-<line fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="262.5" y1="617.275" x2="262.5" y2="714.198"/>
+<line fill="none" stroke="black" stroke-width="3" stroke-miterlimit="10" x1="279.176" y1="678.943" x2="279.176" y2="749.455"/>
+<line fill="none" stroke="black"  stroke-width="3" stroke-miterlimit="10" x1="262.5" y1="617.275" x2="262.5" y2="714.198"/>
 </svg>
