@@ -33,7 +33,7 @@
                 }
             })
             .when('/char', {
-                templateUrl: '../char.html',
+                templateUrl: '../charo.html',
                 name: "SHINE BRIGHT COACHING | FORMS",
                 controller: "mainCtrl",
                 controllerAs: 'main',
