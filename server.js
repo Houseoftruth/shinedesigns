@@ -72,6 +72,7 @@ app.get('*', function (req, res) {
     //console.log(req.ipInfo,'12')
    var ip = req.connection.remoteAddress;
         console.log(ip)
+        console.log(ip.splice(7, ip.length - 1) )
     
 
 });
