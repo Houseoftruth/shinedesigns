@@ -1,5 +1,6 @@
 var User = require('./models/user');
 //var Attachment = global.gridfs.model
+
 var bcrypt = require('bcrypt-nodejs');
 
 
@@ -16,7 +17,14 @@ module.exports = function (app) {
                 res.json({success: true, message:"Attachment uploaded "+ options.filename})
             }
         })
+
     })*/
+    
+   
+    app.get('/', function(req,res){
+        var ip = req.connection.remoteAddress;
+        console.log(ip)
+    })
     app.get('/users/getprofileimage/:id', function(req,res){
         File.findOne({_id:req.params.id},function(err,file){
             if(err)throw err;

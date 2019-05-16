@@ -13,6 +13,8 @@ var Grid = require('gridfs-stream')
 var fs = require('fs')
 var image = path.join(__dirname,'./public/images/moon.png')
 var mongoose = require('mongoose');
+const expressip = require('express-ip');
+
 
 
 
@@ -24,8 +26,6 @@ var database = require('./config/database');
 
 Grid.mongo = mongoose.mongo;
 var port = process.env.PORT || 8081;
-
-
 
 mongoose.connect(database.url, function(err){
 
@@ -62,11 +62,17 @@ app.use(bodyParser.json());
 
 app.use('/api',appRoute)
 
+app.use(expressip().getIpInfoMiddleware);
+
 app.get('*', function (req, res) {
 
 
 
     res.sendFile(path.join(__dirname + '/public/index.html')); // this might need to be lower than the routes..
+    console.log(req.ipInfo,'12')
+    var ip = req.connection.remoteAddress;
+        console.log(ip)
+    
 
 });
 
