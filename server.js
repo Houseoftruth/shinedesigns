@@ -69,8 +69,8 @@ app.get('*', function (req, res) {
 
 
     res.sendFile(path.join(__dirname + '/public/index.html')); // this might need to be lower than the routes..
-    console.log(req.ipInfo,'12')
-    var ip = req.connection.remoteAddress;
+    //console.log(req.ipInfo,'12')
+   var ip = req.connection.remoteAddress;
         console.log(ip)
     
 
