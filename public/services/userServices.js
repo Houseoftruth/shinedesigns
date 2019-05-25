@@ -10,6 +10,9 @@ angular.module('userServices', []).config(function () {
 
 
     userFactory = {}
+    userFactory.testIp = function(){
+        return $http.get("/api/users/getip")
+    }
     userFactory.create = function (userObject) {
 
         return $http.post("/api/users/create", userObject)

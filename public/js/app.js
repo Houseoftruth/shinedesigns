@@ -52,7 +52,18 @@ app.controller('mainCtrl', ['$http','$scope','$timeout','User','$interval', func
         email : "",
         password : ""
     }
-     
+
+    $scope.lock =  new Audio('../audio/ui_lock.wav');
+    $scope.tap =  new Audio('../audio/ui_tap-variant-01.wav');
+    $scope.playLock = function(){
+        console.log("clicked")
+        $scope.lock.play();
+    }
+    $scope.playTap = function(){
+        console.log("clicked")
+        $scope.tap.play();
+    }
+
     $scope.serverSwitch = function(){
         $interval(function(){
     
@@ -95,6 +106,12 @@ app.controller('mainCtrl', ['$http','$scope','$timeout','User','$interval', func
         
     })
     */
+   $scope.testIp = function(){
+       console.log('click')
+       User.testIp().then(function(data){
+
+       })
+   }
     $scope.checkProgress = function(){
         $scope.progress = 0;
         $interval(function(){

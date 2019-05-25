@@ -1,6 +1,7 @@
 var User = require('./models/user');
 //var Attachment = global.gridfs.model
-
+var namecheapApi = require('namecheap-api');
+//namecheapApi.config.set("ohrha", "SailorLita","203.211.88.50");
 var bcrypt = require('bcrypt-nodejs');
 
 
@@ -21,8 +22,15 @@ module.exports = function (app) {
     })*/
     
    
-    app.get('/', function(req,res){
+    app.get('/users/getip', function(req,res){
         var ip = req.connection.remoteAddress;
+      
+        namecheapApi.apiCall("SomeCommand", {}).then(function (data) {
+            console.log(data.requestUrl);
+            console.log(data.requestPayload);
+            console.log(data.response); // data.response is the parsed response
+        });
+        console.log("hello")
         console.log(ip)
     })
     app.get('/users/getprofileimage/:id', function(req,res){

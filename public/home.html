@@ -282,7 +282,7 @@
               </div>
               <div class = "col s6" style="border:3px solid grey;">
                 <div class = "col s12 center-align">
-                <img ng-show="threexServer" class = "img-responsive animated slideInRight" src='./images/3xServer.svg'/>
+                <img ng-show="threexServer"  class = "img-responsive animated slideInRight" src='./images/3xServer.svg'/>
                 <img ng-show="twoxServer" class = "img-responsive animated slideInRight" src='./images/2xServer.svg'/>
                 <img ng-show="onexServer" class = "img-responsive animated slideInRight" src='./images/1xServer.svg'/>
     
@@ -302,7 +302,7 @@
                     <img  class = "img-responsive animated slideInRight" src='./images/theme.svg'/>
         
           </div>
-          <h3 class = "montserrat grey-text text-darken-2 text-decoration:underline animated fadeIn">Choose A Theme</h3>
+          <h3 ng-click="testIp()" class = "montserrat grey-text text-darken-2 text-decoration:underline animated fadeIn">Choose A Theme</h3>
                   </div>
                   <div class = "col s3"></div>
                   <div class = "col s12 center-align">
@@ -320,7 +320,7 @@
     
             
               </div>
-              <h3 class = "montserrat grey-text text-darken-2 text-decoration:underline animated fadeIn">Choose Storage Size</h3>
+              <h3 ng-click="playLock()"class = "montserrat grey-text text-darken-2 text-decoration:underline animated fadeIn">Choose Storage Size</h3>
                       </div>
                       <div class = "col s3"></div>
                       <div class = "col s12 center-align">
@@ -336,7 +336,7 @@
                             
                 
                   </div>
-                  <h3 class = "montserrat grey-text text-darken-2 text-decoration:underline animated fadeIn">Choose Your Domain</h3>
+                  <h3  ng-click="playTap()"class = "montserrat grey-text text-darken-2 text-decoration:underline animated fadeIn">Choose Your Domain</h3>
                           </div>
                           <div class = "col s3"></div>
                   

@@ -4,6 +4,11 @@ html, body {
     min-width:100%;
     min-height:100%;
 }
+.selectserver{
+}
+.selectserver:active{
+    background-color:#ddd;
+}
 #navbar {
     
     width:100%;

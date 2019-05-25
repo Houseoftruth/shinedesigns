@@ -13,6 +13,7 @@
     "gridfs-stream": "^1.1.1",
     "mongoose": "^5.4.22",
     "mongoose-gridfs": "^0.6.2",
+    "namecheap-api": "^1.0.5",
     "nodemon": "^1.18.10",
     "request-ip": "^2.1.3"
   },
