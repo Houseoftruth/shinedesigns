@@ -9,6 +9,41 @@ html, body {
 .selectserver:active{
     background-color:#ddd;
 }
+.fadeoutdiv {
+    border   : 1px #d8d8d8 dashed;
+    
+  }
+  
+  .fadeoutdiv:after {
+    content  : "";
+    position : absolute;
+    z-index  : 1;
+    bottom   : -160;
+    left     : 0;
+    pointer-events   : none;
+    background-image : linear-gradient(to bottom, 
+                      rgba(255,255,255, 0), 
+                      rgba(255,255,255, 1) 90%);
+    width    : 100%;
+    height   : 4.5em;
+  }
+  
+  .tiers {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  .feature-matrix .feature-matrix-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    table-layout: fixed;
+}
 #navbar {
     
     width:100%;

@@ -46,13 +46,21 @@ app.controller('mainCtrl', ['$http','$scope','$timeout','User','$interval', func
     $scope.smStorage = true;
     $scope.medStorage = false;
     $scope.largeStorage = false;
+    $scope.detailedTableOpen = false;
+
     $scope.userObject = {
         userName : "",
         name : "",
         email : "",
         password : ""
     }
-
+    $scope.openDetailedTable = function(){
+        if(!$scope.detailedTableOpen){
+            $scope.detailedTableOpen = true;
+        }else{
+            $scope.detailedTableOpen = false;
+        }
+    }
     $scope.lock =  new Audio('../audio/ui_lock.wav');
     $scope.tap =  new Audio('../audio/ui_tap-variant-01.wav');
     $scope.playLock = function(){
