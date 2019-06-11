@@ -37,7 +37,7 @@
       </ul>
       <nav class="white" style="height:150px;">
         <div class="nav-wrapper">
-          <a href="/forms" ><img   class = "img-responsive " src='./images/logo.svg'/></a>
+          <a href="/forms" ><img   class = "img-responsive " style="position:absolute;"src='./images/logo.svg'/></a>
           <ul class="center hide-on-med-and-down">
               <li><a href="/home" class="montserrat purple-text text-lighten-4">Sass</a></li>
               <li><a href="/storage" class="montserrat purple-text text-lighten-4">Components</a></li>
@@ -46,10 +46,27 @@
             <li><a href="sass.html" class="montserrat purple-text text-lighten-4">Sass</a></li>
             <li><a href="badges.html" class="montserrat purple-text text-lighten-4">Components</a></li>
             <!-- Dropdown Trigger -->
-            <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right montserrat purple-text text-lighten-5">arrow_drop_down</i></a></li>
+            <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right  purple-text text-lighten-5">arrow_drop_down</i></a></li>
           </ul>
         </div>
       </nav>
-<div ng-view></div>
+      <!--<div style="width:100%; height:100%; background-color:black; z-index: 10000; opacity: .2;"></div>-->
+<div ng-view>
+    
+</div>
 </body>
 </html>
+<script>
+    $(document).ready(function () {
+      $('.slider').slider();
+      $('.parallax').parallax();
+
+      $('.scrollspy').scrollSpy({
+        scrollOffset: 125
+      });
+
+      $(".dropdown-trigger").dropdown();
+
+
+    });
+  </script>
