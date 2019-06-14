@@ -29,27 +29,25 @@
 
 
 <body >
-    <ul id="dropdown1" class="dropdown-content">
-        <li><a href="#!">one</a></li>
-        <li><a href="#!">two</a></li>
-        <li class="divider"></li>
-        <li><a href="#!">three</a></li>
+  <nav class="white">
+    <div class="nav-wrapper">
+      <a href="#"class="brand-logo" data-activates="mobile-demo" ><img src="./images/logo.svg"></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons grey-text ">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html" class= "montserrat grey-text text-lighten-2">Sass</a></li>
+        <li><a href="badges.html" class= "montserrat grey-text text-lighten-2">Components</a></li>
+        <li><a href="collapsible.html" class= "montserrat grey-text text-lighten-2">Javascript</a></li>
+        <li><a href="mobile.html" class= "montserrat grey-text text-lighten-2">Mobile</a></li>
       </ul>
-      <nav class="white" style="height:150px;">
-        <div class="nav-wrapper">
-          <a href="/forms" ><img   class = "img-responsive " style="position:absolute;"src='./images/logo.svg'/></a>
-          <ul class="center hide-on-med-and-down">
-              <li><a href="/home" class="montserrat purple-text text-lighten-4">Sass</a></li>
-              <li><a href="/storage" class="montserrat purple-text text-lighten-4">Components</a></li>
-              <li><a href="/server" class="montserrat purple-text text-lighten-4">Sass</a></li>
-              <li><a href="/themes" class="montserrat purple-text text-lighten-4">Components</a></li>
-            <li><a href="sass.html" class="montserrat purple-text text-lighten-4">Sass</a></li>
-            <li><a href="badges.html" class="montserrat purple-text text-lighten-4">Components</a></li>
-            <!-- Dropdown Trigger -->
-            <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right  purple-text text-lighten-5">arrow_drop_down</i></a></li>
-          </ul>
-        </div>
-      </nav>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+    </div>
+  </nav>
+ 
       <!--<div style="width:100%; height:100%; background-color:black; z-index: 10000; opacity: .2;"></div>-->
 <div ng-view>
     
@@ -58,6 +56,7 @@
 </html>
 <script>
     $(document).ready(function () {
+      $(".button-collapse").sideNav();
       $('.slider').slider();
       $('.parallax').parallax();
 
@@ -66,7 +65,10 @@
       });
 
       $(".dropdown-trigger").dropdown();
+    
+   
 
+        
 
     });
   </script>
