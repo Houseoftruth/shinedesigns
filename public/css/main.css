@@ -9,6 +9,12 @@ html, body {
 .selectserver:active{
     background-color:#ddd;
 }
+.lato{
+    font-family: 'Lato', sans-serif;
+}
+.ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+}
 /*
 .fadeoutdiv {
     border   : 1px #d8d8d8 dashed;
