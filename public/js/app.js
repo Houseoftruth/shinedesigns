@@ -228,9 +228,22 @@ app.controller('mainCtrl', ['$http','$scope','$timeout','User','$interval', func
         },1000)
         $timeout(function(){
             $scope.homePageOpen = false;
+           
            $scope.fadeInContact = true;
         },2000)
+        $timeout(function(){
+            //$scope.homePageOpen = false;
+            $scope.menuPressedContact=false
+            //$scope.fadeOutHome = false;
+          // $scope.fadeInContact = true;
+        },2500)
 
+        $timeout(function(){
+            //$scope.homePageOpen = false;
+            //$scope.menuPressedContact=false
+            $scope.fadeOutHome = false;
+          // $scope.fadeInContact = true;
+        },3500)
     }
 }]);
 
