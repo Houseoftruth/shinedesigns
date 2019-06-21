@@ -31,6 +31,16 @@
                     }
                 }
             })
+            .when('/doghub', {
+                templateUrl: '../doghub.html',
+                controller: 'mainCtrl',
+                name: "SHINE BRIGHT COACHING | HOME",
+                resolve: {
+                    init: function ($route) {
+                        //console.log("index")
+                    }
+                }
+            })
             .when('/forms', {
                 templateUrl: '../op.html',
                 name: "SHINE BRIGHT COACHING | FORMS",
