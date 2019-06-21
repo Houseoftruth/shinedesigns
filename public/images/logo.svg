@@ -3,10 +3,32 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="150px"
 	 height="150px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<style>
+	 	
+		 #vecmap{
+		 stroke-dasharray:2200;
+		 stroke-dashoffset:0;
+		 -webkit-animation:dash 3s infinite linear forwards;
+		 }
+		  #vecmaprec{
+		 stroke-dasharray:2200;
+		 stroke-dashoffset:0;
+		 -webkit-animation:dash 3s infinite linear forwards;
+		 }
+		 @-webkit-keyframes dash{
+
+		 from{
+		 stroke-dashoffset:2200;
+		 }
+		 to{
+		 stroke-dashoffset:0;
+		 }
+		 }
+	 </style>
 <g id="Layer_1" display="none">
 	<g display="inline">
 		<g id="Layer_3">
-			<path fill="#DDDDDD" stroke="#000000" stroke-miterlimit="10" d="M500,153.169c167.092,0,302.543,135.452,302.543,302.542
+			<path id="vecmap" fill="red" stroke="#000000" stroke-miterlimit="10" d="M500,153.169c167.092,0,302.543,135.452,302.543,302.542
 				c0,29.068-4.101,57.182-11.754,83.789c-4.146,14.412-9.335,28.387-15.479,41.829C727.601,685.718,622.271,758.252,500,758.253
 				c-129.085,0-239.288-80.846-282.741-194.661c-3.007-7.877-5.693-15.912-8.047-24.089c-7.652-26.608-11.754-54.724-11.754-83.792
 				C197.458,288.621,332.911,153.169,500,153.169z"/>
@@ -59,7 +81,7 @@
 				c-0.745,0.745-1.646,1.116-2.699,1.116C562.527,456.071,561.64,455.698,560.922,454.953z"/>
 		</g>
 		<g display="none">
-			<path display="inline" d="M482.392,435.406c0.648-1.485,1.451-2.759,2.412-3.814c0.959-1.057,2.207-2.255,3.744-3.602
+			<path id="vecmap" display="inline" d="M482.392,435.406c0.648-1.485,1.451-2.759,2.412-3.814c0.959-1.057,2.207-2.255,3.744-3.602
 				c2.063-1.821,3.588-3.42,4.57-4.788c0.983-1.366,1.478-3.034,1.478-5.002c0-2.641-1.033-4.765-3.097-6.372
 				c-2.064-1.608-4.896-2.412-8.495-2.412c-5.952,0-10.537,1.942-13.753,5.832l-3.815-2.88c4.079-4.991,10.055-7.488,17.928-7.488
 				c5.04,0,9.062,1.128,12.062,3.384c3,2.257,4.5,5.305,4.5,9.146c0,1.969-0.324,3.706-0.974,5.22

@@ -58,6 +58,7 @@ app.controller('mainCtrl', ['$http','$scope','$timeout','User','$interval', func
   };
   $scope.datasetOverride = [{ yAxisID: 'y-axis-1' }, { yAxisID: 'y-axis-2' }];
   $scope.options = {
+      responsive:false,
     scales: {
       yAxes: [
         {
