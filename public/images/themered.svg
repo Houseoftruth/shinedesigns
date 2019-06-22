@@ -204,7 +204,7 @@
 	
 		<line fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" x1="533.369" y1="520.913" x2="654.691" y2="520.913"/>
 	
-		<line fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" x1="594.85" y1="581.574" x2="594.383" y2="460.254"/>
+		<line display="none" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" x1="594.85" y1="581.574" x2="594.383" y2="460.254"/>
 </g>
 <g id="paw4">
 </g>
