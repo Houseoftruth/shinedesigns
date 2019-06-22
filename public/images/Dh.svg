@@ -6,33 +6,46 @@
 <style>
 		 @-webkit-keyframes hideshow {
   0% { opacity: 0;transform:translateY(100px)}
-  25% { opacity: 1;transform:translateY(0px)}
+  
 
   100% { opacity: 1;transform:translateY(0px) }
 } 
 		 @-webkit-keyframes hideshow2 {
   0% { opacity: 0;transform:translateY(100px)}
- 50% { opacity: 1;transform:translateY(0px)}
+ 25% { opacity: 0;transform:translateY(100px)}
   100% { opacity: 1;transform:translateY(0px) }
 } 
 		 @-webkit-keyframes hideshow3 {
   0% { opacity: 0;transform:translateY(100px)}
- 75% { opacity: 1;transform:translateY(0px)}
+ 50% { opacity: 0;transform:translateY(70px)}
+  100% { opacity: 1;transform:translateY(0px) }
+} 
+
+		 @-webkit-keyframes hideshow4 {
+  0% { opacity: 0;transform:translateY(100px)}
+
+ 75% { opacity: 0;transform:translateY(100px)}
   100% { opacity: 1;transform:translateY(0px) }
 } 
 	 .w{
 		
-		-webkit-animation: hideshow 5s  infinite;
+		-webkit-animation: hideshow 4s infinite
+		 ;
 		
 		 }
 		 	 .w2{
 		
-			-webkit-animation: hideshow2 5s  infinite;
+			-webkit-animation: hideshow2 4s infinite ;
 		
 		 }
 		 	 .w3{
 		
-			-webkit-animation: hideshow3 5s  infinite;
+			-webkit-animation: hideshow3 4s infinite ;
+		
+		 }
+		  	 .w4{
+		
+			-webkit-animation: hideshow4 4s infinite ;
 		
 		 }
 </style>
@@ -820,7 +833,7 @@
 		c0-0.027,0-0.053,0-0.077c0.289-0.054,0.577-0.105,0.866-0.156c0-0.027,0-0.053,0-0.078c0.41-0.053,0.82-0.104,1.229-0.155
 		C619.423,738.82,619.811,738.893,619.958,738.754z"/>
 </g>
-<g id="paw4">
+<g id="paw4" class="w4">
 	<path fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" d="M820.775,612.156c0.891,0,1.783,0,2.676,0
 		c0.494,0,1.14-0.037,1.518,0.078c0.507,0.026,1.014,0.052,1.519,0.079c0,0.025,0,0.05,0,0.077c0.145,0,0.289,0,0.435,0
 		c0,0.025,0,0.052,0,0.077c0.119,0,0.24,0,0.36,0c0,0.026,0,0.053,0,0.078c0.097,0,0.194,0,0.29,0c0,0.026,0,0.052,0,0.078
