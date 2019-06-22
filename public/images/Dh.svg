@@ -6,32 +6,33 @@
 <style>
 		 @-webkit-keyframes hideshow {
   0% { opacity: 0;transform:translateY(100px)}
- 
+  25% { opacity: 1;transform:translateY(0px)}
+
   100% { opacity: 1;transform:translateY(0px) }
 } 
 		 @-webkit-keyframes hideshow2 {
   0% { opacity: 0;transform:translateY(100px)}
- 
+ 50% { opacity: 1;transform:translateY(0px)}
   100% { opacity: 1;transform:translateY(0px) }
 } 
 		 @-webkit-keyframes hideshow3 {
   0% { opacity: 0;transform:translateY(100px)}
- 
+ 75% { opacity: 1;transform:translateY(0px)}
   100% { opacity: 1;transform:translateY(0px) }
 } 
 	 .w{
 		
-		-webkit-animation: hideshow 5s ease infinite;
+		-webkit-animation: hideshow 5s  infinite;
 		
 		 }
 		 	 .w2{
 		
-			-webkit-animation: hideshow2 5s ease infinite;
+			-webkit-animation: hideshow2 5s  infinite;
 		
 		 }
 		 	 .w3{
 		
-			-webkit-animation: hideshow3 5s ease infinite;
+			-webkit-animation: hideshow3 5s  infinite;
 		
 		 }
 </style>
