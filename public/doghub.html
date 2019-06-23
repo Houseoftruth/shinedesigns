@@ -44,7 +44,7 @@
             <div class = 'col s4 center-align'>
               <br>
              
-                <img ng-click="playTap()"  class="responsive-img animated slideInRight" src='./images/adddoggreen.svg' />
+                <img ng-click="playTap()"  class="responsive-img animated " ng-class="{'slideOutLeft':clickdog, 'slideInRight':!clickdog}" src='./images/adddoggreen.svg' />
       
             </div>
             <div class = "col s8 center-align">
@@ -62,7 +62,7 @@
             <div class="row"></div>
             <div class="row"></div>
             <div class = 'col s4 center-align'>
-                    <img ng-click="playTap()"  class="responsive-img animated slideInRight" src='./images/changedetailsblue.svg' />
+                    <img ng-click="playTap()"  class="responsive-img animated slideInRight"ng-class="{'slideOutLeft':clickdetail}" src='./images/changedetailsblue.svg' />
       
             </div>
             
@@ -80,7 +80,7 @@
             <div class="row"></div>
             <div class = 'col s4 center-align'>
              
-              <img ng-click="playTap()"  class="responsive-img animated slideInRight" src='./images/themered.svg' />
+              <img ng-click="playTap()"  class="responsive-img animated slideInRight"ng-class="{'slideOutLeft':clickcert}" src='./images/themered.svg' />
 
             </div>
             <div class = "col s8">
@@ -97,7 +97,7 @@
             <div class="row"></div>
             <div class = 'col s4 center-align'>
              
-              <img ng-click="playTap()"  class="responsive-img animated slideInRight" src='./images/payment.svg' />
+              <img ng-click="playTap()"  class="responsive-img animated slideInRight"ng-class="{'slideOutLeft':clickpay}" src='./images/payment.svg' />
 
             </div>
             <div class = "col s8">

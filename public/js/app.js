@@ -47,6 +47,7 @@ app.controller('mainCtrl', ['$http','$scope','$timeout','User','$interval', func
     $scope.medStorage = false;
     $scope.largeStorage = false;
     $scope.detailedTableOpen = false;
+    $scope.clickdog =false
     $scope.labels = ["January", "February", "March", "April", "May", "June", "July"];
   $scope.series = ['Series A', 'Series B'];
   $scope.data = [
@@ -99,6 +100,19 @@ app.controller('mainCtrl', ['$http','$scope','$timeout','User','$interval', func
     $scope.playTap = function(){
         console.log("clicked")
         $scope.tap.play();
+        $scope.clickdog= true;
+        $timeout(function(){
+            $scope.clickdetail = true;
+        },500)
+        $timeout(function(){
+            $scope.clickcert = true;
+        },1000)
+        $timeout(function(){
+            $scope.clickpay = true;
+        },1500)
+        $timeout(function(){
+            $scope.clickdog = false;
+        },3000)
     }
 
     $scope.serverSwitch = function(){
