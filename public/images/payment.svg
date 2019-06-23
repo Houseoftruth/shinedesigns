@@ -21,7 +21,7 @@
   0% { opacity: 0;transform:translateX(0px)}
  
  
-  100% { opacity: 1;transform:translateY(50px) }
+  100% { opacity: 1;transform:translateX(100px) }
 } 
 	 .w{
 		
@@ -35,7 +35,7 @@
 		 }
 		 	 .w3{
 		
-			-webkit-animation: hideshow3 5s ease infinite;
+			-webkit-animation: hideshow3 3s ease infinite;
 		
 		 }
 </style>
@@ -187,7 +187,7 @@
 </g>
 <path id="CARD2" class= "w3" fill="none" stroke="#000000" stroke-miterlimit="10" d="M577.5,556.5c0,6.627-5.373,12-12,12h-358
 	c-6.627,0-12-5.373-12-12v-188c0-6.627,5.373-12,12-12h358c6.627,0,12,5.373,12,12V556.5z"/>
-<rect id="CARD" class= "w3"x="195.5" y="394.5" width="382" height="40"/>
+<rect id="CARD" class= "w3" x="195.5" y="394.5" width="382" height="40"/>
 <g id="paw1">
 	
 		<ellipse display="none" fill="none" stroke="#231F20" stroke-width="9" stroke-miterlimit="10" cx="320.487" cy="434.004" rx="4.056" ry="4.75"/>
