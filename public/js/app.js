@@ -113,6 +113,15 @@ app.controller('mainCtrl', ['$http','$scope','$timeout','User','$interval', func
         $timeout(function(){
             $scope.clickdog = false;
         },3000)
+        $timeout(function(){
+            $scope.clickdetail = false;
+        },3200)
+        $timeout(function(){
+            $scope.clickcert = false;
+        },3400)
+        $timeout(function(){
+            $scope.clickpay = false;
+        },3600)
     }
 
     $scope.serverSwitch = function(){
