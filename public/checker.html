@@ -22,15 +22,19 @@
               <div class="row">
                 <div class="input-field col s12">
                   <textarea id="textarea1"ng-model="intakeInfo.question1" name="question1" class="materialize-textarea"></textarea>
-                  <label for="textarea1">Textarea</label>
+                  <label for="textarea1">Dataset #1</label>
                 </div>
               </div>
             </form>
           </div>
+          <h3 class = "montserrat">Dataset #1</h3>
+
     </div>
     <div class ="col s2 center-align ">
         <br>
         <br>
+        <img ng-click="playTap()"  class="responsive-img animated " ng-class="{'slideOutLeft':clickdog, 'slideInRight':!clickdog}" src='./images/adddoggreen.svg' />
+
 <i ng-show="loading" class="fa fa-cog fa-spin fa-3x fa-fw"></i>
 <span  class="sr-only">Loading...</span>
     </div>
@@ -41,23 +45,29 @@
       <div class="row">
         <div class="input-field col s12">
           <textarea id="textarea1"ng-model="intakeInfo.question2" name="question2" class="materialize-textarea"></textarea>
-          <label for="textarea1">Textarea</label>
+          <label for="textarea1">Dataset #2</label>
         </div>
       </div>
     </form>
+    <div class = "col s12 center-align">
+<h3 class = "montserrat">Dataset #2</h3>
+    </div>
   </div>
     </div>
-    <div class="col s12 center-align animated fadeIn" >
+    <div class = "col s4"></div>
+    <div class="col s4 center-align animated fadeIn" >
             <a href="#storage" ng-click="runTest()"class="waves-effect purple lighten-4 btn-flat"></i>View details</a>
         </div>
     </div>
-
+    <div class = "col s4"></div>
     <div class = "col s12 center-align" ng-show="showResults">
             <div class = "row"></div>
             <div class = "row"></div>
             <div class = "row"></div>
             <div class = "row"></div>
             <div class = "row"></div>
+            <div class = "col s12 center-align animated fadeIn">        <img ng-click="playTap()"  class="responsive-img animated " ng-class="{'slideOutLeft':clickdog, 'slideInRight':!clickdog}" src='./images/character3.svg' />
+            </div>
         <div class = "col s4 center-align" style="border-bottom:1px solid #ddd;"> <p class= "montserrat flow-text" style="font-size:30px;"> TAG #</p>
         </div>
         <div class = "col s4 center-align" style="border-bottom:1px solid #ddd;">

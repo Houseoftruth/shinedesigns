@@ -132,9 +132,11 @@ $scope.showResults = false;
 $scope.runTest = function(){
     $scope.loading = true;
     console.log($scope.intakeInfo)
+    console.log($scope.intakeInfo.question2)
     console.log(JSON.parse($scope.intakeInfo.question2))
-    $scope.q1.push(JSON.parse($scope.intakeInfo.question1))
-    $scope.q2.push(JSON.parse($scope.intakeInfo.question2))
+
+    $scope.q1=JSON.parse($scope.intakeInfo.question1)
+    $scope.q2=JSON.parse($scope.intakeInfo.question2)
     for(var i = 0; i< $scope.q1.length; i ++ ){
         if(($scope.q2[i]["Type"] !== $scope.q1[i]["Type"]) && ($scope.q2[i]["Tag Number"] == $scope.q1[i]["Tag Number"])) {
             console.log("Change of Tag Preference")
