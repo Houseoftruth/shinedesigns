@@ -161,10 +161,14 @@ $scope.runTest = function(){
         }else{
             if(i == $scope.q2.length-1){
                 $scope.loading = false;
-            $scope.noInput = true
+            $scope.noDifference = true
             }
+            
         }
     }
+}else{  $scope.loading = false;
+    $scope.noInput = true
+
 }
 }
     $scope.serverSwitch = function(){
