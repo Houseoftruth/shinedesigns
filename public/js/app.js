@@ -129,6 +129,7 @@ $scope.q2 = []
 $scope.results = []
 $scope.loading = false;
 $scope.showResults = false;
+$scope.noDifference = false;
 $scope.runTest = function(){
     $scope.loading = true;
     console.log($scope.intakeInfo)
@@ -151,6 +152,8 @@ $scope.runTest = function(){
             
             }
 
+        }else{
+            $scope.noDifference= true;
         }
     }
 }
