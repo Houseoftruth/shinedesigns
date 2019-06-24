@@ -123,7 +123,35 @@ app.controller('mainCtrl', ['$http','$scope','$timeout','User','$interval', func
             $scope.clickpay = false;
         },3600)
     }
+    $scope.intakeInfo={}
+$scope.q1 = []
+$scope.q2 = []
+$scope.results = []
+$scope.loading = false;
+$scope.showResults = false;
+$scope.runTest = function(){
+    $scope.loading = true;
+    console.log($scope.intakeInfo)
+    console.log(JSON.parse($scope.intakeInfo.question2))
+    $scope.q1.push(JSON.parse($scope.intakeInfo.question1))
+    $scope.q2.push(JSON.parse($scope.intakeInfo.question2))
+    for(var i = 0; i< $scope.q1.length; i ++ ){
+        if($scope.q2[i]["Type"] !== $scope.q1[i]["Type"]){
+            console.log("Change of Tag Preference")
+            var temp = {}
+            temp["Number"] = $scope.q2[i]["Tag Number"]
+            temp["oldtag"] = $scope.q1[i]["Type"]
+            temp["newtag"] = $scope.q2[i]["Type"]
+            $scope.results.push(temp)
+            if(i == $scope.q2.length-1){
+                $scope.loading = false;
+                $scope.showResults = true;
+            
+            }
 
+        }
+    }
+}
     $scope.serverSwitch = function(){
         $interval(function(){
     

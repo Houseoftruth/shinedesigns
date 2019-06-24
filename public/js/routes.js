@@ -11,8 +11,9 @@
 
         $routeProvider
         
-            .when('/', {
-                templateUrl: '../home.html',
+
+            .when('/estimate', {
+                templateUrl: '../estimate.html',
                 controller: 'mainCtrl',
                 name: "SHINE BRIGHT COACHING | HOME",
                 resolve: {
@@ -21,8 +22,8 @@
                     }
                 }
             })
-            .when('/estimate', {
-                templateUrl: '../estimate.html',
+            .when('/checker', {
+                templateUrl: '../checker.html',
                 controller: 'mainCtrl',
                 name: "SHINE BRIGHT COACHING | HOME",
                 resolve: {
