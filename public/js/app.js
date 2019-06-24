@@ -124,21 +124,27 @@ app.controller('mainCtrl', ['$http','$scope','$timeout','User','$interval', func
         },3600)
     }
     $scope.intakeInfo={}
-$scope.q1 = []
-$scope.q2 = []
+$scope.q1 = null
+$scope.q2 = null
 $scope.results = []
 $scope.loading = false;
 $scope.showResults = false;
 $scope.noDifference = false;
+
+$scope.noInput=false;
 $scope.runTest = function(){
+    $scope.noInput= false;
+    $scope.noDifference=false;
     $scope.loading = true;
     console.log($scope.intakeInfo)
     console.log($scope.intakeInfo.question2)
-    console.log(JSON.parse($scope.intakeInfo.question2))
+  
 
-    $scope.q1=JSON.parse($scope.intakeInfo.question1)
-    $scope.q2=JSON.parse($scope.intakeInfo.question2)
-    for(var i = 0; i< $scope.q1.length; i ++ ){
+
+    if($scope.intakeInfo.question1 !== undefined && $scope.intakeInfo.question2 !==undefined){
+        $scope.q1=JSON.parse($scope.intakeInfo.question1)
+        $scope.q2=JSON.parse($scope.intakeInfo.question2)
+        for(var i = 0; i< $scope.q1.length; i ++ ){
         if(($scope.q2[i]["Type"] !== $scope.q1[i]["Type"]) && ($scope.q2[i]["Tag Number"] == $scope.q1[i]["Tag Number"])) {
             console.log("Change of Tag Preference")
             var temp = {}
@@ -153,9 +159,13 @@ $scope.runTest = function(){
             }
 
         }else{
-            $scope.noDifference= true;
+            if(i == $scope.q2.length-1){
+                $scope.loading = false;
+            $scope.noInput = true
+            }
         }
     }
+}
 }
     $scope.serverSwitch = function(){
         $interval(function(){
