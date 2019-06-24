@@ -136,7 +136,7 @@ $scope.runTest = function(){
     $scope.q1.push(JSON.parse($scope.intakeInfo.question1))
     $scope.q2.push(JSON.parse($scope.intakeInfo.question2))
     for(var i = 0; i< $scope.q1.length; i ++ ){
-        if($scope.q2[i]["Type"] !== $scope.q1[i]["Type"]){
+        if(($scope.q2[i]["Type"] !== $scope.q1[i]["Type"]) && ($scope.q2[i]["Tag Number"] == $scope.q1[i]["Tag Number"]) {
             console.log("Change of Tag Preference")
             var temp = {}
             temp["Number"] = $scope.q2[i]["Tag Number"]
