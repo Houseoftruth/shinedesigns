@@ -142,9 +142,13 @@ $scope.runTest = function(){
 
 
     if($scope.intakeInfo.question1 !== undefined && $scope.intakeInfo.question2 !==undefined){
+
+
         $scope.q1=JSON.parse($scope.intakeInfo.question1)
         $scope.q2=JSON.parse($scope.intakeInfo.question2)
         for(var i = 0; i< $scope.q1.length; i ++ ){
+
+
         if(($scope.q2[i]["Type"] !== $scope.q1[i]["Type"]) && ($scope.q2[i]["Tag Number"] == $scope.q1[i]["Tag Number"])) {
             console.log("Change of Tag Preference")
             var temp = {}
@@ -152,24 +156,48 @@ $scope.runTest = function(){
             temp["oldtag"] = $scope.q1[i]["Type"]
             temp["newtag"] = $scope.q2[i]["Type"]
             $scope.results.push(temp)
-            if(i == $scope.q2.length-1){
+            console.log($scope.results,"$scope.results")
+           if(i == $scope.q1.length-1){
                 $scope.loading = false;
                 $scope.showResults = true;
+               // $scope.results=[]
+               // $scope.temp = {}
+                console.log("HEE")
             
             }
 
         }else{
-            if(i == $scope.q2.length-1){
+
+            if(i == $scope.q1.length-1 && $scope.results.length == 0 ){
                 $scope.loading = false;
-            $scope.noDifference = true
+                $scope.noDifference = true
+//$scope.results = []
+                //$scope.temp ={}
+                console.log("HEE2")
+            }
+            if(i == $scope.q1.length-1 && $scope.results.length > 0 ){
+                $scope.loading = false;
+                $scope.showResults = true;
+                //$scope.results =[]
+                //$scope.temp = {}
+                console.log("HEE2")
             }
             
         }
     }
-}else{  $scope.loading = false;
+}else{  
+    $scope.loading = false;
     $scope.noInput = true
 
 }
+}
+$scope.backToCheck = function(){
+
+        $scope.showResults = false;
+        $scope.results = []
+        $scope.temp = {}
+
+    
 }
     $scope.serverSwitch = function(){
         $interval(function(){
