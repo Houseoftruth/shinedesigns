@@ -10,10 +10,20 @@
 
 
         $routeProvider
-        
 
-            .when('/estimate', {
+
+            .when('/server', {
                 templateUrl: '../estimate.html',
+                controller: 'mainCtrl',
+                name: "SHINE BRIGHT COACHING | HOME",
+                resolve: {
+                    init: function ($route) {
+                        //console.log("index")
+                    }
+                }
+            })
+            .when('/estimate', {
+                templateUrl: '../estimates.html',
                 controller: 'mainCtrl',
                 name: "SHINE BRIGHT COACHING | HOME",
                 resolve: {
@@ -86,33 +96,33 @@
                     }
                 }
             })
-            
+
             .otherwise({
                 redirectTo: '/'
             });
 
-       $locationProvider.html5Mode({
+        $locationProvider.html5Mode({
             enabled: true,
             requiredBase: false
             //now no more # required before routes
         })
-        
-        
-  
+
+
+
     })
 
-     app.run(['$rootScope',  function ($rootScope, $routeUpdate, $routeParams) {
-/*
-        $rootScope.$on('$routeChangeStart', function (event, next, current) {
-            //console.log(Auth.isLoggedIn());
-            console.log(next.$$route.name);
-            $rootScope.title = next.$$route.name;
-          
-            //if($routeParams.name == )
-
-        });
-
-*/
+    app.run(['$rootScope', function ($rootScope, $routeUpdate, $routeParams) {
+        /*
+                $rootScope.$on('$routeChangeStart', function (event, next, current) {
+                    //console.log(Auth.isLoggedIn());
+                    console.log(next.$$route.name);
+                    $rootScope.title = next.$$route.name;
+                  
+                    //if($routeParams.name == )
+        
+                });
+        
+        */
     }]);
 
 }())
