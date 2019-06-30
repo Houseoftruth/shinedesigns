@@ -133,6 +133,9 @@ $scope.noDifference = false;
 $scope.pulseSelect = false;
 $scope.rollRight = false;
 
+$scope.bigPink = false;
+
+
 $scope.startPulse = function(){
 $scope.pulseSelect = true;
 $scope.slideOutFirst = true;
@@ -144,6 +147,10 @@ $timeout(function(){
 $timeout(function(){
     $scope.rollRight = true;
 },1200)
+$timeout(function(){
+    $scope.bigPink= true;
+},1650)
+
 
 
 }
