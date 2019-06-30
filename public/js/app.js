@@ -138,7 +138,7 @@ $scope.color = true;
 $scope.colortwo = false;
 $scope.colorthree = false;
 
-$scope.darkOneTwo = function(){
+$scope.darkOneThree = function(){
     if($scope.colortwo){
             $scope.colortwo = false;
         }else{
