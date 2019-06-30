@@ -1,117 +1,141 @@
+<div class="container">
 
-<div class = "container">
+    <div class="row">
 
-    <div class = "row">
+        <div class="col s12 center-align section">
 
-     <div class = "col s12 center-align section" >
-     
-         <h3 class = "montserrat"> Server Speed</h3>
-     </div>
-        <div class = "col s12">
-            <div class = "row">
+            <h3 class="montserrat"> Server Speed</h3>
+        </div>
+        <div class="col s12">
+            <div class="row">
 
             </div>
-            <div class = "row">
-                
+            <div class="row">
+
+            </div>
+            <div class="row">
+
+            </div>
+
+            <div class="row">
+
+            </div>
+            <div class="row">
+
+            </div>
+            <div class="row">
+                <div ng-show="bigPink">
+                    <div class="col s4">
+                        <img ng-click="startPulse()" class="img-responsive " style="opacity:0;"
+                            src='./images/1xServerpink.svg' />
+
+                    </div>
+                    <div class="col s4">
+                        <img ng-click="startPulse()" class="img-responsive animated  fadeIn"
+                            src='./images/1xServerpink.svg' />
+
+                    </div>
+                    <div class="col s4">
+                        <img ng-click="startPulse()" class="img-responsive " style="opacity:0;"
+                            src='./images/1xServerpink.svg' />
+
+                    </div>
+
                 </div>
-                <div class = "row">
+                <div ng-show="!bigPink">
+                 
                 
-                    </div>
 
-                    <div class = "row">
-                
-                        </div>
-                        <div class = "row">
-                
-                            </div>
-            <div class = "row">
-                    <div ng-show="bigPink">
-                            <div class = "col s4">
-                                <img ng-click="startPulse()"   class = "img-responsive "style="opacity:0;"  src='./images/1xServerpink.svg'/>
-                               
-                            </div>
-                            <div class = "col s4">
-                                    <img ng-click="startPulse()"   class = "img-responsive animated  fadeIn"  src='./images/1xServerpink.svg'/>
-                                   
-                                </div>
-                                <div class = "col s4">
-                                        <img ng-click="startPulse()"   class = "img-responsive "  style="opacity:0;" src='./images/1xServerpink.svg'/>
-                                       
-                                    </div>
-                         
-                </div>
-<div ng-show="!bigPink">
-            <div ng-show="!colortwo" class = "col s4">
-                <img ng-click="startPulse()"   class = "img-responsive animated fadeIn " src='./images/1xServerpink.svg'/>
-               
-            </div>
-            <div ng-show="!color">
-                    <div class = "col s4">
-                        <img   class = "img-responsive animated fadeIn"  src='./images/2xServer.svg'/>
-                        
-                    </div>
-                    <div class = "col s4">
-                        <img  class = "img-responsive animated fadeIn " src='./images/3xServer.svg'/>
-                       
-                    </div>
-                    </div>
-            <div ng-show="color && !colortwo">
-            <div class = "col s4">
-                <img ng-click="darkOneThree()"   class = "img-responsive animated fadeIn " src='./images/2xServergreen.svg'/>
-                
-            </div>
-            <div class = "col s4">
-                <img ng-click="darkOneTwo()"   class = "img-responsive animated fadeIn"  src='./images/3xServerblue.svg'/>
-               
-            </div>
-            </div>
-             <div ng-show="colortwo">
-            <div class = "col s4">
-                <img ng-click="darkOneThree()"   class = "img-responsive animated fadeIn " src='./images/1xServer.svg'/>
-                
-            </div>
-            
-</div>
-             <div ng-show="colortwo">
-            <div class = "col s4">
-                <img ng-click="darkOneThree()"   class = "img-responsive animated fadeIn " src='./images/2xServergreen.svg'/>
-                
-            </div>
+                    <div ng-show="color && !colortwo && !colorthree ">
+                            <div class="col s4">
+                                    <img ng-click="startPulse()" class="img-responsive animated fadeIn "
+                                        src='./images/1xServerpink.svg' />
         
-            </div>
-            <div ng-show="colortwo">
-                    <div class = "col s4">
-                    <img ng-click="darkOneThree()"   class = "img-responsive animated fadeIn " src='./images/3xServer.svg'/>
+                                </div>
+                        <div class="col s4">
+                            <img ng-click="darkOneThree()" class="img-responsive animated fadeIn "
+                                src='./images/2xServer.svg' />
+
+                        </div>
+                        <div class="col s4">
+                            <img ng-click="darkOneTwo()" class="img-responsive animated fadeIn"
+                                src='./images/3xServer.svg' />
+
+                        </div>
+                    </div>
+                    <div ng-show="!color && colortwo && !colorthree ">
+                        <div class="col s4">
+                            <img ng-click="startPulse()"  class="img-responsive animated fadeIn "
+                                src='./images/1xServer.svg' />
+
+                        </div>
+                        <div class="col s4">
+                                <img ng-click="darkOneThree()" class="img-responsive animated fadeIn "
+                                    src='./images/2xServergreen.svg' />
+    
+                            </div>
+                            <div class="col s4">
+                                    <img ng-click="darkOneTwo()" class="img-responsive animated fadeIn "
+                                        src='./images/3xServer.svg' />
+                                </div>
+                    </div>
+              
+                    <div ng-show="!color && !colortwo && colorthree ">
+                            <div class="col s4">
+                                <img ng-click="startPulse()"  class="img-responsive animated fadeIn "
+                                    src='./images/1xServer.svg' />
+                            </div>
+                            <div class="col s4">
+                                    <img ng-click="darkOneThree()" class="img-responsive animated fadeIn "
+                                        src='./images/2xServer.svg' />
+                                </div>
+                                <div class="col s4">
+                                        <img ng-click="darkOneTwo()" class="img-responsive animated fadeIn "
+                                            src='./images/3xServerblue.svg' />
+                                    </div>
+                        </div>
+                        <div ng-show="!color && !colortwo && !colorthree ">
+                                <div class="col s4">
+                                    <img ng-click="startPulse()"  class="img-responsive animated fadeIn "
+                                        src='./images/1xServerpink.svg' />
+                                </div>
+                                <div class="col s4">
+                                        <img ng-click="darkOneThree()" class="img-responsive animated fadeIn "
+                                            src='./images/2xServergreen.svg' />
+                                    </div>
+                                    <div class="col s4">
+                                            <img ng-click="darkOneTwo()" class="img-responsive animated fadeIn "
+                                                src='./images/3xServerblue.svg' />
+                                        </div>
+                            </div>
+                    <div class="col s4">
+                        <img class="img-responsive animated slideInRight" src='./images/smallstorage.svg' />
+
+                    </div>
+                    <div class="col s4">
+                        <img class="img-responsive animated slideInRight" src='./images/medstorage.svg' />
+
+                    </div>
+                    <div class="col s4">
+                        <img class="img-responsive animated slideInRight" src='./images/largestorage.svg' />
+
+                    </div>
+                    <div class="col s4">
+                        <img class="img-responsive animated slideInRight" src='./images/1xServerpink.svg' />
+
+                    </div>
+                    <div class="col s4">
+                        <img class="img-responsive animated slideInRight" src='./images/2xServergreen.svg' />
+
+                    </div>
+                    <div class="col s4">
+                        <img class="img-responsive animated slideInRight" src='./images/3xServerblue.svg' />
+
                     </div>
                 </div>
-            <div class = "col s4">
-                <img   class = "img-responsive animated slideInRight" src='./images/smallstorage.svg'/>
-              
-            </div>
-            <div class = "col s4">
-                <img   class = "img-responsive animated slideInRight" src='./images/medstorage.svg'/>
-               
-            </div>
-            <div class = "col s4">
-                <img   class = "img-responsive animated slideInRight" src='./images/largestorage.svg'/>
-               
-            </div>
-            <div class = "col s4">
-                <img   class = "img-responsive animated slideInRight" src='./images/1xServerpink.svg'/>
-               
-            </div>
-            <div class = "col s4">
-                <img   class = "img-responsive animated slideInRight" src='./images/2xServergreen.svg'/>
-               
-            </div>
-            <div class = "col s4">
-                <img   class = "img-responsive animated slideInRight" src='./images/3xServerblue.svg'/>
-              
+
+
             </div>
         </div>
 
-        
     </div>
-    </div>
-
-</div>

@@ -134,14 +134,48 @@ $scope.pulseSelect = false;
 $scope.rollRight = false;
 
 $scope.bigPink = false;
-$scope.color = true;
+$scope.color = false;
 $scope.colortwo = false;
 $scope.colorthree = false;
+$scope.button = 0;
+$scope.darkOneTwo = function(number){
+    var button = number;
+    if($scope.colorthree){
+            $scope.colorthree = false;
+            $scope.color = false;
+            $scope.colortwo = false;
 
+        }else if( $scope.color){
+            $scope.colorthree = true;
+            $scope.color = false;
+            $scope.colortwo = false;
+        }else if( $scope.colortwo){
+            $scope.colorthree = true;
+            $scope.color = false;
+            $scope.colortwo = false;
+        }
+        else if( !$scope.colortwo && !$scope.colorthree&& !$scope.color){
+            $scope.colorthree = true;
+            $scope.color = false;
+            $scope.colortwo = false;
+        }
+}
 $scope.darkOneThree = function(){
     if($scope.colortwo){
             $scope.colortwo = false;
-        }else{
+            $scope.color = false;
+            $scope.colorthree = false;
+        }else if( $scope.color){
+            $scope.colorthree = false;
+            $scope.color = false;
+            $scope.colortwo = true;
+        }else if( $scope.colorthree){
+            $scope.colorthree = false;
+            $scope.color = false;
+            $scope.colortwo = true;
+        }else if( !$scope.colortwo && !$scope.colorthree&& !$scope.color){
+            $scope.colorthree = false;
+            $scope.color = false;
             $scope.colortwo = true;
         }
 }
@@ -161,8 +195,20 @@ $timeout(function(){
 },1650)*/
 if($scope.color){
 $scope.color = false;
-}else{
+$scope.colortwo = false;
+$scope.colorthree = false;
+}else if( $scope.colortwo){
+    $scope.colorthree = false;
     $scope.color = true;
+    $scope.colortwo = false;
+}else if( $scope.colorthree){
+    $scope.colorthree = false;
+    $scope.color = true;
+    $scope.colortwo = false;
+}else if( !$scope.colortwo && !$scope.colorthree&& !$scope.color){
+    $scope.colorthree = false;
+    $scope.color = true;
+    $scope.colortwo = false;
 }
 
 
