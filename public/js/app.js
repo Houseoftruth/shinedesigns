@@ -130,6 +130,11 @@ $scope.results = []
 $scope.loading = false;
 $scope.showResults = false;
 $scope.noDifference = false;
+$scope.pulseSelect = false;
+
+$scope.startPulse = function(){
+$scope.pulseSelect = true;
+}
 
 $scope.noInput=false;
 $scope.runTest = function(){
