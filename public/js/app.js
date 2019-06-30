@@ -131,9 +131,21 @@ $scope.loading = false;
 $scope.showResults = false;
 $scope.noDifference = false;
 $scope.pulseSelect = false;
+$scope.rollRight = false;
 
 $scope.startPulse = function(){
 $scope.pulseSelect = true;
+$scope.slideOutFirst = true;
+
+$timeout(function(){
+    $scope.slideOutSecond = true;
+},700)
+
+$timeout(function(){
+    $scope.rollRight = true;
+},1200)
+
+
 }
 
 $scope.noInput=false;
