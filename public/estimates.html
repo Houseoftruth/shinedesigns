@@ -108,6 +108,71 @@
                                                 src='./images/3xServerblue.svg' />
                                         </div>
                             </div>
+
+
+                            
+                    <div ng-show="colorStorage && !colorStorageTwo && !colorStorageThree ">
+                            <div class="col s4">
+                                    <img ng-click="startStoragePulse()" class="img-responsive animated fadeIn "
+                                        src='./images/smallstoragepink.svg' />
+        
+                                </div>
+                        <div class="col s4">
+                            <img ng-click="darkStorageOneThree()" class="img-responsive animated fadeIn "
+                                src='./images/medstorage.svg' />
+
+                        </div>
+                        <div class="col s4">
+                            <img ng-click="darkStorageOneTwo()" class="img-responsive animated fadeIn"
+                                src='./images/largestorage.svg' />
+
+                        </div>
+                    </div>
+                    <div ng-show="!colorStorage && colorStorageTwo && !colorStorageThree ">
+                        <div class="col s4">
+                            <img ng-click="startStoragePulse()"  class="img-responsive animated fadeIn "
+                                src='./images/smallstorage.svg' />
+
+                        </div>
+                        <div class="col s4">
+                                <img ng-click="darkStorageOneThree()" class="img-responsive animated fadeIn "
+                                    src='./images/medstoragegreen.svg' />
+    
+                            </div>
+                            <div class="col s4">
+                                    <img ng-click="darkStorageOneTwo()" class="img-responsive animated fadeIn "
+                                        src='./images/largestorage.svg' />
+                                </div>
+                    </div>
+              
+                    <div ng-show="!colorStorage && !colorStorageTwo && colorStorageThree ">
+                            <div class="col s4">
+                                <img ng-click="startStoragePulse()"  class="img-responsive animated fadeIn "
+                                    src='./images/smallstorage.svg' />
+                            </div>
+                            <div class="col s4">
+                                    <img ng-click="darkStorageOneThree()" class="img-responsive animated fadeIn "
+                                        src='./images/medstorage.svg' />
+                                </div>
+                                <div class="col s4">
+                                        <img ng-click="darkStorageOneTwo()" class="img-responsive animated fadeIn "
+                                            src='./images/largestorageblue.svg' />
+                                    </div>
+                        </div>
+                        <div ng-show="!colorStorage && !colorStorageTwo && !colorStorageThree ">
+                                <div class="col s4">
+                                    <img ng-click="startStoragePulse()"  class="img-responsive animated fadeIn "
+                                        src='./images/smallstoragepink.svg' />
+                                </div>
+                                <div class="col s4">
+                                        <img ng-click="darkStorageOneThree()" class="img-responsive animated fadeIn "
+                                            src='./images/medstoragegreen.svg' />
+                                    </div>
+                                    <div class="col s4">
+                                            <img ng-click="darkStorageOneTwo()" class="img-responsive animated fadeIn "
+                                                src='./images/largestorageblue.svg' />
+                                        </div>
+                            </div>
                     <div class="col s4">
                         <img class="img-responsive animated slideInRight" src='./images/smallstoragepink.svg' />
 
@@ -134,6 +199,9 @@
                     </div>
                 </div>
 
+
+
+                
 
             </div>
         </div>

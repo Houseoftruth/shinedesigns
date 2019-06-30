@@ -166,6 +166,70 @@ $scope.darkOneTwo = function(number){
             $scope.down.play();
         }
 }
+$scope.darkStorageOneTwo = function(){
+    
+    if($scope.colorStorageThree){
+        $scope.up.play();
+        navigator.vibrate([100])
+    $scope.colorStorage = false;
+    $scope.colorStorageTwo = false;
+    $scope.colorStorageThree = false;
+    
+    }else if( $scope.colorStorageTwo){
+        $scope.down.play();
+        navigator.vibrate([100])
+        $scope.colorStorageThree = true;
+        $scope.colorStorage = false;
+        $scope.colorStorageTwo = false;
+        
+    }else if( $scope.colorStorage){
+        $scope.down.play();
+        navigator.vibrate([100])
+        $scope.colorStorageThree = true;
+        $scope.colorStorage = false;
+        $scope.colorStorageTwo = false;
+    }else if( !$scope.colorStorageTwo && !$scope.colorStorageThree&& !$scope.colorStorage){
+        $scope.down.play();
+        navigator.vibrate([100])
+        $scope.colorStorageThree = true;
+        $scope.colorStorage = false;
+        $scope.colorStorageTwo = false;
+    }
+    
+    
+    }
+    $scope.darkStorageOneThree = function(){
+    
+        if($scope.colorStorageTwo){
+            $scope.up.play();
+            navigator.vibrate([100])
+        $scope.colorStorage = false;
+        $scope.colorStorageTwo = false;
+        $scope.colorStorageThree = false;
+        
+        }else if( $scope.colorStorage){
+            $scope.down.play();
+            navigator.vibrate([100])
+            $scope.colorStorageThree = false;
+            $scope.colorStorage = false;
+            $scope.colorStorageTwo = true;
+            
+        }else if( $scope.colorStorageThree){
+            $scope.down.play();
+            navigator.vibrate([100])
+            $scope.colorStorageThree = false;
+            $scope.colorStorage = false;
+            $scope.colorStorageTwo = true;
+        }else if( !$scope.colorStorageTwo && !$scope.colorStorageThree&& !$scope.colorStorage){
+            $scope.down.play();
+            navigator.vibrate([100])
+            $scope.colorStorageThree = false;
+            $scope.colorStorage = false;
+            $scope.colorStorageTwo = true;
+        }
+        
+        
+        }
 $scope.darkOneThree = function(){
     if($scope.colortwo){
             $scope.colortwo = false;
@@ -233,7 +297,43 @@ $scope.colorthree = false;
 
 
 }
+$scope.colorStorage = false;
+$scope.colorStorageTwo = false;
+$scope.colorStorageThree = false;
+$scope.startStoragePulse = function(){
+    
+    if($scope.colorStorage){
+        $scope.up.play();
+        navigator.vibrate([100])
+    $scope.colorStorage = false;
+    $scope.colorStorageTwo = false;
+    $scope.colorStorageThree = false;
+    
+    }else if( $scope.colorStorageTwo){
+        $scope.down.play();
+        navigator.vibrate([100])
+        $scope.colorStorageThree = false;
+        $scope.colorStorage = true;
+        $scope.colorStorageTwo = false;
+        
+    }else if( $scope.colorStorageThree){
+        $scope.down.play();
+        navigator.vibrate([100])
+        $scope.colorStorageThree = false;
+        $scope.colorStorage = true;
+        $scope.colorStorageTwo = false;
+    }else if( !$scope.colorStorageTwo && !$scope.colorStorageThree&& !$scope.colorStorage){
+        $scope.down.play();
+        navigator.vibrate([100])
+        $scope.colorStorageThree = false;
+        $scope.colorStorage = true;
+        $scope.colorStorageTwo = false;
+    }
+    
+    
+    }
 
+    
 $scope.noInput=false;
 $scope.runTest = function(){
     $scope.noInput= false;
