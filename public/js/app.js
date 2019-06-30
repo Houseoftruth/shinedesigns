@@ -205,27 +205,27 @@ $timeout(function(){
 },1650)*/
 if($scope.color){
     $scope.up.play();
-    navigator.vibrate([100])
+    navigator.vibrate([500])
 $scope.color = false;
 $scope.colortwo = false;
 $scope.colorthree = false;
 
 }else if( $scope.colortwo){
     $scope.down.play();
-    navigator.vibrate([100])
+    navigator.vibrate([500])
     $scope.colorthree = false;
     $scope.color = true;
     $scope.colortwo = false;
     
 }else if( $scope.colorthree){
     $scope.down.play();
-    navigator.vibrate([100])
+    navigator.vibrate([500])
     $scope.colorthree = false;
     $scope.color = true;
     $scope.colortwo = false;
 }else if( !$scope.colortwo && !$scope.colorthree&& !$scope.color){
     $scope.down.play();
-    navigator.vibrate([100])
+    navigator.vibrate([500])
     $scope.colorthree = false;
     $scope.color = true;
     $scope.colortwo = false;
