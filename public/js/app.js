@@ -93,6 +93,8 @@ app.controller('mainCtrl', ['$http','$scope','$timeout','User','$interval', func
     }
     $scope.lock =  new Audio('../audio/ui_lock.wav');
     $scope.tap =  new Audio('../audio/ui_tap-variant-01.wav');
+    $scope.down =  new Audio('../audio/down.wav');
+    $scope.up =  new Audio('../audio/up.wav');
     $scope.playLock = function(){
         console.log("clicked")
         $scope.lock.play();
@@ -144,20 +146,24 @@ $scope.darkOneTwo = function(number){
             $scope.colorthree = false;
             $scope.color = false;
             $scope.colortwo = false;
+            $scope.up.play();
 
         }else if( $scope.color){
             $scope.colorthree = true;
             $scope.color = false;
             $scope.colortwo = false;
+            $scope.down.play();
         }else if( $scope.colortwo){
             $scope.colorthree = true;
             $scope.color = false;
             $scope.colortwo = false;
+            $scope.down.play();
         }
         else if( !$scope.colortwo && !$scope.colorthree&& !$scope.color){
             $scope.colorthree = true;
             $scope.color = false;
             $scope.colortwo = false;
+            $scope.down.play();
         }
 }
 $scope.darkOneThree = function(){
@@ -165,18 +171,22 @@ $scope.darkOneThree = function(){
             $scope.colortwo = false;
             $scope.color = false;
             $scope.colorthree = false;
+            $scope.up.play();
         }else if( $scope.color){
             $scope.colorthree = false;
             $scope.color = false;
             $scope.colortwo = true;
+            $scope.down.play();
         }else if( $scope.colorthree){
             $scope.colorthree = false;
             $scope.color = false;
             $scope.colortwo = true;
+            $scope.down.play();
         }else if( !$scope.colortwo && !$scope.colorthree&& !$scope.color){
             $scope.colorthree = false;
             $scope.color = false;
             $scope.colortwo = true;
+            $scope.down.play();
         }
 }
 $scope.startPulse = function(){
@@ -194,18 +204,24 @@ $timeout(function(){
     $scope.bigPink= true;
 },1650)*/
 if($scope.color){
+    $scope.up.play();
 $scope.color = false;
 $scope.colortwo = false;
 $scope.colorthree = false;
+
 }else if( $scope.colortwo){
+    $scope.down.play();
     $scope.colorthree = false;
     $scope.color = true;
     $scope.colortwo = false;
+    
 }else if( $scope.colorthree){
+    $scope.down.play();
     $scope.colorthree = false;
     $scope.color = true;
     $scope.colortwo = false;
 }else if( !$scope.colortwo && !$scope.colorthree&& !$scope.color){
+    $scope.down.play();
     $scope.colorthree = false;
     $scope.color = true;
     $scope.colortwo = false;
