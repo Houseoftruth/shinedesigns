@@ -95,6 +95,7 @@ app.controller('mainCtrl', ['$http','$scope','$timeout','User','$interval', func
     $scope.tap =  new Audio('../audio/ui_tap-variant-01.wav');
     $scope.down =  new Audio('../audio/down.wav');
     $scope.up =  new Audio('../audio/up.wav');
+    $scope.generate =  new Audio('../audio/generate.wav');
     $scope.playLock = function(){
         console.log("clicked")
         $scope.lock.play();
@@ -229,6 +230,9 @@ $scope.darkStorageOneTwo = function(){
         }
         
         
+        }
+        $scope.playGenerate = function(){
+            $scope.generate.play();
         }
 $scope.darkOneThree = function(){
     if($scope.colortwo){
