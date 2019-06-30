@@ -45,13 +45,35 @@
                 <img ng-click="startPulse()"   class = "img-responsive animated " ng-class="{'rollOut':rollRight,'slideInRight':!pulseSelect,'pulse':pulseSelect,'infinite':pulseSelect && !rollRight}" src='./images/1xServerpink.svg'/>
                
             </div>
+            <div ng-show="!color">
+                    <div class = "col s4">
+                        <img   class = "img-responsive animated fadeIn"  src='./images/2xServer.svg'/>
+                        
+                    </div>
+                    <div class = "col s4">
+                        <img  class = "img-responsive animated fadeIn " src='./images/3xServer.svg'/>
+                       
+                    </div>
+                    </div>
+            <div ng-show="color">
             <div class = "col s4">
-                <img   class = "img-responsive animated " ng-class="{'slideInRight':!pulseSelect,'fadeOutLeft':slideOutSecond}" src='./images/2xServergreen.svg'/>
+                <img ng-click="darkOneThree()"   class = "img-responsive animated fadeIn " src='./images/2xServergreen.svg'/>
                 
             </div>
             <div class = "col s4">
-                <img  class = "img-responsive animated " ng-class="{'slideInRight':!pulseSelect,'fadeOutLeft':slideOutFirst}" src='./images/3xServerblue.svg'/>
+                <img ng-click="darkOneTwo()"   class = "img-responsive animated fadeIn"  src='./images/3xServerblue.svg'/>
                
+            </div>
+            </div>
+             <div ng-show="color">
+            <div class = "col s4">
+                <img ng-click="darkOneThree()"   class = "img-responsive animated fadeIn " src='./images/2xServergreen.svg'/>
+                
+            </div>
+            <div class = "col s4">
+                <img ng-click="darkOneTwo()"   class = "img-responsive animated fadeIn"  src='./images/3xServerblue.svg'/>
+               
+            </div>
             </div>
             <div class = "col s4">
                 <img   class = "img-responsive animated slideInRight" src='./images/smallstorage.svg'/>

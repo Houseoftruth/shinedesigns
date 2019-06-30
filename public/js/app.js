@@ -134,10 +134,19 @@ $scope.pulseSelect = false;
 $scope.rollRight = false;
 
 $scope.bigPink = false;
+$scope.color = true;
+$scope.colortwo = false;
+$scope.colorthree = false;
 
-
+$scope.darkOneTwo = function(){
+    if($scope.colortwo){
+            $scope.colortwo = false;
+        }else{
+            $scope.colortwo = true;
+        }
+}
 $scope.startPulse = function(){
-$scope.pulseSelect = true;
+/*$scope.pulseSelect = true;
 $scope.slideOutFirst = true;
 
 $timeout(function(){
@@ -149,8 +158,12 @@ $timeout(function(){
 },1200)
 $timeout(function(){
     $scope.bigPink= true;
-},1650)
-
+},1650)*/
+if($scope.color){
+$scope.color = false;
+}else{
+    $scope.color = true;
+}
 
 
 }
