@@ -141,7 +141,7 @@ $scope.color = false;
 $scope.colortwo = false;
 $scope.colorthree = false;
 $scope.button = 0;
-$scope.darkOneTwo = function(number){
+$scope.darkThemeOneTwo = function(number){
     var button = number;
     if($scope.colorthree){
             $scope.colorthree = false;
@@ -164,6 +164,32 @@ $scope.darkOneTwo = function(number){
             $scope.colorthree = true;
             $scope.color = false;
             $scope.colortwo = false;
+            $scope.down.play();
+        }
+}
+$scope.darkOneTwo = function(number){
+    var button = number;
+    if($scope.colorThemeThree){
+            $scope.colorThemeThree = false;
+            $scope.colorTheme= false;
+            $scope.colorThemeTwo= false;
+            $scope.up.play();
+
+        }else if( $scope.colorTheme){
+            $scope.colorThemeThree = true;
+            $scope.colorTheme= false;
+            $scope.colorThemeTwo= false;
+            $scope.down.play();
+        }else if( $scope.colorThemeTwo){
+            $scope.colorThemeThree = true;
+            $scope.colorTheme= false;
+            $scope.colorThemeTwo= false;
+            $scope.down.play();
+        }
+        else if( !$scope.colorThemeTwo&& !$scope.colorThemeThree&& !$scope.colorTheme){
+            $scope.colorThemeThree = true;
+            $scope.colorTheme= false;
+            $scope.colorThemeTwo= false;
             $scope.down.play();
         }
 }
@@ -234,7 +260,33 @@ $scope.darkStorageOneTwo = function(){
         $scope.playGenerate = function(){
             $scope.generate.play();
         }
-$scope.darkOneThree = function(){
+        $scope.colorThemeOne = false;
+        $scope.colorThemeTwo = false;
+        $scope.colorThemeThree = false;
+        $scope.darkThemeOneThree = function(){
+            if($scope.colorThemeTwo){
+                    $scope.colorThemeTwo = false;
+                    $scope.colorTheme= false;
+                    $scope.colorThemeThree = false;
+                    $scope.up.play();
+                }else if( $scope.colorTheme){
+                    $scope.colorThemeThree = false;
+                    $scope.colorTheme= false;
+                    $scope.colorThemeTwo = true;
+                    $scope.down.play();
+                }else if( $scope.colorThemeThree){
+                    $scope.colorThemeThree = false;
+                    $scope.colorTheme= false;
+                    $scope.colorThemeTwo = true;
+                    $scope.down.play();
+                }else if( !$scope.colorThemeTwo && !$scope.colorThemeThree&& !$scope.colorTheme){
+                    $scope.colorThemeThree = false;
+                    $scope.colorTheme= false;
+                    $scope.colorThemeTwo = true;
+                    $scope.down.play();
+                }
+        }
+    $scope.darkOneThree = function(){
     if($scope.colortwo){
             $scope.colortwo = false;
             $scope.color = false;
@@ -257,6 +309,50 @@ $scope.darkOneThree = function(){
             $scope.down.play();
         }
 }
+$scope.startThemePulse = function(){
+    /*$scope.pulseSelect = true;
+    $scope.slideOutFirst = true;
+    
+    $timeout(function(){
+        $scope.slideOutSecond = true;
+    },700)
+    
+    $timeout(function(){
+        $scope.rollRight = true;
+    },1200)
+    $timeout(function(){
+        $scope.bigPink= true;
+    },1650)*/
+    if($scope.colorTheme){
+        $scope.up.play();
+        navigator.vibrate([100])
+    $scope.colorTheme= false;
+    $scope.colorThemeTwo = false;
+    $scope.colorThemeThree = false;
+    
+    }else if( $scope.colorThemeTwo){
+        $scope.down.play();
+        navigator.vibrate([100])
+        $scope.colorThemeThree = false;
+        $scope.colorTheme= true;
+        $scope.colorThemeTwo = false;
+        
+    }else if( $scope.colorThemeThree){
+        $scope.down.play();
+        navigator.vibrate([100])
+        $scope.colorThemeThree = false;
+        $scope.colorTheme= true;
+        $scope.colorThemeTwo = false;
+    }else if( !$scope.colorThemeTwo && !$scope.colorThemeThree&& !$scope.colorTheme){
+        $scope.down.play();
+        navigator.vibrate([100])
+        $scope.colorThemeThree = false;
+        $scope.colorTheme= true;
+        $scope.colorThemeTwo = false;
+    }
+    
+    
+    }
 $scope.startPulse = function(){
 /*$scope.pulseSelect = true;
 $scope.slideOutFirst = true;
