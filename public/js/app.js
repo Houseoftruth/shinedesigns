@@ -199,6 +199,7 @@ $scope.thirdImage = false;
 $scope.fourthImage = false;
 
 $scope.changeSlider = function(){
+    console.log("clicked")
     if($scope.firstImage){
         $scope.firstImage = false;
         $scope.secondImage = true;
