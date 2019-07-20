@@ -215,7 +215,7 @@ $scope.changeSlider = function(){
         $scope.fourthImage = true;
         
     }else
-    {
+    if($scope.fourthImage){
         $scope.fourthImage = false;
         $scope.firstImage = true;
         
