@@ -4,24 +4,43 @@
     <img class="responsive-img animated slideInRight" src='./images/frontpage.svg' />
   </div>
   <div class = "col s6"ng-show="secondImage">
-    <img class="responsive-img animated slideInRight" src='./images/button.svg' />
+    <img class="responsive-img animated slideInRight" src='./images/1xServerpink.svg' />
   </div>
   <div class = "col s6"ng-show="thirdImage">
-    <img class="responsive-img animated slideInRight" src='./images/frontpage.svg' />
+    <img class="responsive-img animated slideInRight" src='./images/2xServergreen.svg' />
   </div>
   <div class = "col s6"ng-show="fourthImage">
-    <img class="responsive-img animated slideInRight" src='./images/frontpage.svg' />
+    <img class="responsive-img animated slideInRight" src='./images/3xServerblue.svg' />
   </div>
   <div class = "col s6" >
     
   </div>
   
   <div class = "col s12 center-align">
+      <div ng-show="firstImage">
+          <img ng-click="changeSlider()" class="responsive-img animated slideInRight" src='./images/buttonselected.svg' />
+          </div>
+    <div ng-show="secondImage || thirdImage || fourthImage">
     <img ng-click="changeSlider()" class="responsive-img animated slideInRight" src='./images/button.svg' />
-    <img ng-click="changeSlider()" class="responsive-img animated slideInRight" src='./images/button.svg' />
-    <img ng-click="changeSlider()" class="responsive-img animated slideInRight" src='./images/button.svg' />
-
-    <img ng-click="changeSlider()" class="responsive-img animated slideInRight" src='./images/button.svg' />
+    </div>
+    <div ng-show="secondImage">
+        <img ng-click="changeSlider()" class="responsive-img animated slideInRight" src='./images/buttonselected.svg' />
+        </div>
+        <div ng-show="firstImage || thirdImage || fourthImage">
+            <img ng-click="changeSlider()" class="responsive-img animated slideInRight" src='./images/button.svg' />
+            </div>
+            <div ng-show="thirdImage">
+                <img ng-click="changeSlider()" class="responsive-img animated slideInRight" src='./images/buttonselected.svg' />
+                </div>
+                <div ng-show="firstImage || secondImage || fourthImage">
+                    <img ng-click="changeSlider()" class="responsive-img animated slideInRight" src='./images/button.svg' />
+                    </div>
+                    <div ng-show="fourthImage">
+                        <img ng-click="changeSlider()" class="responsive-img animated slideInRight" src='./images/buttonselected.svg' />
+                        </div>
+                        <div ng-show="firstImage || secondImage || thirdImage">
+                            <img ng-click="changeSlider()" class="responsive-img animated slideInRight" src='./images/button.svg' />
+                            </div>
 
 
   </div>

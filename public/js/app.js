@@ -204,18 +204,18 @@ $scope.changeSlider = function(){
         $scope.firstImage = false;
         $scope.secondImage = true;
 
-    }
+    }else
     if($scope.secondImage){
         $scope.secondImage = false;
         $scope.thirdImage = true;
         
-    }
+    }else
     if($scope.thirdImage){
         $scope.thirdImage = false;
         $scope.fourthImage = true;
         
-    }
-    if($scope.fourthImage){
+    }else
+    {
         $scope.fourthImage = false;
         $scope.firstImage = true;
         
