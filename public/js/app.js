@@ -193,6 +193,33 @@ $scope.darkOneTwo = function(number){
             $scope.down.play();
         }
 }
+$scope.firstImage = true;
+$scope.secondImage = false;
+$scope.thirdImage = false;
+$scope.fourthImage = false;
+
+$scope.changeSlider = function(){
+    if($scope.firstImage){
+        $scope.firstImage = false;
+        $scope.secondImage = true;
+
+    }
+    if($scope.secondImage){
+        $scope.secondImage = false;
+        $scope.thirdImage = true;
+        
+    }
+    if($scope.thirdImage){
+        $scope.thirdImage = false;
+        $scope.fourthImage = true;
+        
+    }
+    if($scope.fourthImage){
+        $scope.fourthImage = false;
+        $scope.firstImage = true;
+        
+    }
+}
 $scope.darkStorageOneTwo = function(){
     
     if($scope.colorStorageThree){
@@ -646,6 +673,255 @@ $scope.backToCheck = function(){
             $scope.fadeOutHome = false;
           // $scope.fadeInContact = true;
         },3500)
+    }
+
+
+
+
+    // CODE PRACTICE //
+
+    var kevinBacon = {
+        "movies": [{
+                "title": "Diner",
+                "cast": [
+                    "Steve Guttenberg",
+                    "Daniel Stern",
+                    "Mickey Rourke",
+                    "Kevin Bacon",
+                    "Tim Daly",
+                    "Ellen Barkin",
+                    "Paul Reiser",
+                    "Kathryn Dowling",
+                    "Michael Tucker",
+                    "Jessica James",
+                    "Colette Blonigan",
+                    "Kelle Kipp",
+                    "Clement Fowler",
+                    "Claudia Cron"
+                ]
+            },
+            {
+                "title": "Footloose",
+                "cast": [
+                    "Kevin Bacon",
+                    "Lori Singer",
+                    "Dianne Wiest",
+                    "John Lithgow",
+                    "Sarah Jessica Parker",
+                    "Chris Penn",
+                    "Frances Lee McCain",
+                    "Jim Youngs",
+                    "John Laughlin",
+                    "Lynne Marta",
+                    "Douglas Dirkson"
+                ]
+            },
+            {
+                "title": "Flatliners",
+                "cast": [
+                    "Kiefer Sutherland",
+                    "Julia Roberts",
+                    "Kevin Bacon",
+                    "William Baldwin",
+                    "Oliver Platt",
+                    "Kimberly Scott",
+                    "Joshua Rudoy",
+                    "Benjamin Mouton",
+                    "Hope Davis",
+                    "Patricia Belcher",
+                    "Beth Grant"
+                ]
+            },
+            {
+                "title": "Eat Pray Love",
+                "cast": [
+                    "Julia Roberts",
+                    "Javier Bardem",
+                    "Billy Crudup",
+                    "Richard Jenkins",
+                    "Viola Davis",
+                    "James Franco",
+                    "Sophie Thompson",
+                    "Mike O 'Malley",
+                    "Christine Hakim",
+                    "Arlene Tur",
+                    "Hadi Subiyanto",
+                    "Gita Reddy",
+                    "Tuva Novotny",
+                    "Luca Argentero",
+                    "Rushita Singh"
+                ]
+            },
+            {
+                "title": "Spotlight",
+                "cast": [
+                    "Mark Ruffalo",
+                    "Michael Keaton",
+                    "Rachel McAdams",
+                    "Liev Schreiber",
+                    "John Slattery",
+                    "Brian d'Arcy James",
+                    "Stanley Tucci",
+                    "Gene Amoroso",
+                    "Jamey Sheridan",
+                    "Billy Crudup",
+                    "Maureen Keiller",
+                    "Richard Jenkins",
+                    "Paul Guilfoyle",
+                    "Len Cariou",
+                    "Neal Huff",
+                    "Michael Cyril Creighton",
+                    "Laurie Heineman",
+                    "Tim Progosh"
+                ]
+            }
+        ]
+    }
+    
+    // CONSTRUCTOR FUNCTION //
+    var data;
+    function loadData(){
+      data = loadJSON('')
+    }
+
+    // CONSTRUCTOR FUNCTION //
+    function Graph(){
+      this.nodes = []
+      this.graph = {};
+      this.start = null;
+      this.end = null;
+    }
+    Graph.prototype.addNode = function(node){
+        //NODE INTO ARRAY //
+        this.nodes.push(node);
+        var title = node.value
+        //NODE INTO HASH ///
+        this.graph[title] = node
+        
+      
+    }
+    Graph.prototype.getNode = function(actor){
+      
+      var n = this.graph[actor]
+      return n;
+    }
+    Graph.prototype.setStart = function(actor){
+        this.start = this.graph[actor]
+        return this.start
+
+    }
+    Graph.prototype.setEnd = function(actor){
+
+        this.end = this.graph[actor]
+        return this.end
+    }
+    // GRAPH CONSTRUCTOR FUNCTION //
+    // NODE CLASS //
+
+    // NODE CONSTRUCTOR FUNCTION  //
+     function Node(value){
+       
+         this.value = value;
+         this.edges = [];
+         this.searched = false;
+         this.parent = null;
+         
+       
+     }
+     // NODE CONSTRUCTOR FUNCTION //
+
+    Node.prototype.addEdge= function(neighbor){
+      this.edges.push(neighbor)
+      neighbor.edges.push(this)
+    }
+
+    // NODE CLASS //
+
+
+   
+    function setup() {
+       
+        // CREATE A NEW GRAPH //
+            var graph = new Graph()
+        // CREATE A NEW GRAPH //
+
+        var movies = kevinBacon.movies
+      for(var i = 0; i< movies.length ; i++){
+        var movie = movies[i].title
+        var cast = movies[i].cast
+        // CREATE NEW NODE (MOVIE)//
+        var movieNode = new Node(movie)
+        // ADD NODE TO THE GRAPH //
+        graph.addNode(movieNode);
+        // ADD NODE TO THE GRAPH //
+
+        for(var j = 0; j<cast.length; j++){
+          // CREATE NEW NODE (ACTOR)//
+          var actor = cast[j]
+          var actorNode = graph.getNode(actor)
+
+          if(actorNode === undefined){
+            actorNode = new Node(actor)
+          }
+          var actorNode = new Node(actor)
+          graph.addNode(actorNode)
+          movieNode.addEdge(actorNode)
+
+        // CREATE NEW NODE (ACTOR)//
+
+          //console.log(actor)
+        }
+        
+      }
+      
+      console.log(graph)
+          // BEGIN BREADTH FIRST SEARCH //
+
+    // MAKE A QUEUE TO REPRESENT WHICH NODES HAVE BEEN VISITED //
+    // THEN CHECK THE CONNECTIONS OF THE FIRST IN LINE//
+    var queue = []
+    var start = graph.setStart("Rachel McAdams")
+    var end =  graph.setEnd("Kevin Bacon")
+    start.searched = true;
+    queue.push(start)
+
+    while (queue.length > 0){
+
+        var current = queue.shift();
+        console.log(current,end)
+        if(current.value === end.value){
+            console.log("Found" + current.value)
+            break;
+        }
+        var edges = current.edges
+        for (var o =0  ; o < edges.length;o++){
+            var neighbor = edges[o]
+            if(!neighbor.searched){
+                neighbor.searched = true;
+                neighbor.parent = current
+                queue.push(neighbor)
+            }
+
+
+        }
+    }
+    var path = []
+    path.push(end)
+    var next = end.parent
+    while(next !== null){
+        path.push(next)
+        next=path.parent
+    }
+    }
+    setup()
+
+
+
+
+    
+    function Graph (){
+      this.nodes = []
+      this.graph = {}
     }
 }]);
 

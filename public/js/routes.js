@@ -96,7 +96,17 @@
                     }
                 }
             })
-
+            .when('/', {
+                templateUrl: '../homey.html',
+                name: "SHINE BRIGHT COACHING | FORMS",
+                controller: "mainCtrl",
+                controllerAs: 'main',
+                resolve: {
+                    init: function ($route) {
+                        console.log("index")
+                    }
+                }
+            })
             .otherwise({
                 redirectTo: '/'
             });
