@@ -20,25 +20,25 @@
       <div ng-show="firstImage">
           <img ng-click="changeSlider()" class="responsive-img animated slideInRight" src='./images/buttonselected.svg' />
           </div>
-    <div ng-show="secondImage || thirdImage || fourthImage">
+    <div ng-show="!firstImage">
     <img ng-click="changeSlider()" class="responsive-img animated slideInRight" src='./images/button.svg' />
     </div>
     <div ng-show="secondImage">
         <img ng-click="changeSlider()" class="responsive-img animated slideInRight" src='./images/buttonselected.svg' />
         </div>
-        <div ng-show="firstImage || thirdImage || fourthImage">
+        <div ng-show="!secondImage">
             <img ng-click="changeSlider()" class="responsive-img animated slideInRight" src='./images/button.svg' />
             </div>
             <div ng-show="thirdImage">
                 <img ng-click="changeSlider()" class="responsive-img animated slideInRight" src='./images/buttonselected.svg' />
                 </div>
-                <div ng-show="firstImage || secondImage || fourthImage">
+                <div ng-show="!thirdImage">
                     <img ng-click="changeSlider()" class="responsive-img animated slideInRight" src='./images/button.svg' />
                     </div>
                     <div ng-show="fourthImage">
                         <img ng-click="changeSlider()" class="responsive-img animated slideInRight" src='./images/buttonselected.svg' />
                         </div>
-                        <div ng-show="firstImage || secondImage || thirdImage">
+                        <div ng-show="!fouthImage">
                             <img ng-click="changeSlider()" class="responsive-img animated slideInRight" src='./images/button.svg' />
                             </div>
 
