@@ -6,45 +6,50 @@
 <style type="text/css">
 <![CDATA[
 	.st0{display:none;fill:#FFFFFF;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
-	.st1{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
-	.st2{display:none;fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
-	.st3{fill:#FFFFFF;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st1{display:inline;fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st3{display:none;fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st4{display:none;}
+	.st5{fill:#FFFFFF;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
 ]]>
 </style>
-<path class="st1" d="M242.5,256.5c0,0-175,65-80,65"/>
-<path class="st1" d="M274.5,256.5c0,0-102,42,0,43.5"/>
-<rect x="144.5" y="176.5" class="st2" width="14" height="9.5"/>
-<path class="st2" d="M300,367.5c0,0,86.5-210,300-121"/>
-<path class="st1" d="M0,256.5c0,0,271.5-117,600,0"/>
+<path class="st2" d="M242.5,256.5c0,0-175,65-80,65"/>
+<path class="st2" d="M274.5,256.5c0,0-102,42,0,43.5"/>
+<rect x="144.5" y="176.5" class="st3" width="14" height="9.5"/>
+<path class="st3" d="M300,367.5c0,0,86.5-210,300-121"/>
+<path class="st2" d="M0,256.5c0,0,271.5-117,600,0"/>
 <g>
 	<polyline class="st0" points="346.5,256.5 412.5,256.5 279.5,115.5 	"/>
-	<polygon class="st3" points="346.5,256.5 162.5,256.5 279.5,115.5 	"/>
+	<polygon class="st5" points="346.5,256.5 162.5,256.5 279.5,115.5 	"/>
 </g>
 <g>
-	<line class="st1" x1="176.44" y1="52.209" x2="203.595" y2="94.361"/>
-	<line class="st1" x1="213.554" y1="107.116" x2="224.56" y2="124.199"/>
-	<line class="st1" x1="110.78" y1="78.399" x2="178.156" y2="135.834"/>
+	<line class="st2" x1="176.44" y1="52.209" x2="203.595" y2="94.361"/>
+	<line class="st2" x1="213.554" y1="107.116" x2="224.56" y2="124.199"/>
+	<line class="st2" x1="110.78" y1="78.399" x2="178.156" y2="135.834"/>
 </g>
-<circle class="st1" cx="491.5" cy="82.5" r="37"/>
-<path class="st1" d="M38.5,158.5c0,0-43,35,0,33c0,0,33.231,5.877,0,26"/>
-<line class="st2" x1="194.469" y1="217.974" x2="328.26" y2="218.115"/>
-<line class="st2" x1="208.082" y1="198.568" x2="320.777" y2="199.368"/>
-<line class="st2" x1="226.599" y1="180.253" x2="309.743" y2="180.147"/>
-<line class="st2" x1="240.528" y1="163.467" x2="301.84" y2="163.514"/>
-<line class="st2" x1="252.5" y1="146.834" x2="293.43" y2="147.025"/>
-<line class="st2" x1="320.777" y1="199.368" x2="349.874" y2="190.107"/>
-<line class="st2" x1="311.834" y1="180.147" x2="335.326" y2="171.831"/>
-<line class="st2" x1="301.84" y1="163.514" x2="320.777" y2="156.831"/>
-<line class="st2" x1="293.43" y1="147.025" x2="305.384" y2="142.941"/>
-<polygon class="st2" points="279.5,115.5 169.166,239.833 333.167,239.833 365.811,218.115 "/>
-<line class="st2" x1="333.167" y1="239.833" x2="279.5" y2="115.5"/>
-<path class="st1" d="M97.755,166.499c0,0-28.243,20.764,0,19.578c0,0,21.827,3.487,0,15.425"/>
-<path class="st1" d="M437.855,85.551c0,0-7.697,33.965,33.288,44.575"/>
-<path class="st1" d="M446.738,86.76c0,0-5.897,26.026,25.508,34.156"/>
-<line class="st2" x1="279.18" y1="118.5" x2="248.833" y2="255.5"/>
-<line class="st1" x1="484.167" y1="298" x2="458.272" y2="319.5"/>
-<line class="st1" x1="493.167" y1="308" x2="467.272" y2="329.5"/>
-<line class="st1" x1="466.928" y1="303.776" x2="477.51" y2="335.726"/>
-<line class="st1" x1="477.19" y1="296.039" x2="489.249" y2="327.461"/>
-<polyline class="st3" points="279.5,119.5 346.5,256.5 382.43,224.622 279.5,115.5 "/>
+<circle class="st2" cx="491.5" cy="82.5" r="37"/>
+<path class="st2" d="M38.5,158.5c0,0-43,35,0,33c0,0,33.231,5.877,0,26"/>
+<line class="st3" x1="194.469" y1="217.974" x2="328.26" y2="218.115"/>
+<line class="st3" x1="208.082" y1="198.568" x2="320.777" y2="199.368"/>
+<line class="st3" x1="226.599" y1="180.253" x2="309.743" y2="180.147"/>
+<line class="st3" x1="240.528" y1="163.467" x2="301.84" y2="163.514"/>
+<line class="st3" x1="252.5" y1="146.834" x2="293.43" y2="147.025"/>
+<line class="st3" x1="320.777" y1="199.368" x2="349.874" y2="190.107"/>
+<line class="st3" x1="311.834" y1="180.147" x2="335.326" y2="171.831"/>
+<line class="st3" x1="301.84" y1="163.514" x2="320.777" y2="156.831"/>
+<line class="st3" x1="293.43" y1="147.025" x2="305.384" y2="142.941"/>
+<polyline class="st5" points="346.5,256.5 382.43,224.622 279.5,115.5 "/>
+<polygon class="st3" points="279.5,115.5 169.166,239.833 333.167,239.833 365.811,218.115 "/>
+<line class="st3" x1="333.167" y1="239.833" x2="279.5" y2="115.5"/>
+<path class="st2" d="M97.755,166.499c0,0-28.243,20.764,0,19.578c0,0,21.827,3.487,0,15.425"/>
+<path class="st2" d="M437.855,85.551c0,0-7.697,33.965,33.288,44.575"/>
+<path class="st2" d="M446.738,86.76c0,0-5.897,26.026,25.508,34.156"/>
+<line class="st3" x1="279.18" y1="118.5" x2="248.833" y2="255.5"/>
+<g class="st4">
+	<line class="st1" x1="484.167" y1="298" x2="458.272" y2="319.5"/>
+	<line class="st1" x1="493.167" y1="308" x2="467.272" y2="329.5"/>
+	<line class="st1" x1="466.928" y1="303.776" x2="477.51" y2="335.726"/>
+	<line class="st1" x1="477.19" y1="296.039" x2="489.249" y2="327.461"/>
+</g>
+<path class="st2" d="M279.5,119.5"/>
 </svg>
