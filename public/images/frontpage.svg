@@ -262,7 +262,7 @@
 		
 			<line fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="294.518" y1="451.704" x2="288.838" y2="471.216"/>
 		
-			<line fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="377.173" y1="452.313" x2="384.631" y2="471.216"/>
+			<line fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="355.173" y1="470.313" x2="362.631" y2="489.216"/>
 	</g>
 	<g>
 		
@@ -281,10 +281,10 @@
 			<line fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="506.018" y1="450.327" x2="492.332" y2="435.307"/>
 	</g>
 	
-		<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="337.834" y1="307.166" x2="347.393" y2="307.166"/>
-	<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="351.113" y1="304.5" x2="352.113" y2="295.831"/>
+		<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="323.834" y1="302.166" x2="333.393" y2="302.166"/>
+	<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="337.113" y1="299.5" x2="338.113" y2="290.831"/>
 	
-		<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="355.834" y1="293.166" x2="364.393" y2="294.166"/>
+		<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="341.834" y1="288.166" x2="350.393" y2="289.166"/>
 	<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M244.875,261.3"/>
 	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M256,268.834"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="248.89" y1="262.323" x2="253.526" y2="259.139"/>
@@ -310,11 +310,15 @@
 		
 			<ellipse display="inline" fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" cx="229.333" cy="328.397" rx="1.5" ry="2.467"/>
 	</g>
+	<polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="261,291.5 261,284.017 252.208,278.499 
+		252.208,285.077 	"/>
 </g>
 <g id="Layer_2_2_">
-	<ellipse fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="334.114" cy="307.166" rx="3.72" ry="2.665"/>
-	<ellipse fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="351.114" cy="307.166" rx="3.72" ry="2.665"/>
-	<ellipse fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="352.114" cy="293.166" rx="3.72" ry="2.665"/>
-	<ellipse fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="368.114" cy="294.166" rx="3.72" ry="2.665"/>
+	<ellipse fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="320.114" cy="302.166" rx="3.72" ry="2.665"/>
+	<ellipse fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="337.114" cy="302.166" rx="3.72" ry="2.665"/>
+	<ellipse fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="338.114" cy="288.166" rx="3.72" ry="2.665"/>
+	<ellipse fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="354.114" cy="289.166" rx="3.72" ry="2.665"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="336.426" y1="324.605" x2="402.709" y2="269.115"/>
 </g>
 </svg>
