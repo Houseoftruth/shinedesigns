@@ -1,35 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="483px"
-	 height="392.58px" viewBox="-316.5 -229.08 483 392.58" style="enable-background:new -316.5 -229.08 483 392.58;"
-	 xml:space="preserve">
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="1000px" viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
 <style type="text/css">
 <![CDATA[
 	.st0{fill:#FFFFFF;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
 	.st1{fill:none;stroke:#010101;stroke-width:5;stroke-miterlimit:10;}
-	.st2{fill:#FFFFFF;stroke:#010101;stroke-width:5;stroke-miterlimit:10;}
-	.st3{fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
-	.st4{fill:#DDDDDD;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
-	.st5{stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st2{font-family:'MyriadPro-Regular';}
+	.st3{display:none;enable-background:new    ;}
+	.st4{fill:#FFFFFF;stroke:#010101;stroke-width:5;stroke-miterlimit:10;}
+	.st5{fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+	.st6{font-size:72;}
+	.st7{fill:#DDDDDD;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st8{stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
 ]]>
 </style>
-<g id="Layer_1">
-	<circle class="st2" cx="55.248" cy="-42.06" r="118.101"/>
-	<line class="st1" x1="55.248" y1="-160.161" x2="-316.5" y2="-160.161"/>
-	<line class="st1" x1="55.248" y1="76.254" x2="-316.5" y2="76.254"/>
-</g>
-<g id="Layer_2">
-	<path class="st4" d="M-36.832-59.661c0,0,18.246-116.507,133.542-62.181C212.005-67.514-36.832-59.661-36.832-59.661z"/>
-	<path class="st3" d="M144.552-8.697c0,34.702-37.338,62.833-83.4,62.833c-46.061,0-83.402-28.132-83.402-62.833
-		c0-34.702,37.342-62.833,83.402-62.833C107.214-71.531,144.552-43.399,144.552-8.697z"/>
-	<path class="st4" d="M14.553-16.912L4.67-81.659c0,0,42.783-101.875,122.396-18.683l5.301,34.742c0,0-59.003-1.75-113.645,45.017
-		C17.328-19.389,15.938-18.167,14.553-16.912z"/>
-	<path class="st4" d="M111.121-2.457L11.567-17.964c0,0,53.379-43.7,117.814-48.688l72.949,5.833
-		C202.331-60.819,127.239-61.478,111.121-2.457z"/>
-	<path class="st4" d="M5.011-82.133c0,0-34.523-3.027-40.548,16.121C-41.562-46.863-24.62-10.661-24.62-10.661l38.263-7.99
-		L5.011-82.133z"/>
-	<polygon class="st5" points="66.455,-99.074 61.288,-74.968 85.436,-82.308 	"/>
-	<path class="st0" d="M-20.012-82.361c0,0-13.09,22.254,0,31.417l15.708-15.708C-4.304-66.652-16.085-62.725-20.012-82.361z"/>
-</g>
+<text transform="matrix(1 0 0 1 461.9832 703.8977)" class="st3 st2 st6">3X</text>
+<path class="st4" d="M718.746,322.206c124,0,224.53,85.733,224.53,191.481c0,105.757-100.53,191.479-224.53,191.479
+	c-124.005,0-224.53-85.722-224.53-191.479C494.216,407.94,594.741,322.206,718.746,322.206z"/>
+<line class="st1" x1="718.746" y1="322.206" x2="12" y2="322.206"/>
+<line class="st1" x1="718.746" y1="705.513" x2="12" y2="705.513"/>
+<path class="st7" d="M543.688,485.15c0,0,34.688-188.897,253.882-100.815C1016.762,472.417,543.688,485.15,543.688,485.15z"/>
+<path class="st5" d="M888.525,567.78c0,56.263-70.984,101.874-158.557,101.874c-87.568,0-158.559-45.611-158.559-101.874
+	c0-56.264,70.991-101.874,158.559-101.874C817.541,465.904,888.525,511.516,888.525,567.78z"/>
+<path class="st7" d="M641.381,554.461l-18.792-104.977c0,0,81.339-165.173,232.692-30.291l10.078,56.328
+	c0,0-112.173-2.837-216.056,72.988C646.654,550.445,644.012,552.426,641.381,554.461z"/>
+<path class="st7" d="M824.969,577.895l-189.266-25.142c0,0,101.48-70.85,223.981-78.938l138.688,9.456
+	C998.372,483.271,855.611,482.204,824.969,577.895z"/>
+<path class="st7" d="M623.238,448.714c0,0-65.634-4.907-77.086,26.138c-11.456,31.048,20.753,89.742,20.753,89.742l72.745-12.954
+	L623.238,448.714z"/>
+<polygon class="st8" points="740.052,421.248 730.228,460.332 776.135,448.431 "/>
+<path class="st0" d="M575.667,448.346c0,0-24.888,36.081,0,50.937l29.863-25.468C605.53,473.815,583.131,480.183,575.667,448.346z"
+	/>
 </svg>
