@@ -5,19 +5,19 @@
 	 width="1000px" height="1000px" viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
 <style type="text/css">
 <![CDATA[
-	.st0{fill:none;stroke:#010101;stroke-miterlimit:10;}
-	.st1{display:none;fill:none;stroke:#010101;stroke-width:5;stroke-miterlimit:10;}
-	.st2{font-family:'MyriadPro-Regular';}
-	.st3{display:none;enable-background:new    ;}
+	.st0{display:none;fill:none;stroke:#010101;stroke-width:5;stroke-miterlimit:10;}
+	.st1{font-family:'MyriadPro-Regular';}
+	.st2{display:none;enable-background:new    ;}
+	.st3{fill:none;stroke:#010101;stroke-width:3;stroke-miterlimit:10;}
 	.st4{font-size:72;}
 	.st5{display:none;fill:#FFFFFF;stroke:#010101;stroke-width:5;stroke-miterlimit:10;}
 ]]>
 </style>
-<text transform="matrix(1 0 0 1 461.9832 703.8977)" class="st3 st2 st4">3X</text>
+<text transform="matrix(1 0 0 1 461.9832 703.8977)" class="st2 st1 st4">3X</text>
 <polyline class="st5" points="306.5,396.644 499.421,464.705 697.696,404.615 "/>
-<line class="st1" x1="268.086" y1="415.307" x2="513.811" y2="494.14"/>
-<line class="st1" x1="737.812" y1="415.307" x2="492.087" y2="494.14"/>
-<polyline class="st0" points="1000,365.5 952.5,500 0,500 0,436.5 106.5,294.5 984.5,294.5 "/>
-<line class="st0" x1="0" y1="532.5" x2="952.5" y2="532.5"/>
-<line class="st0" x1="952.5" y1="532.5" x2="952.5" y2="500"/>
+<line class="st0" x1="268.086" y1="415.307" x2="513.811" y2="494.14"/>
+<line class="st0" x1="737.812" y1="415.307" x2="492.087" y2="494.14"/>
+<polyline class="st3" points="1000,270.5 952.5,405 0,405 0,341.5 106.5,199.5 984.5,199.5 "/>
+<line class="st3" x1="0" y1="437.5" x2="952.5" y2="437.5"/>
+<line class="st3" x1="952.5" y1="437.5" x2="952.5" y2="405"/>
 </svg>
