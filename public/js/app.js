@@ -193,6 +193,18 @@ $scope.darkOneTwo = function(number){
             $scope.down.play();
         }
 }
+$scope.thirdBig = false;
+$scope.thirdNormal = true;
+$scope.makeBig = function(){
+    if(!$scope.thirdBig){
+        $scope.thirdBig = true;
+        $scope.thirdNormal = false;
+    }else if ($scope.thirdBig){
+        $scope.thirdBig = false;
+        $scope.thirdNormal = true;
+    }
+  
+}
 $scope.firstImage = true;
 $scope.secondImage = false;
 $scope.thirdImage = false;

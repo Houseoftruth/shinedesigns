@@ -4,6 +4,20 @@ html, body {
     min-width:100%;
     min-height:100%;
 }
+.thirdnormal{
+   
+    height:80px;
+    width:80px;
+    transition:.5s;
+}
+.thirdbig{
+    
+    height:120px;
+    width:120px;
+    transition:.5s;
+    padding-bottom:50px;;
+   
+}
 .selectserver{
 }
 .selectserver:active{
