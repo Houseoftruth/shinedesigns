@@ -8,36 +8,37 @@
 <![CDATA[
 	.st0{display:none;fill:none;stroke:#FF8080;stroke-width:4;stroke-miterlimit:10;}
 	.st1{display:none;fill:none;stroke:#FF8080;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:#000000;stroke-width:9;stroke-miterlimit:10;}
-	.st3{display:inline;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
-	.st4{display:inline;fill:#FFFFFF;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
-	.st5{fill:none;stroke:#FFFFFF;stroke-width:10;stroke-miterlimit:10;}
-	.st6{display:inline;fill:#FF8080;}
-	.st7{display:inline;fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
-	.st8{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
-	.st9{display:inline;}
-	.st10{fill:#DDDDDD;stroke:#000000;stroke-miterlimit:10;}
-	.st11{fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
-	.st12{display:inline;fill:none;stroke:#FFFFFF;stroke-width:10;stroke-miterlimit:10;}
-	.st13{display:none;fill:none;stroke:#8383FC;stroke-miterlimit:10;}
-	.st14{fill:none;stroke:#231F20;stroke-width:9;stroke-miterlimit:10;}
-	.st15{display:none;}
-	.st16{fill:#FFFFFF;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st2{display:none;fill:#FFFFFF;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#000000;stroke-width:9;stroke-miterlimit:10;}
+	.st4{display:inline;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+	.st5{display:inline;fill:#FFFFFF;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#FFFFFF;stroke-width:10;stroke-miterlimit:10;}
+	.st7{display:inline;fill:#FF8080;}
+	.st8{display:inline;fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st9{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st10{display:inline;}
+	.st11{fill:#DDDDDD;stroke:#000000;stroke-miterlimit:10;}
+	.st12{fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+	.st13{display:inline;fill:none;stroke:#FFFFFF;stroke-width:10;stroke-miterlimit:10;}
+	.st14{display:none;fill:none;stroke:#8383FC;stroke-miterlimit:10;}
+	.st15{fill:none;stroke:#231F20;stroke-width:9;stroke-miterlimit:10;}
+	.st16{display:none;}
+	.st17{fill:#FFFFFF;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
 ]]>
 </style>
-<g id="Layer_1_1_" class="st15">
-	<g class="st9">
+<g id="Layer_1_1_" class="st16">
+	<g class="st10">
 		<g id="Layer_3">
-			<path class="st10" d="M500,153.169c167.094,0,302.543,135.452,302.543,302.542c0,29.066-4.101,57.182-11.754,83.789
+			<path class="st11" d="M500,153.169c167.094,0,302.543,135.452,302.543,302.542c0,29.066-4.101,57.182-11.754,83.789
 				c-4.146,14.41-9.335,28.387-15.479,41.827C727.601,685.718,622.271,758.252,500,758.253
 				c-129.085,0-239.288-80.848-282.741-194.661c-3.007-7.877-5.691-15.912-8.047-24.089c-7.65-26.608-11.754-54.726-11.754-83.792
 				C197.458,288.621,332.911,153.169,500,153.169z"/>
 		</g>
-		<g class="st15">
-			<line class="st7" x1="770.5" y1="578.5" x2="223.421" y2="578.5"/>
+		<g class="st16">
+			<line class="st8" x1="770.5" y1="578.5" x2="223.421" y2="578.5"/>
 		</g>
-		<g class="st15">
-			<line class="st7" x1="802.51" y1="459.527" x2="197.49" y2="459.527"/>
+		<g class="st16">
+			<line class="st8" x1="802.51" y1="459.527" x2="197.49" y2="459.527"/>
 		</g>
 		<g>
 			<path d="M455.942,417.769l-14.328,37.872h-4.824l-11.948-31.032l-11.952,31.032h-4.824l-14.256-37.872h4.896l11.883,32.184
@@ -122,7 +123,7 @@
 				c-1.488,2.448-3.524,4.313-6.12,5.58c-2.593,1.272-5.497,1.908-8.712,1.908C704.58,456.071,701.232,455.256,698.279,453.619z"/>
 		</g>
 	</g>
-	<g class="st9">
+	<g class="st10">
 		<path d="M250.5,396.779h4.752v67.395H250.5V396.779z"/>
 	</g>
 	<div  class="typewriter">
@@ -151,31 +152,31 @@
 	<path class="st1" d="M233.25,532.497c-17.5,11.75-34.743,4.003-34.743,4.003v-5.75"/>
 	<path class="st1" d="M299.509,505.75v5.75c0,0,17.241,7.746,34.741-4.003"/>
 	<path class="st1" d="M198.507,531.25c0,0,18.493,5.875,34.743-3.5"/>
-	<line class="st13" x1="232.475" y1="519.24" x2="232.763" y2="525.473"/>
-	<line class="st13" x1="232.416" y1="517.973" x2="232.475" y2="519.24"/>
+	<line class="st14" x1="232.475" y1="519.24" x2="232.763" y2="525.473"/>
+	<line class="st14" x1="232.416" y1="517.973" x2="232.475" y2="519.24"/>
 </g>
-<g id="Layer_x5F_1" class="st15">
-	<path class="st11" d="M451.602,574.534c0,5.479-4.443,9.925-9.923,9.925H357.81c-5.48,0-9.924-4.445-9.924-9.925V371.53
+<g id="Layer_x5F_1" class="st16">
+	<path class="st12" d="M451.602,574.534c0,5.479-4.443,9.925-9.923,9.925H357.81c-5.48,0-9.924-4.445-9.924-9.925V371.53
 		c0-5.48,4.442-9.923,9.924-9.923h83.87c5.479,0,9.923,4.442,9.923,9.923L451.602,574.534L451.602,574.534z"/>
-	<path class="st11" d="M626.856,574.534c0,5.479-4.442,9.925-9.923,9.925h-83.871c-5.481,0-9.924-4.445-9.924-9.925V371.53
+	<path class="st12" d="M626.856,574.534c0,5.479-4.442,9.925-9.923,9.925h-83.871c-5.481,0-9.924-4.445-9.924-9.925V371.53
 		c0-5.48,4.441-9.923,9.924-9.923h83.871c5.479,0,9.923,4.442,9.923,9.923V574.534L626.856,574.534z"/>
-	<path class="st11" d="M555.319,509.418c0,5.479-4.442,9.923-9.924,9.923h-83.87c-5.48,0-9.923-4.444-9.923-9.923V306.412
+	<path class="st12" d="M555.319,509.418c0,5.479-4.442,9.923-9.924,9.923h-83.87c-5.48,0-9.923-4.444-9.923-9.923V306.412
 		c0-5.48,4.442-9.924,9.923-9.924h83.87c5.479,0,9.924,4.443,9.924,9.924V509.418z"/>
-	<path class="st4" d="M682.485,513.875c0,10.963-8.886,19.846-19.847,19.846H332.313c-10.96,0-19.846-8.883-19.846-19.846V346.134
+	<path class="st5" d="M682.485,513.875c0,10.963-8.886,19.846-19.847,19.846H332.313c-10.96,0-19.846-8.883-19.846-19.846V346.134
 		c0-10.96,8.885-19.846,19.846-19.846h330.323c10.963,0,19.847,8.886,19.847,19.846v167.741H682.485z"/>
-	<path id="vecmap" class="st2" d="M371.824,436.633c0,26.34,16.926,47.655,37.844,47.655"/>
-	<path id="vecmap_1_" class="st3" d="M567.332,537.028c0,37.188,32.6,67.276,72.883,67.276"/>
-	<path id="vecmap_2_" class="st3" d="M425.209,533.721c0,37.186-32.598,67.274-72.881,67.274"/>
+	<path id="vecmap" class="st3" d="M371.824,436.633c0,26.34,16.926,47.655,37.844,47.655"/>
+	<path id="vecmap_1_" class="st4" d="M567.332,537.028c0,37.188,32.6,67.276,72.883,67.276"/>
+	<path id="vecmap_2_" class="st4" d="M425.209,533.721c0,37.186-32.598,67.274-72.881,67.274"/>
 </g>
-<g id="paw1" class="st15">
-	<ellipse class="st14" cx="320.487" cy="434.004" rx="4.056" ry="4.75"/>
-	<circle class="st6" cx="594.03" cy="520.914" r="103.495"/>
-	<path class="st14" d="M595.029,379.754c0,0-89.996-135.165-199.49-3.502c0,0-16.498,62.337-31.498,59.502
+<g id="paw1" class="st16">
+	<ellipse class="st15" cx="320.487" cy="434.004" rx="4.056" ry="4.75"/>
+	<circle class="st7" cx="594.03" cy="520.914" r="103.495"/>
+	<path class="st15" d="M595.029,379.754c0,0-89.996-135.165-199.49-3.502c0,0-16.498,62.337-31.498,59.502
 		c-15-2.836-43.496-4.494-47.996,18.834c-4.5,23.326,15,83.334,85.494,59.33c70.496-24.004,172.49,85.693,88.495,87.844"/>
 	
-		<ellipse transform="matrix(-0.9708 0.2401 -0.2401 -0.9708 1132.3801 719.4933)" class="st14" cx="522.365" cy="428.722" rx="38.016" ry="56.479"/>
-	<line class="st12" x1="533.369" y1="520.912" x2="654.691" y2="520.912"/>
-	<line class="st5" x1="594.85" y1="581.573" x2="594.384" y2="460.254"/>
+		<ellipse transform="matrix(-0.9708 0.2401 -0.2401 -0.9708 1132.3801 719.4933)" class="st15" cx="522.365" cy="428.722" rx="38.016" ry="56.479"/>
+	<line class="st13" x1="533.369" y1="520.912" x2="654.691" y2="520.912"/>
+	<line class="st6" x1="594.85" y1="581.573" x2="594.384" y2="460.254"/>
 </g>
 <g id="paw4">
 </g>
@@ -184,22 +185,22 @@
 <g id="paw2">
 </g>
 <g>
-	<path class="st16" d="M651.427,482.899c0,10.964-8.887,19.846-19.848,19.846H360.12c-10.96,0-19.846-8.882-19.846-19.846V372.625
+	<path class="st2" d="M651.427,482.899c0,10.964-8.887,19.846-19.848,19.846H360.12c-10.96,0-19.846-8.882-19.846-19.846V372.625
 		c0-10.959,8.886-19.848,19.846-19.848h271.46c10.961,0,19.848,8.888,19.848,19.848V482.899z"/>
 	<g>
-		<line id="vecmap_3_" class="st8" x1="346.484" y1="377.865" x2="645.021" y2="377.865"/>
+		<line id="vecmap_3_" class="st9" x1="346.484" y1="377.865" x2="645.021" y2="377.865"/>
 	</g>
 	<g>
-		<line id="vecmap_4_" class="st8" x1="388.769" y1="384.874" x2="388.769" y2="494.196"/>
+		<line id="vecmap_4_" class="st9" x1="388.769" y1="384.874" x2="388.769" y2="494.196"/>
 	</g>
 	<g>
-		<line id="vecmap_5_" class="st8" x1="611.354" y1="384.874" x2="611.354" y2="494.196"/>
+		<line id="vecmap_5_" class="st9" x1="611.354" y1="384.874" x2="611.354" y2="494.196"/>
 	</g>
 	<g>
-		<rect id="vecmaprec" x="346.484" y="401.58" class="st16" width="293.73" height="66.154"/>
+		<rect id="vecmaprec" x="346.484" y="401.58" class="st17" width="293.73" height="66.154"/>
 	</g>
 	<g>
-		<line class="st8" x1="346.484" y1="467.735" x2="640.214" y2="467.735"/>
+		<line class="st9" x1="346.484" y1="467.735" x2="640.214" y2="467.735"/>
 	</g>
 </g>
 </svg>
