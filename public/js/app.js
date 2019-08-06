@@ -199,11 +199,11 @@ $scope.makeBig = function(){
     if(!$scope.thirdBig){
         $scope.thirdBig = true;
         $scope.thirdNormal = false;
-        $scope.down.play();
+        $scope.down.tap();
     }else if ($scope.thirdBig){
         $scope.thirdBig = false;
         $scope.thirdNormal = true;
-        $scope.down.play();
+        $scope.down.tap();
     }
   
 }
