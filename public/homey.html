@@ -98,12 +98,31 @@
       <div class = "row"></div>
       
       
-      <div class = "col s4 center-align animated slideInLeft">          <img ng-click="makeBig()" class = "animated pulse infinite" ng-class="{'thirdnormal':thirdNormal, 'thirdbig':thirdBig}" src='./images/buttonselectedo.svg' />
+      <div class = "col s6 center-align animated slideInLeft">    
+        <div class = "row"></div>  
+        <div class = "row"></div>  
+        <div class = "row"></div>  
+        <div class = "row"></div>  
+        <div class = "row"></div>     
+         <img ng-click="makeBig()" class = "animated pulse infinite" ng-class="{'thirdnormal':thirdNormal, 'thirdbig':thirdBig}" src='./images/buttonselectedo.svg' />
       </div>
-      <div class = "col s4 center-align animated slideInDown">         <img style="padding-bottom:500px;"ng-click="makeBig()" class = "animated  img-responsive" src='./images/themeredsmll.svg' />
+    
+               
+     
+      <div class = "col s6 center-align animated slideInRiht">          <img ng-click="makeBig()" ng-class="{'thirdnormal':thirdNormal, 'thirdbig':thirdBig}" src='./images/buttonselectedo.svg' />
       </div>
-      <div class = "col s4 center-align animated slideInRiht">          <img ng-click="makeBig()" ng-class="{'thirdnormal':thirdNormal, 'thirdbig':thirdBig}" src='./images/buttonselectedo.svg' />
-      </div>
+
+      <div class = "col s12 center-align animated slideInDown">  
+
+          <img   ng-click="makeBig()" class = "animated  img-responsive" src='./images/themeredsmll.svg' style="position:absolute; top:-220px;  right:80px;" />
+          <img ng-show="thirdBig" style="position:absolute;" ng-click="makeBig()" class = "animated fadeIn img-responsive" src='./images/screen.svg' />
+
+        </div>
+        <!--
+        <div class = "col s12 center-align animated slideInDown">        
+                  <img ng-click="makeBig()" class = "animated  img-responsive" src='./images/screen.svg' />
+        </div>
+      -->
     
 
   
