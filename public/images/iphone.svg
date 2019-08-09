@@ -69,4 +69,5 @@
 	147.5,468 "/>
 <line fill="none" stroke="#010101" stroke-width="3" stroke-miterlimit="10" x1="952.5" y1="562.5" x2="1011.5" y2="394.5"/>
 <ellipse stroke="#000000" stroke-width="3" stroke-miterlimit="10" cx="824.5" cy="498.5" rx="25" ry="9"/>
+<path fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M788.5,501.5c0,0-1-17,25-18"/>
 </svg>
