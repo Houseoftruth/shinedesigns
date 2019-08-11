@@ -192,19 +192,18 @@
 			<line display="inline" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="45.984" y1="168.745" x2="339.716" y2="168.745"/>
 	</g>
 </g>
-<g id="paw1">
+<g id="paw1" display="none">
+	<ellipse fill="none" stroke="#231F20" stroke-width="9" stroke-miterlimit="10" cx="19.987" cy="135.015" rx="4.056" ry="4.75"/>
+	<circle display="inline" fill="#FF8080" cx="293.529" cy="221.924" r="103.495"/>
+	<path fill="none" stroke="#231F20" stroke-width="9" stroke-miterlimit="10" d="M294.529,80.765c0,0-89.996-135.165-199.491-3.502
+		c0,0-16.498,62.338-31.498,59.502s-43.495-4.494-47.995,18.834c-4.5,23.326,15,83.334,85.493,59.331
+		c70.496-24.005,172.491,85.692,88.495,87.844"/>
 	
-		<ellipse display="none" fill="none" stroke="#231F20" stroke-width="9" stroke-miterlimit="10" cx="19.987" cy="135.015" rx="4.056" ry="4.75"/>
-	<circle fill="#FF8080" cx="293.529" cy="221.924" r="103.495"/>
-	<path display="none" fill="none" stroke="#231F20" stroke-width="9" stroke-miterlimit="10" d="M294.529,80.765
-		c0,0-89.996-135.165-199.491-3.502c0,0-16.498,62.338-31.498,59.502s-43.495-4.494-47.995,18.834
-		c-4.5,23.326,15,83.334,85.493,59.331c70.496-24.005,172.491,85.692,88.495,87.844"/>
+		<ellipse transform="matrix(0.9708 -0.2401 0.2401 0.9708 -24.6588 57.0519)" fill="none" stroke="#231F20" stroke-width="9" stroke-miterlimit="10" cx="221.828" cy="129.733" rx="38.02" ry="56.485"/>
 	
-		<ellipse transform="matrix(0.9708 -0.2401 0.2401 0.9708 -24.6588 57.0519)" display="none" fill="none" stroke="#231F20" stroke-width="9" stroke-miterlimit="10" cx="221.828" cy="129.733" rx="38.02" ry="56.485"/>
+		<line display="inline" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" x1="232.869" y1="221.923" x2="354.191" y2="221.923"/>
 	
-		<line fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" x1="232.869" y1="221.923" x2="354.191" y2="221.923"/>
-	
-		<line display="none" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" x1="294.349" y1="282.583" x2="293.885" y2="161.265"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" x1="294.349" y1="282.583" x2="293.885" y2="161.265"/>
 </g>
 <g id="paw4">
 </g>
