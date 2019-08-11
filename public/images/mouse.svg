@@ -12,4 +12,5 @@
 		<ellipse transform="matrix(0.9855 0.1697 -0.1697 0.9855 6.1021 0.2822)" stroke="#010101" stroke-miterlimit="10" cx="1.4" cy="35.845" rx="3.062" ry="3.499"/>
 	<circle stroke="#010101" stroke-miterlimit="10" cx="34.719" cy="23.652" r="13.822"/>
 </g>
+<path fill="none" stroke="#010101" stroke-miterlimit="10" d="M67.643,49.75"/>
 </svg>
