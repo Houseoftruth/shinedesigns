@@ -24,8 +24,7 @@
    25% { opacity: 1;transform:translateY(0px) }
    35% { opacity: 1;transform:translateY(0px) }
    45% { opacity: 1;transform:translateY(0px) }
-   50% { opacity: 1;transform:translateY(130px) }
-  100% { opacity: 1;transform:translateY(0px) }
+  100% { opacity: 1;transform:translateY(130px) }
 } 
 	 .w3{
 		
