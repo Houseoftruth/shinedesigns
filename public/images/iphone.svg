@@ -61,15 +61,15 @@
 </g>
 <polyline fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-miterlimit="10" points="241.5,366.5 287.5,366.5 302.5,361.5 
 	332.5,361.5 "/>
-<polyline fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-miterlimit="10" points="714.5,475.5 760.5,475.5 775.5,470.5 
-	805.5,470.5 "/>
+<polyline display="none" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-miterlimit="10" points="714.5,475.5 
+	760.5,475.5 775.5,470.5 805.5,470.5 "/>
 <line fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-miterlimit="10" x1="325.5" y1="384.5" x2="351.5" y2="384.5"/>
 <ellipse display="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" cx="813.5" cy="364" rx="25" ry="9"/>
 <polyline fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-miterlimit="10" points="56.5,473 102.5,473 117.5,468 
 	147.5,468 "/>
 <line fill="none" stroke="#010101" stroke-width="3" stroke-miterlimit="10" x1="952.5" y1="562.5" x2="1011.5" y2="394.5"/>
-<ellipse stroke="#000000" stroke-width="3" stroke-miterlimit="10" cx="824.5" cy="498.5" rx="25" ry="9"/>
-<path fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M788.5,501.5c0,0-1-17,25-18"/>
+<ellipse display="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" cx="824.5" cy="498.5" rx="25" ry="9"/>
+<path display="none" fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M788.5,501.5c0,0-1-17,25-18"/>
 <g display="none">
 	
 		<ellipse display="inline" fill="none" stroke="#010101" stroke-width="3" stroke-miterlimit="10" cx="504.817" cy="453.695" rx="37.683" ry="17.5"/>
