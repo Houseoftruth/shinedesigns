@@ -4,6 +4,9 @@ html, body {
     min-width:100%;
     min-height:100%;
 }
+.brandon{
+  
+}
 .thirdnormal{
    
     height:80px;
@@ -95,8 +98,18 @@ html, body {
     height:500px;
     width:50px;
 }
+@font-face {
+  font-family: "brandon";
+  src: url(../fonts/brand_ssv/Brandon_reg.otf) format("truetype");
+}
+.opensans{
+  font-family:'Open Sans'
+}
 .montserrat{
     font-family:'Montserrat'
+}
+.brandon{
+  font-family:'brandon'
 }
 .makesmall{
     font-size:15px;
