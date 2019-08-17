@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<circle opacity="0.3" fill="#FCB1B1" stroke="#000000" stroke-miterlimit="10" cx="500" cy="455.711" r="302.542"/>
+<g id="Layer_x5F_1">
+	<path display="none" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-miterlimit="10" d="M444.525,594.475
+		c0,6.627-5.373,12-12,12H331.102c-6.627,0-12-5.373-12-12V348.983c0-6.627,5.373-12,12-12h101.424c6.627,0,12,5.373,12,12
+		L444.525,594.475L444.525,594.475z"/>
+	<path display="none" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-miterlimit="10" d="M656.459,594.475
+		c0,6.627-5.373,12-12,12H543.034c-6.627,0-12-5.373-12-12V348.983c0-6.627,5.373-12,12-12h101.425c6.627,0,12,5.373,12,12V594.475z
+		"/>
+	<path display="none" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-miterlimit="10" d="M569.949,515.729
+		c0,6.627-5.373,12-12,12H456.525c-6.627,0-12-5.373-12-12V270.237c0-6.627,5.373-12,12-12h101.424c6.627,0,12,5.373,12,12V515.729z
+		"/>
+	<path fill="#FFFFFF" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M723.729,521.118c0,13.259-10.744,24-24,24
+		H300.271c-13.255,0-24-10.741-24-24V318.272c0-13.254,10.745-24,24-24h399.457c13.256,0,24,10.746,24,24L723.729,521.118
+		L723.729,521.118z"/>
+	<path fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M686.171,483.661c0,13.259-10.744,24-24,24
+		H333.898c-13.255,0-24-10.741-24-24V350.308c0-13.254,10.745-24,24-24h328.272c13.256,0,24,10.746,24,24V483.661z"/>
+	<path id="vecmap" display="none" fill="none" stroke="#000000" stroke-width="9" stroke-miterlimit="10" d="M348.052,427.712
+		c0,31.853,20.468,57.628,45.763,57.628"/>
+	<path id="vecmap_1_" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" d="M584.477,549.118
+		c0,44.97,39.42,81.355,88.135,81.355"/>
+	<path id="vecmap_2_" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" d="M412.609,545.118
+		c0,44.97-39.42,81.355-88.135,81.355"/>
+	<g>
+		
+			<line id="vecmap_3_" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="317.407" y1="356.645" x2="678.425" y2="356.645"/>
+	</g>
+	<g>
+		
+			<line id="vecmap_4_" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="368.543" y1="365.119" x2="368.543" y2="497.322"/>
+	</g>
+	<g>
+		
+			<line id="vecmap_5_" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="637.713" y1="365.119" x2="637.713" y2="497.322"/>
+	</g>
+	<g>
+		
+			<rect id="vecmaprec" x="317.407" y="385.323" fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-miterlimit="10" width="355.205" height="80"/>
+	</g>
+	<g>
+		
+			<line fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="317.407" y1="465.323" x2="672.611" y2="465.323"/>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 461.9832 703.8977)" display="none" enable-background="new    " font-family="'MyriadPro-Regular'" font-size="72">3X</text>
+</svg>
