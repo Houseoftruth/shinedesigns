@@ -143,27 +143,27 @@ $scope.colorthree = false;
 $scope.button = 0;
 $scope.darkThemeOneTwo = function(number){
     var button = number;
-    if($scope.colorthree){
-            $scope.colorthree = false;
-            $scope.color = false;
-            $scope.colortwo = false;
+    if($scope.colorThemeThree){
+            $scope.colorThemeThree = false;
+            $scope.colorTheme = false;
+            $scope.colorThemeTwo = false;
             $scope.up.play();
 
-        }else if( $scope.color){
-            $scope.colorthree = true;
-            $scope.color = false;
-            $scope.colortwo = false;
+        }else if( $scope.colorTheme){
+            $scope.colorThemeThree = true;
+            $scope.colorTheme = false;
+            $scope.colorThemeTwo = false;
             $scope.down.play();
-        }else if( $scope.colortwo){
-            $scope.colorthree = true;
-            $scope.color = false;
-            $scope.colortwo = false;
+        }else if( $scope.colorThemeTwo){
+            $scope.colorThemeThree = true;
+            $scope.colorTheme = false;
+            $scope.colorThemeTwo = false;
             $scope.down.play();
         }
-        else if( !$scope.colortwo && !$scope.colorthree&& !$scope.color){
-            $scope.colorthree = true;
-            $scope.color = false;
-            $scope.colortwo = false;
+        else if( !$scope.colorThemeTwo && !$scope.colorThemeThree&& !$scope.colorTheme){
+            $scope.colorThemeThree = true;
+            $scope.colorTheme = false;
+            $scope.colorThemeTwo = false;
             $scope.down.play();
         }
 }
