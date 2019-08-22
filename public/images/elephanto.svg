@@ -58,4 +58,8 @@
 <circle fill="none" stroke="#000000" stroke-miterlimit="10" cx="291.557" cy="282.289" r="7.638"/>
 <line fill="none" stroke="#000000" stroke-miterlimit="10" x1="295.691" y1="285.199" x2="287.11" y2="284.495"/>
 <line fill="none" stroke="#000000" stroke-miterlimit="10" x1="296.129" y1="285.001" x2="288.449" y2="281.11"/>
+<rect x="231.294" y="202.723" transform="matrix(-0.9582 0.2862 -0.2862 -0.9582 561.3091 368.285)" fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-miterlimit="10" width="44.887" height="44.887"/>
+<rect x="203.366" y="253.054" transform="matrix(-0.9763 -0.2162 0.2162 -0.9763 386.712 593.3027)" fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-miterlimit="10" width="44.887" height="44.888"/>
+<rect x="285.058" y="222.557" transform="matrix(-0.9988 -0.0481 0.0481 -0.9988 602.8663 504.5042)" fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-miterlimit="10" width="44.886" height="44.888"/>
+<rect x="296.362" y="164.557" transform="matrix(-0.8786 0.4776 -0.4776 -0.8786 688.2118 199.0277)" fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-miterlimit="10" width="44.887" height="44.888"/>
 </svg>
