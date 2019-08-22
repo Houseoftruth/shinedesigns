@@ -2,7 +2,7 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+	 viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
 <g id="Layer_x5F_1" display="none">
 	<path fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-miterlimit="10" d="M444.525,594.475c0,6.627-5.373,12-12,12
 		H331.102c-6.627,0-12-5.373-12-12V348.983c0-6.627,5.373-12,12-12h101.424c6.627,0,12,5.373,12,12L444.525,594.475L444.525,594.475
@@ -99,8 +99,8 @@
 	740.469,643.573 615.862,601.074 "/>
 <g>
 	<circle fill="#FFFFFF" stroke="#000000" stroke-width="5" stroke-miterlimit="10" cx="453.046" cy="524.33" r="68.437"/>
-	<path fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M498.995,470.667c0,0,72.309-94.856,123.626,24.884
-		c0,0,12.438,32.652,0,35.765c0,0-77.751,45.097-71.53,54.429c0,0-9.331,24.879-24.884,0"/>
+	<path fill="#FFFFFF" stroke="#000000" stroke-width="6" stroke-miterlimit="10" d="M498.995,470.667
+		c0,0,72.309-94.856,123.626,24.884c0,0,12.438,32.652,0,35.765c0,0-77.751,45.097-71.53,54.429c0,0-9.331,24.879-24.884,0"/>
 	<g>
 		<path fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M346.482,492.071c0,0-7.487,19.657-20.633,12.262
 			c-0.29-0.163-0.58-0.341-0.874-0.53c-13.688-8.798-11.731-27.772,0-24.15c0,0,17.596-14.954,21.507,8.509"/>
