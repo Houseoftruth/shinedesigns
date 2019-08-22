@@ -2,12 +2,16 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	  viewBox="189.167 179.833 252.667 233.333"
+	 viewBox="189.167 179.833 252.667 233.333"
 	 enable-background="new 189.167 179.833 252.667 233.333" xml:space="preserve">
 <g id="Layer_2_1_">
 </g>
 <path display="none" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M241.359,284.843c0,0,24.069-39.32,57.084,0
 	C298.444,284.843,270.506,263.259,241.359,284.843z"/>
+<path opacity="0.3" stroke="#000000" stroke-miterlimit="10" d="M314.002,405.268c-45.192,0-83.94-27.586-100.325-66.837"/>
+<path opacity="0.3" stroke="#000000" stroke-miterlimit="10" d="M414.443,338.149c-16.316,39.401-55.143,67.119-100.441,67.119"/>
+<path opacity="0.3" stroke="#000000" stroke-miterlimit="10" d="M213.677,338.431c-5.375-12.876-8.344-27.007-8.344-41.832
+	c0-60.016,48.652-108.668,108.669-108.668c60.016,0,108.668,48.652,108.668,108.668c0,14.716-2.926,28.75-8.227,41.549"/>
 <circle opacity="0.3" stroke="#000000" stroke-miterlimit="10" cx="314.002" cy="296.599" r="108.668"/>
 <rect x="273.234" y="255.028" display="none" fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-miterlimit="10" width="23.706" height="96.687"/>
 <rect x="327.111" y="258.09" display="none" fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-miterlimit="10" width="23.706" height="96.688"/>
@@ -40,7 +44,7 @@
 	<path display="inline" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M285.669,311.976c0,0,12.723,3.835,12.994-1.247
 		"/>
 </g>
-<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="207.55" y1="337.542" x2="422.67" y2="337.542"/>
+<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="422.67" y1="337.542" x2="207.55" y2="337.542"/>
 <rect x="231.294" y="221.723" transform="matrix(-0.9582 0.2862 -0.2862 -0.9582 566.7474 405.4901)" fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-miterlimit="10" width="44.887" height="44.887"/>
 <rect x="203.366" y="272.054" transform="matrix(-0.9763 -0.2162 0.2162 -0.9763 382.604 630.8533)" fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-miterlimit="10" width="44.887" height="44.888"/>
 <rect x="285.058" y="241.557" transform="matrix(-0.9988 -0.0481 0.0481 -0.9988 601.9528 542.4822)" fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-miterlimit="10" width="44.886" height="44.888"/>
