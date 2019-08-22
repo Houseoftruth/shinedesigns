@@ -62,4 +62,6 @@
 <rect x="203.366" y="253.054" transform="matrix(-0.9763 -0.2162 0.2162 -0.9763 386.712 593.3027)" fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-miterlimit="10" width="44.887" height="44.888"/>
 <rect x="285.058" y="222.557" transform="matrix(-0.9988 -0.0481 0.0481 -0.9988 602.8663 504.5042)" fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-miterlimit="10" width="44.886" height="44.888"/>
 <rect x="296.362" y="164.557" transform="matrix(-0.8786 0.4776 -0.4776 -0.8786 688.2118 199.0277)" fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-miterlimit="10" width="44.887" height="44.888"/>
+<rect x="344.058" y="230.557" transform="matrix(-0.9922 0.1245 -0.1245 -0.9922 761.6487 458.4044)" fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-miterlimit="10" width="44.886" height="44.888"/>
+<rect x="366.058" y="283.557" transform="matrix(-0.9465 -0.3228 0.3228 -0.9465 657.4313 721.0265)" fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-miterlimit="10" width="44.886" height="44.888"/>
 </svg>
