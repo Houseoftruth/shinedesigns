@@ -59,6 +59,40 @@
 	c0,0,265.73-151.195,549.617-43.236c0,0-49.033,170.798-256.072,198.379C528.54,757.919,342.493,785.055,234.996,602.778z"/>
 <path display="none" fill="#7F9E3D" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M464.223,276.828
 	c0,0-78.911-29.713-127.529,42.813"/>
+<g id="Leaf_2_2_">
+	<path fill="#7F9E3D" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M493.054,309.982
+		c0,0-24.784-97.333-128.77-95.369"/>
+	<path fill="#7F9E3D" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M364.304,214.585
+		c28.398,100.053,128.731,95.423,128.731,95.423"/>
+	<path fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M493.054,309.982
+		c0,0-124.697-100.399-128.57-94.372"/>
+	<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="372.172,234.062 387.089,242.64 375.76,242.963 	"/>
+	<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="384.164,257.054 398.826,256.636 393.257,260.139 
+		402.354,263.427 393.659,268.821 	"/>
+	<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="398.745,276.139 422.47,276.117 405.557,281.815 	"/>
+	<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="416.214,289.24 424.119,286.937 421.103,292.733 	"/>
+	<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="428.934,296.83 451.639,289.947 437.097,300.293 	"/>
+	<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="460.799,251.749 437.17,249.619 454.529,245.479 	"/>
+	<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="430.246,228.5 406.793,232.085 422.657,223.912 	"/>
+	<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="481.501,279.355 473.348,278.208 478.478,274.161 	"/>
+</g>
+<g id="Leaf_2_3_">
+	<path fill="#7F9E3D" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M428.905,295.342
+		c0,0,86.405,51.206,158.465-23.791"/>
+	<path fill="#7F9E3D" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M587.375,271.584
+		C496.492,221.016,428.9,295.309,428.9,295.309"/>
+	<path fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M428.905,295.342
+		c0,0,159.149-17.354,157.617-24.354"/>
+	<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="568.031,263.397 551.422,267.897 559.196,259.65 	"/>
+	<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="543.284,255.645 533.224,266.32 534.678,259.903 
+		525.924,264.02 528.25,254.055 	"/>
+	<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="519.476,252.487 502.732,269.297 510.646,253.3 	"/>
+	<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="497.864,255.598 493.909,262.822 491.937,256.593 	"/>
+	<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="483.505,259.241 472.34,280.176 475.288,262.574 	"/>
+	<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="492.91,313.64 511.108,298.418 501.777,313.631 	"/>
+	<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="530.947,308.434 544.975,289.3 539.555,306.303 	"/>
+	<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="458.745,308.797 465.317,303.835 464.557,310.324 	"/>
+</g>
 <g id="Leaf_2_1_">
 	<path fill="#7F9E3D" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M464.648,273.642
 		c0,0-98.019-21.916-143.296,71.716"/>
