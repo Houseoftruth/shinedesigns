@@ -3,6 +3,15 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
-<polygon stroke="#000000" stroke-miterlimit="10" points="503.435,153.19 503.435,758.253 63.5,758.253 "/>
-<polygon stroke="#000000" stroke-miterlimit="10" points="503.435,153.19 503.435,758.253 943.371,758.253 "/>
+	 <style>
+	 #themo{
+	 -moz-transform: rotate(180deg) infinite;
+-webkit-transform: rotate(180deg) infinite;
+-o-transform: rotate(180deg) infinite;
+-ms-transform: rotate(180deg) infinite;
+transform: rotate(180deg) infinite;
+}
+	 </style>
+<polygon id="themo" stroke="#000000" stroke-miterlimit="10" points="503.435,153.19 503.435,758.253 63.5,758.253 "/>
+<polygon id="themo" stroke="#000000" stroke-miterlimit="10" points="503.435,153.19 503.435,758.253 943.371,758.253 "/>
 </svg>
