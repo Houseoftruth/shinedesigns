@@ -2,7 +2,8 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	  viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+	
+ viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
 <circle opacity="0.3" fill="#8383FC" stroke="#000000" stroke-miterlimit="10" enable-background="new    " cx="500" cy="453.711" r="302.542"/>
 <circle display="none" opacity="0.3" stroke="#000000" stroke-miterlimit="10" enable-background="new    " cx="500" cy="456.711" r="302.542"/>
 <g id="Layer_x5F_1" display="none">
@@ -141,14 +142,14 @@
 		c5.491,103.86,104.35,121.607,104.35,121.607"/>
 	<path fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M568.382,394.574
 		c0,0-99.313-125.563-104.427-120.544"/>
-	<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="467.357,293.727 479.999,305.402 468.881,303.203 	"/>
+	<polyline fill="#7F9E3D" stroke="#000000" stroke-miterlimit="10" points="467.357,293.727 479.999,305.402 468.881,303.203 	"/>
 	<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="473.948,318.806 488.338,321.652 482.131,323.832 
 		490.271,329.057 480.597,332.387 	"/>
 	<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="483.932,340.651 507.071,345.894 489.315,347.698 	"/>
 	<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="498.059,357.301 506.277,356.81 502.051,361.792 	"/>
 	<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="508.778,367.525 532.444,365.85 515.969,372.713 	"/>
 	<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="549.851,330.638 527.283,323.318 545.129,323.133 	"/>
-	<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="525.218,301.189 501.554,299.481 518.837,295.031 	"/>
+	<polyline fill="#7F9E3D" stroke="#000000" stroke-miterlimit="10" points="525.218,301.189 501.554,299.481 518.837,295.031 	"/>
 	<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="563.912,362.148 556.217,359.221 562.117,356.413 	"/>
 	<g id="Leaf_3">
 		<path fill="#7F9E3D" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M470.5,276.5c0,0-98,22-99,126"/>
@@ -162,9 +163,9 @@
 		<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="433.984,369.807 434.638,346.091 439.851,363.159 		"/>
 		<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="447.577,352.719 445.5,344.75 451.208,347.93 		"/>
 		<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="455.527,340.22 449.293,317.328 459.22,332.158 		"/>
-		<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="411.372,307.083 408.569,330.642 404.926,313.172 		"/>
+		<polyline fill="#7F9E3D" stroke="#000000" stroke-miterlimit="10" points="411.372,307.083 408.569,330.642 404.926,313.172 		"/>
 		<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="387.261,336.962 390.177,360.507 382.459,344.416 		"/>
-		<polyline fill="#CACAEF" stroke="#000000" stroke-miterlimit="10" points="439.556,287.176 438.177,295.293 434.279,290.05 		"/>
+		<polyline fill="#7F9E3D" stroke="#000000" stroke-miterlimit="10" points="439.556,287.176 438.177,295.293 434.279,290.05 		"/>
 	</g>
 </g>
 </svg>
