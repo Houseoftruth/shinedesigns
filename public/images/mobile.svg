@@ -50,33 +50,27 @@
 </g>
 <text transform="matrix(1 0 0 1 461.9832 703.8977)" style="display:none;enable-background:new    ; font-family:'MyriadPro-Regular'; font-size:72;">3X</text>
 <g id="Layer_3">
-	<polyline style="fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;" points="445.05,345.001 443.056,348.343 
-		364.386,479.918 	"/>
-	<path style="fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;" d="M594.506,354.808l-70.813,140.331
-		c0,0-8.479,10.795-23.045,4.732"/>
-	
-		<line style="fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;" x1="371.529" y1="491.491" x2="504.671" y2="501.576"/>
-	
-		<line style="fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;" x1="586.747" y1="348.343" x2="453.57" y2="338.741"/>
-	<path style="fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;" d="M459.542,339.17c0,0-13.385-3.714-15.096,9.173"/>
-	<path style="fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;" d="M593.584,363.873c0,0,4.096-13.274-8.73-15.354"/>
-	<path style="fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;" d="M374.814,491.738c0,0-15.817-2.825-7.983-15.921"
-		/>
-	<polyline style="fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;" points="450.617,354.737 448.619,358.078 
-		369.949,489.648 	"/>
+	<g>
+		<path style="fill:#FFFFFF;stroke:#010101;stroke-width:4;stroke-miterlimit:10;" d="M594.506,354.808l-70.813,140.331
+			c0,0-8.479,10.795-23.045,4.732l4.022,1.705l-133.142-10.085l3.285,0.247c0,0-15.817-2.825-7.983-15.921l-2.445,4.101
+			l78.67-131.575l1.994-3.342l-0.604,3.342c1.711-12.887,15.096-9.173,15.096-9.173l-5.972-0.429l133.177,9.602l-1.894,0.175
+			c12.826,2.08,8.73,15.354,8.73,15.354"/>
+	</g>
+	<polyline style="display:none;fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;" points="450.617,354.737 
+		448.619,358.078 369.949,489.648 	"/>
 	<path style="fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;" d="M600.07,364.546l-70.813,140.333
 		c0,0-8.479,10.795-23.044,4.732"/>
 	
 		<line style="fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;" x1="377.092" y1="501.222" x2="510.226" y2="511.307"/>
 	
-		<line style="fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;" x1="592.306" y1="358.078" x2="459.133" y2="348.479"/>
-	<path style="fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;" d="M465.109,348.907c0,0-13.385-3.709-15.096,9.171"
-		/>
+		<line style="display:none;fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;" x1="592.306" y1="358.078" x2="459.133" y2="348.479"/>
+	<path style="display:none;fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;" d="M465.109,348.907
+		c0,0-13.385-3.709-15.096,9.171"/>
 	<path style="fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;" d="M599.148,373.611c0,0,4.097-13.274-8.734-15.354"
 		/>
 	<path style="fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;" d="M380.377,501.478c0,0-15.813-2.819-7.985-15.926"
 		/>
-	<path style="fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;" d="M452.996,463.918
+	<path style="fill:#FFFFFF;stroke:#010101;stroke-width:4;stroke-miterlimit:10;" d="M452.996,463.918
 		c7.46,0,13.506,4.826,13.506,10.775c0,5.955-6.046,10.78-13.506,10.78s-13.506-4.826-13.506-10.78
 		C439.49,468.743,445.536,463.918,452.996,463.918z"/>
 </g>
