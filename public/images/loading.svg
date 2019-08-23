@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="1000px" viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:#484FAA;stroke:#FFFFFF;stroke-width:5;stroke-miterlimit:10;}
+	.st2{display:inline;fill:none;stroke:#000000;stroke-width:9;stroke-miterlimit:10;}
+	.st3{display:inline;fill:#7F9E3D;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st4{display:inline;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+	.st5{fill:#8383FC;stroke:#010101;stroke-width:4;stroke-miterlimit:10;}
+	.st6{display:inline;fill:#FFFFFF;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
+	.st7{display:inline;fill:#CACAEF;stroke:#000000;stroke-miterlimit:10;}
+	.st8{opacity:0.3;fill:#8383FC;stroke:#000000;stroke-miterlimit:10;enable-background:new    ;}
+	.st9{font-family:'MyriadPro-Regular';}
+	.st10{display:inline;fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st11{display:none;enable-background:new    ;}
+	.st12{display:inline;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st14{display:inline;}
+	.st15{display:none;opacity:0.3;stroke:#000000;stroke-miterlimit:10;enable-background:new    ;}
+	.st16{display:none;fill:#7F9E3D;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st17{display:inline;fill:#FFFFFF;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st18{display:none;fill:#E4E4EF;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st19{font-size:72;}
+	.st20{display:none;}
+	.st21{fill:#FFFFFF;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+]]>
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+	 #themo{
+ -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
+</style>
+<circle class="st8" cx="500" cy="453.711" r="302.542"/>
+<circle class="st15" cx="500" cy="456.711" r="302.542"/>
+<g id="Layer_x5F_1" class="st20">
+	<path class="st12" d="M444.525,594.475c0,6.627-5.373,12-12,12H331.102c-6.627,0-12-5.373-12-12V348.983c0-6.627,5.373-12,12-12
+		h101.424c6.627,0,12,5.373,12,12L444.525,594.475L444.525,594.475z"/>
+	<path class="st12" d="M656.459,594.475c0,6.627-5.37,12-12,12H543.034c-6.627,0-12-5.373-12-12V348.983c0-6.627,5.373-12,12-12
+		h101.425c6.63,0,12,5.373,12,12V594.475z"/>
+	<path class="st12" d="M569.949,515.729c0,6.627-5.373,12-12,12H456.525c-6.627,0-12-5.373-12-12V270.237c0-6.627,5.373-12,12-12
+		h101.424c6.627,0,12,5.373,12,12V515.729z"/>
+	<path class="st6" d="M723.729,521.115c0,13.262-10.744,24-24,24H300.271c-13.255,0-24-10.738-24-24V318.272
+		c0-13.254,10.745-24,24-24h399.457c13.256,0,24,10.746,24,24L723.729,521.115L723.729,521.115z"/>
+	<path class="st17" d="M686.174,483.658c0,13.262-10.744,24-24,24H333.898c-13.255,0-24-10.738-24-24V350.308
+		c0-13.254,10.745-24,24-24h328.272c13.256,0,24,10.746,24,24L686.174,483.658L686.174,483.658z"/>
+	<path id="vecmap" class="st2" d="M348.052,427.712c0,31.853,20.468,57.628,45.763,57.628"/>
+	<path id="vecmap_1_" class="st4" d="M584.477,549.115c0,44.973,39.42,81.355,88.135,81.355"/>
+	<path id="vecmap_2_" class="st4" d="M412.609,545.115c0,44.973-39.42,81.355-88.135,81.355"/>
+	<g class="st14">
+		<line id="vecmap_3_" class="st13" x1="317.407" y1="356.645" x2="678.427" y2="356.645"/>
+	</g>
+	<g class="st14">
+		<line id="vecmap_4_" class="st13" x1="368.543" y1="365.119" x2="368.543" y2="497.322"/>
+	</g>
+	<g class="st14">
+		<line id="vecmap_5_" class="st13" x1="637.716" y1="365.119" x2="637.716" y2="497.322"/>
+	</g>
+	<g class="st14">
+		<rect id="vecmaprec" x="317.407" y="385.323" class="st21" width="355.205" height="80"/>
+	</g>
+	<g class="st14">
+		<line class="st13" x1="317.407" y1="465.323" x2="672.611" y2="465.323"/>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 461.9832 703.8977)" class="st11 st9 st19">3X</text>
+<path class="st0" d="M620.219,343.602"/>
+<path class="st18" d="M383.593,609.328c0,0,41.716-44.212,15.288,15.769"/>
+<path class="st16" d="M464.223,276.828c0,0-78.911-29.714-127.529,42.813"/>
+<g id="Leaf_3_1_" class="st20">
+	<path class="st3" d="M470.5,276.5c0,0-98,22-99,126"/>
+	<path class="st3" d="M371.473,402.48c100.821-25.536,99.053-125.959,99.053-125.959"/>
+	<path class="st10" d="M470.5,276.5c0,0-103.911,121.786-97.996,125.829"/>
+	<polyline class="st7" points="391.166,395.17 400.166,380.504 400.166,391.837 	"/>
+	<polyline class="st7" points="414.49,383.839 414.49,369.17 417.834,374.837 421.381,365.837 426.523,374.682 	"/>
+	<polyline class="st7" points="433.984,369.807 434.638,346.091 439.851,363.159 	"/>
+	<polyline class="st7" points="447.577,352.719 445.5,344.75 451.209,347.93 	"/>
+	<polyline class="st7" points="455.527,340.22 449.293,317.328 459.22,332.157 	"/>
+	<polyline class="st7" points="411.372,307.083 408.569,330.642 404.927,313.172 	"/>
+	<polyline class="st7" points="387.261,336.962 390.177,360.507 382.459,344.416 	"/>
+	<polyline class="st7" points="439.556,287.176 438.177,295.293 434.279,290.05 	"/>
+</g>
+<path class="st1" d="M197.474,456.711"/>
+<line class="st5" x1="500" y1="456.711" x2="403.499" y2="456.711"/>
+<g id="triangle ">
+	<polyline id="themo" class="st5" points="500,343.602 403.5,456.711 500,456.711 	"/>
+	<polyline  id="themo" class="st5" points="499.5,343.602 596,456.711 499.5,456.711 	"/>
+</g>
+</svg>
