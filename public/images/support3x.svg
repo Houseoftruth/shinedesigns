@@ -207,12 +207,15 @@
 		<path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M432.358,448.515"/>
 	</g>
 </g>
-<g>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="200.201" y1="408.834" x2="334.358" y2="408.832"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="200.201" y1="422.834" x2="334.358" y2="422.832"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="334.358" y1="408.832" x2="334.358" y2="422.832"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="334.358" y1="408.832" x2="386.62" y2="361.921"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="334.358" y1="422.832" x2="386.62" y2="375.921"/>
+<g display="none">
+	
+		<line display="inline" fill="none" stroke="#000000" stroke-miterlimit="10" x1="200.201" y1="408.834" x2="334.358" y2="408.832"/>
+	
+		<line display="inline" fill="none" stroke="#000000" stroke-miterlimit="10" x1="200.201" y1="422.834" x2="334.358" y2="422.832"/>
+	
+		<line display="inline" fill="none" stroke="#000000" stroke-miterlimit="10" x1="334.358" y1="408.832" x2="334.358" y2="422.832"/>
+	<line display="inline" fill="none" stroke="#000000" stroke-miterlimit="10" x1="334.358" y1="408.832" x2="386.62" y2="361.921"/>
+	<line display="inline" fill="none" stroke="#000000" stroke-miterlimit="10" x1="334.358" y1="422.832" x2="386.62" y2="375.921"/>
 </g>
 <path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M416.992,420.156c0,0,54.758-7.48,47.299-44.235
 	c0,0-16.367-26.089-21.58-21.422c0,0-4.545-9.631,3.455-14.482c0,0-21.366,9.149-15.683,15.815c0,0,22.984,36.28,0,27.807"/>
@@ -223,8 +226,8 @@
 	c18.854,0,34.14,14.251,34.14,31.829c0,17.576-15.287,31.826-34.14,31.826c-16.498,0-30.264-10.91-33.448-25.411
 	c-0.455-2.072-0.693-4.217-0.693-6.415C326.423,351.877,341.708,337.626,360.564,337.626z"/>
 <ellipse fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="389" cy="424.86" rx="27.5" ry="21.58"/>
-<path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M347.486,340.05c0,0,5.202,22.209,42.864,13.855"
-	/>
+<path display="none" fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M347.486,340.05
+	c0,0,5.202,22.209,42.864,13.855"/>
 <g id="Layer_3">
 	<path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M347.486,379.678"/>
 </g>
@@ -274,4 +277,11 @@
 		</g>
 	</g>
 </g>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M458.015,251.044c0,0,11.75-4.768,15.617,7.344"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M458.614,243.645c0,0,16.869-6.845,22.421,10.544"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M460.094,235.199c0,0,22.165-8.994,29.459,13.854"/>
+<path fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M451.83,402.702c-3.859-0.914-5.766-6.818-4.258-13.189
+	c1.508-6.37,5.86-10.794,9.719-9.881c3.86,0.914,5.766,6.82,4.258,13.189C460.041,399.193,455.69,403.616,451.83,402.702z"/>
+<ellipse transform="matrix(-0.2303 0.9731 -0.9731 -0.2303 920.1085 40.615)" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="443.993" cy="384.174" rx="4.372" ry="3.507"/>
+<ellipse transform="matrix(-0.2304 0.9731 -0.9731 -0.2304 921.0227 25.0823)" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="450.593" cy="376.751" rx="2.498" ry="2.911"/>
 </svg>
