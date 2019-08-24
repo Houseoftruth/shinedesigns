@@ -140,6 +140,8 @@
 		c0,0,42.354,12.775,53.334-14.998"/>
 	
 		<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="591.147" cy="480.304" rx="19.916" ry="21.461"/>
+	<path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M572.411,487.603
+		c0,0,28.343-25.265,38.652-7.298"/>
 	
 		<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="731.771" cy="501.744" rx="39.822" ry="53.229"/>
 	
@@ -154,8 +156,6 @@
 		<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="658.351" cy="536.353" rx="26.236" ry="40.482"/>
 	
 		<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="742.151" cy="503.57" rx="22.672" ry="40.481"/>
-	<path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M572.411,487.603
-		c0,0,28.343-25.265,38.652-7.298"/>
 	
 		<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="634.368" y1="519.943" x2="671.988" y2="501.765"/>
 	
@@ -222,7 +222,7 @@
 <ellipse fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="336" cy="412.86" rx="27.5" ry="21.58"/>
 <path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M402.828,364.834l10.338,49.323
 	c-98.332,24.322-84.666-49.323-84.666-49.323"/>
-<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="318.625" cy="330.636" rx="17.889" ry="19.274"/>
+<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="319.625" cy="329.636" rx="17.889" ry="19.274"/>
 <g id="Layer_3_1_">
 	<polygon fill="#F9F9F9" stroke="#000000" stroke-miterlimit="10" points="329.275,335.865 343.901,364.298 367.962,327.938 
 		348.802,322.514 	"/>
@@ -288,4 +288,7 @@
 <ellipse transform="matrix(0.9731 0.2303 -0.2303 0.9731 99.2607 -92.0633)" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="444.018" cy="379.189" rx="3.507" ry="4.372"/>
 <ellipse transform="matrix(0.9731 0.2305 -0.2305 0.9731 97.8119 -93.843)" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="450.59" cy="371.751" rx="2.911" ry="2.498"/>
 <path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M348.379,374.556c0,0,2.348,8.705-1.725,7.164"/>
+<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="378.147" cy="328.304" rx="8.363" ry="9.012"/>
+<path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M369.784,328.304
+	c4.329-7.544,16.23,3.064,16.23,3.064"/>
 </svg>
