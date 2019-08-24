@@ -2,7 +2,7 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+	  viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
 <circle display="none" opacity="0.3" stroke="#000000" stroke-miterlimit="10" enable-background="new    " cx="500" cy="453.711" r="302.542"/>
 <circle opacity="0.3" stroke="#000000" stroke-miterlimit="10" enable-background="new    " cx="500" cy="456.711" r="302.542"/>
 <g id="Layer_x5F_1" display="none">
@@ -225,7 +225,7 @@
 <path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M360.564,337.626
 	c18.854,0,34.14,14.251,34.14,31.829c0,17.576-15.287,31.826-34.14,31.826c-16.498,0-30.264-10.91-33.448-25.411
 	c-0.455-2.072-0.693-4.217-0.693-6.415C326.423,351.877,341.708,337.626,360.564,337.626z"/>
-<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="389" cy="424.86" rx="27.5" ry="21.58"/>
+<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="394" cy="424.86" rx="27.5" ry="21.58"/>
 <path display="none" fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M347.486,340.05
 	c0,0,5.202,22.209,42.864,13.855"/>
 <g id="Layer_3">
@@ -236,6 +236,7 @@
 <path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M425.368,384.512c0,0-8.439,8.408-4.654,14.864"
 	/>
 <path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M423.579,383.639c0,0-6.176,2.642-5.541,6.814"/>
+<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="318.625" cy="330.636" rx="17.888" ry="19.274"/>
 <path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M334.815,348.395
 	c0,0-11.521-16.361,12.671-14.285c0,0-12.864-4.684-17.339,6.627c-4.475,11.311-5.073,87.483-22.389,78.501
 	c0,0-9.549-5.169-5.953-9.924c0,0-5.792,25.691,19.018,23.54C345.634,430.703,334.815,348.395,334.815,348.395z"/>
@@ -269,19 +270,18 @@
 	<g id="Layer_2_2_">
 		
 			<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="420.715" cy="327.954" rx="17.886" ry="19.275"/>
-		
-			<ellipse display="none" fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="565.625" cy="298.636" rx="17.888" ry="19.274"/>
 		<path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M416.916,315.141h7.403H416.916z"/>
 		<g>
 			<path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M387.182,315.141"/>
 		</g>
 	</g>
 </g>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M458.015,251.044c0,0,11.75-4.768,15.617,7.344"/>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M458.614,243.645c0,0,16.869-6.845,22.421,10.544"/>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M460.094,235.199c0,0,22.165-8.994,29.459,13.854"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M456.318,250.856c0,0,12.456-2.375,13.876,10.26"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M458.353,243.719c0,0,17.883-3.41,19.922,14.73"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M461.459,235.725c0,0,23.497-4.479,26.176,19.354"/>
 <path fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M451.83,402.702c-3.859-0.914-5.766-6.818-4.258-13.189
 	c1.508-6.37,5.86-10.794,9.719-9.881c3.86,0.914,5.766,6.82,4.258,13.189C460.041,399.193,455.69,403.616,451.83,402.702z"/>
 <ellipse transform="matrix(-0.2303 0.9731 -0.9731 -0.2303 920.1085 40.615)" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="443.993" cy="384.174" rx="4.372" ry="3.507"/>
 <ellipse transform="matrix(-0.2304 0.9731 -0.9731 -0.2304 921.0227 25.0823)" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="450.593" cy="376.751" rx="2.498" ry="2.911"/>
+<path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M348.378,379.556c0,0,2.348,8.705-1.724,7.164"/>
 </svg>
