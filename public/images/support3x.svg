@@ -293,12 +293,13 @@
 	<path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M387.484,307.711l10.703,10.704
 		c8.92-6.244,0-21.407,0-21.407C395.511,310.386,387.484,307.711,387.484,307.711z"/>
 	<g id="PHONE">
-		<polyline fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="361.166,410.5 370.168,405.101 
+		<polyline fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-miterlimit="10" points="361.166,410.5 370.168,405.101 
 			407.168,331.164 384.168,316.831 374.168,318.167 		"/>
-		<polygon fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="365.834,334.5 374.5,347.167 
+		<polygon fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-miterlimit="10" points="365.834,334.5 374.5,347.167 
 			354.489,385.167 341.834,385.167 333.166,398.5 361.166,410.5 399.166,334.5 374.168,318.167 		"/>
-		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="399.166" y1="334.5" x2="407.168" y2="331.164"/>
-		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="398.166" y1="332.164" x2="406.168" y2="317.831"/>
+		<line fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="399.166" y1="334.5" x2="407.168" y2="331.164"/>
+		
+			<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="398.166" y1="332.164" x2="406.168" y2="317.831"/>
 		<circle stroke="#000000" stroke-miterlimit="10" cx="406.168" cy="317.831" r="4"/>
 		<g id="Layer_2_2_">
 			
