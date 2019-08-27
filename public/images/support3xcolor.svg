@@ -2,7 +2,7 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+	 width="1000px" height="1000px" viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
 <style type="text/css">
 <![CDATA[
 	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
@@ -231,7 +231,7 @@
 		c0,0-4.547-9.631,3.453-14.482c0,0-21.364,9.149-15.683,15.815c0,0,22.984,36.278,0,27.807"/>
 	<ellipse class="st12" cx="292" cy="458.86" rx="27.5" ry="21.58"/>
 	<path class="st24" d="M358.828,410.834l10.338,49.323c-98.332,24.321-84.666-49.323-84.666-49.323"/>
-	<ellipse class="st12" cx="277.625" cy="371.636" rx="17.89" ry="19.274"/>
+	<ellipse class="st41" cx="277.625" cy="371.636" rx="17.89" ry="19.274"/>
 	<g id="Layer_3_1_">
 		<polygon class="st16" points="285.275,381.865 299.901,410.298 323.963,373.938 304.802,368.514 		"/>
 	</g>
@@ -264,10 +264,10 @@
 		<line class="st34" x1="398.166" y1="332.164" x2="406.168" y2="317.831"/>
 		<circle class="st37" cx="406.168" cy="317.831" r="4"/>
 		<g id="Layer_2_2_">
-			<ellipse class="st12" cx="376.717" cy="373.954" rx="17.886" ry="19.275"/>
+			<ellipse class="st41" cx="376.717" cy="373.954" rx="17.886" ry="19.275"/>
 			<path class="st9" d="M372.916,361.141h7.403H372.916z"/>
 			<g>
-				<path class="st12" d="M343.182,361.141"/>
+				<path class="st41" d="M343.182,361.141"/>
 			</g>
 		</g>
 	</g>
