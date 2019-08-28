@@ -2,7 +2,7 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+	 width="1000px" height="1000px" viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
 <style type="text/css">
 <![CDATA[
 	.st0{fill:#F9A7A7;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
@@ -38,9 +38,9 @@
 	.st30{display:inline;}
 	.st31{fill:#EAEAE8;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
 	.st32{display:none;opacity:0.3;stroke:#000000;stroke-miterlimit:10;enable-background:new    ;}
-	.st33{display:inline;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
-	.st34{display:none;fill:#7F9E3D;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
-	.st35{display:none;opacity:0.3;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;enable-background:new    ;}
+	.st33{opacity:0.3;fill:#8383FC;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;enable-background:new    ;}
+	.st34{display:inline;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st35{display:none;fill:#7F9E3D;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
 	.st36{display:inline;fill:#FFFFFF;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
 	.st37{display:none;fill:#E4E4EF;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
 	.st38{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
@@ -57,7 +57,7 @@
 ]]>
 </style>
 <circle class="st32" cx="500" cy="453.711" r="302.542"/>
-<circle class="st35" cx="500" cy="456.711" r="302.542"/>
+<circle class="st33" cx="500" cy="456.711" r="302.542"/>
 <g id="Layer_x5F_1" class="st45">
 	<path class="st22" d="M444.525,594.475c0,6.627-5.373,12-12,12H331.102c-6.627,0-12-5.373-12-12V348.983c0-6.627,5.373-12,12-12
 		h101.424c6.627,0,12,5.373,12,12L444.525,594.475L444.525,594.475z"/>
@@ -91,7 +91,7 @@
 <text transform="matrix(1 0 0 1 461.9832 703.8977)" class="st21 st15 st42">3X</text>
 <path class="st1" d="M620.219,343.602"/>
 <path class="st37" d="M383.594,609.325c0,0,41.716-44.212,15.288,15.771"/>
-<path class="st34" d="M464.223,276.828c0,0-78.911-29.717-127.529,42.813"/>
+<path class="st35" d="M464.223,276.828c0,0-78.911-29.717-127.529,42.813"/>
 <g id="Leaf_3_1_" class="st45">
 	<path class="st8" d="M470.5,276.5c0,0-98,22-99,126"/>
 	<path class="st8" d="M371.473,402.48c100.821-25.536,99.053-125.959,99.053-125.959"/>
@@ -198,16 +198,16 @@
 	<polygon class="st46" points="829.125,617.848 829.125,270.432 914.97,168.266 914.97,463.365 	"/>
 	<ellipse class="st48" cx="658.351" cy="563.353" rx="26.236" ry="40.482"/>
 	<ellipse class="st48" cx="742.151" cy="530.57" rx="22.672" ry="40.481"/>
-	<line class="st33" x1="634.368" y1="546.943" x2="671.988" y2="528.765"/>
-	<line class="st33" x1="633.155" y1="574.903" x2="680.822" y2="547.495"/>
-	<line class="st33" x1="643.191" y1="596.381" x2="682.345" y2="571.051"/>
-	<line class="st33" x1="724.973" y1="561.071" x2="766.345" y2="538.188"/>
-	<line class="st33" x1="721.31" y1="514.603" x2="754.41" y2="496.528"/>
+	<line class="st34" x1="634.368" y1="546.943" x2="671.988" y2="528.765"/>
+	<line class="st34" x1="633.155" y1="574.903" x2="680.822" y2="547.495"/>
+	<line class="st34" x1="643.191" y1="596.381" x2="682.345" y2="571.051"/>
+	<line class="st34" x1="724.973" y1="561.071" x2="766.345" y2="538.188"/>
+	<line class="st34" x1="721.31" y1="514.603" x2="754.41" y2="496.528"/>
 	<path class="st36" d="M762.988,514.603"/>
 	<path class="st36" d="M721.31,542.009"/>
 	<path class="st36" d="M751.65,538.854"/>
 	<path class="st36" d="M724.984,457.857"/>
-	<line class="st33" x1="720.054" y1="538.477" x2="761.429" y2="515.597"/>
+	<line class="st34" x1="720.054" y1="538.477" x2="761.429" y2="515.597"/>
 	<path class="st48" d="M486.969,581.884c9.677,0,17.521,12.945,17.521,28.922c0,15.97-7.846,28.922-17.521,28.922
 		c-9.682,0-17.523-12.952-17.523-28.922C469.443,594.829,477.288,581.884,486.969,581.884z"/>
 	<ellipse class="st48" cx="515.99" cy="621.472" rx="8.557" ry="10.667"/>
