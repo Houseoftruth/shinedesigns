@@ -23,24 +23,7 @@ app.controller('mainCtrl', ['$http','$scope','$timeout','User','$interval','$win
     $scope.fadeInRight = false;
     $scope.fadeInRight2 = false;
     $scope.fadeInRight3 = false;
-    $scope.$watch(function () {
-        console.log($window.scrollY)
-    
-
-    }, function (scrollY) {
-        
-
-        if($window.scrollY>0){
-            console.log("$window.scrollY")
-            $scope.fadeInRight = true;
-            $timeout(function(){
-                $scope.fadeInRight2 = true;
-            },10)
-            $timeout(function(){
-                $scope.fadeInRight3 = true;
-            },15)
-        }
-    });
+  
 
     $scope.contactSlideInLeft = false;
     $scope.contactSlideUpDown = false;

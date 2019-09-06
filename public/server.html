@@ -49,7 +49,7 @@
   <br>
 
 </div>
- <div class = "col s4 center-align hobby " style="border:1px solid #ddd;box-shadow:2px 2px 2px grey; border-radius: 5%;background-image:url('./images/pinkbar.svg');"ng-class="{'fadeInRight':fadeInRight3}">
+ <div class = "col s4 center-align animated hobby " style="border:1px solid #ddd;box-shadow:2px 2px 2px grey; border-radius: 5%;background-image:url('./images/pinkbar.svg');">
     <h2 style="font-size:18px;" class="montserrat"> Hobby</h2>
     <div class="divider"></div>
 
@@ -82,7 +82,7 @@
     </div>
   
  </div>
-    <div class = "col s4 center-align animated hobby2" style="border:1px solid #ddd;box-shadow:4px 4px 4px grey;border-radius: 5%;background-image:url('./images/greenbar.svg');"ng-class="{'fadeInRight':fadeInRight2}">
+    <div class = "col s4 center-align animated hobby2" style="border:1px solid #ddd;box-shadow:4px 4px 4px grey;border-radius: 5%;background-image:url('./images/greenbar.svg');">
         <h2 style="font-size:18px;" class="montserrat"> Standard</h2>
         <div class="divider"></div>
 
@@ -120,7 +120,7 @@
           </div>
    
     </div>
-    <div class = "col s4 center-align animated hobby3 " ng-class="{'fadeInRight':fadeInRight}"style="border:1px solid #ddd;border-radius: 5%; box-shadow:8px 8px 8px grey; background-image:url('./images/bluebar.svg');">
+    <div class = "col s4 center-align animated hobbyThree " ng-class="{'fadeInRight':fadeInRight}"style="border:1px solid #ddd;border-radius: 5%; box-shadow:8px 8px 8px grey; background-image:url('./images/bluebar.svg');">
       <h2 style="font-size:18px;" class="montserrat"> Professional</h2>
       <div class="divider"></div>
       <div class = "col s12">
@@ -314,7 +314,61 @@
 
 <script>
     $(document).ready(function () {
-    
+      function showImages(el) {
+        var windowHeight = jQuery( window ).height();
+        $(el).each(function(){
+            var thisPos = $(this).offset().top;
+
+            var topOfWindow = $(window).scrollTop();
+            if (topOfWindow + windowHeight - 200 > thisPos ) {
+              if(el === '.hobbyThree'){
+                setTimeout(function(){
+                  $(this).addClass("fadeInRight");
+
+                },10)
+
+              }
+               if(el === '.hobby2'){
+                setTimeout(function(){
+                  $(this).addClass("fadeInRight");
+
+                },20)
+              }
+                
+            }
+        });
+    }
+    function showImagesTwo(el) {
+        var windowHeight = jQuery( window ).height();
+        $(el).each(function(){
+            var thisPos = $(this).offset().top;
+
+            var topOfWindow = $(window).scrollTop();
+            if (topOfWindow + windowHeight - 200 > thisPos ) {
+              
+               if(el =='.hobbyThree'){
+                 console.log('log')
+               // setTimeout(function(){
+                  $(this).addClass("fadeInTop");
+
+               // },20)
+              }
+                
+            }
+        });
+    }
+    // if the image in the window of browser when the page is loaded, show that image
+    $(document).ready(function(){
+            showImages('.hobbyThree');
+            
+            showImages('.hobbyThree');
+    });
+
+    // if the image in the window of browser when scrolling the page, show that image
+    $(window).scroll(function() {
+            showImages('.hobby');
+            showImagesTwo('.hobby2');
+    });
       $('.slider').slider();
       $('.parallax').parallax();
 
