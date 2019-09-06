@@ -7,7 +7,24 @@ html, body {
 .cody{
   background-color:red;
 }
-
+.hobby{
+  opacity:0;
+}
+.hobbyTwo{
+  opacity:0;
+}
+.hobby2{
+  opacity:0;
+}
+.hobby22{
+  opacity:0;
+}
+.hobbyThree{
+  opacity:0;
+}
+.hobbyThree2{
+  opacity:0;
+}
 @-webkit-keyframes rotating /* Safari and Chrome */ {
   from {
     -webkit-transform: rotate(0deg);

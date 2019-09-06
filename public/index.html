@@ -97,8 +97,7 @@
 </body>
 </html>
 <script>
-
-function showImages3(el) {
+function showImages(el) {
     var windowHeight = jQuery( window ).height();
     $(el).each(function(){
         var thisPos = $(this).offset().top;
@@ -106,6 +105,46 @@ function showImages3(el) {
         var topOfWindow = $(window).scrollTop();
         //console.log(topof)
         if (topOfWindow + windowHeight - 1000 > thisPos ) {
+          if(el === '.hobby'){
+            var $this = $( this )
+            setTimeout(function(){
+              $($this).addClass("fadeInRight");
+
+            },100)
+
+          }
+          if(el === '.hobby2'){
+            var $this = $( this )
+
+            setTimeout(function(){
+              $($this).addClass("fadeInRight");
+
+            },200)
+          
+            
+          }
+           if(el === '.hobbyThree'){
+            var $this = $( this )
+
+            setTimeout(function(){
+              $($this).addClass("fadeInRight");
+
+            },300)
+          
+            
+          }
+            
+        }
+    });
+}
+function showImages3(el) {
+    var windowHeight = jQuery( window ).height();
+    $(el).each(function(){
+        var thisPos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+        //console.log(topof)
+        if (topOfWindow + windowHeight - 3000 > thisPos ) {
           if(el === '.hobbyTwo'){
             var $this = $( this )
             setTimeout(function(){
