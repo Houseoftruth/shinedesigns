@@ -25,19 +25,19 @@ app.controller('mainCtrl', ['$http','$scope','$timeout','User','$interval','$win
     $scope.fadeInRight3 = false;
     $scope.$watch(function () {
         console.log($window.scrollY)
+    
+
+
+    }, function (scrollY) {
         if($window.scrollY>0){
             $scope.fadeInRight = true;
             $timeout(function(){
                 $scope.fadeInRight2 = true;
             },10)
             $timeout(function(){
-                $scope.fadeInRight2 = true;
+                $scope.fadeInRight3 = true;
             },15)
         }
-
-
-    }, function (scrollY) {
-        /* logic */
     });
 
     $scope.contactSlideInLeft = false;

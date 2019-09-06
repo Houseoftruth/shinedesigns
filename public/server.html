@@ -82,7 +82,7 @@
     </div>
   
  </div>
-    <div class = "col s4 center-align hobby2" style="border:1px solid #ddd;box-shadow:4px 4px 4px grey;border-radius: 5%;background-image:url('./images/greenbar.svg');"ng-class="{'fadeInRight':fadeInRight2}">
+    <div class = "col s4 center-align animated hobby2" style="border:1px solid #ddd;box-shadow:4px 4px 4px grey;border-radius: 5%;background-image:url('./images/greenbar.svg');"ng-class="{'fadeInRight':fadeInRight2}">
         <h2 style="font-size:18px;" class="montserrat"> Standard</h2>
         <div class="divider"></div>
 
@@ -314,56 +314,7 @@
 
 <script>
     $(document).ready(function () {
-      function showImages2(el) {
-        console.log(el)
-        var windowHeight = jQuery( window ).height();
-        $(el).each(function(){
-            var thisPos = $(this).offset().top;
-
-            var topOfWindow = $(window).scrollTop();
-            if (topOfWindow + windowHeight - 200 > thisPos ) {
-           
-             
-                console.log(this)
-             
-                  $(this).addClass("animated");
-                $(this).addClass("fadeInTop");
-              
-             
-            
-            }
-        });
-    }
-      function showImages(el) {
-        console.log(el)
-        var windowHeight = jQuery( window ).height();
-        $(el).each(function(){
-            var thisPos = $(this).offset().top;
-
-            var topOfWindow = $(window).scrollTop();
-            if (topOfWindow + windowHeight - 200 > thisPos ) {
-               
-                  $(this).addClass("animated");
-                $(this).addClass("slideInRight");
-              
-            
-            
-              
-            }
-        });
-    }
-    // if the image in the window of browser when the page is loaded, show that image
-   
-            //showImages('.hobby');
-   
-
-    // if the image in the window of browser when scrolling the page, show that image
-    $(window).scroll(function() {
-            showImages('.hobby');
-            showImages2('.hobby2');
-            showImages('.hobby3');
-        
-    });
+    
       $('.slider').slider();
       $('.parallax').parallax();
 
