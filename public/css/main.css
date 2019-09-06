@@ -4,12 +4,7 @@ html, body {
     min-width:100%;
     min-height:100%;
 }
-.hobby{
-opacity:0;}
-.hobby2{
-  opacity:0;}
-  .hobby3{
-    opacity:0;}
+
 @-webkit-keyframes rotating /* Safari and Chrome */ {
   from {
     -webkit-transform: rotate(0deg);

@@ -99,7 +99,26 @@
 <script>
     $(document).ready(function () {
 
-      
+      function showImages2(el) {
+        console.log(el)
+        var windowHeight = jQuery( window ).height();
+        $(el).each(function(){
+            var thisPos = $(this).offset().top;
+
+            var topOfWindow = $(window).scrollTop();
+            if (topOfWindow + windowHeight - 200 > thisPos ) {
+           
+             
+                console.log(this)
+             
+                  $(this).addClass("animated");
+                $(this).addClass("fadeInTop");
+              
+             
+            
+            }
+        });
+    }
       function showImages(el) {
         console.log(el)
         var windowHeight = jQuery( window ).height();
@@ -108,26 +127,13 @@
 
             var topOfWindow = $(window).scrollTop();
             if (topOfWindow + windowHeight - 200 > thisPos ) {
-              if(el=== ".hobby"){
-                setTimeout(function(){
+               
                   $(this).addClass("animated");
-                $(this).addClass("fadeInRight");
-                },0)
+                $(this).addClass("slideInRight");
+              
             
-              }
-              if(el=== ".hobby2"){
-                console.log("OY")
-                setTimeout(function(){
-                  $(this).addClass("animated");
-                $(this).addClass("fadeInRight");
-                },100)
-              }
-              if(el=== ".hobby3"){
-                setTimeout(function(){
-                  $(this).addClass("animated");
-                $(this).addClass("fadeInRight");
-                },200)
-              }
+            
+              
             }
         });
     }
@@ -139,7 +145,7 @@
     // if the image in the window of browser when scrolling the page, show that image
     $(window).scroll(function() {
             showImages('.hobby');
-            showImages('.hobby2');
+            showImages2('.hobby2');
             showImages('.hobby3');
         
     });
