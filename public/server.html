@@ -313,26 +313,40 @@
  
 
 <script>
-    $(document).ready(function () {
-      function showImages(el) {
+   function showImages(el) {
         var windowHeight = jQuery( window ).height();
         $(el).each(function(){
             var thisPos = $(this).offset().top;
 
             var topOfWindow = $(window).scrollTop();
             if (topOfWindow + windowHeight - 200 > thisPos ) {
-              if(el === '.hobbyThree'){
+              if(el === '.hobby'){
+                var $this = $( this )
                 setTimeout(function(){
-                  $(this).addClass("fadeInRight");
+                  $($this).addClass("fadeInRight");
 
-                },10)
+                },100)
 
               }
-               if(el === '.hobby2'){
-                setTimeout(function(){
-                  $(this).addClass("fadeInRight");
+              if(el === '.hobby2'){
+                var $this = $( this )
 
-                },20)
+                setTimeout(function(){
+                  $($this).addClass("fadeInRight");
+
+                },200)
+              
+                
+              }
+               if(el === '.hobbyThree'){
+                var $this = $( this )
+
+                setTimeout(function(){
+                  $($this).addClass("fadeInRight");
+
+                },300)
+              
+                
               }
                 
             }
@@ -348,26 +362,28 @@
               
                if(el =='.hobbyThree'){
                  console.log('log')
-               // setTimeout(function(){
+                setInterval(function(){
                   $(this).addClass("fadeInTop");
 
-               // },20)
+                },20)
               }
                 
             }
         });
     }
+    $(document).ready(function () {
+     
     // if the image in the window of browser when the page is loaded, show that image
     $(document).ready(function(){
-            showImages('.hobbyThree');
-            
+            showImages('.hobby');
+            showImages('.hobby2');
             showImages('.hobbyThree');
     });
 
     // if the image in the window of browser when scrolling the page, show that image
     $(window).scroll(function() {
             showImages('.hobby');
-            showImagesTwo('.hobby2');
+            showImagesTwo('.hobby');
     });
       $('.slider').slider();
       $('.parallax').parallax();
