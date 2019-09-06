@@ -108,8 +108,26 @@
 
             var topOfWindow = $(window).scrollTop();
             if (topOfWindow + windowHeight - 200 > thisPos ) {
-              $(this).addClass("animated");
+              if(el=== ".hobby"){
+                setTimeout(function(){
+                  $(this).addClass("animated");
                 $(this).addClass("fadeInRight");
+                },0)
+            
+              }
+              if(el=== ".hobby2"){
+                console.log("OY")
+                setTimeout(function(){
+                  $(this).addClass("animated");
+                $(this).addClass("fadeInRight");
+                },100)
+              }
+              if(el=== ".hobby3"){
+                setTimeout(function(){
+                  $(this).addClass("animated");
+                $(this).addClass("fadeInRight");
+                },200)
+              }
             }
         });
     }
@@ -121,6 +139,8 @@
     // if the image in the window of browser when scrolling the page, show that image
     $(window).scroll(function() {
             showImages('.hobby');
+            showImages('.hobby2');
+            showImages('.hobby3');
         
     });
       $(".button-collapse").sideNav();
