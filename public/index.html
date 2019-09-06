@@ -102,7 +102,8 @@
         var thisPos = $(this).offset().top;
 
         var topOfWindow = $(window).scrollTop();
-        if (topOfWindow + windowHeight - 200 > thisPos ) {
+        //console.log(topof)
+        if (topOfWindow + windowHeight - 1500 > thisPos ) {
           if(el === '.hobby'){
             var $this = $( this )
             setTimeout(function(){
@@ -141,7 +142,7 @@ function showImagesTwo(el) {
         var thisPos = $(this).offset().top;
 
         var topOfWindow = $(window).scrollTop();
-        if (topOfWindow + windowHeight - 200 > thisPos ) {
+        if (topOfWindow + windowHeight - 1000 > thisPos ) {
           
            if(el =='.hobbyThree'){
              console.log('log')
