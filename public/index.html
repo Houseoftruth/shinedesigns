@@ -96,15 +96,17 @@
   </footer>
 </body>
 </html>
-<script>function showImages(el) {
+<script>
+
+function showImages3(el) {
     var windowHeight = jQuery( window ).height();
     $(el).each(function(){
         var thisPos = $(this).offset().top;
 
         var topOfWindow = $(window).scrollTop();
         //console.log(topof)
-        if (topOfWindow + windowHeight - 1500 > thisPos ) {
-          if(el === '.hobby'){
+        if (topOfWindow + windowHeight - 3500 > thisPos ) {
+          if(el === '.hobbyTwo'){
             var $this = $( this )
             setTimeout(function(){
               $($this).addClass("fadeInRight");
@@ -112,7 +114,7 @@
             },100)
 
           }
-          if(el === '.hobby2'){
+          if(el === '.hobby22'){
             var $this = $( this )
 
             setTimeout(function(){
@@ -122,7 +124,7 @@
           
             
           }
-           if(el === '.hobbyThree'){
+           if(el === '.hobbyThree2'){
             var $this = $( this )
 
             setTimeout(function(){
