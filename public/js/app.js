@@ -27,9 +27,11 @@ app.controller('mainCtrl', ['$http','$scope','$timeout','User','$interval','$win
         console.log($window.scrollY)
     
 
-
     }, function (scrollY) {
+        
+
         if($window.scrollY>0){
+            console.log("$window.scrollY")
             $scope.fadeInRight = true;
             $timeout(function(){
                 $scope.fadeInRight2 = true;
