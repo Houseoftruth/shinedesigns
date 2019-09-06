@@ -13,12 +13,33 @@ app.config(function($httpProvider){
 
 
 });
-app.controller('mainCtrl', ['$http','$scope','$timeout','User','$interval', function($http,$scope,$timeout,User,$interval) {
+app.controller('mainCtrl', ['$http','$scope','$timeout','User','$interval','$window', function($http,$scope,$timeout,User,$interval,$window) {
 
         
     $timeout(function(){
         $scope.loaded = true;
     },500)
+
+    $scope.fadeInRight = false;
+    $scope.fadeInRight2 = false;
+    $scope.fadeInRight3 = false;
+    $scope.$watch(function () {
+        console.log($window.scrollY)
+        if($window.scrollY>0){
+            $scope.fadeInRight = true;
+            $timeout(function(){
+                $scope.fadeInRight2 = true;
+            },10)
+            $timeout(function(){
+                $scope.fadeInRight2 = true;
+            },15)
+        }
+
+
+    }, function (scrollY) {
+        /* logic */
+    });
+
     $scope.contactSlideInLeft = false;
     $scope.contactSlideUpDown = false;
     $scope.contactSlideInRight = false;
