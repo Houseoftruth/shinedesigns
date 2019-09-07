@@ -177,6 +177,37 @@ function showImages3(el) {
         }
     });
 }
+function startupImages(el){
+  if(el === '.hobbyTwo'){
+            var $this = $( this )
+            setTimeout(function(){
+              $($this).addClass("fadeInRight");
+
+            },100)
+
+          }
+          if(el === '.hobby22'){
+            var $this = $( this )
+
+            setTimeout(function(){
+              $($this).addClass("fadeInRight");
+
+            },200)
+          
+            
+          }
+           if(el === '.hobbyThree2'){
+            var $this = $( this )
+
+            setTimeout(function(){
+              $($this).addClass("fadeInRight");
+
+            },300)
+          
+            
+          }
+            
+}
 function showImagesTwo(el) {
     var windowHeight = jQuery( window ).height();
     $(el).each(function(){
@@ -200,16 +231,19 @@ function showImagesTwo(el) {
  
 // if the image in the window of browser when the page is loaded, show that image
 $(document).ready(function(){
-        showImages('.hobby');
-        showImages('.hobby2');
-        showImages('.hobbyThree');
+        //showImages('.hobby');
+        //showImages('.hobby2');
+        //showImages('.hobbyThree');
+        startupImages('.hobby')
+        startupImages('.hobby2')
+        startupImages('.hobbyThree')
 });
 
 // if the image in the window of browser when scrolling the page, show that image
 $(window).scroll(function() {
-  showImages('.hobby');
-        showImages('.hobby2');
-        showImages('.hobbyThree');
+  //showImages('.hobby');
+        //showImages('.hobby2');
+        //showImages('.hobbyThree');
         showImages3('.hobbyTwo');
         showImages3('.hobby22');
         showImages3('.hobbyThree2');
