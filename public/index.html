@@ -103,10 +103,23 @@ function scrollFunction() {
   if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
     document.getElementById("menu").style.padding = "00px 0px";
     document.getElementById("menu").style.position = "fixed";
+    document.getElementById("links").style.display = "none";
+    document.getElementById("links2").style.display = "none";
+
+    document.getElementById("links3").style.display = "none";
+
+
+
     //document.getElementById("logo").style.fontSize = "25px";
   } else {
-    document.getElementById("menu").style.padding = "80px 10px";
+    document.getElementById("menu").style.padding = "80px ";
     document.getElementById("menu").style.position = "relative";
+    document.getElementById("links").style.display = "inline";
+    document.getElementById("links2").style.display = "inline";
+
+    document.getElementById("links3").style.display = "inline";
+    ///document.getElementById("links").style.display = "none";
+
 
    // document.getElementById("logo").style.fontSize = "35px";
   }

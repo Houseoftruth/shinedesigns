@@ -10,7 +10,9 @@ html, body {
 }
 #menu{
   transition:1s;
+  z-index:10000;
 }
+
 .cody{
   background-color:red;
 }
