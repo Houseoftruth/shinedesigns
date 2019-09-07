@@ -97,7 +97,21 @@
 </body>
 </html>
 <script>
-  function fadeOutMenu(el){
+  window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+    document.getElementById("menu").style.padding = "00px 0px";
+    document.getElementById("menu").style.position = "fixed";
+    //document.getElementById("logo").style.fontSize = "25px";
+  } else {
+    document.getElementById("menu").style.padding = "80px 10px";
+    document.getElementById("menu").style.position = "relative";
+
+   // document.getElementById("logo").style.fontSize = "35px";
+  }
+}
+  /*function fadeOutMenu(el){
     var windowHeight = jQuery( window ).height();
     $(el).each(function(){
         var thisPos = $(this).offset().top;
@@ -129,9 +143,7 @@ console.log("run")
             //setTimeout(function(){
               $($this).removeClass("fadeOut");
               $($this).addClass("fadeIn");
-              topOfWindow = $(window).scrollTop();
-              windowHeight = jQuery( window ).height();
-              thisPos = $(this).offset().top;
+            
 
            // },300)
           
@@ -172,8 +184,8 @@ console.log("run")
           }
             
         }*/
-    });
-  }
+   // });
+  //}*/
 function showImages(el) {
     var windowHeight = jQuery( window ).height();
     $(el).each(function(){
