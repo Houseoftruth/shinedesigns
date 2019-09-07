@@ -104,7 +104,38 @@
 
         var topOfWindow = $(window).scrollTop();
         //console.log(topof)
-        if (topOfWindow + windowHeight - 400 > thisPos ) {
+        if (topOfWindow + windowHeight - 700 < thisPos ) {
+          if(el === '.hobby'){
+            var $this = $( this )
+            setTimeout(function(){
+              $($this).addClass("fadeInRight");
+
+            },100)
+
+          }
+          if(el === '.hobby2'){
+            var $this = $( this )
+
+            setTimeout(function(){
+              $($this).addClass("fadeInRight");
+
+            },200)
+          
+            
+          }
+           if(el === '.menu'){
+            var $this = $( this )
+
+            //setTimeout(function(){
+              $($this).addClass("fadeIn");
+
+           // },300)
+          
+            
+          }
+            
+        }
+        if (topOfWindow + windowHeight - 700 > thisPos ) {
           if(el === '.hobby'){
             var $this = $( this )
             setTimeout(function(){
