@@ -97,6 +97,46 @@
 </body>
 </html>
 <script>
+  function fadeOutMenu(el){
+    var windowHeight = jQuery( window ).height();
+    $(el).each(function(){
+        var thisPos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+        //console.log(topof)
+        if (topOfWindow + windowHeight - 0 > thisPos ) {
+          if(el === '.hobby'){
+            var $this = $( this )
+            setTimeout(function(){
+              $($this).addClass("fadeInRight");
+
+            },100)
+
+          }
+          if(el === '.hobby2'){
+            var $this = $( this )
+
+            setTimeout(function(){
+              $($this).addClass("fadeInRight");
+
+            },200)
+          
+            
+          }
+           if(el === '.menu'){
+            var $this = $( this )
+
+            //setTimeout(function(){
+              $($this).addClass("fadeOut");
+
+           // },300)
+          
+            
+          }
+            
+        }
+    });
+  }
 function showImages(el) {
     var windowHeight = jQuery( window ).height();
     $(el).each(function(){
@@ -247,6 +287,7 @@ $(window).scroll(function() {
   //showImages('.hobby');
         //showImages('.hobby2');
         //showImages('.hobbyThree');
+        fadeOutMenu('.menu')
         showImages3('.hobbyTwo');
         showImages3('.hobby22');
         showImages3('.hobbyThree2');
