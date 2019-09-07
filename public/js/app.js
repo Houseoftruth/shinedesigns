@@ -23,8 +23,18 @@ app.controller('mainCtrl', ['$http','$scope','$timeout','User','$interval','$win
     $scope.fadeInRight = false;
     $scope.fadeInRight2 = false;
     $scope.fadeInRight3 = false;
-  
+    $timeout(function(){
+        $scope.fadeInRight = true;
 
+    },100)
+    $timeout(function(){
+        $scope.fadeInRight2= true;
+
+    },200)
+    $timeout(function(){
+        $scope.fadeInRight3 = true;
+
+    },300)
     $scope.contactSlideInLeft = false;
     $scope.contactSlideUpDown = false;
     $scope.contactSlideInRight = false;
