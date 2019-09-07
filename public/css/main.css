@@ -5,8 +5,8 @@ html, body {
     min-height:100%;
 }
 .background{
-background: rgb(253,213,255);
-background: linear-gradient(90deg, rgba(253,213,255,1) 35%, rgba(171,32,174,1) 100%);
+  background: rgb(220,157,221);
+  background: linear-gradient(90deg, rgba(220,157,221,1) 0%, rgba(253,213,255,1) 100%);
 }
 .cody{
   background-color:red;
