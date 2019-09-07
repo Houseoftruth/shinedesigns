@@ -178,6 +178,8 @@ function showImages3(el) {
     });
 }
 function startupImages(el){
+  console.log("startup")
+  $(el).each(function(){
   if(el === '.hobby'){
             var $this = $( this )
             setTimeout(function(){
@@ -188,7 +190,7 @@ function startupImages(el){
           }
           if(el === '.hobby2'){
             var $this = $( this )
-
+            console.log(2)
             setTimeout(function(){
               $($this).addClass("fadeInRight");
 
@@ -206,6 +208,7 @@ function startupImages(el){
           
             
           }
+        })
             
 }
 function showImagesTwo(el) {
