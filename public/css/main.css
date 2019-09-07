@@ -6,7 +6,7 @@ html, body {
 }
 .background{
   background: rgb(220,157,221);
-background: linear-gradient(90deg, rgba(220,157,221,1) 0%, rgba(253,213,255,1) 100%);
+  background: linear-gradient(90deg, rgba(220,157,221,1) 0%, rgba(253,213,255,1) 100%);
 }
 .cody{
   background-color:red;
@@ -302,8 +302,6 @@ background: linear-gradient(90deg, rgba(220,157,221,1) 0%, rgba(253,213,255,1) 1
     border-right:10px solid blue; 
   }
 
-  $color: #00B4FF;
-$speed: 5;
 
 .container {
   width: 400px;
