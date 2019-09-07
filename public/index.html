@@ -104,7 +104,7 @@
 
         var topOfWindow = $(window).scrollTop();
         //console.log(topof)
-        if (topOfWindow + windowHeight - 0 > thisPos ) {
+        if (topOfWindow + windowHeight - 1000 > thisPos ) {
           if(el === '.hobby'){
             var $this = $( this )
             setTimeout(function(){
@@ -125,9 +125,13 @@
           }
            if(el === '.menu'){
             var $this = $( this )
-
+console.log("run")
             //setTimeout(function(){
+              $($this).removeClass("fadeOut");
               $($this).addClass("fadeIn");
+              topOfWindow = $(window).scrollTop();
+              windowHeight = jQuery( window ).height();
+              thisPos = $(this).offset().top;
 
            // },300)
           
@@ -135,7 +139,7 @@
           }
             
         }
-        if (topOfWindow + windowHeight - 700 > thisPos ) {
+       /* if (topOfWindow + windowHeight - 2000 < thisPos ) {
           if(el === '.hobby'){
             var $this = $( this )
             setTimeout(function(){
@@ -155,17 +159,19 @@
             
           }
            if(el === '.menu'){
+             console.log("RUNNY")
             var $this = $( this )
 
             //setTimeout(function(){
               $($this).addClass("fadeOut");
+              //windowHeight= windowHeight+2000;
 
            // },300)
           
             
           }
             
-        }
+        }*/
     });
   }
 function showImages(el) {
