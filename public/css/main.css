@@ -12,7 +12,15 @@ html, body {
   transition:1s;
   z-index:10000;
 }
-
+#links{
+  transition:.3s;
+}
+#links2{
+  transition:.3s;
+}
+#links3{
+  transition:.3s;
+}
 .cody{
   background-color:red;
 }
