@@ -34,7 +34,27 @@
 
 
 <body >
- 
+  <nav >
+    <div class="nav-wrapper">
+     <a href="#"class="button-collapse" data-activates="mobile-demo" >      <a href="#" class=" button-collapse " data-activates="mobile-demo" style='font-size:60px;'><i class = "material-icons grey-text">menu</i></a>
+    </a>
+     
+      <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html"class= "ubuntu grey-text text-lighten-2" style="font-size:20px;">HOME</a></li>
+        <li><a href="/forms"class= "ubuntu grey-text text-lighten-2" style="font-size:20px;">STORAGE</a></li>
+        <li><a href="/themes"class= "ubuntu grey-text text-lighten-2" style="font-size:20px;">THEMES</a></li>
+        <li><a href="/server"class= "ubuntu grey-text text-lighten-2"style="font-size:20px;">SERVER</a></li>
+        <li><a href="/estimate"class= "ubuntu grey-text text-lighten-2"style="font-size:20px;">BUILD</a></li>
+      </ul>-->
+      <ul class="side-nav grey lighten-3" id="mobile-demo" style="width:100%">
+        <li><a href="sass.html"class= "ubuntu grey-text text-lighten-2" style="font-size:20px;">HOME</a></li>
+        <li><a href="/forms"class= "ubuntu grey-text text-lighten-2" style="font-size:20px;">STORAGE</a></li>
+        <li><a href="/themes"class= "ubuntu grey-text text-lighten-2" style="font-size:20px;">THEMES</a></li>
+        <li><a href="/server"class= "ubuntu grey-text text-lighten-2"style="font-size:20px;">SERVER</a></li>
+        <li><a href="/estimate"class= "ubuntu grey-text text-lighten-2"style="font-size:20px;">BUILD</a></li>
+      </ul>
+    </div>
+  </nav>
  
       <!--<div style="width:100%; height:100%; background-color:black; z-index: 10000; opacity: .2;"></div>-->
 <div ng-view>
@@ -345,7 +365,7 @@ $(window).scroll(function() {
 });
     $(document).ready(function () {
     
-     
+     // $('.sidenav').sidenav('methodName', paramName);
       $(".button-collapse").sideNav();
       $('.slider').slider();
       $('.parallax').parallax();
