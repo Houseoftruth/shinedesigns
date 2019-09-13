@@ -63,6 +63,17 @@
                     }
                 }
             })
+            .when('/storage', {
+                templateUrl: '../storage.html',
+                name: "SHINE BRIGHT COACHING | FORMS",
+                controller: "mainCtrl",
+                controllerAs: 'main',
+                resolve: {
+                    init: function ($route) {
+                        console.log("index")
+                    }
+                }
+            })
             .when('/themes', {
                 templateUrl: '../themes.html',
                 name: "SHINE BRIGHT COACHING | FORMS",
