@@ -4,6 +4,10 @@ html, body {
     min-width:100%;
     min-height:100%;
 }
+.menubackground{
+  background: rgb(157,193,221);
+background: linear-gradient(21deg, rgba(157,193,221,1) 0%, rgba(241,243,185,1) 8%, rgba(244,244,244,1) 100%);
+}
 .background{
   background: rgb(157,193,221);
   background: linear-gradient(90deg, rgba(157,193,221,1) 0%, rgba(216,228,237,1) 8%, rgba(244,244,244,1) 100%);
