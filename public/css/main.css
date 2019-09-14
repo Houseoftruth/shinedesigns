@@ -19,7 +19,7 @@ background: linear-gradient(21deg, rgba(157,193,221,1) 0%, rgba(216,228,237,1) 8
 }
 #menu{
   transition:.5s;
-  z-index:10;
+  z-index: 1030;
 }
 #links{
   transition:.3s;
