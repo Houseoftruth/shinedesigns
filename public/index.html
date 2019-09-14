@@ -401,6 +401,11 @@ $(window).scroll(function() {
       $('.scrollspy').scrollSpy({
         scrollOffset: 115
       });
+      $('.sidenav')
+        .sidenav()
+        .on('click tap', 'li a', () => {
+            $('.sidenav').sidenav('close');
+        });
 
       $(".dropdown-trigger").dropdown();
 
