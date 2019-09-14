@@ -4,6 +4,7 @@ html, body {
     min-width:100%;
     min-height:100%;
 }
+.sidenav-overlay{opacity: 0;}
 .no-shadows {
   box-shadow: none!important;
 }
