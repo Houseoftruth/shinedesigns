@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="250px" height="250px" viewBox="178.5 142.5 636 624" style="enable-background:new 178.5 142.5 636 624;"
+	 xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st2{opacity:0.3;fill:#FCB1B1;stroke:#000000;stroke-miterlimit:10;enable-background:new    ;}
+	.st3{fill:#FFFFFF;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+]]>
+</style>
+<g id="Layer_1_1_">
+	<g id="Layer_3">
+		<path class="st2" d="M500,153.169c167.092,0,302.543,135.452,302.543,302.542c0,29.068-4.101,57.182-11.754,83.789
+			c-4.146,14.412-9.335,28.387-15.479,41.829C727.601,685.718,622.271,758.252,500,758.253
+			c-129.085,0-239.288-80.846-282.741-194.661c-3.007-7.877-5.693-15.912-8.047-24.089c-7.652-26.608-11.754-54.724-11.754-83.792
+			C197.458,288.621,332.911,153.169,500,153.169z"/>
+	</g>
+	<g>
+		<line class="st1" x1="770.5" y1="578.5" x2="223.421" y2="578.5"/>
+	</g>
+	<g>
+		<line class="st1" x1="802.51" y1="459.527" x2="197.49" y2="459.527"/>
+	</g>
+</g>
+<g id="Layer_2">
+	<path class="st0" d="M479.5,527.5c0,6.627-5.371,12-12,12h-113c-6.627,0-12-5.373-12-12v-94c0-6.629,5.373-12,12-12h113
+		c6.629,0,12,5.371,12,12V527.5z"/>
+	<path class="st3" d="M645.5,527.5c0,6.627-5.371,12-12,12h-279c-6.627,0-12-5.373-12-12v-151c0-6.627,5.373-12,12-12h279
+		c6.629,0,12,5.373,12,12V527.5z"/>
+	<polygon class="st3" points="645.5,527.5 655,510 655,369.5 645.5,379 	"/>
+	<path class="st1" d="M352,364.375l284.5,0.125l8-5.75c5.941,0,10.75,5.03,10.75,11.25"/>
+	<g>
+		<polygon class="st3" points="642.5,358.75 636.5,364.5 353.5,364.375 370.5,358.75 		"/>
+	</g>
+	<path class="st1" d="M481.5,361c0-4.977,3.133-9,7-9h17c3.869,0,7,4.023,7,9"/>
+</g>
+</svg>
