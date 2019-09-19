@@ -291,6 +291,46 @@ function showImages(el) {
         }
     });
 }
+function showImages4(el) {
+    var windowHeight = jQuery( window ).height();
+    $(el).each(function(){
+        var thisPos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+        //console.log(topof)
+        if (topOfWindow + windowHeight - 1200 > thisPos ) {
+          if(el === '.hobby2'){
+            var $this = $( this )
+            setTimeout(function(){
+              $($this).addClass("fadeIn");
+
+            },100)
+
+          }
+          if(el === '.hobby2'){
+            var $this = $( this )
+
+            setTimeout(function(){
+              $($this).addClass("fadeIn");
+
+            },200)
+          
+            
+          }
+           if(el === '.hobby3'){
+            var $this = $( this )
+
+            setTimeout(function(){
+              $($this).addClass("fadeIn");
+
+            },300)
+          
+            
+          }
+            
+        }
+    });
+}
 function showImages3(el) {
     var windowHeight = jQuery( window ).height();
     $(el).each(function(){
@@ -298,7 +338,7 @@ function showImages3(el) {
 
         var topOfWindow = $(window).scrollTop();
         //console.log(topof)
-        if (topOfWindow + windowHeight - 2200 > thisPos ) {
+        if (topOfWindow + windowHeight - 1200 > thisPos ) {
           if(el === '.hobbyTwo'){
             var $this = $( this )
             setTimeout(function(){
@@ -402,9 +442,9 @@ $(window).scroll(function() {
         //showImages('.hobby2');
         //showImages('.hobbyThree');
         //fadeOutMenu('.menu')
-        showImages3('.hobbyTwo');
-        showImages3('.hobby22');
-        showImages3('.hobbyThree2');
+        showImages4('.hobbyTwo');
+        showImages4('.hobby22');
+        showImages4('.hobbyThree2');
 });
     $(document).ready(function () {
     
