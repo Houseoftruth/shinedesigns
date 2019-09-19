@@ -40,6 +40,20 @@ background: linear-gradient(21deg, rgba(157,193,221,1) 0%, rgba(216,228,237,1) 8
 .hobby{
   
   opacity:0;
+}.Fixed
+{
+  display: inline; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
 }
 .hobbyTwo{
   opacity:0;
