@@ -387,14 +387,14 @@ function showImagesTwo(el) {
 
  
 // if the image in the window of browser when the page is loaded, show that image
-$(document).ready(function(){
+//$(document).ready(function(){
         //showImages('.hobby');
         //showImages('.hobby2');
         //showImages('.hobbyThree');
         //startupImages('.hobby')
         //startupImages('.hobby2')
         //startupImages('.hobbyThree')
-});
+//});
 
 // if the image in the window of browser when scrolling the page, show that image
 $(window).scroll(function() {
@@ -416,12 +416,7 @@ $(window).scroll(function() {
       $('.scrollspy').scrollSpy({
         scrollOffset: 115
       });
-      $('.sidenav')
-        .sidenav()
-        .on('click tap', 'li a', () => {
-            $('.sidenav').sidenav('close');
-        });
-
+     
       $(".dropdown-trigger").dropdown();
      // $(".button-collapse").sideNav()
     });
