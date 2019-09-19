@@ -291,6 +291,39 @@ function showImages(el) {
         }
     });
 }
+function showImages5(el) {
+    var windowHeight = jQuery( window ).height();
+    $(el).each(function(){
+        var thisPos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+        //console.log(topof)
+        if (topOfWindow + windowHeight - 5970 > thisPos ) {
+        
+          if(el === '.hobby2'){
+            var $this = $( this )
+
+            setTimeout(function(){
+              $($this).addClass("fadeIn");
+
+            },200)
+          
+            
+          }
+           if(el === '.hobby3'){
+            var $this = $( this )
+
+            setTimeout(function(){
+              $($this).addClass("fadeIn");
+
+            },300)
+          
+            
+          }
+            
+        }
+    });
+}
 function showImages4(el) {
     var windowHeight = jQuery( window ).height();
     $(el).each(function(){
@@ -443,7 +476,7 @@ $(window).scroll(function() {
         //showImages('.hobbyThree');
         //fadeOutMenu('.menu')
         showImages4('.hobby');
-        showImages4('.hobby2');
+        showImages5('.hobby2');
         showImages4('.hobbyThree');
 });
     $(document).ready(function () {
