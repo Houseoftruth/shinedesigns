@@ -11,7 +11,16 @@
 
         $routeProvider
 
-
+        .when('/pricing', {
+            templateUrl: '../pricing.html',
+            controller: 'mainCtrl',
+            name: "SHINE BRIGHT COACHING | HOME",
+            resolve: {
+                init: function ($route) {
+                    //console.log("index")
+                }
+            }
+        })
             .when('/server', {
                 templateUrl: '../estimate.html',
                 controller: 'mainCtrl',
