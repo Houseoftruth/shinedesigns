@@ -29,6 +29,19 @@
 	.st21{fill:#FF0000;stroke:#000000;stroke-miterlimit:10;}
 	.st22{display:none;}
 ]]>
+.eye{
+ -webkit-transform-origin: 50%;
+    -webkit-animation: blink 5s infinite;
+}
+@-webkit-keyframes blink {
+    0%, 100% {
+        transform: scale(1, .05);
+    }
+    5%,
+    95% {
+        transform: scale(1, 1);
+    }
+}
 </style>
 <g id="Layer_1">
 	<g id="Layer_1_1_" class="st22">
@@ -181,9 +194,11 @@
 	<path class="st3" d="M416.5,400.209c0,0-26-78.709-89-33.709c0,0-40,67-77,19c0,0-18-68,54-78c0,0,41-26-25-42
 		c0,0,115-0.681,44,68.66"/>
 	<path class="st9" d="M284.5,355.5c0,0,45-110.681,158-29.34"/>
-	<ellipse class="st10" cx="441.172" cy="367.521" rx="15.672" ry="24.5"/>
-	
-		<ellipse transform="matrix(0.9963 0.0855 -0.0855 0.9963 32.7665 -31.3174)" class="st10" cx="382" cy="366.875" rx="9.5" ry="22.854"/>
+	<g id="eye2000" class="eye">
+		<ellipse class="st10" cx="441.172" cy="367.521" rx="15.672" ry="24.5"/>
+		
+			<ellipse transform="matrix(0.9963 0.0855 -0.0855 0.9963 32.7665 -31.3174)" class="st10" cx="382" cy="366.875" rx="9.5" ry="22.854"/>
+	</g>
 	<path class="st10" d="M447.5,334.021c0,0,28,2,24,33.5"/>
 	<path class="st8" d="M391.667,288.5c0,0-53.167,53-91.167,0"/>
 	<path class="st8" d="M311.5,224.5c0,0,52,38.418-11,52.709"/>
