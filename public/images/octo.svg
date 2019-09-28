@@ -290,6 +290,7 @@
 
 	var s = Snap("#eli");
 	var s2 = Snap("#eli2");
+	var animating = false;
 	var matrix = s2.transform().localMatrix;
 	console.log(s.attr("fill"))
 	console.log(s2)
@@ -303,34 +304,42 @@
     "fill-opacity": 0.5, // or dash-separated names
     width: "*=2" // prefixed values
 });*/
+
 var anim1 = function() {
-    s.animate({ry: 1}, 200,anim2)
-	s2.animate({transform:"t293.2798,62.8417, r94.905,0,0"}, 200)
-	s2.animate({rx: 1}, 200,anim2)
+    
+	s2.animate({transform:"t293.2798,62.8417, r94.905,0,0"}, 200,anim3)
+	
+}
+var anim3 = function(){
+s.animate({ry: 1}, 200)
+s2.animate({rx: 1}, 200,anim2)
+console.log("HERE")
 }
 
 var anim2 = function() {
     s.animate({ry: 15.852}, 200,function(){
 	
-
 	setTimeout(function(){
 	anim1()
 	},5000)
+
 	})
 
 	s2.animate({rx: 15.852}, 200,	function(){
 		
-
-	setTimeout(function(){
+	/*setTimeout(function(){
 	anim1()
-	},5000)
+	},5000)*/
 	}
 	)
 
 }
 
+if(animating == false){
 anim1()
 console.log(s.attr("rx"))
+}
+
 
 ;
 
