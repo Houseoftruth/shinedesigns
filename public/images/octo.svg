@@ -186,7 +186,7 @@
 	<path class="st8" d="M50.286,158.136c0,0,31.167-76.659,109.431-20.321"/>
 	<ellipse id="eli" class="st9" cx="158.798" cy="166.461" rx="10.854" ry="16.969"/>
 	
-		<ellipse transform="matrix(-0.0855 0.9963 -0.9963 -0.0855 293.2798 62.8417)" class="st9" cx="117.801" cy="166.013" rx="15.827" ry="6.579"/>
+		<ellipse id="eli2" transform="matrix(-0.0855 0.9963 -0.9963 -0.0855 293.2798 62.8417)" class="st9" cx="117.801" cy="166.013" rx="15.827" ry="6.579"/>
 	<path class="st9" d="M163.18,143.259c0,0,19.393,1.385,16.622,23.202"/>
 	<path class="st7" d="M124.51,111.731c0,0-36.824,36.708-63.145,0"/>
 	<path class="st7" d="M68.986,67.405c0,0,36.015,26.608-7.619,36.508"/>
@@ -289,7 +289,13 @@
 <script type="text/javascript"><![CDATA[
 
 	var s = Snap("#eli");
+	var s2 = Snap("#eli2");
+	var matrix = s2.transform().localMatrix;
 	console.log(s.attr("fill"))
+	console.log(s2)
+	console.log(matrix)
+	console.log(matrix.toTransformString())
+	var tMatrix = matrix.toTransformString()
 	/*s.attr({
     fill: "#fc0",
     stroke: "#000",
@@ -299,15 +305,28 @@
 });*/
 var anim1 = function() {
     s.animate({ry: 1}, 200,anim2)
+	s2.animate({transform:"t293.2798,62.8417, r94.905,0,0"}, 200)
+	s2.animate({rx: 1}, 200,anim2)
 }
 
 var anim2 = function() {
     s.animate({ry: 15.852}, 200,function(){
+	
+
+	setTimeout(function(){
+	anim1()
+	},5000)
+	})
+
+	s2.animate({rx: 15.852}, 200,	function(){
+		
+
 	setTimeout(function(){
 	anim1()
 	},5000)
 	}
 	)
+
 }
 
 anim1()
