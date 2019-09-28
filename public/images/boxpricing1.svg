@@ -28,6 +28,25 @@
 	.st20{fill:#FF0000;stroke:#000000;stroke-miterlimit:10;}
 	.st21{display:none;}
 ]]>
+#eye {
+  -webkit-animation: squeeze 1s infinite;
+          animation: squeeze 1s infinite;
+}
+@keyframes squeeze {
+  90% {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  93% {
+    translate(80 160) scale(1 0.0) translate(-80 20)"
+  }
+  100% {
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
 </style>
 <g id="Layer_1_2_">
 	<g id="Layer_1_1_" class="st21">
@@ -180,9 +199,11 @@
 	<path class="st2" d="M141.709,189.101c0,0-18.008-54.514-61.642-23.347c0,0-27.704,46.404-53.331,13.16
 		c0,0-12.467-47.097,37.4-54.023c0,0,28.397-18.007-17.315-29.089c0,0,79.65-0.472,30.475,47.555"/>
 	<path class="st8" d="M50.286,158.136c0,0,31.167-76.659,109.431-20.321"/>
-	<ellipse class="st9" cx="158.798" cy="166.461" rx="10.854" ry="16.969"/>
+	<ellipse id="eye" class="st9" cx="158.798" cy="166.461" rx="10.854" ry="16.969" transform="translate(80 160) scale(1 0.0) translate(-80 30)"
+/>
 	
-		<ellipse transform="matrix(0.0855 -0.9963 0.9963 0.0855 -57.6656 269.1814)" class="st9" cx="117.804" cy="166.004" rx="15.828" ry="6.579"/>
+		<ellipse id="eye_1_" transform="matrix(0.0855 -0.9963 0.9963 0.0855 -57.6656 269.1814)
+ " class="st9" style="display:none;" cx="117.804" cy="166.004" rx="15.828" ry="6.579"/>
 	<path class="st9" d="M163.18,143.259c0,0,19.393,1.385,16.622,23.202"/>
 	<path class="st7" d="M124.51,111.731c0,0-36.824,36.708-63.143,0"/>
 	<path class="st7" d="M68.986,67.405c0,0,36.015,26.608-7.619,36.506"/>

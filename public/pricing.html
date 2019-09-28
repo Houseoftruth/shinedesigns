@@ -77,7 +77,7 @@
     </div>
 
 <div class = "row">
-  <div class = "col s4" style="background-image:url('./images/boxpricing1.svg');">
+  <div class = "col s4"  style="background-image:url('./images/boxpricing1.svg');">
     <br>
     <br>
     <br>
@@ -92,7 +92,7 @@
     <br>
     <p class="montserrat  center-align" style="font-size:50px;">Basic</p>
   </div>
-  <div class = "col s4 center-align" style="background-image:url('./images/boxpricing.svg');">
+  <div class = "col s4 center-align" style="background-image:url('./images/boxpricing1closed.svg');">
       <br>
       <br>
       <br>
@@ -108,7 +108,7 @@
     <p class="montserrat" style="font-size:50px;">Standard</p>
   </div>
 
-  <div class = "col s4 center-align" style="background-image:url('./images/boxpricingblue.svg');">
+  <div class = "col s4 center-align" id="svg" style="background-image:url('./images/octo.svg');">
       <br>
       <br>
       <br>
@@ -570,7 +570,14 @@
 
     $(document).ready(function () {
 
+      var s = Snap("#svg");
+      Snap.load("./images/octo.svg", onSVGLoaded ) ;
 
+function onSVGLoaded( data ){ 
+    s.append( data );
+    console.log(data)
+}
+      console.log(s)
       $('.slider').slider();
       $('.parallax').parallax();
 

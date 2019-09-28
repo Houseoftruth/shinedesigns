@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="450px" height="496px" viewBox="0 0 450 496" style="enable-background:new 0 0 450 496;" xml:space="preserve">
+
+<svg id="eye" version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="315px" height="207px" viewBox="10.5 60.5 315 207" style="enable-background:new 10.5 60.5 315 207;" xml:space="preserve"
+	>
+	<script xlink:href="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg.js" />
+
 <style type="text/css">
 <![CDATA[
 	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
@@ -180,9 +184,9 @@
 	<path class="st2" d="M141.709,189.101c0,0-18.008-54.514-61.642-23.347c0,0-27.704,46.402-53.331,13.16
 		c0,0-12.467-47.099,37.4-54.023c0,0,28.396-18.007-17.315-29.089c0,0,79.65-0.472,30.475,47.555"/>
 	<path class="st8" d="M50.286,158.136c0,0,31.167-76.659,109.431-20.321"/>
-	<ellipse class="st9" cx="158.798" cy="166.461" rx="10.854" ry="16.969"/>
+	<ellipse id="eli" class="st9" cx="158.798" cy="166.461" rx="10.854" ry="16.969"/>
 	
-		<ellipse id="eye" transform="matrix(-0.0855 0.9963 -0.9963 -0.0855 293.2798 62.8417)" class="st9" cx="117.801" cy="166.013" rx="15.827" ry="6.579"/>
+		<ellipse transform="matrix(-0.0855 0.9963 -0.9963 -0.0855 293.2798 62.8417)" class="st9" cx="117.801" cy="166.013" rx="15.827" ry="6.579"/>
 	<path class="st9" d="M163.18,143.259c0,0,19.393,1.385,16.622,23.202"/>
 	<path class="st7" d="M124.51,111.731c0,0-36.824,36.708-63.145,0"/>
 	<path class="st7" d="M68.986,67.405c0,0,36.015,26.608-7.619,36.508"/>
@@ -282,4 +286,37 @@
 	<line class="st19" x1="241.683" y1="116.349" x2="243.409" y2="118.413"/>
 	<path class="st19" d="M263.908,87.413"/>
 </g>
+<script type="text/javascript"><![CDATA[
+
+	var s = Snap("#eli");
+	console.log(s.attr("fill"))
+	/*s.attr({
+    fill: "#fc0",
+    stroke: "#000",
+    strokeWidth: 8, // CamelCase...
+    "fill-opacity": 0.5, // or dash-separated names
+    width: "*=2" // prefixed values
+});*/
+var anim1 = function() {
+    s.animate({ry: 1}, 200,anim2)
+}
+
+var anim2 = function() {
+    s.animate({ry: 15.852}, 200,function(){
+	setTimeout(function(){
+	anim1()
+	},5000)
+	}
+	)
+}
+
+anim1()
+console.log(s.attr("rx"))
+
+;
+
+
+	
+
+]]></script>
 </svg>
