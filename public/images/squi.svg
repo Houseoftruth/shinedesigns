@@ -24,6 +24,25 @@
 	.st14{stroke:#000000;stroke-miterlimit:10;}
 	.st15{display:none;}
 ]]>
+#smoke{
+		 stroke-dasharray:1000;
+		 stroke-dashoffset:0;
+		 -webkit-animation:dash 3s infinite linear forwards;
+		 }
+		 #smoke_1_{
+		 stroke-dasharray:1000;
+		 stroke-dashoffset:0;
+		 -webkit-animation:dash 3.2s infinite linear forwards;
+		 }
+ @-webkit-keyframes dash{
+
+		 from{
+		 stroke-dashoffset:2200;
+		 }
+		 to{
+		 stroke-dashoffset:0;
+		 }
+		 }
 </style>
 <g id="Layer_2">
 </g>
@@ -39,8 +58,6 @@
 	<path class="st0" d="M186.559,115.368"/>
 	<path class="st12" d="M67.598,125.726c0,0-21.68-12.115-23.593,13.391c0,0,4.464,39.536,41.448,29.334c0,0,5.925,0.637,7.745-5.104
 		c1.819-5.739,5.646-20.062,15.848-11.307"/>
-	<path class="st12" d="M81.589,116.765c0,0,10.441-7.753-6.851-8.945c0,0-19.093-10.136,6.851-13.117"/>
-	<path class="st12" d="M95.378,109.402c0,0,5.174-6.683-5.809-7.087"/>
 	<ellipse class="st10" cx="20.924" cy="-266.982" rx="37.288" ry="46.017"/>
 	<ellipse class="st2" cx="42.703" cy="-255.569" rx="33.898" ry="44.507"/>
 	<circle class="st4" cx="98.229" cy="-266.969" r="20.339"/>
@@ -129,9 +146,11 @@
 	<path class="st6" d="M172.774,123.704"/>
 	<path id="eli_1_" class="st15" d="M144.492,113.934c0,3.738-2.63,6.774-5.873,6.774c-3.245,0-5.873-3.036-5.873-6.774
 		c0-3.746,2.628-6.777,5.873-6.777C141.862,107.156,144.492,110.188,144.492,113.934z"/>
+	<path id="smoke" class="st7" d="M72.333,116.765c0,0,5.526-5.456-3.154-7.362s-5.795-8.239,7.346-10.406"/>
+	<path id="smoke_1_" class="st7" d="M81.415,109.765c0,0-5.526-5.456,3.154-7.362s5.795-8.239-7.346-10.406"/>
 </g>
 <g id="dogi">
-	<ellipse id = "eli" class="st14" cx="138.619" cy="112.127" rx="5.578" ry="6.268"/>
+	<ellipse id="eli" class="st14" cx="138.619" cy="112.127" rx="5.578" ry="6.268"/>
 </g>
 <g id="Layer_4">
 </g>
