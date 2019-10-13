@@ -5,14 +5,14 @@
 	 height="496px" viewBox="0 0 450 496" style="enable-background:new 0 0 450 496;" xml:space="preserve">
 <style type="text/css">
 <![CDATA[
-	.st0{display:inline;stroke:#231F20;stroke-miterlimit:10;}
-	.st1{display:inline;fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
+	.st0{display:none;stroke:#231F20;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
 	.st2{display:none;}
 ]]>
 </style>
 <g id="Layer_1" class="st2">
 </g>
-<g id="Layer_2" class="st2">
+<g id="Layer_2">
 	<rect x="0" y="0" class="st0" width="450" height="496"/>
 	<circle class="st1" cx="287.5" cy="113.5" r="15"/>
 	<circle class="st1" cx="313.5" cy="128.5" r="10"/>
@@ -24,6 +24,6 @@
 	<circle class="st1" cx="44.5" cy="276.5" r="7"/>
 	<circle class="st1" cx="59.5" cy="294.5" r="6"/>
 </g>
-<g id="Layer_3">
+<g id="Layer_3" class="st2">
 </g>
 </svg>
