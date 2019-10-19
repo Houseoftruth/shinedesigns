@@ -1,71 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1000px"
-	 height="1000px" viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="1000px" viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
 <style type="text/css">
 <![CDATA[
-	.st0{fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
-	.st1{display:inline;fill:none;stroke:#000000;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:#FFFFFF;stroke-width:6;stroke-miterlimit:10;}
-	.st3{display:none;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
-	.st4{fill:none;stroke:#FFFFFF;stroke-width:9;stroke-miterlimit:10;}
-	.st5{display:none;}
+	.st0{display:inline;fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:6;stroke-miterlimit:10;}
+	.st2{display:none;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#FFFFFF;stroke-width:9;stroke-miterlimit:10;}
+	.st4{display:none;}
 ]]>
 </style>
 <script  id="script4044" xlink:href="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg.js"></script>
-<g id="Layer_1">
-	<g id="Layer_1_1_" class="st5">
+<g id="Layer_1_2_">
+	<g id="Layer_1_1_" class="st4">
 		
 			<image style="display:inline;overflow:visible;enable-background:new    ;" width="640" height="960" xlink:href="191d9288881ae1f0de71547d503a0112.jpg"  transform="matrix(0.72 0 0 0.72 269.9998 154.0002)">
 		</image>
 	</g>
-	<g id="Layer_2" class="st5">
-		<path class="st1" d="M576,408c-82.5-124-154,0-154,0"/>
-		<path class="st1" d="M576,499.6c0,0,106-35.6,0-98.6"/>
+	<g id="Layer_2" class="st4">
+		<path class="st0" d="M576,408c-82.5-124-154,0-154,0"/>
+		<path class="st0" d="M576,499.6c0,0,106-35.6,0-98.6"/>
 	</g>
 	<g id="Layer_4">
-		<ellipse class="st3" cx="535" cy="494" rx="35" ry="28.637"/>
-		<path class="st4" d="M547.25,411.75c9.945-32.619,40.277-56.351,76.15-56.351c35.295,0,65.225,22.973,75.654,54.78"/>
-		<path class="st4" d="M586.733,448.131"/>
-		<path class="st4" d="M547.727,409.251c-1.553-0.166-3.13-0.251-4.728-0.251c-24.301,0-44,19.698-44,44c0,24.301,19.699,44,44,44
-			c4.863,0,9.543-0.789,13.916-2.245"/>
-		<path class="st4" d="M697.514,409.35c1.825-0.229,3.686-0.35,5.573-0.35c24.301,0,44,19.698,44,44c0,24.301-19.699,44-44,44
+		<ellipse class="st2" cx="535" cy="494" rx="35" ry="28.637"/>
+		<path class="st3" d="M547.25,411.75c9.945-32.619,40.277-56.352,76.15-56.352c35.295,0,65.225,22.974,75.654,54.78"/>
+		<path class="st3" d="M586.733,448.131"/>
+		<path class="st3" d="M547.727,409.251c-1.553-0.166-3.13-0.251-4.729-0.251c-24.301,0-44,19.697-44,44c0,24.301,19.699,44,44,44
+			c4.863,0,9.544-0.789,13.916-2.245"/>
+		<path class="st3" d="M697.514,409.35c1.825-0.229,3.686-0.35,5.573-0.35c24.301,0,44,19.697,44,44c0,24.301-19.699,44-44,44
 			c-4.863,0-9.542-0.789-13.915-2.245"/>
-		<path class="st4" d="M693,494"/>
-		<path class="st4" d="M692.776,490.746"/>
-		<path class="st4" d="M658,465.364"/>
-		<path class="st4" d="M693,494c0,15.814-15.669,28.637-35,28.637c-19.33,0-35-12.822-35-28.637"/>
-		<path class="st4" d="M622,494c0,15.814-15.669,28.637-35,28.637c-19.33,0-35-12.822-35-28.637"/>
-		<path class="st2" d="M234.729,154.314c5.268-17.274,21.332-29.843,40.33-29.843c18.691,0,34.543,12.166,40.067,29.012"/>
-		<path class="st2" d="M255.641,173.583"/>
-		<path class="st2" d="M234.982,152.99c-0.822-0.088-1.658-0.133-2.503-0.133c-12.87,0-23.304,10.434-23.304,23.303
-			s10.434,23.303,23.304,23.303c2.576,0,5.054-0.417,7.37-1.189"/>
-		<path class="st2" d="M314.311,153.043c0.967-0.122,1.952-0.186,2.952-0.186c12.87,0,23.303,10.434,23.303,23.303
-			s-10.433,23.303-23.303,23.303c-2.576,0-5.055-0.417-7.37-1.189"/>
-		<path class="st2" d="M311.921,197.875"/>
-		<path class="st2" d="M311.802,196.152"/>
-		<path class="st2" d="M293.383,182.709"/>
-		<path class="st2" d="M311.921,197.875c0,8.376-8.299,15.166-18.538,15.166c-10.236,0-18.535-6.79-18.535-15.166"/>
-		<path class="st2" d="M274.318,197.875c0,8.376-8.298,15.166-18.537,15.166c-10.237,0-18.536-6.79-18.536-15.166"/>
+		<path class="st3" d="M693,494"/>
+		<path class="st3" d="M692.776,490.745"/>
+		<path class="st3" d="M658,465.364"/>
+		<path class="st3" d="M693,494c0,15.813-15.669,28.637-35,28.637c-19.329,0-35-12.822-35-28.637"/>
+		<path class="st3" d="M622,494c0,15.813-15.669,28.637-35,28.637c-19.329,0-35-12.822-35-28.637"/>
+		<path class="st1" d="M234.729,154.314c5.268-17.273,21.332-29.843,40.33-29.843c18.69,0,34.543,12.166,40.067,29.012"/>
+		<path class="st1" d="M255.641,173.583"/>
+		<path class="st1" d="M234.982,152.99c-0.822-0.088-1.658-0.133-2.503-0.133c-12.87,0-23.305,10.435-23.305,23.304
+			c0,12.868,10.435,23.303,23.305,23.303c2.576,0,5.054-0.417,7.37-1.189"/>
+		<path class="st1" d="M314.311,153.043c0.967-0.122,1.952-0.187,2.952-0.187c12.87,0,23.303,10.435,23.303,23.304
+			c0,12.868-10.433,23.303-23.303,23.303c-2.576,0-5.055-0.417-7.37-1.189"/>
+		<path class="st1" d="M311.922,197.875"/>
+		<path class="st1" d="M311.802,196.152"/>
+		<path class="st1" d="M293.383,182.709"/>
+		<path class="st1" d="M311.922,197.875c0,8.376-8.3,15.166-18.539,15.166c-10.235,0-18.534-6.79-18.534-15.166"/>
+		<path class="st1" d="M274.318,197.875c0,8.376-8.298,15.166-18.537,15.166c-10.237,0-18.536-6.79-18.536-15.166"/>
 	</g>
-	<g id="Layer_3" class="st5">
-	</g>
-</g>
-<g id="rocket">
-	<path class="st0" d="M817.776,314.5c0,0-93.276,126-34.776,163h35"/>
-	<path class="st0" d="M815.942,314.5c0,0,93.276,126,34.776,163h-35"/>
-	<g id="Layer_3_1_">
-		<circle class="st0" cx="816.719" cy="418" r="22.781"/>
-		<polyline class="st0" points="806.359,479.5 793.017,496.5 816.811,496.5 		"/>
-		<polyline class="st0" points="827.418,479.5 840.76,496.5 816.966,496.5 		"/>
-		<line class="st0" x1="793.937" y1="505.5" x2="793.937" y2="525.5"/>
-		<line class="st0" x1="817.776" y1="515.5" x2="817.776" y2="554.5"/>
-		<line class="st0" x1="840.937" y1="505.5" x2="840.937" y2="525.5"/>
+	<g id="Layer_3" class="st4">
 	</g>
 </g>
 <script  type="text/javascript" id="script4196">
-		<![CDATA[
+	<![CDATA[
 
 	var s = Snap("#rocket");
 	//var s2 = Snap("#eli2");
@@ -119,6 +106,7 @@ console.log(s.attr("rx"))
 
 
 		
-			]]>
-	</script>
+			
+		]]>
+</script>
 </svg>
