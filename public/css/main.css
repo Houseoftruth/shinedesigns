@@ -5,7 +5,7 @@ html, body {
     min-height:100%;
 }
 .boxshadow{
-  box-shadow:2px solid black;
+  box-shadow:2px 2px 2px grey;
 }
 .sidenav-overlay{opacity: 0;}
 .no-shadows {
