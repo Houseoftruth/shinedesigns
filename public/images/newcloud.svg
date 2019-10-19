@@ -9,17 +9,19 @@
 	.st1{fill:none;stroke:#FFFFFF;stroke-width:6;stroke-miterlimit:10;}
 	.st2{display:none;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
 	.st3{fill:none;stroke:#FFFFFF;stroke-width:9;stroke-miterlimit:10;}
-	.st4{display:none;}
+	.st4{font-family:'Montserrat-Regular';}
+	.st5{font-size:14;}
+	.st6{display:none;}
 ]]>
 </style>
 <script  id="script4044" xlink:href="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg.js"></script>
 <g id="Layer_1_2_">
-	<g id="Layer_1_1_" class="st4">
+	<g id="Layer_1_1_" class="st6">
 		
 			<image style="display:inline;overflow:visible;enable-background:new    ;" width="640" height="960" xlink:href="191d9288881ae1f0de71547d503a0112.jpg"  transform="matrix(0.72 0 0 0.72 269.9998 154.0002)">
 		</image>
 	</g>
-	<g id="Layer_2" class="st4">
+	<g id="Layer_2" class="st6">
 		<path class="st0" d="M576,408c-82.5-124-154,0-154,0"/>
 		<path class="st0" d="M576,499.6c0,0,106-35.6,0-98.6"/>
 	</g>
@@ -48,7 +50,7 @@
 		<path class="st1" d="M311.922,197.875c0,8.376-8.3,15.166-18.539,15.166c-10.235,0-18.534-6.79-18.534-15.166"/>
 		<path class="st1" d="M274.318,197.875c0,8.376-8.298,15.166-18.537,15.166c-10.237,0-18.536-6.79-18.536-15.166"/>
 	</g>
-	<g id="Layer_3" class="st4">
+	<g id="Layer_3" class="st6">
 	</g>
 </g>
 <script  type="text/javascript" id="script4196">
@@ -109,4 +111,5 @@ console.log(s.attr("rx"))
 			
 		]]>
 </script>
+<text transform="matrix(1 0 0 1 180.4998 337.5002)"><tspan x="0" y="0" class="st4 st5"> All &quot;Shine Design&quot; applications are built using the AWS (Amazon Web Services) cloud hosting platform</tspan><tspan x="0" y="16.8" class="st4 st5">                    to deliver</tspan><tspan x="0" y="33.6" class="st4 st5">                    powerful, flexible, and secure storage for your customer&apos;s precious data.</tspan><tspan x="0" y="50.4" class="st4 st5">                    With AWS&apos;s proven experience, maturity, reliability, security, and performance your customer&apos;s data</tspan><tspan x="0" y="67.2" class="st4 st5">                    is always at your fingertips.</tspan></text>
 </svg>
