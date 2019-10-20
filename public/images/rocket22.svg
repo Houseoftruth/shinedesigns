@@ -37,17 +37,25 @@
 		<line class="st1" x1="825.687" y1="547.533" x2="825.687" y2="554.867"/>
 	</g>
 </g>
-<g id="Layer_4">
+<g id="smoke">
 	<path class="st1" d="M842.5,538c0,0,6-20.5,18-8.5"/>
 	<path class="st1" d="M857.833,529.925c0,0,1.128-16.717,20.314-7.042"/>
 	<path class="st1" d="M791.148,538c0,0-6-20.5-18-8.5"/>
 	<path class="st1" d="M775.815,529.925c0,0-1.128-16.717-20.314-7.042"/>
 </g>
+<g id="smallsmoke">
+	<path class="st1" d="M754.658,559.5c0,0,8.139-23.449,25.49-7.149"/>
+	<path class="st1" d="M774.815,546.234c0,0,9.989-16.56,25.685,2.354"/>
+	<path class="st1" d="M880.5,559.5c0,0-8.139-23.449-25.49-7.149"/>
+	<path class="st1" d="M860.343,546.234c0,0-9.989-16.56-25.685,2.354"/>
+</g>
 <script  type="text/javascript" id="script4196">
 		<![CDATA[
 
 	var s = Snap("#rocket");
-	//var s2 = Snap("#eli2");
+	var s2 = Snap("#smoke");
+		var s3 = Snap("#smallsmoke");
+
 	var animating = false;
 	//var matrix = s2.transform().localMatrix;
 	console.log(s.attr(""))
@@ -70,9 +78,14 @@ var anim1 = function() {
 	
 }
 var anim3 = function(){
-s.animate({ transform: 't0,-600' }, 2000)
+s.animate({ transform: 't0,-600' }, 7000)
 //s.scale(2)
-//s2.animate({cx: 1}, 200,anim2)
+s2.animate({opacity: 0}, 500)
+console.log("HERE")
+setTimeout(function(){
+s3.animate({opacity: 0}, 500)
+
+},500)
 console.log("HERE")
 }
 
