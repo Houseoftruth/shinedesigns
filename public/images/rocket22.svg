@@ -94,9 +94,14 @@ s2.animate({opacity: 0}, 500)
 console.log("HERE")
 setTimeout(function(){
 s3.animate({opacity: 0}, 500)
-s4.animate({opacity: 0}, 500)
+s4.animate({opacity: 1}, 500)
 
 },500)
+setTimeout(function(){
+
+s4.animate({opacity: 1}, 500)
+
+},800)
 console.log("HERE")
 }
 
