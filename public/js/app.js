@@ -151,7 +151,14 @@ $scope.showResults = false;
 $scope.noDifference = false;
 $scope.pulseSelect = false;
 $scope.rollRight = false;
+$scope.launchRocket = function(){
+    if(!$scope.rocketLaunched){
+        $scope.rocketLaunched = true
+    }else{
+        $scope.rocketLaunched = false
 
+    }
+}
 $scope.bigPink = false;
 $scope.color = false;
 $scope.colortwo = false;
