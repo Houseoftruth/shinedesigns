@@ -64,7 +64,7 @@ var anim1 = function() {
 	
 }
 var anim3 = function(){
-s.animate({ transform: 't0,-600' }, 2000)
+s.animate({ transform: 't0,-600' }, 7000)
 //s.scale(2)
 //s2.animate({cx: 1}, 200,anim2)
 console.log("HERE")
