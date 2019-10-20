@@ -168,12 +168,12 @@ setTimeout(function(){
 
 s6.animate({opacity: 1}, 500)
 
-},2900)
+},3300)
 setTimeout(function(){
 
 s6.animate({opacity: 0}, 500)
 
-},3800)
+},4200)
 setTimeout(function(){
 
 s7.animate({opacity: 1}, 500)
