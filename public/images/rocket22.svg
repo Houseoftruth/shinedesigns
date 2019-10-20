@@ -37,6 +37,12 @@
 		<line class="st1" x1="825.687" y1="547.533" x2="825.687" y2="554.867"/>
 	</g>
 </g>
+<g id="Layer_4">
+	<path class="st1" d="M842.5,538c0,0,6-20.5,18-8.5"/>
+	<path class="st1" d="M857.833,529.925c0,0,1.128-16.717,20.314-7.042"/>
+	<path class="st1" d="M791.148,538c0,0-6-20.5-18-8.5"/>
+	<path class="st1" d="M775.815,529.925c0,0-1.128-16.717-20.314-7.042"/>
+</g>
 <script  type="text/javascript" id="script4196">
 		<![CDATA[
 
@@ -64,7 +70,7 @@ var anim1 = function() {
 	
 }
 var anim3 = function(){
-s.animate({ transform: 't0,-600' }, 7000)
+s.animate({ transform: 't0,-600' }, 2000)
 //s.scale(2)
 //s2.animate({cx: 1}, 200,anim2)
 console.log("HERE")
