@@ -58,7 +58,7 @@
 	<path class="st2" d="M833.166,453.495c0,0,4.243,5.912,9.333,0"/>
 	<path class="st2" d="M825.166,440.122c0,0,4.243-5.912,9.333,0"/>
 </g>
-<g id="sbubble2">
+<g id="sbubble2" style="opacity:0;">
 	<path class="st1" d="M767.467,362.813c0,0,9-11,18,0"/>
 	<path class="st1" d="M784.844,362.419c0,0,11.177,8.779,0.358,17.997"/>
 	<path class="st1" d="M785.959,379.758c0,0-11.588,12.906-19.115-2.721"/>
@@ -66,7 +66,7 @@
 	<path class="st2" d="M774.133,378.808c0,0,4.243,5.912,9.333,0"/>
 	<path class="st2" d="M766.133,365.435c0,0,4.243-5.912,9.333,0"/>
 </g>
-<g id="sbubble3">
+<g id="sbubble3" style="opacity:0;">
 	<path class="st1" d="M826.456,315.044c0,0,9-11,18,0"/>
 	<path class="st1" d="M843.833,314.65c0,0,11.177,8.779,0.358,17.997"/>
 	<path class="st1" d="M844.948,331.989c0,0-11.588,12.906-19.115-2.721"/>
@@ -74,7 +74,7 @@
 	<path class="st2" d="M833.122,331.039c0,0,4.243,5.912,9.333,0"/>
 	<path class="st2" d="M825.122,317.666c0,0,4.243-5.912,9.333,0"/>
 </g>
-<g id="sbubble4">
+<g id="sbubble4" style="opacity:0;">
 	<path class="st1" d="M778.402,233.403c0,0,9-11,18,0"/>
 	<path class="st1" d="M795.779,233.009c0,0,11.177,8.779,0.358,17.997"/>
 	<path class="st1" d="M796.894,250.347c0,0-11.588,12.906-19.115-2.721"/>
@@ -82,7 +82,7 @@
 	<path class="st2" d="M785.068,249.398c0,0,4.243,5.912,9.333,0"/>
 	<path class="st2" d="M777.068,236.025c0,0,4.243-5.912,9.333,0"/>
 </g>
-<g id="sbubble5">
+<g id="sbubble5" style="opacity:0;">
 	<path class="st1" d="M839.929,142.18c0,0,9-11,18,0"/>
 	<path class="st1" d="M857.306,141.786c0,0,11.177,8.779,0.358,17.997"/>
 	<path class="st1" d="M858.422,159.125c0,0-11.588,12.906-19.115-2.721"/>
@@ -90,7 +90,7 @@
 	<path class="st2" d="M846.595,158.176c0,0,4.243,5.912,9.333,0"/>
 	<path class="st2" d="M838.595,144.802c0,0,4.243-5.912,9.333,0"/>
 </g>
-<g id="sbubble6">
+<g id="sbubble6" style="opacity:0;">
 	<path class="st1" d="M784.5,69.885c0,0,9-11,18,0"/>
 	<path class="st1" d="M801.877,69.491c0,0,11.177,8.779,0.358,17.997"/>
 	<path class="st1" d="M802.992,86.83c0,0-11.588,12.906-19.115-2.721"/>
@@ -98,7 +98,7 @@
 	<path class="st2" d="M791.166,85.881c0,0,4.243,5.912,9.333,0"/>
 	<path class="st2" d="M783.166,72.508c0,0,4.243-5.912,9.333,0"/>
 </g>
-<g id="sbubble6_copy">
+<g id="sbubble7" style="opacity:0;">
 	<path class="st1" d="M809.521,12.579c0,0,9-11,18,0"/>
 	<path class="st1" d="M826.898,12.185c0,0,11.177,8.779,0.358,17.997"/>
 	<path class="st1" d="M828.013,29.524c0,0-11.588,12.906-19.115-2.721"/>
@@ -113,6 +113,10 @@
 	var s2 = Snap("#smoke");
 		var s3 = Snap("#smallsmoke");
 		var s4 = Snap("#sbubble");
+		var s5 = Snap("#sbubble2");
+		var s6 = Snap("#sbubble3");
+		var s7 = Snap("#sbubble4");
+		var s8 = Snap("#sbubble5");
 
 	var animating = false;
 	//var matrix = s2.transform().localMatrix;
@@ -150,6 +154,21 @@ setTimeout(function(){
 s4.animate({opacity: 1}, 500)
 
 },1200)
+setTimeout(function(){
+
+s5.animate({opacity: 1}, 500)
+
+},2000)
+setTimeout(function(){
+
+s6.animate({opacity: 1}, 500)
+
+},2500)
+setTimeout(function(){
+
+s7.animate({opacity: 1}, 500)
+
+},3000)
 setTimeout(function(){
 
 s4.animate({opacity: 0}, 500)
