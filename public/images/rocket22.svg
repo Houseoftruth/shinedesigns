@@ -153,12 +153,12 @@ s3.animate({opacity: 0}, 500)
 },500)
 setTimeout(function(){
 
-s4.animate({opacity: 1}, 500)
+s5.animate({opacity: 1}, 500)
 
 },1200)
 setTimeout(function(){
 
-s5.animate({opacity: 1}, 500)
+s4.animate({opacity: 1}, 500)
 
 },2300)
 setTimeout(function(){
