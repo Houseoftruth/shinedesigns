@@ -117,6 +117,8 @@
 		var s6 = Snap("#sbubble3");
 		var s7 = Snap("#sbubble4");
 		var s8 = Snap("#sbubble5");
+		var s9 = Snap("#sbubble6");
+		var s10 = Snap("#sbubble7");
 
 	var animating = false;
 	//var matrix = s2.transform().localMatrix;
@@ -184,6 +186,24 @@ setTimeout(function(){
 s7.animate({opacity: 0}, 500)
 
 },4800)
+setTimeout(function(){
+
+s8.animate({opacity: 1}, 500)
+
+},5600)
+setTimeout(function(){
+
+s8.animate({opacity: 0}, 500)
+
+},6200)
+s9.animate({opacity: 1}, 500)
+
+},6200)
+setTimeout(function(){
+
+s9.animate({opacity: 0}, 500)
+
+},7000)
 setTimeout(function(){
 
 s4.animate({opacity: 0}, 500)
