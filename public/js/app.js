@@ -151,7 +151,9 @@ $scope.showResults = false;
 $scope.noDifference = false;
 $scope.pulseSelect = false;
 $scope.rollRight = false;
+$scope.rocketLaunched = false;
 $scope.launchRocket = function(){
+    console.log("clicked")
     if(!$scope.rocketLaunched){
         $scope.rocketLaunched = true
     }else{
