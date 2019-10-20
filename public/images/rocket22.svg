@@ -161,14 +161,29 @@ s5.animate({opacity: 1}, 500)
 },2000)
 setTimeout(function(){
 
+s5.animate({opacity: 0}, 500)
+
+},3300)
+setTimeout(function(){
+
 s6.animate({opacity: 1}, 500)
 
 },2500)
 setTimeout(function(){
 
+s6.animate({opacity: 0}, 500)
+
+},3800)
+setTimeout(function(){
+
 s7.animate({opacity: 1}, 500)
 
 },3000)
+setTimeout(function(){
+
+s7.animate({opacity: 0}, 500)
+
+},4300)
 setTimeout(function(){
 
 s4.animate({opacity: 0}, 500)
