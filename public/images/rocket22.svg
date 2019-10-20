@@ -191,23 +191,23 @@ setTimeout(function(){
 
 s8.animate({opacity: 1}, 500)
 
-},5600)
+},4800)
 
 setTimeout(function(){
 
 s8.animate({opacity: 0}, 500)
 
-},6200)
+},5500)
 setTimeout(function(){
 s9.animate({opacity: 1}, 500)
 
-},6200)
+},5500)
 
 setTimeout(function(){
 
 s9.animate({opacity: 0}, 500)
 
-},7000)
+},6000)
 setTimeout(function(){
 s10.animate({opacity: 1}, 500)
 
