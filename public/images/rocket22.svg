@@ -101,7 +101,12 @@ setTimeout(function(){
 
 s4.animate({opacity: 1}, 500)
 
-},2000)
+},1500)
+setTimeout(function(){
+
+s4.animate({opacity: 0}, 500)
+
+},2500)
 console.log("HERE")
 }
 
