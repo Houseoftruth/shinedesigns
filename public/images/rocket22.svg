@@ -211,12 +211,12 @@ s9.animate({opacity: 0}, 500)
 setTimeout(function(){
 s10.animate({opacity: 1}, 500)
 
-},7000)
+},6500)
 setTimeout(function(){
 
 s10.animate({opacity: 0}, 500)
 
-},7800)
+},7300)
 setTimeout(function(){
 
 s4.animate({opacity: 0}, 500)
