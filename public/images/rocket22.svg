@@ -183,7 +183,7 @@ setTimeout(function(){
 
 s7.animate({opacity: 0}, 500)
 
-},4300)
+},4800)
 setTimeout(function(){
 
 s4.animate({opacity: 0}, 500)
