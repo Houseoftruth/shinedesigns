@@ -144,21 +144,21 @@ var anim1 = function() {
 var anim3 = function(){
 s.animate({ transform: 't0,-600' }, 7000)
 //s.scale(2)
-s2.animate({opacity: 0}, 500)
+s3.animate({opacity: 0}, 500)
 console.log("HERE")
 setTimeout(function(){
-s3.animate({opacity: 0}, 500)
+s2.animate({opacity: 0}, 500)
 //s4.animate({opacity: 1}, 500)
 
 },500)
 setTimeout(function(){
 
-s5.animate({opacity: 1}, 500)
+s4.animate({opacity: 1}, 500)
 
 },1200)
 setTimeout(function(){
 
-s4.animate({opacity: 1}, 500)
+s5.animate({opacity: 1}, 500)
 
 },2300)
 setTimeout(function(){
