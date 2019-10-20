@@ -7,22 +7,23 @@
 <![CDATA[
 	.st0{display:inline;fill:none;stroke:#000000;stroke-miterlimit:10;}
 	.st1{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
-	.st2{display:none;}
+	.st2{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st3{display:none;}
 ]]>
 </style>
 <script  id="script4044" xlink:href="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg.js"></script>
 
 <g id="Layer_1">
-	<g id="Layer_1_1_" class="st2">
+	<g id="Layer_1_1_" class="st3">
 		
 			<image style="display:inline;overflow:visible;enable-background:new    ;" width="640" height="960" xlink:href="191d9288881ae1f0de71547d503a0112.jpg"  transform="matrix(0.72 0 0 0.72 269.9998 154.0002)">
 		</image>
 	</g>
-	<g id="Layer_2" class="st2">
+	<g id="Layer_2" class="st3">
 		<path class="st0" d="M576,408c-82.5-124-154,0-154,0"/>
 		<path class="st0" d="M576,499.6c0,0,106-35.6,0-98.6"/>
 	</g>
-	<g id="Layer_3" class="st2">
+	<g id="Layer_3" class="st3">
 	</g>
 </g>
 <g id="rocket">
@@ -49,12 +50,21 @@
 	<path class="st1" d="M880.5,559.5c0,0-8.139-23.449-25.49-7.149"/>
 	<path class="st1" d="M860.343,546.234c0,0-9.989-16.56-25.685,2.354"/>
 </g>
+<g id="sbubble">
+	<path class="st1" d="M826.5,437.5c0,0,9-11,18,0"/>
+	<path class="st1" d="M843.877,437.106c0,0,11.177,8.779,0.358,17.997"/>
+	<path class="st1" d="M844.992,454.445c0,0-11.588,12.906-19.115-2.721"/>
+	<path class="st1" d="M826.335,453.651c0,0-10.569-9.088,1.318-16.37"/>
+	<path class="st2" d="M833.166,453.495c0,0,4.243,5.912,9.333,0"/>
+	<path class="st2" d="M825.166,440.122c0,0,4.243-5.912,9.333,0"/>
+</g>
 <script  type="text/javascript" id="script4196">
 		<![CDATA[
 
 	var s = Snap("#rocket");
 	var s2 = Snap("#smoke");
 		var s3 = Snap("#smallsmoke");
+		var s4 = Snap("#sbubble");
 
 	var animating = false;
 	//var matrix = s2.transform().localMatrix;
@@ -84,6 +94,7 @@ s2.animate({opacity: 0}, 500)
 console.log("HERE")
 setTimeout(function(){
 s3.animate({opacity: 0}, 500)
+s4.animate({opacity: 0}, 500)
 
 },500)
 console.log("HERE")
