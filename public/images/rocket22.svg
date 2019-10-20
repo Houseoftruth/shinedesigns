@@ -208,6 +208,7 @@ setTimeout(function(){
 s9.animate({opacity: 0}, 500)
 
 },7000)
+setTimeout(function(){
 s10.animate({opacity: 1}, 500)
 
 },7000)
