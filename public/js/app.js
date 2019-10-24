@@ -161,6 +161,17 @@ $scope.launchRocket = function(){
 
     }
 }
+//RESUME CODE //
+$scope.shineBright = false;
+$scope.openExperience = function(){
+
+    if($scope.shineBright){
+        $scope.shineBright = false;
+    }else{
+        $scope.shineBright = true;
+    }
+
+}
 $scope.bigPink = false;
 $scope.color = false;
 $scope.colortwo = false;
