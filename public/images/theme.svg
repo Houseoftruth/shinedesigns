@@ -18,7 +18,7 @@
 </style>
  <style>
 	 	
-		 #vecmap{
+		 #smoke{
 		 stroke-dasharray:2200;
 		 stroke-dashoffset:0;
 		 -webkit-animation:dash 3s infinite linear forwards;
