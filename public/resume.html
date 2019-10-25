@@ -91,191 +91,25 @@
     </div>
     <div class="col s8">
         <div class="row">
-            <div class = "row"></div>
+            <div class="row"></div>
             <div class="col s12">
-                <h5 class="montserrat" ng-click="openExperience();"><i class="material-icons"  style=" border:1px solid black; font-size:30px; box-shadow:2px 2px 2px grey; ">remove</i>&nbsp Shine Bright Coaching
-                </h5>
-
+                <div ng-show="shineBright">
+                    <h5 class="montserrat" ng-click="openExperience();"><i class="material-icons"
+                            style=" border:1px solid black; font-size:30px; box-shadow:2px 2px 2px grey; ">remove</i>&nbsp
+                        Shine Bright Coaching
+                    </h5>
+                </div>
+                <div ng-show="!shineBright">
+                        <h5 class="montserrat" ng-click="openExperience();"><i class="material-icons"
+                                style=" border:1px solid black; font-size:30px; box-shadow:2px 2px 2px grey; ">remove</i>&nbsp
+                            Shine Bright Coaching
+                        </h5>
+                    </div>
                 <a href="www.shinebrightcoaching.ca" class="montserrat flow-text">
                     www.shinebrightcoaching.ca
                 </a>
-                <div ng-show="!shineBright" class="animated fadeIn" ng-class="{'fadeIn':shineBright,'fadeOut:!shineBright;'}">
-                <p class="montserrat flow-text">+ Technical Lead (Full-Stack Developer).
-                </p>
-                <p class="montserrat flow-text">
-                    + Online schedule and booking system for Shine Bright Coaching.
-                </p>
-                <div class="col s12" style="border:1px solid #ddd;"></div>
-                <div class="col s12 left-align">
-                    <p class="montserrat flow-text">
-                        + Graphic Design
-                    </p>
-                    <div class="col s4">
-                        <div class="col s12" style="border:1px solid #ddd;"></div>
-                    </div>
-                    <div class="col s8"></div>
-                </div>
-
-                <div class="col s2 right-align">
-                    <ul>
-
-                        <li>
-                            <span class="montserrat flow-text">
-                                -
-                            </span>
-                        </li>
-                        <li>
-                            <span class="montserrat flow-text">
-                                -
-                            </span>
-                        </li>
-
-
-                    </ul>
-                </div>
-                <div class="col s10">
-                    <ul>
-
-                        <li>
-                            <span class="montserrat flow-text">
-                                Created logo.
-                            </span>
-                        </li>
-                        <li>
-                            <span class="montserrat flow-text">
-                                Asset Creation.
-                            </span>
-                        </li>
-
-
-                    </ul>
-                </div>
-                <div class="col s12 left-align">
-                    <p class="montserrat flow-text">
-                        + Front End
-                    </p>
-                    <div class="col s4">
-                        <div class="col s12" style="border:1px solid #ddd;"></div>
-                    </div>
-                    <div class="col s8"></div>
-                </div>
-
-                <div class="col s2 right-align">
-                    <ul>
-
-                        <li>
-                            <span class="montserrat flow-text">
-                                -
-                            </span>
-                        </li>
-                        <li>
-                            <span class="montserrat flow-text">
-                                -
-                            </span>
-                        </li>
-                        <li><span class="montserrat flow-text">- </span>
-                        </li>
-                        <li><span class="montserrat flow-text">-</span>
-                        </li>
-                        <li><span class="montserrat flow-text">-</span>
-                        </li>
-                        <li><span class="montserrat flow-text">-</span>
-                        </li>
-                        <li><span class="montserrat flow-text">-</span>
-                        </li>
-
-                    </ul>
-                </div>
-                <div class="col s10">
-                    <ul>
-
-                        <li>
-                            <span class="montserrat flow-text">
-                                Created client booking system.
-                            </span>
-                        </li>
-                        <li>
-                            <span class="montserrat flow-text">
-                                Created schedule management system.
-                            </span>
-                        </li>
-                        <li><span class="montserrat flow-text">Created Admin/Client Messaging System.</span>
-                        </li>
-                        <li><span class="montserrat flow-text">Created Notes System.</span>
-                        </li>
-                        <li><span class="montserrat flow-text">Developed UX/UI.</span>
-                        </li>
-                        <li><span class="montserrat flow-text">Created Assets.</span>
-                        </li>
-
-                    </ul>
-                </div>
-                <div class="col s12 left-align">
-                    <p class="montserrat flow-text">
-                        + Back End
-                    </p>
-                    <div class="col s4">
-                        <div class="col s12" style="border:1px solid #ddd;"></div>
-                    </div>
-                    <div class="col s8"></div>
-                </div>
-
-                <div class="col s2 right-align">
-                    <ul>
-
-                        <li>
-                            <span class="montserrat flow-text">
-                                -
-                            </span>
-                        </li>
-                        <li>
-                            <span class="montserrat flow-text">
-                                -
-                            </span>
-                        </li>
-                        <li><span class="montserrat flow-text">- </span>
-                        </li>
-                        <li><span class="montserrat flow-text">-</span>
-                        </li>
-                        <li><span class="montserrat flow-text">-</span>
-                        </li>
-
-                    </ul>
-                </div>
-                <div class="col s10">
-                    <ul>
-
-                        <li>
-                            <span class="montserrat flow-text">
-                                Modeled and implemented the database structure.
-                            </span>
-                        </li>
-                        <li>
-                            <span class="montserrat flow-text">
-                                Deployed database to cloud database hosting service.
-                            </span>
-                        </li>
-                        <li><span class="montserrat flow-text">Wrote and implemented server runtime using NodeJs.</span>
-                        </li>
-                        <li><span class="montserrat flow-text">Wrote and tested all APIs.</span>
-                        </li>
-
-                    </ul>
-                </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="row">
-              
-                <div class="col s12">
-                    <h5 class="montserrat" ng-click="openExperience();"><i class="material-icons"  style=" border:1px solid black; font-size:30px; box-shadow:2px 2px 2px grey; ">add</i>&nbsp Shine Bright Coaching
-                    </h5>
-    
-                    <a href="www.shinebrightcoaching.ca" class="montserrat flow-text">
-                        www.shinebrightcoaching.ca
-                    </a>
-                    <div  class="animated fadeIn" ng-class="{'fadeIn':shineBright,'fadeOut:!shineBright;'}">
+                <div ng-show="!shineBright" class="animated fadeIn"
+                    ng-class="{'fadeIn':shineBright,'fadeOut:!shineBright;'}">
                     <p class="montserrat flow-text">+ Technical Lead (Full-Stack Developer).
                     </p>
                     <p class="montserrat flow-text">
@@ -291,10 +125,10 @@
                         </div>
                         <div class="col s8"></div>
                     </div>
-    
+
                     <div class="col s2 right-align">
                         <ul>
-    
+
                             <li>
                                 <span class="montserrat flow-text">
                                     -
@@ -305,13 +139,13 @@
                                     -
                                 </span>
                             </li>
-    
-    
+
+
                         </ul>
                     </div>
                     <div class="col s10">
                         <ul>
-    
+
                             <li>
                                 <span class="montserrat flow-text">
                                     Created logo.
@@ -322,8 +156,8 @@
                                     Asset Creation.
                                 </span>
                             </li>
-    
-    
+
+
                         </ul>
                     </div>
                     <div class="col s12 left-align">
@@ -335,10 +169,10 @@
                         </div>
                         <div class="col s8"></div>
                     </div>
-    
+
                     <div class="col s2 right-align">
                         <ul>
-    
+
                             <li>
                                 <span class="montserrat flow-text">
                                     -
@@ -359,12 +193,12 @@
                             </li>
                             <li><span class="montserrat flow-text">-</span>
                             </li>
-    
+
                         </ul>
                     </div>
                     <div class="col s10">
                         <ul>
-    
+
                             <li>
                                 <span class="montserrat flow-text">
                                     Created client booking system.
@@ -383,7 +217,7 @@
                             </li>
                             <li><span class="montserrat flow-text">Created Assets.</span>
                             </li>
-    
+
                         </ul>
                     </div>
                     <div class="col s12 left-align">
@@ -395,10 +229,10 @@
                         </div>
                         <div class="col s8"></div>
                     </div>
-    
+
                     <div class="col s2 right-align">
                         <ul>
-    
+
                             <li>
                                 <span class="montserrat flow-text">
                                     -
@@ -415,12 +249,12 @@
                             </li>
                             <li><span class="montserrat flow-text">-</span>
                             </li>
-    
+
                         </ul>
                     </div>
                     <div class="col s10">
                         <ul>
-    
+
                             <li>
                                 <span class="montserrat flow-text">
                                     Modeled and implemented the database structure.
@@ -431,190 +265,374 @@
                                     Deployed database to cloud database hosting service.
                                 </span>
                             </li>
-                            <li><span class="montserrat flow-text">Wrote and implemented server runtime using NodeJs.</span>
+                            <li><span class="montserrat flow-text">Wrote and implemented server runtime using
+                                    NodeJs.</span>
                             </li>
                             <li><span class="montserrat flow-text">Wrote and tested all APIs.</span>
                             </li>
-    
+
                         </ul>
-                    </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                    <div class="col s12">
-                        <h5 class="montserrat" ng-click="openExperience();"><i class="material-icons"  style=" border:1px solid black; font-size:30px; box-shadow:2px 2px 2px grey; ">add</i>&nbsp Shine Bright Coaching
-                        </h5>
-        
-                        <a href="www.shinebrightcoaching.ca" class="montserrat flow-text">
-                            www.shinebrightcoaching.ca
-                        </a>
-                        <div ng-show="shineBright" class="animated fadeIn" ng-class="{'fadeIn':shineBright,'fadeOut:!shineBright;'}">
-                        <p class="montserrat flow-text">+ Technical Lead (Full-Stack Developer).
-                        </p>
+        </div>
+
+        <div class="row">
+
+            <div class="col s12">
+                <h5 class="montserrat" ng-click="openExperience();"><i class="material-icons"
+                        style=" border:1px solid black; font-size:30px; box-shadow:2px 2px 2px grey; ">add</i>&nbsp
+                    Shine Bright Coaching
+                </h5>
+
+                <a href="www.shinebrightcoaching.ca" class="montserrat flow-text">
+                    www.shinebrightcoaching.ca
+                </a>
+                <div class="animated fadeIn" ng-class="{'fadeIn':shineBright,'fadeOut:!shineBright;'}">
+                    <p class="montserrat flow-text">+ Technical Lead (Full-Stack Developer).
+                    </p>
+                    <p class="montserrat flow-text">
+                        + Online schedule and booking system for Shine Bright Coaching.
+                    </p>
+                    <div class="col s12" style="border:1px solid #ddd;"></div>
+                    <div class="col s12 left-align">
                         <p class="montserrat flow-text">
-                            + Online schedule and booking system for Shine Bright Coaching.
+                            + Graphic Design
                         </p>
-                        <div class="col s12" style="border:1px solid #ddd;"></div>
-                        <div class="col s12 left-align">
-                            <p class="montserrat flow-text">
-                                + Graphic Design
-                            </p>
-                            <div class="col s4">
-                                <div class="col s12" style="border:1px solid #ddd;"></div>
-                            </div>
-                            <div class="col s8"></div>
+                        <div class="col s4">
+                            <div class="col s12" style="border:1px solid #ddd;"></div>
                         </div>
-        
-                        <div class="col s2 right-align">
-                            <ul>
-        
-                                <li>
-                                    <span class="montserrat flow-text">
-                                        -
-                                    </span>
-                                </li>
-                                <li>
-                                    <span class="montserrat flow-text">
-                                        -
-                                    </span>
-                                </li>
-        
-        
-                            </ul>
+                        <div class="col s8"></div>
+                    </div>
+
+                    <div class="col s2 right-align">
+                        <ul>
+
+                            <li>
+                                <span class="montserrat flow-text">
+                                    -
+                                </span>
+                            </li>
+                            <li>
+                                <span class="montserrat flow-text">
+                                    -
+                                </span>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div class="col s10">
+                        <ul>
+
+                            <li>
+                                <span class="montserrat flow-text">
+                                    Created logo.
+                                </span>
+                            </li>
+                            <li>
+                                <span class="montserrat flow-text">
+                                    Asset Creation.
+                                </span>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div class="col s12 left-align">
+                        <p class="montserrat flow-text">
+                            + Front End
+                        </p>
+                        <div class="col s4">
+                            <div class="col s12" style="border:1px solid #ddd;"></div>
                         </div>
-                        <div class="col s10">
-                            <ul>
-        
-                                <li>
-                                    <span class="montserrat flow-text">
-                                        Created logo.
-                                    </span>
-                                </li>
-                                <li>
-                                    <span class="montserrat flow-text">
-                                        Asset Creation.
-                                    </span>
-                                </li>
-        
-        
-                            </ul>
+                        <div class="col s8"></div>
+                    </div>
+
+                    <div class="col s2 right-align">
+                        <ul>
+
+                            <li>
+                                <span class="montserrat flow-text">
+                                    -
+                                </span>
+                            </li>
+                            <li>
+                                <span class="montserrat flow-text">
+                                    -
+                                </span>
+                            </li>
+                            <li><span class="montserrat flow-text">- </span>
+                            </li>
+                            <li><span class="montserrat flow-text">-</span>
+                            </li>
+                            <li><span class="montserrat flow-text">-</span>
+                            </li>
+                            <li><span class="montserrat flow-text">-</span>
+                            </li>
+                            <li><span class="montserrat flow-text">-</span>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col s10">
+                        <ul>
+
+                            <li>
+                                <span class="montserrat flow-text">
+                                    Created client booking system.
+                                </span>
+                            </li>
+                            <li>
+                                <span class="montserrat flow-text">
+                                    Created schedule management system.
+                                </span>
+                            </li>
+                            <li><span class="montserrat flow-text">Created Admin/Client Messaging System.</span>
+                            </li>
+                            <li><span class="montserrat flow-text">Created Notes System.</span>
+                            </li>
+                            <li><span class="montserrat flow-text">Developed UX/UI.</span>
+                            </li>
+                            <li><span class="montserrat flow-text">Created Assets.</span>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col s12 left-align">
+                        <p class="montserrat flow-text">
+                            + Back End
+                        </p>
+                        <div class="col s4">
+                            <div class="col s12" style="border:1px solid #ddd;"></div>
                         </div>
-                        <div class="col s12 left-align">
-                            <p class="montserrat flow-text">
-                                + Front End
-                            </p>
-                            <div class="col s4">
-                                <div class="col s12" style="border:1px solid #ddd;"></div>
-                            </div>
-                            <div class="col s8"></div>
-                        </div>
-        
-                        <div class="col s2 right-align">
-                            <ul>
-        
-                                <li>
-                                    <span class="montserrat flow-text">
-                                        -
-                                    </span>
-                                </li>
-                                <li>
-                                    <span class="montserrat flow-text">
-                                        -
-                                    </span>
-                                </li>
-                                <li><span class="montserrat flow-text">- </span>
-                                </li>
-                                <li><span class="montserrat flow-text">-</span>
-                                </li>
-                                <li><span class="montserrat flow-text">-</span>
-                                </li>
-                                <li><span class="montserrat flow-text">-</span>
-                                </li>
-                                <li><span class="montserrat flow-text">-</span>
-                                </li>
-        
-                            </ul>
-                        </div>
-                        <div class="col s10">
-                            <ul>
-        
-                                <li>
-                                    <span class="montserrat flow-text">
-                                        Created client booking system.
-                                    </span>
-                                </li>
-                                <li>
-                                    <span class="montserrat flow-text">
-                                        Created schedule management system.
-                                    </span>
-                                </li>
-                                <li><span class="montserrat flow-text">Created Admin/Client Messaging System.</span>
-                                </li>
-                                <li><span class="montserrat flow-text">Created Notes System.</span>
-                                </li>
-                                <li><span class="montserrat flow-text">Developed UX/UI.</span>
-                                </li>
-                                <li><span class="montserrat flow-text">Created Assets.</span>
-                                </li>
-        
-                            </ul>
-                        </div>
-                        <div class="col s12 left-align">
-                            <p class="montserrat flow-text">
-                                + Back End
-                            </p>
-                            <div class="col s4">
-                                <div class="col s12" style="border:1px solid #ddd;"></div>
-                            </div>
-                            <div class="col s8"></div>
-                        </div>
-        
-                        <div class="col s2 right-align">
-                            <ul>
-        
-                                <li>
-                                    <span class="montserrat flow-text">
-                                        -
-                                    </span>
-                                </li>
-                                <li>
-                                    <span class="montserrat flow-text">
-                                        -
-                                    </span>
-                                </li>
-                                <li><span class="montserrat flow-text">- </span>
-                                </li>
-                                <li><span class="montserrat flow-text">-</span>
-                                </li>
-                                <li><span class="montserrat flow-text">-</span>
-                                </li>
-        
-                            </ul>
-                        </div>
-                        <div class="col s10">
-                            <ul>
-        
-                                <li>
-                                    <span class="montserrat flow-text">
-                                        Modeled and implemented the database structure.
-                                    </span>
-                                </li>
-                                <li>
-                                    <span class="montserrat flow-text">
-                                        Deployed database to cloud database hosting service.
-                                    </span>
-                                </li>
-                                <li><span class="montserrat flow-text">Wrote and implemented server runtime using NodeJs.</span>
-                                </li>
-                                <li><span class="montserrat flow-text">Wrote and tested all APIs.</span>
-                                </li>
-        
-                            </ul>
-                        </div>
-                        </div>
+                        <div class="col s8"></div>
+                    </div>
+
+                    <div class="col s2 right-align">
+                        <ul>
+
+                            <li>
+                                <span class="montserrat flow-text">
+                                    -
+                                </span>
+                            </li>
+                            <li>
+                                <span class="montserrat flow-text">
+                                    -
+                                </span>
+                            </li>
+                            <li><span class="montserrat flow-text">- </span>
+                            </li>
+                            <li><span class="montserrat flow-text">-</span>
+                            </li>
+                            <li><span class="montserrat flow-text">-</span>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col s10">
+                        <ul>
+
+                            <li>
+                                <span class="montserrat flow-text">
+                                    Modeled and implemented the database structure.
+                                </span>
+                            </li>
+                            <li>
+                                <span class="montserrat flow-text">
+                                    Deployed database to cloud database hosting service.
+                                </span>
+                            </li>
+                            <li><span class="montserrat flow-text">Wrote and implemented server runtime using
+                                    NodeJs.</span>
+                            </li>
+                            <li><span class="montserrat flow-text">Wrote and tested all APIs.</span>
+                            </li>
+
+                        </ul>
                     </div>
                 </div>
-      
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <h5 class="montserrat" ng-click="openExperience();"><i class="material-icons"
+                        style=" border:1px solid black; font-size:30px; box-shadow:2px 2px 2px grey; ">add</i>&nbsp
+                    Shine Bright Coaching
+                </h5>
+
+                <a href="www.shinebrightcoaching.ca" class="montserrat flow-text">
+                    www.shinebrightcoaching.ca
+                </a>
+                <div ng-show="shineBright" class="animated fadeIn"
+                    ng-class="{'fadeIn':shineBright,'fadeOut:!shineBright;'}">
+                    <p class="montserrat flow-text">+ Technical Lead (Full-Stack Developer).
+                    </p>
+                    <p class="montserrat flow-text">
+                        + Online schedule and booking system for Shine Bright Coaching.
+                    </p>
+                    <div class="col s12" style="border:1px solid #ddd;"></div>
+                    <div class="col s12 left-align">
+                        <p class="montserrat flow-text">
+                            + Graphic Design
+                        </p>
+                        <div class="col s4">
+                            <div class="col s12" style="border:1px solid #ddd;"></div>
+                        </div>
+                        <div class="col s8"></div>
+                    </div>
+
+                    <div class="col s2 right-align">
+                        <ul>
+
+                            <li>
+                                <span class="montserrat flow-text">
+                                    -
+                                </span>
+                            </li>
+                            <li>
+                                <span class="montserrat flow-text">
+                                    -
+                                </span>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div class="col s10">
+                        <ul>
+
+                            <li>
+                                <span class="montserrat flow-text">
+                                    Created logo.
+                                </span>
+                            </li>
+                            <li>
+                                <span class="montserrat flow-text">
+                                    Asset Creation.
+                                </span>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div class="col s12 left-align">
+                        <p class="montserrat flow-text">
+                            + Front End
+                        </p>
+                        <div class="col s4">
+                            <div class="col s12" style="border:1px solid #ddd;"></div>
+                        </div>
+                        <div class="col s8"></div>
+                    </div>
+
+                    <div class="col s2 right-align">
+                        <ul>
+
+                            <li>
+                                <span class="montserrat flow-text">
+                                    -
+                                </span>
+                            </li>
+                            <li>
+                                <span class="montserrat flow-text">
+                                    -
+                                </span>
+                            </li>
+                            <li><span class="montserrat flow-text">- </span>
+                            </li>
+                            <li><span class="montserrat flow-text">-</span>
+                            </li>
+                            <li><span class="montserrat flow-text">-</span>
+                            </li>
+                            <li><span class="montserrat flow-text">-</span>
+                            </li>
+                            <li><span class="montserrat flow-text">-</span>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col s10">
+                        <ul>
+
+                            <li>
+                                <span class="montserrat flow-text">
+                                    Created client booking system.
+                                </span>
+                            </li>
+                            <li>
+                                <span class="montserrat flow-text">
+                                    Created schedule management system.
+                                </span>
+                            </li>
+                            <li><span class="montserrat flow-text">Created Admin/Client Messaging System.</span>
+                            </li>
+                            <li><span class="montserrat flow-text">Created Notes System.</span>
+                            </li>
+                            <li><span class="montserrat flow-text">Developed UX/UI.</span>
+                            </li>
+                            <li><span class="montserrat flow-text">Created Assets.</span>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col s12 left-align">
+                        <p class="montserrat flow-text">
+                            + Back End
+                        </p>
+                        <div class="col s4">
+                            <div class="col s12" style="border:1px solid #ddd;"></div>
+                        </div>
+                        <div class="col s8"></div>
+                    </div>
+
+                    <div class="col s2 right-align">
+                        <ul>
+
+                            <li>
+                                <span class="montserrat flow-text">
+                                    -
+                                </span>
+                            </li>
+                            <li>
+                                <span class="montserrat flow-text">
+                                    -
+                                </span>
+                            </li>
+                            <li><span class="montserrat flow-text">- </span>
+                            </li>
+                            <li><span class="montserrat flow-text">-</span>
+                            </li>
+                            <li><span class="montserrat flow-text">-</span>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col s10">
+                        <ul>
+
+                            <li>
+                                <span class="montserrat flow-text">
+                                    Modeled and implemented the database structure.
+                                </span>
+                            </li>
+                            <li>
+                                <span class="montserrat flow-text">
+                                    Deployed database to cloud database hosting service.
+                                </span>
+                            </li>
+                            <li><span class="montserrat flow-text">Wrote and implemented server runtime using
+                                    NodeJs.</span>
+                            </li>
+                            <li><span class="montserrat flow-text">Wrote and tested all APIs.</span>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
