@@ -164,6 +164,7 @@ $scope.launchRocket = function(){
 //RESUME CODE //
 $scope.shineBright = false;
 $scope.qlh = false;
+$scope.rose = false;
 $scope.openExperience = function(){
     console.log("Clicked")
     if($scope.shineBright ){
@@ -178,6 +179,13 @@ $scope.openExperience = function(){
     }else{
         $scope.shineBright = true;
         $scope.qlh = true;
+    }
+    if($scope.rose ){
+        $scope.rose = false;
+    }else{
+        $scope.shineBright = true;
+        $scope.qlh = false;
+        $scope.rose = true;
     }
 
 }
