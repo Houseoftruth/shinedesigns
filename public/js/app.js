@@ -164,7 +164,7 @@ $scope.launchRocket = function(){
 //RESUME CODE //
 $scope.shineBright = false;
 $scope.openExperience = function(){
-
+    console.log("Clicked")
     if($scope.shineBright){
         $scope.shineBright = false;
     }else{
