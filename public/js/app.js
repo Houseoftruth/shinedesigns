@@ -163,12 +163,21 @@ $scope.launchRocket = function(){
 }
 //RESUME CODE //
 $scope.shineBright = false;
+$scope.qlh = false;
 $scope.openExperience = function(){
     console.log("Clicked")
-    if($scope.shineBright){
+    if($scope.shineBright ){
         $scope.shineBright = false;
     }else{
         $scope.shineBright = true;
+        $scope.qlh = false;
+    }
+    if($scope.qlh ){
+        //$scope.shineBright = false;
+        $scope.qlh = false;
+    }else{
+        $scope.shineBright = false;
+        $scope.qlh = true;
     }
 
 }

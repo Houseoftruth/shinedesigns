@@ -280,15 +280,23 @@
         <div class="row">
 
             <div class="col s12">
-                <h5 class="montserrat" ng-click="openExperience();"><i class="material-icons"
-                        style=" border:1px solid black; font-size:30px; box-shadow:2px 2px 2px grey; ">add</i>&nbsp
-                    Quality Labout Hire
-                </h5>
+                    <div ng-show="!qlh">
+                            <h5 class="montserrat" ng-click="openExperience();"><i class="material-icons"
+                                    style=" border:1px solid black; font-size:30px; box-shadow:2px 2px 2px grey; ">remove</i>&nbsp
+                                Quality Labour Hire
+                            </h5>
+                        </div>
+                        <div ng-show="qlh">
+                                <h5 class="montserrat" ng-click="openExperience();"><i class="material-icons"
+                                        style=" border:1px solid black; font-size:30px; box-shadow:2px 2px 2px grey; ">add</i>&nbsp
+                                    Quality Labout Hire
+                                </h5>
+                            </div>
 
                 <a href="www.shinebrightcoaching.ca" class="montserrat flow-text">
                     www.qualitylabouthire.co.nz
                 </a>
-                <div class="animated fadeIn" ng-class="{'fadeIn':shineBright,'fadeOut:!shineBright;'}">
+                <div ng-show="qlh" class="animated fadeIn" ng-class="{'fadeIn':shineBright,'fadeOut:!shineBright;'}">
                     <p class="montserrat flow-text">+ Technical Lead (Full-Stack Developer).
                     </p>
                     <p class="montserrat flow-text">
