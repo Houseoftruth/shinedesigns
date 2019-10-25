@@ -75,7 +75,7 @@ app.controller('mainCtrl', ['$http','$scope','$timeout','User','$interval','$win
   };
   $scope.datasetOverride = [{ yAxisID: 'y-axis-1' }, { yAxisID: 'y-axis-2' }];
   $scope.options = {
-      responsive:false,
+      responsive:true,
     scales: {
       yAxes: [
         {
