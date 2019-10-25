@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="1000px" height="1000px" viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1000px"
+	 height="1000px" viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
 <style type="text/css">
 <![CDATA[
 	.st0{fill:#FFFFFF;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
+	.st1{display:none;fill:#FFFFFF;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
 ]]>
 </style>
-<path class="st0" d="M64.143,992c0,0,144.643-689.289,408.929-321.429"/>
-<path class="st0" d="M328.429,562.506c0,0,162.501-470.502,346.429-295.502"/>
-<path class="st0" d="M601.744,228.665c0,0,183.827-431.197,317.756,0"/>
+<g id="Layer_1">
+	<path class="st0" d="M64.143,992c0,0,144.643-689.289,408.929-321.429"/>
+	<path class="st0" d="M328.429,562.506c0,0,162.501-470.502,346.429-295.502"/>
+	<path class="st0" d="M601.744,228.665c0,0,183.827-431.197,317.756,0"/>
+	<path class="st1" d="M658.739,126.446c0,0,50.147,90.557,101.883,38.771c0,0,57.093,101.626,108.878,15.992
+		c0,0,18.603,6.257,29.837-10.225"/>
+	<path class="st0" d="M735.714,150.932c0,0,48.215,141.425,89.286,0"/>
+	<path class="st0" d="M647.714,151.932c0,0,48.215,80.357,89.286,0"/>
+	<path class="st0" d="M828,151.932c0,0,47.522,51,61.985,0"/>
+</g>
+<g id="Layer_2">
+</g>
 </svg>
