@@ -165,21 +165,7 @@ $scope.launchRocket = function(){
 $scope.shineBright = false;
 $scope.qlh = false;
 $scope.rose = false;
-$scope.openExperience = function(){
-    console.log("Clicked")
-    if($scope.shineBright ){
-        $scope.shineBright = false;
-    }else{
-        $scope.shineBright = true;
-        $scope.qlh = false;
-    }
-    if($scope.qlh ){
-        //$scope.shineBright = false;
-        $scope.qlh = false;
-    }else{
-        $scope.shineBright = true;
-        $scope.qlh = true;
-    }
+$scope.openExperience3 = function(){
     if($scope.rose ){
         $scope.rose = false;
     }else{
@@ -187,6 +173,28 @@ $scope.openExperience = function(){
         $scope.qlh = false;
         $scope.rose = true;
     }
+}
+$scope.openExperience2 = function(){
+    if($scope.qlh ){
+        //$scope.shineBright = false;
+        $scope.qlh = false;
+    }else{
+        $scope.shineBright = true;
+        $scope.rose = false;
+        $scope.qlh = true;
+    }
+}
+$scope.openExperience = function(){
+    console.log("Clicked")
+    if($scope.shineBright ){
+        $scope.shineBright = false;
+    }else{
+        $scope.shineBright = true;
+        $scope.qlh = false;
+        $scope.rose = false;
+    }
+
+
 
 }
 $scope.bigPink = false;
