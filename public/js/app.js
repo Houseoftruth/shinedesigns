@@ -174,7 +174,7 @@ $scope.openExperience = function(){
         $scope.qlh = false;
     }
     if($scope.qlh ){
-        $scope.shineBright = false;
+        //$scope.shineBright = false;
         $scope.qlh = false;
     }else{
         $scope.shineBright = true;
