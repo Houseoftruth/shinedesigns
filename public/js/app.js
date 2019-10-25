@@ -1,3 +1,5 @@
+import { TIMEOUT } from "dns";
+
 (function(){
 var app = angular.module('store',['appRoutes','userServices','ngFileUpload','chart.js']);
 
@@ -70,6 +72,12 @@ app.controller('mainCtrl', ['$http','$scope','$timeout','User','$interval','$win
     [0, 0, 0, 0, 0, 0, 0],
     [0, 0, 0, 0, 0, 0, 0]
   ];
+  $timeout(function(){
+    $scope.data = [
+        [65, 59, 80, 81, 56, 55, 40],
+        [28, 48, 40, 19, 86, 27, 90]
+      ];
+  },2000)
   $scope.data = [
     [65, 59, 80, 81, 56, 55, 40],
     [28, 48, 40, 19, 86, 27, 90]
