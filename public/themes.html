@@ -44,7 +44,9 @@
 <img class="img-responsive animated fixed " src='./images/tricircleup.svg' />
 <!--style="background-image:url('./images/mountain.svg')"-->
 <div class = "col s12" >
- 
+  <canvas id="bar" class="chart chart-bar"
+  chart-data="data2" chart-labels="labels2"chart-series="series">
+</canvas>
 <canvas id="line" class="chart chart-line" width="600" height="250" chart-data="data"
 chart-labels="labels" chart-series="series" chart-options="options"
 chart-dataset-override="datasetOverride" chart-click="onClick">
