@@ -66,6 +66,12 @@ app.controller('mainCtrl', ['$http','$scope','$timeout','User','$interval','$win
     $scope.largeStorage = false;
     $scope.detailedTableOpen = false;
     $scope.clickdog =false
+    $scope.labels3 =["Eating", "Drinking", "Sleeping", "Designing", "Coding", "Cycling", "Running"];
+
+    $scope.data3 = [
+      [65, 59, 90, 81, 56, 55, 40],
+      [28, 48, 40, 19, 96, 27, 100]
+    ];
     $scope.labels2 = ['2006', '2007', '2008', '2009', '2010', '2011', '2012'];
     $scope.series2 = ['Series A', 'Series B'];
   
