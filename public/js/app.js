@@ -98,29 +98,29 @@
         $scope.fadeOutHill = false;
         $scope.fadeInBar = false;
         $scope.fadeOutBar = false;
-        $timeout(function () {
-            $scope.fadeInBar = true;
+       // $timeout(function () {
+          //  $scope.fadeInBar = true;
             $scope.barChart = true;
-        },3000)
+       // },3000)
         $timeout(function () {
-            $scope.fadeInBar = false;
-            $scope.fadeOutBar = true;
+         //   $scope.fadeInBar = false;
+         //   $scope.fadeOutBar = true;
         },5000)
         $timeout(function () {
-            $scope.barChart = false;
+          //  $scope.barChart = false;
         },5500)
-        $scope.hillChartTiming = function(){
+       // $scope.hillChartTiming = function(){
            // $timeout(function () {
-                $scope.fadeInHill = true;
+                //$scope.fadeInHill = true;
                 $scope.hillChart = true;
             //},6000)
-            $timeout(function () {
-                $scope.fadeInHill = false;
-                $scope.fadeOutHill = true;
-            },2000)
-            $timeout(function(){
-                $scope.hillChart = false;
-            },2500)
+            //$timeout(function () {
+              //  $scope.fadeInHill = false;
+               // $scope.fadeOutHill = true;
+           // },2000)
+           // $timeout(function(){
+           //    $scope.hillChart = false;
+//},2500)
         }
         $scope.hillChartTiming()
         $interval(function(){
