@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="truck" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	  viewBox="0 0 1000 2858.417" enable-background="new 0 0 1000 2858.417" xml:space="preserve">
+	  <script  id="script4044" xlink:href="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg.js"></script>
+
 <path fill="#FFFFFF" stroke="#000000" stroke-width="9" stroke-miterlimit="10" d="M184.182,2662.68v-93.895v-78.246
 	c0,0,0-60.361,82.717-49.184l225.796,1.258v220.066H184.182z"/>
 <path fill="#FFFFFF" stroke="#000000" stroke-width="9" stroke-miterlimit="10" d="M508.933,2554.297c0,0,1.693-15.254,16.948,0
@@ -56,4 +59,147 @@
 <path fill="none" stroke="#000000" stroke-width="7" stroke-miterlimit="10" d="M407.303,2316.385c0,0-60.097-28.542-19.563-73.528"
 	/>
 <line fill="none" stroke="#000000" stroke-width="7" stroke-miterlimit="10" x1="0" y1="2814.027" x2="1058.085" y2="2814.027"/>
+<script  type="text/javascript" id="script4196">
+		<![CDATA[
+
+	var s = Snap("#truck");
+	var s2 = Snap("#smoke");
+		var s3 = Snap("#smallsmoke");
+		var s4 = Snap("#sbubble");
+		var s5 = Snap("#sbubble2");
+		var s6 = Snap("#sbubble3");
+		var s7 = Snap("#sbubble4");
+		var s8 = Snap("#sbubble5");
+		var s9 = Snap("#sbubble6");
+		var s10 = Snap("#sbubble7");
+
+	var animating = false;
+	//var matrix = s2.transform().localMatrix;
+	console.log(s.attr(""))
+	console.log(s)
+//console.log(s2)
+	//console.log(matrix)
+	//console.log(matrix.toTransformString())
+	//var tMatrix = matrix.toTransformString()
+	/*s.attr({
+    fill: "#fc0",
+    stroke: "#000",
+    strokeWidth: 8, // CamelCase...
+    "fill-opacity": 0.5, // or dash-separated names
+    width: "*=2" // prefixed values
+});*/
+
+var anim1 = function() {
+    
+	s2.animate({transform:"t293.2798,62.8417, r94.905,0,0"}, 200,anim3)
+	
+}
+var anim3 = function(){
+s.animate({ transform: 't-600,0' }, 7000)
+//s.scale(2)
+s3.animate({opacity: 0}, 500)
+console.log("HERE")
+setTimeout(function(){
+s2.animate({opacity: 0}, 500)
+//s4.animate({opacity: 1}, 500)
+
+},500)
+setTimeout(function(){
+
+s4.animate({opacity: 1}, 500)
+
+},1200)
+setTimeout(function(){
+
+s5.animate({opacity: 1}, 500)
+
+},2300)
+setTimeout(function(){
+
+s5.animate({opacity: 0}, 500)
+
+},3300)
+setTimeout(function(){
+
+s6.animate({opacity: 1}, 500)
+
+},2900)
+setTimeout(function(){
+
+s6.animate({opacity: 0}, 500)
+
+},3800)
+setTimeout(function(){
+
+s7.animate({opacity: 1}, 500)
+
+},3900)
+setTimeout(function(){
+
+s7.animate({opacity: 0}, 500)
+
+},4800)
+
+setTimeout(function(){
+
+s8.animate({opacity: 1}, 500)
+
+},4800)
+
+setTimeout(function(){
+
+s8.animate({opacity: 0}, 500)
+
+},5500)
+setTimeout(function(){
+s9.animate({opacity: 1}, 500)
+
+},5500)
+
+setTimeout(function(){
+
+s9.animate({opacity: 0}, 500)
+
+},6000)
+setTimeout(function(){
+s10.animate({opacity: 1}, 500)
+
+},6500)
+setTimeout(function(){
+
+s10.animate({opacity: 0}, 500)
+
+},7300)
+setTimeout(function(){
+
+s4.animate({opacity: 0}, 500)
+
+},2500)
+console.log("HERE")
+}
+
+var anim2 = function() {
+    s.animate({ry: 6.268}, 200,function(){
+	
+	setTimeout(function(){
+	anim3()
+	},5000)
+
+	})
+
+
+}
+
+if(animating == false){
+anim3()
+console.log(s.attr("rx"))
+}
+
+
+;
+
+
+		
+			]]>
+	</script>
 </svg>
