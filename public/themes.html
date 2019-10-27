@@ -47,13 +47,18 @@
     <h3 class="montserrat center-align"> Colorful Data Visualisation</h3>
   </div>
   <div class="col s12">
+
     <canvas ng-show="webChart" id="radar" class="chart chart-radar animated fadeIn" chart-data="data3" chart-options="options" chart-labels="labels3">
     </canvas>
+    <div ng-show="barChart" class="animated fadeIn">
     <canvas ng-show="barChart" id="bar" class="chart chart-bar animated fadeIn" chart-data="data2" chart-labels="labels2" chart-series="series">
     </canvas>
-    <canvas ng-show="hillChart" id="line" class="chart chart-line animated fadeIn" width="600" height="250" chart-data="data" chart-labels="labels"
+    </div>
+    <div ng-show="hillChart" class="animated fadeIn">
+    <canvas  id="line" class="chart chart-line " width="600" height="250" chart-data="data" chart-labels="labels"
       chart-series="series" chart-options="options" chart-dataset-override="datasetOverride" chart-click="onClick">
     </canvas>
+    </div>
 
   </div>
   <div class = "col s12">
