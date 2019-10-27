@@ -122,12 +122,8 @@
            //    $scope.hillChart = false;
 //},2500)
         
-        $scope.hillChartTiming()
-        $interval(function(){
-            if(!$scope.hillChart){
-            $scope.hillChartTiming()
-            }
-        },8500)
+        //$scope.hillChartTiming()
+     
         $scope.onClick = function (points, evt) {
             console.log(points, evt);
         };
