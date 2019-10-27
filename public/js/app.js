@@ -94,16 +94,22 @@
         $scope.webChart = true;
         $scope.barChart = false;
         $scope.hillChart = false;
-
+        $scope.fadeInHill = false;
+        $scope.fadeOutHill = false;
         $timeout(function () {
             $scope.barChart = true;
         },3000)
         $timeout(function () {
+            $scope.fadeInHill = true;
             $scope.hillChart = true;
         },6000)
         $timeout(function () {
-
-        })
+            $scope.fadeInHill = false;
+            $scope.fadeOutHill = true;
+        },8000)
+        $timeout(function(){
+            $scope.hillChart = false;
+        },8500)
         $scope.onClick = function (points, evt) {
             console.log(points, evt);
         };

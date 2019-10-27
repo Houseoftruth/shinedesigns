@@ -54,7 +54,7 @@
     <canvas ng-show="barChart" id="bar" class="chart chart-bar animated fadeIn" chart-data="data2" chart-labels="labels2" chart-series="series">
     </canvas>
     </div>
-    <div ng-show="hillChart" class="animated fadeIn">
+    <div ng-show="hillChart" class="animated fadeIn" ng-class="{'fadeIn':fadeInHill,'fadeOut':fadeOutHill}">
     <canvas  id="line" class="chart chart-line " width="600" height="250" chart-data="data" chart-labels="labels"
       chart-series="series" chart-options="options" chart-dataset-override="datasetOverride" chart-click="onClick">
     </canvas>
