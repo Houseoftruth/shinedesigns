@@ -2,7 +2,7 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="truck" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1000 2858.417" enable-background="new 0 0 1000 2858.417" xml:space="preserve">
+	  viewBox="0 0 1000 2858.417" enable-background="new 0 0 1000 2858.417" xml:space="preserve">
 <path fill="#FFFFFF" stroke="#000000" stroke-width="9" stroke-miterlimit="10" d="M184.182,2662.68v-93.895v-78.246
 	c0,0,0-60.361,82.717-49.184l225.796,1.258v220.066H184.182z"/>
 <path fill="#FFFFFF" stroke="#000000" stroke-width="9" stroke-miterlimit="10" d="M508.933,2554.297c0,0,1.693-15.254,16.948,0
@@ -29,22 +29,22 @@
 <polygon fill="#FFFFFF" stroke="#000000" stroke-width="9" stroke-miterlimit="10" points="423.392,2440.73 423.392,2344.599 
 	448.52,2331.409 448.52,2440.73 "/>
 <g id="rocket">
-	<path fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" d="M629.907,2479.741
-		c0,0-79.741,107.715-29.731,139.348H630.1"/>
-	<path fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" d="M628.342,2479.741
-		c0,0,79.738,107.715,29.726,139.348h-29.918"/>
+	<path fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" d="M630.154,2416.469
+		c0,0-104.826,141.6-39.084,183.183h39.337"/>
+	<path fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" d="M628.096,2416.469
+		c0,0,104.822,141.6,39.077,183.183h-39.329"/>
 	<g id="Layer_3_1_">
-		<circle fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" cx="629.006" cy="2568.222" r="19.475"/>
-		<polyline fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" points="620.149,2620.798 608.741,2635.33 
-			629.083,2635.33 		"/>
-		<polyline fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" points="638.149,2620.798 649.557,2635.33 
-			629.215,2635.33 		"/>
+		<circle fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" cx="628.969" cy="2532.784" r="25.602"/>
+		<polyline fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" points="617.326,2601.9 602.33,2621.002 
+			629.07,2621.002 		"/>
+		<polyline fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" points="640.989,2601.9 655.984,2621.002 
+			629.244,2621.002 		"/>
 		
-			<line fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" x1="609.529" y1="2643.02" x2="609.529" y2="2660.12"/>
+			<line fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" x1="603.365" y1="2631.112" x2="603.365" y2="2653.59"/>
 		
-			<line fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" x1="629.907" y1="2651.574" x2="629.907" y2="2684.916"/>
+			<line fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" x1="630.154" y1="2642.357" x2="630.154" y2="2686.187"/>
 		
-			<line fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" x1="649.707" y1="2643.02" x2="649.707" y2="2660.12"/>
+			<line fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" x1="656.183" y1="2631.112" x2="656.183" y2="2653.59"/>
 	</g>
 </g>
 <line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="525.881" y1="2587.697" x2="743.406" y2="2587.697"/>
