@@ -104,14 +104,21 @@
         //  $scope.fadeInBar = true;
         $scope.barChart = true;
         // },3000)
+        
         $interval(function () {
             $scope.fadeInWeb = false;
             $scope.fadeOutWeb = true;
         },2000)
+        $interval(function () {
+            $scope.webChart = false;
+        },3000)
         $interval(function(){
             $scope.fadeOutWeb = false;
             $scope.fadeInWeb = true;
         },4000)
+        $interval(function(){
+            $scope.webChart = true;
+        },5000)
 
         $timeout(function () {
             //   $scope.fadeInBar = false;
