@@ -91,7 +91,7 @@
                 [28, 48, 40, 19, 86, 27, 90]
             ];
         }, 2000)
-        //$scope.webChart = true;
+        $scope.webChart = true;
         $scope.barChart = false;
         $scope.hillChart = false;
         $scope.fadeInWeb = false;
