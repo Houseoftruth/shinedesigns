@@ -96,9 +96,19 @@
         $scope.hillChart = false;
         $scope.fadeInHill = false;
         $scope.fadeOutHill = false;
+        $scope.fadeInBar = false;
+        $scope.fadeOutBar = false;
         $timeout(function () {
+            $scope.fadeInBar = true;
             $scope.barChart = true;
         },3000)
+        $timeout(function () {
+            $scope.fadeInBar = false;
+            $scope.fadeOutBar = true;
+        },5000)
+        $timeout(function () {
+            $scope.barChart = false;
+        },5500)
         $timeout(function () {
             $scope.fadeInHill = true;
             $scope.hillChart = true;

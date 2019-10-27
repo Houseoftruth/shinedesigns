@@ -50,11 +50,11 @@
 
     <canvas ng-show="webChart" id="radar" class="chart chart-radar animated fadeIn" chart-data="data3" chart-options="options" chart-labels="labels3">
     </canvas>
-    <div ng-show="barChart" class="animated fadeIn">
+    <div ng-show="barChart" class="animated "ng-class="{'fadeIn':fadeInBar,'fadeOut':fadeOutBar}">
     <canvas ng-show="barChart" id="bar" class="chart chart-bar animated fadeIn" chart-data="data2" chart-labels="labels2" chart-series="series">
     </canvas>
     </div>
-    <div ng-show="hillChart" class="animated fadeIn" ng-class="{'fadeIn':fadeInHill,'fadeOut':fadeOutHill}">
+    <div ng-show="hillChart" class="animated " ng-class="{'fadeIn':fadeInHill,'fadeOut':fadeOutHill}">
     <canvas  id="line" class="chart chart-line " width="600" height="250" chart-data="data" chart-labels="labels"
       chart-series="series" chart-options="options" chart-dataset-override="datasetOverride" chart-click="onClick">
     </canvas>
