@@ -105,12 +105,12 @@
         $scope.barChart = true;
         // },3000)
         $interval(function () {
-            $scope.fadeInHill = false;
-            $scope.fadeOutHill = true;
+            $scope.fadeInWeb = false;
+            $scope.fadeOutWeb = true;
         },2000)
         $interval(function(){
-            $scope.fadeOutHill = false;
-            $scope.fadeInHill = true;
+            $scope.fadeOutWeb = false;
+            $scope.fadeInWeb = true;
         },4000)
 
         $timeout(function () {
