@@ -2,61 +2,61 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="truck" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	viewBox="0 0 1000 2858.417" enable-background="new 0 0 1000 2858.417" xml:space="preserve">
-<script  id="script4044" xlink:href="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg.js"></script>
+	 viewBox="0 0 1000 2858.417" enable-background="new 0 0 1000 2858.417" xml:space="preserve">
+	 <script  id="script4044" xlink:href="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg.js"></script>
 
-<path fill="#FFFFFF" stroke="#000000" stroke-width="9" stroke-miterlimit="10" d="M1017.743,2662.68v-93.895v-78.246
-	c0,0,0-60.361,82.717-49.184l225.797,1.258v220.066H1017.743z"/>
-<path fill="#FFFFFF" stroke="#000000" stroke-width="9" stroke-miterlimit="10" d="M1342.494,2554.297c0,0,1.693-15.254,16.948,0
-	v118.645h-16.948V2554.297z"/>
-<path fill="#FFFFFF" stroke="#000000" stroke-width="9" stroke-miterlimit="10" d="M1587.441,2554.297c0,0-1.693-15.254-16.948,0
+<path fill="#FFFFFF" stroke="#000000" stroke-width="9" stroke-miterlimit="10" d="M383.809,2662.68v-93.895v-78.246
+	c0,0,0-60.361,82.717-49.184l225.797,1.258v220.066H383.809z"/>
+<path fill="#FFFFFF" stroke="#000000" stroke-width="9" stroke-miterlimit="10" d="M708.56,2554.297c0,0,1.693-15.254,16.948,0
+	v118.645H708.56V2554.297z"/>
+<path fill="#FFFFFF" stroke="#000000" stroke-width="9" stroke-miterlimit="10" d="M953.507,2554.297c0,0-1.693-15.254-16.948,0
 	v118.645h16.948V2554.297z"/>
-<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="6" stroke-miterlimit="10" cx="1515.299" cy="2756.4" rx="61.669" ry="57.627"/>
-<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="6" stroke-miterlimit="10" cx="1219.273" cy="2756.4" rx="62.61" ry="57.627"/>
+<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="6" stroke-miterlimit="10" cx="881.364" cy="2756.4" rx="61.669" ry="57.627"/>
+<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="6" stroke-miterlimit="10" cx="585.339" cy="2756.4" rx="62.61" ry="57.627"/>
 <path display="none" fill="#FFFFFF" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M763.88,2435.942
 	c0,0,33.019-4.066,41.493,9.831v49.491h-58.441c0,0,7.086-29.49-9.609-49.491c0,0-57.373-57.966-125.17,0
 	c0,0-22.034,22.287,0,47.711l-150.847,1.78c0,0-0.067-39.66-16.983-49.491s-55.898-56.271-125.39,0c0,0-27.085,41.355-8.475,49.491
 	h-62.712c0,0-11.865-97.576,10.169-82.322l497.491-1.619L763.88,2435.942z"/>
-<path fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" d="M1137.613,2770.4
+<path fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" d="M503.679,2770.4
 	c0-45.643,37.001-82.644,82.644-82.644s82.644,37.001,82.644,82.644"/>
-<path fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" d="M1596.9,2770.4
+<path fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" d="M962.966,2770.4
 	c0-45.643-37.001-82.644-82.644-82.644s-82.644,37.001-82.644,82.644"/>
-<line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="1343.494" y1="2673.756" x2="1579.968" y2="2673.756"/>
-<line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="1302.9" y1="2772.417" x2="1431.613" y2="2772.417"/>
-<path fill="none" stroke="#000000" stroke-width="7" stroke-miterlimit="10" d="M1087.613,2772.721h-56.137h-11.864
+<line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="709.56" y1="2673.756" x2="946.033" y2="2673.756"/>
+<line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="668.966" y1="2772.417" x2="797.679" y2="2772.417"/>
+<path fill="none" stroke="#000000" stroke-width="7" stroke-miterlimit="10" d="M453.679,2772.721h-56.137h-11.864
 	c0,0-13.56-106.779,11.864-106.779"/>
-<path fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" d="M1587.441,2672.942"/>
-<polyline fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" points="1596.9,2779.721 1628.935,2779.721 
-	1628.935,2673.756 1596.9,2673.756 "/>
-<polygon fill="#FFFFFF" stroke="#000000" stroke-width="9" stroke-miterlimit="10" points="1256.954,2440.73 1256.954,2344.599 
-	1282.081,2331.409 1282.081,2440.73 "/>
+<path fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" d="M953.507,2672.942"/>
+<polyline fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" points="962.966,2779.721 995,2779.721 
+	995,2673.756 962.966,2673.756 "/>
+<polygon fill="#FFFFFF" stroke="#000000" stroke-width="9" stroke-miterlimit="10" points="623.02,2440.73 623.02,2344.599 
+	648.146,2331.409 648.146,2440.73 "/>
 <g id="rocket">
-	<path fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" d="M1463.716,2416.469
+	<path fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" d="M829.781,2416.469
 		c0,0-104.826,141.6-39.084,183.183h39.337"/>
-	<path fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" d="M1461.657,2416.469
+	<path fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" d="M827.723,2416.469
 		c0,0,104.822,141.6,39.077,183.183h-39.329"/>
 	<g id="Layer_3_1_">
-		<circle fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" cx="1462.53" cy="2532.784" r="25.602"/>
-		<polyline fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" points="1450.888,2601.9 1435.892,2621.002 
-			1462.632,2621.002 		"/>
-		<polyline fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" points="1474.551,2601.9 1489.546,2621.002 
-			1462.806,2621.002 		"/>
+		<circle fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" cx="828.596" cy="2532.784" r="25.602"/>
+		<polyline fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" points="816.953,2601.9 801.957,2621.002 
+			828.697,2621.002 		"/>
+		<polyline fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" points="840.616,2601.9 855.611,2621.002 
+			828.871,2621.002 		"/>
 		
-			<line fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" x1="1436.927" y1="2631.112" x2="1436.927" y2="2653.59"/>
+			<line fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" x1="802.992" y1="2631.112" x2="802.992" y2="2653.59"/>
 		
-			<line fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" x1="1463.716" y1="2642.357" x2="1463.716" y2="2686.187"/>
+			<line fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" x1="829.781" y1="2642.357" x2="829.781" y2="2686.187"/>
 		
-			<line fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" x1="1489.744" y1="2631.112" x2="1489.744" y2="2653.59"/>
+			<line fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" x1="855.81" y1="2631.112" x2="855.81" y2="2653.59"/>
 	</g>
 </g>
-<line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="1359.442" y1="2587.697" x2="1576.968" y2="2587.697"/>
-<line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="1359.442" y1="2633.697" x2="1576.968" y2="2633.697"/>
-<circle fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" cx="1219.273" cy="2756.4" r="30"/>
-<circle fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" cx="1515.273" cy="2755.4" r="30"/>
+<line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="725.508" y1="2587.697" x2="943.033" y2="2587.697"/>
+<line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="725.508" y1="2633.697" x2="943.033" y2="2633.697"/>
+<circle fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" cx="585.339" cy="2756.4" r="30"/>
+<circle fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" cx="881.339" cy="2755.4" r="30"/>
 <path display="none" fill="#FFFFFF" stroke="#000000" stroke-width="6" stroke-miterlimit="10" d="M213.356,2292.518v-59.322
 	c0,0,13.56-28.814,32.204-22.034l45.763-0.033v81.389H213.356z"/>
-<path fill="none" stroke="#000000" stroke-width="7" stroke-miterlimit="10" d="M1240.864,2316.385c0,0-60.098-28.542-19.563-73.528
-	"/>
+<path fill="none" stroke="#000000" stroke-width="7" stroke-miterlimit="10" d="M606.93,2316.385c0,0-60.098-28.542-19.563-73.528"
+	/>
 <line display="none" fill="none" stroke="#000000" stroke-width="7" stroke-miterlimit="10" x1="0" y1="2814.027" x2="1058.085" y2="2814.027"/>
 <script  type="text/javascript" id="script4196">
 		<![CDATA[
