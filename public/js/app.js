@@ -139,6 +139,9 @@
 
             $timeout(function(){
                 $scope.hillChart = false;
+                $scope.fadeOutWeb = false;
+                $scope.webChart = true;
+                $scope.fadeInWeb = true;
             },15000)
 
         }
