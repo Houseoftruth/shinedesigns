@@ -109,17 +109,22 @@
         $timeout(function () {
             $scope.barChart = false;
         },5500)
-        $timeout(function () {
-            $scope.fadeInHill = true;
-            $scope.hillChart = true;
-        },6000)
-        $timeout(function () {
-            $scope.fadeInHill = false;
-            $scope.fadeOutHill = true;
-        },8000)
-        $timeout(function(){
-            $scope.hillChart = false;
-        },8500)
+        $scope.hillChartTiming = function(){
+            $timeout(function () {
+                $scope.fadeInHill = true;
+                $scope.hillChart = true;
+            },6000)
+            $timeout(function () {
+                $scope.fadeInHill = false;
+                $scope.fadeOutHill = true;
+            },8000)
+            $timeout(function(){
+                $scope.hillChart = false;
+            },8500)
+        }
+        $interval(function(){
+            $scope.hillChartTiming()
+        },9000)
         $scope.onClick = function (points, evt) {
             console.log(points, evt);
         };
