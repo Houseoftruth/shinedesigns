@@ -114,14 +114,26 @@
                 $scope.fadeOutWeb = true;
             }, 4000)
             $timeout(function () {
+                $scope.fadeOutBar = false;
                 $scope.webChart = false;
+                $scope.barChart = true;
+                $scope.fadeInBar = true;
+                
             }, 5000)
+            $timeout(function(){
+                $scope.fadeInBar = false;
+                $scope.fadeOutBar = true;
+            },9000)
+            $timeout(function(){
+                $scope.barChart = false;
+              
+            },10000)
 
         }
 
         $interval(function(){
             $scope.fadeOutWebChart()
-        },10000)    
+        },11000)    
 
 
 
