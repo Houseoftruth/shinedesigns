@@ -124,7 +124,9 @@
         }
         $scope.hillChartTiming()
         $interval(function(){
-           // $scope.hillChartTiming()
+            if(!$scope.hillChart){
+            $scope.hillChartTiming()
+            }
         },8500)
         $scope.onClick = function (points, evt) {
             console.log(points, evt);
