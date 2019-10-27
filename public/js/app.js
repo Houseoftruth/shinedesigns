@@ -94,36 +94,47 @@
         $scope.webChart = true;
         $scope.barChart = false;
         $scope.hillChart = false;
+        $scope.fadeInWeb = false;
+        $scope.fadeOutWeb = false;
         $scope.fadeInHill = false;
         $scope.fadeOutHill = false;
         $scope.fadeInBar = false;
         $scope.fadeOutBar = false;
-       // $timeout(function () {
-          //  $scope.fadeInBar = true;
-            $scope.barChart = true;
-       // },3000)
+        // $timeout(function () {
+        //  $scope.fadeInBar = true;
+        $scope.barChart = true;
+        // },3000)
+        $interval(function () {
+            $scope.fadeInHill = false;
+            $scope.fadeOutHill = true;
+        },2000)
+        $interval(function(){
+            $scope.fadeOutHill = false;
+            $scope.fadeInHill = true;
+        },4000)
+
         $timeout(function () {
-         //   $scope.fadeInBar = false;
-         //   $scope.fadeOutBar = true;
-        },5000)
+            //   $scope.fadeInBar = false;
+            //   $scope.fadeOutBar = true;
+        }, 5000)
         $timeout(function () {
-          //  $scope.barChart = false;
-        },5500)
-       // $scope.hillChartTiming = function(){
-           // $timeout(function () {
-                //$scope.fadeInHill = true;
-                $scope.hillChart = true;
-            //},6000)
-            //$timeout(function () {
-              //  $scope.fadeInHill = false;
-               // $scope.fadeOutHill = true;
-           // },2000)
-           // $timeout(function(){
-           //    $scope.hillChart = false;
-//},2500)
-        
+            //  $scope.barChart = false;
+        }, 5500)
+        // $scope.hillChartTiming = function(){
+        // $timeout(function () {
+        //$scope.fadeInHill = true;
+        $scope.hillChart = true;
+        //},6000)
+        //$timeout(function () {
+        //  $scope.fadeInHill = false;
+        // $scope.fadeOutHill = true;
+        // },2000)
+        // $timeout(function(){
+        //    $scope.hillChart = false;
+        //},2500)
+
         //$scope.hillChartTiming()
-     
+
         $scope.onClick = function (points, evt) {
             console.log(points, evt);
         };
