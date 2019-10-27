@@ -113,7 +113,7 @@
                 $scope.fadeInWeb = false;
                 $scope.fadeOutWeb = true;
             }, 4000)
-            $interval(function () {
+            $timeout(function () {
                 $scope.webChart = false;
             }, 5000)
 
