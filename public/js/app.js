@@ -119,6 +119,9 @@
 
         }
 
+        $interval(function(){
+            $scope.fadeOutWebChart()
+        },10000)    
 
 
 
