@@ -102,7 +102,7 @@
         $scope.fadeOutBar = false;
         // $timeout(function () {
         //  $scope.fadeInBar = true;
-        $scope.barChart = true;
+        //$scope.barChart = true;
         // },3000)
         $scope.fadeOutWebChart = function () {
 
@@ -162,7 +162,7 @@
         // $scope.hillChartTiming = function(){
         // $timeout(function () {
         //$scope.fadeInHill = true;
-        $scope.hillChart = true;
+        //$scope.hillChart = true;
         //},6000)
         //$timeout(function () {
         //  $scope.fadeInHill = false;
