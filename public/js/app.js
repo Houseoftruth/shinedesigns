@@ -110,17 +110,17 @@
             $scope.barChart = false;
         },5500)
         $scope.hillChartTiming = function(){
-            $timeout(function () {
+           // $timeout(function () {
                 $scope.fadeInHill = true;
                 $scope.hillChart = true;
-            },6000)
+            //},6000)
             $timeout(function () {
                 $scope.fadeInHill = false;
                 $scope.fadeOutHill = true;
-            },8000)
+            },2000)
             $timeout(function(){
                 $scope.hillChart = false;
-            },8500)
+            },2500)
         }
         $scope.hillChartTiming()
         $interval(function(){
