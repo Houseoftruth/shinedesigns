@@ -121,7 +121,7 @@
            // $timeout(function(){
            //    $scope.hillChart = false;
 //},2500)
-        }
+        
         $scope.hillChartTiming()
         $interval(function(){
             if(!$scope.hillChart){
