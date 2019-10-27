@@ -94,7 +94,7 @@ var anim1 = function() {
 	
 }
 var anim3 = function(){
-s.animate({ transform: 't-80,0' }, 5000)
+//s.animate({ transform: 't-80,0' }, 5000)
 //s.scale(2)
 s3.animate({opacity: 0}, 500)
 console.log("HERE")
