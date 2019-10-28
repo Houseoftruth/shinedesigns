@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"  viewBox="0 0 1000 2858.417" enable-background="new 0 0 1000 2858.417" xml:space="preserve">
-<script  id="script4044" xlink:href="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg.js"></script>
-
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1000px"
+	 height="2858.417px" viewBox="0 0 1000 2858.417" enable-background="new 0 0 1000 2858.417" xml:space="preserve">
+	 <script  id="script4044" xlink:href="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg.js"></script>
 <g id="mountains">
-
 	<path fill="#FFFFFF" stroke="#000000" stroke-width="18" stroke-miterlimit="10" d="M281,2253.459l127.782-299.328
 		c0,0,63.774-114.093,127.896,0l147.66,299.328H281z"/>
 	<path fill="#FFFFFF" stroke="#000000" stroke-width="18" stroke-miterlimit="10" d="M130,2409.459l127.782-299.328
@@ -15,9 +14,15 @@
 </g>
 <g id="Layer_3">
 	<line fill="none" stroke="#000000" stroke-width="18" stroke-miterlimit="10" x1="0" y1="2409.459" x2="1000" y2="2409.459"/>
+	<g id="bush">
+		<path fill="none" stroke="#000000" stroke-width="18" stroke-miterlimit="10" d="M19.771,2706.07c0,0,3-47.553,57.005-41.678
+			c0,0,34.833-46.104,64.832-0.503c0,0,44.998-6.236,40.498,42.181H19.771z"/>
+		<path fill="none" stroke="#000000" stroke-width="18" stroke-miterlimit="10" d="M791.076,2536.417
+			c0,0,6.046-62.032,46.521-40.255c0,0,31.477-84.614,71.974-4.634c0,0,47.996-3.594,41.997,44.889H791.076z"/>
+	</g>
 </g>
 <g id="truck">
-	<path fill="none" stroke="#000000" stroke-width="9" stroke-miterlimit="10" d="M201.809,2706.07v-93.895v-78.246
+	<path fill="#FFFFFF" stroke="#000000" stroke-width="9" stroke-miterlimit="10" d="M201.809,2706.07v-93.895v-78.246
 		c0,0,0-60.361,82.717-49.184l225.797,1.258v220.066H201.809z"/>
 	<path fill="#FFFFFF" stroke="#000000" stroke-width="9" stroke-miterlimit="10" d="M526.56,2597.687c0,0,1.693-15.254,16.948,0
 		v118.645H526.56V2597.687z"/>
@@ -47,22 +52,22 @@
 	<polygon fill="#FFFFFF" stroke="#000000" stroke-width="9" stroke-miterlimit="10" points="441.02,2484.12 441.02,2387.989 
 		466.146,2374.798 466.146,2484.12 	"/>
 	<g id="rocket">
-		<path fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" d="M647.781,2459.859
+		<path fill="#FFFFFF" stroke="#010101" stroke-width="6" stroke-miterlimit="10" d="M647.781,2459.859
 			c0,0-104.826,141.6-39.084,183.183h39.337"/>
-		<path fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" d="M645.723,2459.859
+		<path fill="#FFFFFF" stroke="#010101" stroke-width="6" stroke-miterlimit="10" d="M645.723,2459.859
 			c0,0,104.822,141.6,39.077,183.183h-39.329"/>
 		<g id="Layer_3_1_">
-			<circle fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" cx="646.596" cy="2576.173" r="25.602"/>
-			<polyline fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" points="634.953,2645.29 619.957,2664.392 
+			<circle fill="#FFFFFF" stroke="#010101" stroke-width="6" stroke-miterlimit="10" cx="646.596" cy="2576.173" r="25.602"/>
+			<polyline fill="#FFFFFF" stroke="#010101" stroke-width="6" stroke-miterlimit="10" points="634.953,2645.29 619.957,2664.392 
 				646.697,2664.392 			"/>
-			<polyline fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" points="658.616,2645.29 673.611,2664.392 
+			<polyline fill="#FFFFFF" stroke="#010101" stroke-width="6" stroke-miterlimit="10" points="658.616,2645.29 673.611,2664.392 
 				646.871,2664.392 			"/>
 			
-				<line fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" x1="620.992" y1="2674.501" x2="620.992" y2="2696.98"/>
+				<line fill="#FFFFFF" stroke="#010101" stroke-width="6" stroke-miterlimit="10" x1="620.992" y1="2674.501" x2="620.992" y2="2696.98"/>
 			
-				<line fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" x1="647.781" y1="2685.747" x2="647.781" y2="2729.577"/>
+				<line fill="#FFFFFF" stroke="#010101" stroke-width="6" stroke-miterlimit="10" x1="647.781" y1="2685.747" x2="647.781" y2="2729.577"/>
 			
-				<line fill="none" stroke="#010101" stroke-width="6" stroke-miterlimit="10" x1="673.81" y1="2674.501" x2="673.81" y2="2696.98"/>
+				<line fill="#FFFFFF" stroke="#010101" stroke-width="6" stroke-miterlimit="10" x1="673.81" y1="2674.501" x2="673.81" y2="2696.98"/>
 		</g>
 	</g>
 	
@@ -135,162 +140,13 @@
 	<polyline display="none" fill="none" stroke="#000000" stroke-width="18" stroke-miterlimit="10" points="403.339,2429.459 
 		0,2429.459 127.782,2130.132 	"/>
 </g>
-
-
-	<script  type="text/javascript" id="script4196">
+<script  type="text/javascript" id="script4196">
 		<![CDATA[
 
 	var s = Snap("#truck");
 	var s2 = Snap("#mountains");
-		var s3 = Snap("#smallsmoke");
-		var s4 = Snap("#sbubble");
-		var s5 = Snap("#sbubble2");
-		var s6 = Snap("#sbubble3");
-		var s7 = Snap("#sbubble4");
-		var s8 = Snap("#sbubble5");
-		var s9 = Snap("#sbubble6");
-		var s10 = Snap("#sbubble7");
-
-	var animating = false;
-	//var matrix = s2.transform().localMatrix;
-	console.log(s.attr(""))
-	console.log(s)
-//console.log(s2)
-	//console.log(matrix)
-	//console.log(matrix.toTransformString())
-	//var tMatrix = matrix.toTransformString()
-	/*s.attr({
-    fill: "#fc0",
-    stroke: "#000",
-    strokeWidth: 8, // CamelCase...
-    "fill-opacity": 0.5, // or dash-separated names
-    width: "*=2" // prefixed values
-});*/
-
-
-var anim3 = function(){
-//s.animate({ transform: 't-80,0' }, 5000)
-s2.animate({ transform: 't-300,0'},10000)
-//s.scale(2)
-s3.animate({opacity: 0}, 500)
-console.log("HERE")
-setTimeout(function(){
-
-//s4.animate({opacity: 1}, 500)
-
-},500)
-setTimeout(function(){
-
-s4.animate({opacity: 1}, 500)
-
-},1200)
-setTimeout(function(){
-
-s5.animate({opacity: 1}, 500)
-
-},2300)
-setTimeout(function(){
-
-s5.animate({opacity: 0}, 500)
-
-},3300)
-setTimeout(function(){
-
-s6.animate({opacity: 1}, 500)
-
-},2900)
-setTimeout(function(){
-
-s6.animate({opacity: 0}, 500)
-
-},3800)
-setTimeout(function(){
-
-s7.animate({opacity: 1}, 500)
-
-},3900)
-setTimeout(function(){
-
-s7.animate({opacity: 0}, 500)
-
-},4800)
-
-setTimeout(function(){
-
-s8.animate({opacity: 1}, 500)
-
-},4800)
-
-setTimeout(function(){
-
-s8.animate({opacity: 0}, 500)
-
-},5500)
-setTimeout(function(){
-s9.animate({opacity: 1}, 500)
-
-},5500)
-
-setTimeout(function(){
-
-s9.animate({opacity: 0}, 500)
-
-},6000)
-setTimeout(function(){
-s10.animate({opacity: 1}, 500)
-
-},6500)
-setTimeout(function(){
-
-s10.animate({opacity: 0}, 500)
-
-},7300)
-setTimeout(function(){
-
-s4.animate({opacity: 0}, 500)
-
-},2500)
-console.log("HERE")
-}
-
-var anim2 = function() {
-    s.animate({ry: 6.268}, 200,function(){
-	
-	setTimeout(function(){
-	anim3()
-	},5000)
-
-	})
-
-
-}
-
-if(animating == false){
-anim3()
-console.log(s.attr("rx"))
-}
-
-
-;
-
-
+	var s3 = Snap("#bush");
 		
-			]]>
-	</script>
-
-	<script  type="text/javascript" id="script4196">
-		<![CDATA[
-
-	var s = Snap("#truck");
-	var s2 = Snap("#mountains");
-		var s3 = Snap("#smallsmoke");
-		var s4 = Snap("#sbubble");
-		var s5 = Snap("#sbubble2");
-		var s6 = Snap("#sbubble3");
-		var s7 = Snap("#sbubble4");
-		var s8 = Snap("#sbubble5");
-		var s9 = Snap("#sbubble6");
-		var s10 = Snap("#sbubble7");
 
 	var animating = false;
 	//var matrix = s2.transform().localMatrix;
@@ -309,114 +165,12 @@ console.log(s.attr("rx"))
 });*/
 
 
-var anim3 = function(){
 //s.animate({ transform: 't-80,0' }, 5000)
 s2.attr({transform: 'translate(900, 0)'})
-s2.animate({ transform: 't-1300,0'},10000)
-//s.scale(2)
-s3.animate({opacity: 0}, 500)
-console.log("HERE")
-setTimeout(function(){
+s3.attr({transform: 'translate(-600, 0)'})
+s2.animate({ transform: 't-1300,0'},20000)
+s3.animate({ transform: 't1300,0'},10000)
 
-//s4.animate({opacity: 1}, 500)
-
-},500)
-setTimeout(function(){
-
-s4.animate({opacity: 1}, 500)
-
-},1200)
-setTimeout(function(){
-
-s5.animate({opacity: 1}, 500)
-
-},2300)
-setTimeout(function(){
-
-s5.animate({opacity: 0}, 500)
-
-},3300)
-setTimeout(function(){
-
-s6.animate({opacity: 1}, 500)
-
-},2900)
-setTimeout(function(){
-
-s6.animate({opacity: 0}, 500)
-
-},3800)
-setTimeout(function(){
-
-s7.animate({opacity: 1}, 500)
-
-},3900)
-setTimeout(function(){
-
-s7.animate({opacity: 0}, 500)
-
-},4800)
-
-setTimeout(function(){
-
-s8.animate({opacity: 1}, 500)
-
-},4800)
-
-setTimeout(function(){
-
-s8.animate({opacity: 0}, 500)
-
-},5500)
-setTimeout(function(){
-s9.animate({opacity: 1}, 500)
-
-},5500)
-
-setTimeout(function(){
-
-s9.animate({opacity: 0}, 500)
-
-},6000)
-setTimeout(function(){
-s10.animate({opacity: 1}, 500)
-
-},6500)
-setTimeout(function(){
-
-s10.animate({opacity: 0}, 500)
-
-},7300)
-setTimeout(function(){
-
-s4.animate({opacity: 0}, 500)
-
-},2500)
-console.log("HERE")
-}
-
-var anim2 = function() {
-    s.animate({ry: 6.268}, 200,function(){
-	
-	setTimeout(function(){
-	anim3()
-	},5000)
-
-	})
-
-
-}
-
-if(animating == false){
-anim3()
-console.log(s.attr("rx"))
-}
-
-
-;
-
-
-		
-			]]>
+]]>
 	</script>
 </svg>
