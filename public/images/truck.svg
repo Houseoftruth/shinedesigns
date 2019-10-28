@@ -171,8 +171,18 @@
 	var s = Snap("#truck");
 	var s2 = Snap("#mountains");
 		var s3 = Snap("#bush");
+		down= function(){
+		
+		}
+		setInterval(function(){
+s.animate({ transform:'t0,-20'},300,function(){
+s.animate({ transform:'t0,0'},300)
+})
+		},600)
+
 		setInterval(function(){
 				s2.attr({transform: 'translate(900, 0)'})
+				
 		s3.attr({transform: 'translate(-900, 0)'})
 s2.animate({ transform: 't-1300,0'},20000)
 s3.animate({ transform: 't1300,0'},10000)
