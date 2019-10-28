@@ -13,13 +13,47 @@
 		c0,0,63.774-114.093,127.896,0l147.66,299.328H434.258z"/>
 </g>
 <g id="Layer_3">
-	<line fill="none" stroke="#000000" stroke-width="18" stroke-miterlimit="10" x1="0" y1="2409.459" x2="1000" y2="2409.459"/>
 	<g id="bush">
 		<path fill="none" stroke="#000000" stroke-width="18" stroke-miterlimit="10" d="M19.771,2706.07c0,0,3-47.553,57.005-41.678
 			c0,0,34.833-46.104,64.832-0.503c0,0,44.998-6.236,40.498,42.181H19.771z"/>
 		<path fill="none" stroke="#000000" stroke-width="18" stroke-miterlimit="10" d="M791.076,2536.417
 			c0,0,6.046-62.032,46.521-40.255c0,0,31.477-84.614,71.974-4.634c0,0,47.996-3.594,41.997,44.889H791.076z"/>
 	</g>
+	
+		<line fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="19.771" y1="2772.467" x2="101.097" y2="2772.467"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="19.771" y1="2772.467" x2="101.097" y2="2772.467"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="19.771" y1="2772.467" x2="101.097" y2="2772.467"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="19.771" y1="2772.467" x2="101.097" y2="2772.467"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="19.771" y1="2772.467" x2="101.097" y2="2772.467"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="19.771" y1="2772.467" x2="101.097" y2="2772.467"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="19.771" y1="2772.467" x2="101.097" y2="2772.467"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="19.771" y1="2772.467" x2="101.097" y2="2772.467"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="19.771" y1="2772.467" x2="101.097" y2="2772.467"/>
+	
+		<line display="none" fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="243.771" y1="2772.467" x2="325.097" y2="2772.467"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="133.771" y1="2772.467" x2="197.065" y2="2772.467"/>
+	
+		<line display="none" fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="372.771" y1="2772.467" x2="454.097" y2="2772.467"/>
+	
+		<line display="none" fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="496.771" y1="2772.467" x2="578.098" y2="2772.467"/>
+	
+		<line display="none" fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="616.771" y1="2772.467" x2="698.098" y2="2772.467"/>
+	<line fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="813" y1="2772.467" x2="823.098" y2="2772.467"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="865.771" y1="2772.467" x2="947.098" y2="2772.467"/>
+</g>
+<g id="road">
+	<line fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="0" y1="2711.459" x2="1000" y2="2711.459"/>
+	<line fill="none" stroke="#000000" stroke-width="18" stroke-miterlimit="10" x1="0" y1="2409.459" x2="1000" y2="2409.459"/>
 </g>
 <g id="truck">
 	<path fill="#FFFFFF" stroke="#000000" stroke-width="9" stroke-miterlimit="10" d="M201.809,2706.07v-93.895v-78.246
@@ -145,32 +179,14 @@
 
 	var s = Snap("#truck");
 	var s2 = Snap("#mountains");
-	var s3 = Snap("#bush");
-		
-
-	var animating = false;
-	//var matrix = s2.transform().localMatrix;
-	console.log(s.attr(""))
-	console.log(s)
-//console.log(s2)
-	//console.log(matrix)
-	//console.log(matrix.toTransformString())
-	//var tMatrix = matrix.toTransformString()
-	/*s.attr({
-    fill: "#fc0",
-    stroke: "#000",
-    strokeWidth: 8, // CamelCase...
-    "fill-opacity": 0.5, // or dash-separated names
-    width: "*=2" // prefixed values
-});*/
-
-
-//s.animate({ transform: 't-80,0' }, 5000)
-s2.attr({transform: 'translate(900, 0)'})
-s3.attr({transform: 'translate(-600, 0)'})
+		var s3 = Snap("#bush");
+		s2.attr({transform: 'translate(900, 0)'})
+		s3.attr({transform: 'translate(-900, 0)'})
 s2.animate({ transform: 't-1300,0'},20000)
 s3.animate({ transform: 't1300,0'},10000)
 
-]]>
+			
+			]]>
 	</script>
+
 </svg>
