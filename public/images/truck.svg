@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 2858.417" enable-background="new 0 0 1000 2858.417" xml:space="preserve">
-	 <script  id="script4044" xlink:href="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg.js"></script>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1000px"
+	 height="2858.417px" viewBox="0 0 1000 2858.417" enable-background="new 0 0 1000 2858.417" xml:space="preserve">
+<script  id="script4044" xlink:href="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg.js"></script>
 <g id="mountains">
 	<path fill="#FFFFFF" stroke="#000000" stroke-width="18" stroke-miterlimit="10" d="M281,2253.459l127.782-299.328
 		c0,0,63.774-114.093,127.896,0l147.66,299.328H281z"/>
@@ -13,33 +14,33 @@
 </g>
 <g id="Layer_3">
 	<g id="bush">
-		<path fill="none" stroke="#000000" stroke-width="18" stroke-miterlimit="10" d="M19.771,2706.07c0,0,3-47.553,57.005-41.678
+		<path fill="none" stroke="#000000" stroke-width="9" stroke-miterlimit="10" d="M19.771,2706.07c0,0,3-47.553,57.005-41.678
 			c0,0,34.833-46.104,64.832-0.503c0,0,44.998-6.236,40.498,42.181H19.771z"/>
-		<path fill="none" stroke="#000000" stroke-width="18" stroke-miterlimit="10" d="M791.076,2536.417
-			c0,0,6.046-62.032,46.521-40.255c0,0,31.477-84.614,71.974-4.634c0,0,47.996-3.594,41.997,44.889H791.076z"/>
+		<path fill="none" stroke="#000000" stroke-width="9" stroke-miterlimit="10" d="M791.076,2536.417c0,0,6.046-62.032,46.521-40.255
+			c0,0,31.477-84.614,71.974-4.634c0,0,47.996-3.594,41.997,44.889H791.076z"/>
 	</g>
 	
-		<line fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="19.771" y1="2772.467" x2="101.097" y2="2772.467"/>
+		<line display="none" fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="19.771" y1="2772.467" x2="101.097" y2="2772.467"/>
 	
-		<line fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="19.771" y1="2772.467" x2="101.097" y2="2772.467"/>
+		<line display="none" fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="19.771" y1="2772.467" x2="101.097" y2="2772.467"/>
 	
-		<line fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="19.771" y1="2772.467" x2="101.097" y2="2772.467"/>
+		<line display="none" fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="19.771" y1="2772.467" x2="101.097" y2="2772.467"/>
 	
-		<line fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="19.771" y1="2772.467" x2="101.097" y2="2772.467"/>
+		<line display="none" fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="19.771" y1="2772.467" x2="101.097" y2="2772.467"/>
 	
-		<line fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="19.771" y1="2772.467" x2="101.097" y2="2772.467"/>
+		<line display="none" fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="19.771" y1="2772.467" x2="101.097" y2="2772.467"/>
 	
-		<line fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="19.771" y1="2772.467" x2="101.097" y2="2772.467"/>
+		<line display="none" fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="19.771" y1="2772.467" x2="101.097" y2="2772.467"/>
 	
-		<line fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="19.771" y1="2772.467" x2="101.097" y2="2772.467"/>
+		<line display="none" fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="19.771" y1="2772.467" x2="101.097" y2="2772.467"/>
 	
-		<line fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="19.771" y1="2772.467" x2="101.097" y2="2772.467"/>
+		<line display="none" fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="19.771" y1="2772.467" x2="101.097" y2="2772.467"/>
 	
-		<line fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="19.771" y1="2772.467" x2="101.097" y2="2772.467"/>
+		<line id="road_1_" fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="19.771" y1="2772.467" x2="101.097" y2="2772.467"/>
 	
 		<line display="none" fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="243.771" y1="2772.467" x2="325.097" y2="2772.467"/>
 	
-		<line fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="133.771" y1="2772.467" x2="197.065" y2="2772.467"/>
+		<line id="road2" fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="133.771" y1="2772.467" x2="197.065" y2="2772.467"/>
 	
 		<line display="none" fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10" x1="372.771" y1="2772.467" x2="454.097" y2="2772.467"/>
 	
@@ -171,6 +172,7 @@
 	var s = Snap("#truck");
 	var s2 = Snap("#mountains");
 		var s3 = Snap("#bush");
+		var s4 = Snap("#road_1_");
 		down= function(){
 		
 		}
@@ -179,6 +181,11 @@ s.animate({ transform:'t0,-20'},300,function(){
 s.animate({ transform:'t0,0'},300)
 })
 		},600)
+				setInterval(function(){
+s4.animate({ transform:'t-400,0'},5000,function(){
+s4.attr({ transform:'translate(0, 0)'})
+})
+		},6000)
 
 		setInterval(function(){
 				s2.attr({transform: 'translate(900, 0)'})
@@ -195,4 +202,5 @@ s3.animate({ transform: 't1300,0'},10000)
 			
 			]]>
 	</script>
+
 </svg>
