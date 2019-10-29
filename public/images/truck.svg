@@ -206,8 +206,8 @@ s6.animate({ transform:'t-435,310'},3000,function(){
 								  stroke:'black'})
 		setInterval(function(){
 						s5.attr({ transform:'translate(-10, 0)',
-								  stroke:'red'})
-s5.animate({ transform:'t200,0'},3000,function(){
+								  stroke:'black'})
+s5.animate({ transform:'t150,0'},3000,function(){
 
 
 })
