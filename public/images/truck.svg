@@ -183,29 +183,35 @@ s.animate({ transform:'t0,-20'},300,function(){
 s.animate({ transform:'t0,0'},300)
 })
 		},600)
+		s4.attr({ transform:'translate(-70, 0)',
+							stroke:'black'})
 				setInterval(function(){
-				s4.attr({ transform:'translate(-85, 0)'})
-s4.animate({ transform:'t200,0'},3000,function(){
+				s4.attr({ transform:'translate(-70, 0)',
+							stroke:'green'})
+s4.animate({ transform:'t140,0'},3000,function(){
 
 
 })
-		},1500)
+		},2500)
 						setInterval(function(){
 						
-s6.attr({ transform:'translate(-635, 310)'})
-s6.animate({ transform:'t-350,310'},3000,function(){
+s6.attr({ transform:'translate(-700, 310)'})
+s6.animate({ transform:'t-435,310'},3000,function(){
 
 
 })
 
-		},1500)
-			setInterval(function(){
-						s5.attr({ transform:'translate(-85, 0)'})
+		},2500)
+		s5.attr({ transform:'translate(-10, 0)',
+								  stroke:'red'})
+		setInterval(function(){
+						s5.attr({ transform:'translate(-10, 0)',
+								  stroke:'red'})
 s5.animate({ transform:'t200,0'},3000,function(){
 
 
 })
-		},1500)
+		},2500)
 
 		setInterval(function(){
 				s2.attr({transform: 'translate(900, 0)'})
