@@ -196,7 +196,7 @@ s4.animate({ transform:'t125,0'},3000,function(){
 						setInterval(function(){
 						
 s6.attr({ transform:'translate(-700, 310)'})
-s6.animate({ transform:'t-435,310'},3000,function(){
+s6.animate({ transform:'t-445,310'},3000,function(){
 
 
 })
