@@ -184,7 +184,7 @@ s.animate({ transform:'t0,0'},300)
 })
 		},600)
 				setInterval(function(){
-				s4.attr({ transform:'translate(-80, 0)'})
+				s4.attr({ transform:'translate(-90, 0)'})
 s4.animate({ transform:'t200,0'},3000,function(){
 
 
@@ -192,7 +192,7 @@ s4.animate({ transform:'t200,0'},3000,function(){
 		},2500)
 						setInterval(function(){
 						
-s6.attr({ transform:'translate(-630, 310)'})
+s6.attr({ transform:'translate(-640, 310)'})
 s6.animate({ transform:'t-350,310'},3000,function(){
 
 
@@ -200,7 +200,7 @@ s6.animate({ transform:'t-350,310'},3000,function(){
 
 		},2500)
 			setInterval(function(){
-						s5.attr({ transform:'translate(-80, 0)'})
+						s5.attr({ transform:'translate(-90, 0)'})
 s5.animate({ transform:'t200,0'},3000,function(){
 
 
