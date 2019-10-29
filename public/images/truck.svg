@@ -205,7 +205,7 @@ s6.animate({ transform:'t-445,310'},3000,function(){
 		s5.attr({ transform:'translate(-10, 0)',
 								  stroke:'black'})
 		setInterval(function(){
-						s5.attr({ transform:'translate(-10, 0)',
+						s5.attr({ transform:'translate(-13, 0)',
 								  stroke:'black'})
 s5.animate({ transform:'t120,0'},3000,function(){
 
