@@ -207,7 +207,7 @@ s6.animate({ transform:'t-445,310'},3000,function(){
 		setInterval(function(){
 						s5.attr({ transform:'translate(-10, 0)',
 								  stroke:'black'})
-s5.animate({ transform:'t100,0'},2500,function(){
+s5.animate({ transform:'t120,0'},3000,function(){
 
 
 })
