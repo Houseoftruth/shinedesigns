@@ -186,9 +186,9 @@ s.animate({ transform:'t0,0'},300)
 		s4.attr({ transform:'translate(-70, 0)',
 							stroke:'black'})
 				setInterval(function(){
-				s4.attr({ transform:'translate(-80, 0)',
+				s4.attr({ transform:'translate(-60, 0)',
 							stroke:'black'})
-s4.animate({ transform:'t150,0'},3000,function(){
+s4.animate({ transform:'t130,0'},3000,function(){
 
 
 })
