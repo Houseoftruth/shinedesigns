@@ -187,7 +187,7 @@ s.animate({ transform:'t0,0'},300)
 							stroke:'black'})
 				setInterval(function(){
 				s4.attr({ transform:'translate(-70, 0)',
-							stroke:'green'})
+							stroke:'black'})
 s4.animate({ transform:'t140,0'},3000,function(){
 
 
@@ -203,7 +203,7 @@ s6.animate({ transform:'t-435,310'},3000,function(){
 
 		},2500)
 		s5.attr({ transform:'translate(-10, 0)',
-								  stroke:'red'})
+								  stroke:'black'})
 		setInterval(function(){
 						s5.attr({ transform:'translate(-10, 0)',
 								  stroke:'red'})
