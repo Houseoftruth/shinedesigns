@@ -246,7 +246,7 @@ s.animate({ transform:'t0,0'},300)
 						
 s6.attr({ transform:'translate(-980, 295)',
 				  stroke:'green'})
-s6.animate({ transform:'t-850,295'},2500,function(){
+s6.animate({ transform:'t-850,295git add '},2500,function(){
 
 
 })
