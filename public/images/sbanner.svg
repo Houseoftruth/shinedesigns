@@ -7,13 +7,17 @@
 <![CDATA[
 	.st0{fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
 	.st1{display:none;fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:#000000;stroke-width:8;stroke-miterlimit:10;}
-	.st3{display:none;fill:none;stroke:#000000;stroke-width:8;stroke-miterlimit:10;}
-	.st4{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
-	.st5{display:none;fill:none;stroke:#000000;stroke-width:6;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#010101;stroke-width:5;stroke-miterlimit:10;}
+	.st3{font-family:'MyriadPro-Regular';}
+	.st4{fill:none;stroke:#000000;stroke-width:8;stroke-miterlimit:10;}
+	.st5{display:none;fill:none;stroke:#000000;stroke-width:8;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st7{font-size:72;}
+	.st8{display:none;}
+	.st9{display:none;fill:none;stroke:#000000;stroke-width:6;stroke-miterlimit:10;}
 ]]>
 </style>
-<circle class="st2" cx="500.119" cy="499.746" r="110.17"/>
+<circle class="st4" cx="500.119" cy="499.746" r="110.17"/>
 <line class="st0" x1="503.5" y1="650" x2="503.5" y2="755"/>
 <line class="st0" x1="503.5" y1="777" x2="503.5" y2="815"/>
 <g>
@@ -28,17 +32,17 @@
 	<line class="st0" x1="360" y1="503.5" x2="255" y2="503.5"/>
 	<line class="st0" x1="233" y1="503.5" x2="195" y2="503.5"/>
 </g>
-<image style="display:none;overflow:visible;" width="920" height="637" xlink:href="22B02506.jpg"  transform="matrix(1 0 0 1 40 181)">
+<image style="display:none;overflow:visible;" width="920" height="637" xlink:href="22B02505.jpg"  transform="matrix(1 0 0 1 40 181)">
 </image>
 <line class="st0" x1="576.784" y1="359.685" x2="673.217" y2="180.317"/>
-<line class="st0" x1="648" y1="360" x2="675" y2="333"/>
-<line class="st0" x1="648" y1="432" x2="792" y2="360"/>
+<line class="st1" x1="648" y1="360" x2="675" y2="333"/>
+<line class="st1" x1="792" y1="360" x2="648" y2="432"/>
 <line class="st0" x1="431.995" y1="650.676" x2="331.233" y2="827.647"/>
 <line class="st0" x1="360.809" y1="648.63" x2="333.16" y2="674.966"/>
 <line class="st0" x1="362.558" y1="576.65" x2="216.851" y2="645.13"/>
-<polygon class="st5" points="288,271 432,271 504,199 360,199 "/>
-<path class="st2" d="M216,504"/>
-<line class="st3" x1="288" y1="270" x2="288" y2="486"/>
+<polygon class="st9" points="288,271 432,271 504,199 360,199 "/>
+<path class="st4" d="M216,504"/>
+<line class="st5" x1="288" y1="270" x2="288" y2="486"/>
 <polygon class="st0" points="432,162 360,189 432,216 504,189 "/>
 <line class="st0" x1="359.5" y1="432" x2="359.5" y2="198"/>
 <line class="st0" x1="431.5" y1="189" x2="431.5" y2="117"/>
@@ -98,5 +102,11 @@
 		<path d="M540,659.5c3.225,0,3.225-5,0-5S536.775,659.5,540,659.5L540,659.5z"/>
 	</g>
 </g>
-<line class="st4" x1="549" y1="657.5" x2="702" y2="657.5"/>
+<line class="st6" x1="549" y1="657.5" x2="702" y2="657.5"/>
+<text transform="matrix(0.4427 -0.8967 0.8967 0.4427 702 171)" class="st8 st3 st7">&gt;</text>
+<line class="st2" x1="664.5" y1="504" x2="664.5" y2="486"/>
+<line class="st2" x1="791.5" y1="504" x2="791.5" y2="486"/>
+<path class="st2" d="M666,468.5h126c0,0,17.5-0.5,17.5-18.5v-89c0-18-17.5-18.5-17.5-18.5H666"/>
+<path class="st6" d="M648,360.5h126h9c0,0,9,0,9,9"/>
+<path class="st6" d="M648,449.5h126h9c0,0,9,0,9-9"/>
 </svg>
