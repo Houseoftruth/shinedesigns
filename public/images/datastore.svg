@@ -5,32 +5,33 @@
 	 viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
 <style type="text/css">
 <![CDATA[
-	.st0{fill:none;stroke:#000000;stroke-width:8;stroke-miterlimit:10;}
-	.st1{display:none;fill:none;stroke:#000000;stroke-width:8;stroke-miterlimit:10;}
+	.st0{display:none;fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:8;stroke-miterlimit:10;}
+	.st2{display:none;fill:none;stroke:#000000;stroke-width:8;stroke-miterlimit:10;}
 ]]>
 </style>
-<path class="st0" d="M288,637c0,6.627-5.373,12-12,12H12c-6.627,0-12-5.373-12-12V227c0-6.627,5.373-12,12-12h264
+<path class="st1" d="M288,637c0,6.627-5.373,12-12,12H12c-6.627,0-12-5.373-12-12V227c0-6.627,5.373-12,12-12h264
 	c6.627,0,12,5.373,12,12V637z"/>
-<path class="st0" d="M648,638c0,6.627-5.373,12-12,12H372c-6.627,0-12-5.373-12-12V228c0-6.627,5.373-12,12-12h264
+<path class="st1" d="M648,638c0,6.627-5.373,12-12,12H372c-6.627,0-12-5.373-12-12V228c0-6.627,5.373-12,12-12h264
 	c6.627,0,12,5.373,12,12V638z"/>
-<path class="st0" d="M999,638c0,6.627-5.373,12-12,12H723c-6.627,0-12-5.373-12-12V228c0-6.627,5.373-12,12-12h264
+<path class="st1" d="M999,638c0,6.627-5.373,12-12,12H723c-6.627,0-12-5.373-12-12V228c0-6.627,5.373-12,12-12h264
 	c6.627,0,12,5.373,12,12V638z"/>
-<path class="st1" d="M288,360c0,0,36,63,72,0"/>
+<path class="st2" d="M288,360c0,0,36,63,72,0"/>
 <g>
-	<path class="st0" d="M18,198l116.809-50.061C139.864,145.772,148.5,144,154,144h206"/>
+	<path class="st1" d="M18,198l116.809-50.061C139.864,145.772,148.5,144,154,144h206"/>
 </g>
 <g>
-	<path class="st0" d="M360,198l116.809-50.061C481.864,145.772,490.5,144,496,144h206"/>
+	<path class="st1" d="M360,198l116.809-50.061C481.864,145.772,490.5,144,496,144h206"/>
 </g>
 <g>
-	<path class="st0" d="M720,198l116.809-50.061C841.864,145.772,850.5,144,856,144h206"/>
+	<path class="st1" d="M720,198l116.809-50.061C841.864,145.772,850.5,144,856,144h206"/>
 </g>
-<rect x="18" y="252" class="st1" width="234" height="54"/>
-<rect x="18" y="360" class="st1" width="234" height="54"/>
-<polyline class="st1" points="18,540 18,594 252,594 "/>
-<polyline class="st0" points="18,450 18,504 252,504 "/>
-<polyline class="st0" points="18,351 18,405 252,405 "/>
-<polyline class="st0" points="18,261 18,315 252,315 "/>
+<rect x="18" y="252" class="st2" width="234" height="54"/>
+<rect x="18" y="360" class="st2" width="234" height="54"/>
+<polyline class="st2" points="18,540 18,594 252,594 "/>
+<polyline class="st1" points="18,450 18,504 252,504 "/>
+<polyline class="st1" points="18,351 18,405 252,405 "/>
+<polyline class="st1" points="18,261 18,315 252,315 "/>
 <g>
 	<g>
 		<path d="M72,272.5c3.224,0,3.224-5,0-5S68.776,272.5,72,272.5L72,272.5z"/>
@@ -76,9 +77,9 @@
 		<path d="M54,461.5c3.224,0,3.224-5,0-5S50.776,461.5,54,461.5L54,461.5z"/>
 	</g>
 </g>
-<polyline class="st0" points="378,450 378,504 612,504 "/>
-<polyline class="st0" points="378,351 378,405 612,405 "/>
-<polyline class="st0" points="378,261 378,315 612,315 "/>
+<polyline class="st1" points="378,450 378,504 612,504 "/>
+<polyline class="st1" points="378,351 378,405 612,405 "/>
+<polyline class="st1" points="378,261 378,315 612,315 "/>
 <g>
 	<g>
 		<path d="M432,272.5c3.224,0,3.224-5,0-5S428.776,272.5,432,272.5L432,272.5z"/>
@@ -124,9 +125,9 @@
 		<path d="M414,461.5c3.224,0,3.224-5,0-5S410.776,461.5,414,461.5L414,461.5z"/>
 	</g>
 </g>
-<polyline class="st0" points="729,450 729,504 963,504 "/>
-<polyline class="st0" points="729,351 729,405 963,405 "/>
-<polyline class="st0" points="729,261 729,315 963,315 "/>
+<polyline class="st1" points="729,450 729,504 963,504 "/>
+<polyline class="st1" points="729,351 729,405 963,405 "/>
+<polyline class="st1" points="729,261 729,315 963,315 "/>
 <g>
 	<g>
 		<path d="M783,272.5c3.225,0,3.225-5,0-5S779.775,272.5,783,272.5L783,272.5z"/>
@@ -172,4 +173,9 @@
 		<path d="M765,461.5c3.225,0,3.225-5,0-5S761.775,461.5,765,461.5L765,461.5z"/>
 	</g>
 </g>
+<path class="st0" d="M360,315c-30.857,27-54,0-54,0"/>
+<path class="st0" d="M306,297c0,0,23.143,27,54,0"/>
+<line class="st0" x1="306.5" y1="315" x2="306.5" y2="297"/>
+<path class="st0" d="M711,315c-25.715,27-45,0-45,0"/>
+<line class="st1" x1="0" y1="711" x2="1000" y2="711"/>
 </svg>
