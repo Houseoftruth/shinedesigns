@@ -4,6 +4,9 @@ html, body {
     min-width:100%;
     min-height:100%;
 }
+[ng\:cloak], [ng-cloak], .ng-cloak {
+  display: none !important;
+}
 #overlay {
   position: relative;
 }
