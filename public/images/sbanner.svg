@@ -24,6 +24,25 @@
 	.st16{display:none;fill:none;stroke:#000000;stroke-width:6;stroke-miterlimit:10;}
 	.st17{stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
 ]]>
+ #smoke{
+		 stroke-dasharray:2200;
+		 stroke-dashoffset:0;
+		 -webkit-animation:dash 3s infinite linear forwards;
+		 }
+		  #vecmaprec{
+		 stroke-dasharray:2200;
+		 stroke-dashoffset:0;
+		 -webkit-animation:dash 3s infinite linear forwards;
+		 }
+		 @-webkit-keyframes dash{
+
+		 from{
+		 stroke-dashoffset:2200;
+		 }
+		 to{
+		 stroke-dashoffset:0;
+		 }
+		 }
 </style>
 <circle class="st6" cx="500.119" cy="499.746" r="110.17"/>
 <line class="st0" x1="503.5" y1="650" x2="503.5" y2="755"/>
