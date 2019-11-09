@@ -308,14 +308,15 @@
 			c-6.222,6.222-6.222,16.405,0,22.627l49.373,49.373c6.222,6.222,16.405,16.405,22.627,22.627l49.373,49.373
 			c6.222,6.222,16.405,6.222,22.627,0L288.5,424.5"/>
 	</g>
-	<line fill="none" stroke="#000000" stroke-width="18" stroke-miterlimit="10" x1="216.5" y1="775.5" x2="792.5" y2="775.5"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="18" stroke-miterlimit="10" x1="303.44" y1="693.993" x2="705.559" y2="693.993"/>
 	<g>
-		<path fill="none" stroke="#000000" stroke-width="18" stroke-miterlimit="10" d="M216.5,487.5l275.959,241.464
-			c6.623,5.795,17.46,5.795,24.082,0L792.5,487.5"/>
+		<path fill="none" stroke="#000000" stroke-width="18" stroke-miterlimit="10" d="M303.44,492.934l189.019,165.391
+			c6.623,5.795,17.46,5.795,24.082,0l189.019-165.391"/>
 	</g>
-	<line fill="none" stroke="#000000" stroke-width="18" stroke-miterlimit="10" x1="504.5" y1="631.5" x2="504.5" y2="208.5"/>
-	<circle fill="none" stroke="#000000" stroke-width="41" stroke-miterlimit="10" cx="504.5" cy="505.5" r="476.999"/>
-	<path fill="none" stroke="#000000" stroke-width="41" stroke-miterlimit="10" d="M133.98,805.906l741.04-600.813L133.98,805.906z"
-		/>
+	<line fill="none" stroke="#000000" stroke-width="18" stroke-miterlimit="10" x1="504.5" y1="593.463" x2="504.5" y2="298.157"/>
+	<circle fill="none" stroke="#000000" stroke-width="41" stroke-miterlimit="10" cx="504.5" cy="505.5" r="333.004"/>
+	<path fill="none" stroke="#000000" stroke-width="41" stroke-miterlimit="10" d="M245.831,715.221L763.168,295.78L245.831,715.221z
+		"/>
 </g>
 </svg>
