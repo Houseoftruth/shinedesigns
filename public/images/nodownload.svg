@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"  viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1000px"
+	 height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
 <g id="loop" display="none">
 	<g>
 		<g id="Desktop">
@@ -309,12 +310,12 @@
 			c6.222,6.222,16.405,6.222,22.627,0L288.5,424.5"/>
 	</g>
 	
-		<line fill="none" stroke="#FCFCFC" stroke-width="18" stroke-miterlimit="10" x1="303.44" y1="693.993" x2="705.559" y2="693.993"/>
+		<line fill="none" stroke="#000000" stroke-width="18" stroke-miterlimit="10" x1="303.44" y1="693.993" x2="705.559" y2="693.993"/>
 	<g>
-		<path fill="none" stroke="#FCFCFC" stroke-width="18" stroke-miterlimit="10" d="M303.44,492.934l189.019,165.391
+		<path fill="none" stroke="#000000" stroke-width="18" stroke-miterlimit="10" d="M303.44,492.934l189.019,165.391
 			c6.623,5.795,17.46,5.795,24.082,0l189.019-165.391"/>
 	</g>
-	<line fill="none" stroke="#FCFCFC" stroke-width="18" stroke-miterlimit="10" x1="504.5" y1="593.463" x2="504.5" y2="298.157"/>
+	<line fill="none" stroke="#000000" stroke-width="18" stroke-miterlimit="10" x1="504.5" y1="593.463" x2="504.5" y2="298.157"/>
 	<circle fill="none" stroke="#000000" stroke-width="41" stroke-miterlimit="10" cx="504.5" cy="505.5" r="333.004"/>
 	<path fill="none" stroke="#000000" stroke-width="41" stroke-miterlimit="10" d="M245.831,715.221L763.168,295.78L245.831,715.221z
 		"/>
