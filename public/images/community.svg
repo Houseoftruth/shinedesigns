@@ -2,59 +2,64 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 666 531" style="enable-background:new 0 0 666 531;" xml:space="preserve">
-<style type="text/css">
-<![CDATA[
-	.st0{fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
-]]>
-</style>
-<circle class="st0" cx="342" cy="243" r="63"/>
+	 viewBox="0 0 666 531" enable-background="new 0 0 666 531" xml:space="preserve">
+<circle display="none" fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" cx="531" cy="243" r="63"/>
 <g>
-	<path class="st0" d="M37.5,369.5c-11,0-20,9-20,20v32c0,11,9,20,20,20h32c11,0,20,9,20,20v32c0,11,9,20,20,20h176c11,0,20-9,20-20
-		v-32c0-11-9-20-20-20h-104c-11,0-20-9-20-20v-32c0-11-9-20-20-20H37.5z"/>
+	<path fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M37.5,315.5c-11,0-20,9-20,20v32c0,11,9,20,20,20
+		h32c11,0,20,9,20,20v32c0,11,9,20,20,20h176c11,0,20-9,20-20v-32c0-11-9-20-20-20h-104c-11,0-20-9-20-20v-32c0-11-9-20-20-20H37.5z
+		"/>
 </g>
-<path class="st0" d="M-171,216"/>
-<circle class="st0" cx="36" cy="342" r="18"/>
-<polyline class="st0" points="35.5,369 35.5,351 45,342 "/>
-<line class="st0" x1="27" y1="342" x2="35.5" y2="351"/>
-<circle class="st0" cx="90" cy="342" r="18"/>
-<polyline class="st0" points="89.5,369 89.5,351 99,342 "/>
-<line class="st0" x1="81" y1="342" x2="89.5" y2="351"/>
-<circle class="st0" cx="234" cy="414" r="18"/>
-<polyline class="st0" points="233.5,441 233.5,423 243,414 "/>
-<line class="st0" x1="225" y1="414" x2="233.5" y2="423"/>
+<path fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M-171,216"/>
+<circle fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" cx="36" cy="288" r="18"/>
+<polyline fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" points="35.5,315 35.5,297 45,288 "/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="27" y1="288" x2="35.5" y2="297"/>
+<circle fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" cx="90" cy="288" r="18"/>
+<polyline fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" points="89.5,315 89.5,297 99,288 "/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="81" y1="288" x2="89.5" y2="297"/>
+<circle fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" cx="234" cy="360" r="18"/>
+<polyline fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" points="233.5,387 233.5,369 243,360 "/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="225" y1="360" x2="233.5" y2="369"/>
 <g>
-	<path class="st0" d="M63,405c0,0,13.5-4.5,9-9"/>
+	<path fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M63,351c0,0,13.5-4.5,9-9"/>
 </g>
 <g>
-	<path class="st0" d="M63,405c0,0,13.5-4.5,9-9l9,9"/>
+	<path fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M63,351c0,0,13.5-4.5,9-9l9,9"/>
 </g>
 <g>
-	<path class="st0" d="M81,405c0,0,13.5-4.5,9-9"/>
+	<path fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M81,351c0,0,13.5-4.5,9-9"/>
 </g>
 <g>
-	<path class="st0" d="M81,405c0,0,13.5-4.5,9-9l9,9"/>
+	<path fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M81,351c0,0,13.5-4.5,9-9l9,9"/>
 </g>
-<rect x="17.5" y="9.5" class="st0" width="72" height="144"/>
-<rect x="125.5" y="9.5" class="st0" width="72" height="144"/>
-<line class="st0" x1="26.5" y1="27" x2="26.5" y2="45"/>
-<line class="st0" x1="53.5" y1="27" x2="53.5" y2="45"/>
-<line class="st0" x1="80.5" y1="27" x2="80.5" y2="45"/>
-<line class="st0" x1="26.5" y1="63" x2="26.5" y2="81"/>
-<line class="st0" x1="53.5" y1="63" x2="53.5" y2="81"/>
-<line class="st0" x1="80.5" y1="63" x2="80.5" y2="81"/>
-<line class="st0" x1="26.5" y1="99" x2="26.5" y2="117"/>
-<line class="st0" x1="53.5" y1="99" x2="53.5" y2="117"/>
-<line class="st0" x1="80.5" y1="99" x2="80.5" y2="117"/>
-<line class="st0" x1="134.5" y1="27" x2="134.5" y2="45"/>
-<line class="st0" x1="161.5" y1="27" x2="161.5" y2="45"/>
-<line class="st0" x1="188.5" y1="27" x2="188.5" y2="45"/>
-<line class="st0" x1="134.5" y1="63" x2="134.5" y2="81"/>
-<line class="st0" x1="161.5" y1="63" x2="161.5" y2="81"/>
-<line class="st0" x1="188.5" y1="63" x2="188.5" y2="81"/>
-<line class="st0" x1="134.5" y1="99" x2="134.5" y2="117"/>
-<line class="st0" x1="161.5" y1="99" x2="161.5" y2="117"/>
-<line class="st0" x1="188.5" y1="99" x2="188.5" y2="117"/>
-<line class="st0" x1="594" y1="9" x2="549" y2="81"/>
-<line class="st0" x1="594" y1="9" x2="639" y2="81"/>
+<rect x="25.5" y="8.5" fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" width="116" height="232"/>
+<rect x="199.5" y="8.5" fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" width="115" height="232"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="40.5" y1="36" x2="40.5" y2="65"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="83.5" y1="37" x2="83.5" y2="66"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="127.5" y1="37" x2="127.5" y2="66"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="40.5" y1="94" x2="40.5" y2="123"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="83.5" y1="95" x2="83.5" y2="124"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="127.5" y1="95" x2="127.5" y2="124"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="40.5" y1="152" x2="40.5" y2="180"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="83.5" y1="153" x2="83.5" y2="181"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="127.5" y1="153" x2="127.5" y2="181"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="213.5" y1="37" x2="213.5" y2="66"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="257.5" y1="37" x2="257.5" y2="66"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="300.5" y1="37" x2="300.5" y2="66"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="213.5" y1="95" x2="213.5" y2="124"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="257.5" y1="95" x2="257.5" y2="124"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="300.5" y1="95" x2="300.5" y2="124"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="213.5" y1="153" x2="213.5" y2="181"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="257.5" y1="153" x2="257.5" y2="181"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="300.5" y1="153" x2="300.5" y2="181"/>
+<line display="none" fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="594" y1="9" x2="549" y2="81"/>
+<line display="none" fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="594" y1="9" x2="639" y2="81"/>
+<g>
+	<path fill="#FFFFFF" d="M162,495l10.929-10.929c3.889-3.89,10.253-3.89,14.143,0l3.857,3.857c3.889,3.89,10.253,3.89,14.143,0
+		l3.857-3.857c3.889-3.89,10.253-3.89,14.143,0L234,495"/>
+	<path fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" d="M162,495l10.929-10.929
+		c3.889-3.89,10.253-3.89,14.143,0l3.857,3.857c3.889,3.89,10.253,3.89,14.143,0l3.857-3.857c3.889-3.89,10.253-3.89,14.143,0
+		L234,495"/>
+</g>
+<polyline display="none" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-miterlimit="10" points="360,513 396,513 
+	396,441 522,441 522,369 522,297 558,297 558,261 522,261 522,153 612,153 612,99 576,99 576,117 522,117 "/>
 </svg>
