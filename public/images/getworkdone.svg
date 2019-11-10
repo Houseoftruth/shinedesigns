@@ -247,26 +247,28 @@
 <line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="0" y1="640.5" x2="216.5" y2="640.5"/>
 <line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="864.5" y1="640.5" x2="1081" y2="640.5"/>
 <path fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M-575.5,460.5"/>
-<g>
-	<path fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M162.5,774.5c0,5.5-4.5,10-10,10h-70
-		c-5.5,0-10-4.5-10-10v-70c0-5.5,4.5-10,10-10h70c5.5,0,10,4.5,10,10V774.5z"/>
-</g>
-<g>
-	<path fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M72.5,712.5h-17c-5.5,0-10,4.5-10,10v34
-		c0,5.5,4.5,10,10,10h17"/>
-</g>
-<line fill="none" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" x1="144.5" y1="712.5" x2="144.5" y2="766.5"/>
-<g>
-	<path fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M81.5,676.5c0,0,4.05-4.051,9-9
-		c4.95-4.95,2.561-12.221-5.311-16.155l-7.378-3.689c-7.871-3.936-9.221-12.246-2.998-18.469L99.5,604.5"/>
-</g>
-<g>
-	<path fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M108.5,676.5c0,0,4.05-4.051,9-9
-		c4.95-4.95,2.561-12.221-5.311-16.155l-7.378-3.689c-7.871-3.936-9.221-12.246-2.998-18.469L126.5,604.5"/>
-</g>
-<g>
-	<path fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M135.5,676.5c0,0,4.05-4.051,9-9
-		c4.95-4.95,2.561-12.221-5.311-16.155l-7.378-3.689c-7.871-3.936-9.221-12.246-2.998-18.469L153.5,604.5"/>
+<g id="Cup">
+	<g>
+		<path fill="#231F20" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M162.5,774.5c0,5.5-4.5,10-10,10h-70
+			c-5.5,0-10-4.5-10-10v-70c0-5.5,4.5-10,10-10h70c5.5,0,10,4.5,10,10V774.5z"/>
+	</g>
+	<g>
+		<path fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M72.5,712.5h-17c-5.5,0-10,4.5-10,10v34
+			c0,5.5,4.5,10,10,10h17"/>
+	</g>
+	<line fill="none" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" x1="144.5" y1="712.5" x2="144.5" y2="766.5"/>
+	<g>
+		<path fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M81.5,676.5c0,0,4.05-4.051,9-9
+			c4.95-4.95,2.561-12.221-5.311-16.155l-7.378-3.689c-7.871-3.936-9.221-12.246-2.998-18.469L99.5,604.5"/>
+	</g>
+	<g>
+		<path fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M108.5,676.5c0,0,4.05-4.051,9-9
+			c4.95-4.95,2.561-12.221-5.311-16.155l-7.378-3.689c-7.871-3.936-9.221-12.246-2.998-18.469L126.5,604.5"/>
+	</g>
+	<g>
+		<path fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M135.5,676.5c0,0,4.05-4.051,9-9
+			c4.95-4.95,2.561-12.221-5.311-16.155l-7.378-3.689c-7.871-3.936-9.221-12.246-2.998-18.469L153.5,604.5"/>
+	</g>
 </g>
 <path fill="#FFFFFF" stroke="#FFFFFF" stroke-width="7" stroke-miterlimit="10" d="M1251.5,235.5"/>
 </svg>
