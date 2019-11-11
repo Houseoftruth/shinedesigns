@@ -2,7 +2,7 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+	  viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
 <g id="mobile" display="none">
 	<path display="inline" fill="none" stroke="#010101" stroke-width="4" stroke-miterlimit="10" d="M920,669c0,6.627-5.373,12-12,12
 		H707c-6.627,0-12-5.373-12-12V333c0-6.627,5.373-12,12-12h201c6.627,0,12,5.373,12,12V669z"/>
@@ -72,27 +72,28 @@
 	
 		<line display="inline" fill="none" stroke="#010101" stroke-width="4" stroke-miterlimit="10" x1="875" y1="356" x2="902" y2="356"/>
 </g>
-<g id="Sun">
-	<path fill="none" stroke="#010101" stroke-width="9" stroke-miterlimit="10" d="M-70.136,664.38c0,0,544.81-234.781,1204,0"/>
-	<g>
+<g id="Sun" display="none">
+	<path display="inline" fill="none" stroke="#010101" stroke-width="9" stroke-miterlimit="10" d="M-70.136,664.38
+		c0,0,544.81-234.781,1204,0"/>
+	<g display="inline">
 		<path fill="none" stroke="#010101" stroke-width="9" stroke-miterlimit="10" d="M7.121,467.728c0,0-86.287,70.233,0,66.219
 			c0,0,66.684,11.793,0,52.174"/>
 		<path fill="none" stroke="#010101" stroke-width="9" stroke-miterlimit="10" d="M126.026,483.775c0,0-56.673,41.67,0,39.287
 			c0,0,43.8,6.998,0,30.956"/>
 	</g>
-	<g>
+	<g display="inline">
 		<path fill="none" stroke="#010101" stroke-width="9" stroke-miterlimit="10" d="M236.079,422.576c0,0-86.287,70.235,0,66.222
 			c0,0,66.682,11.793,0,52.173"/>
 		<path fill="none" stroke="#010101" stroke-width="9" stroke-miterlimit="10" d="M354.983,438.625c0,0-56.674,41.667,0,39.287
 			c0,0,43.8,6.996,0,30.952"/>
 	</g>
-	<g>
+	<g display="inline">
 		<path fill="none" stroke="#010101" stroke-width="9" stroke-miterlimit="10" d="M760.61,435.096c0,0-103.204,41.558-19.592,63.257
 			c0,0,60.207,30.998-15.44,49.835"/>
 		<path fill="none" stroke="#010101" stroke-width="9" stroke-miterlimit="10" d="M869.44,485.609c0,0-66.465,23.031-11.622,37.527
 			c0,0,39.765,19.643-9.159,29.566"/>
 	</g>
-	<g>
+	<g display="inline">
 		<path fill="none" stroke="#010101" stroke-width="9" stroke-miterlimit="10" d="M986.987,465.127
 			c0,0-106.602,31.844-25.355,61.175c0,0,57.086,36.426-19.975,48.198"/>
 		<path fill="none" stroke="#010101" stroke-width="9" stroke-miterlimit="10" d="M1090.686,525.482
