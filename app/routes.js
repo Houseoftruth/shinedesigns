@@ -22,7 +22,7 @@ module.exports = function (app) {
     })*/
     
    
-    app.post('/locations/addquery', function(req,res){
+    app.post('qualityllabourhire.herokuapp.com/locations/addquery', function(req,res){
         var location = new Location();
         location.cname = req.params.name
         location.email = req.params.email
@@ -35,6 +35,7 @@ module.exports = function (app) {
             }
 
     })
+})
     app.get('/users/getip', function(req,res){
         var ip = req.connection.remoteAddress;
       

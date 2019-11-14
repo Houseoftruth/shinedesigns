@@ -19,7 +19,7 @@ angular.module('userServices', []).config(function () {
 
     }
     userFactory.addQuery = function(queryObject){
-        return $http.post("qualitylabourhire.herokuapp.com/api/locations/addquery", queryObject)
+        return $http.post("qualitylabourhire.herokuapp.com/locations/addquery", queryObject)
     }
     userFactory.getProfileImage = function(id){
         return $http.get('/api/users/getprofileimage/'+id)
