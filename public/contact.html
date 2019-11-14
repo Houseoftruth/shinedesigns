@@ -20,7 +20,7 @@
                 <div class="input-field col s3">
                         
                     </div>
-          <div class="input-field col s6" style="border:1px solid white;">
+          <div ng-show="firstName" class="input-field col s6" style="border:1px solid white;">
               <div class = "row"></div>
               <div class = "row"></div>
                 <h4 class = "montserrat center-align">First Name</h4>
@@ -29,13 +29,31 @@
             <div class = "row"></div>
               <div class = "row"></div>
           </div>
+          <div ng-show="contactEmail" class="input-field col s6" style="border:1px solid white;">
+                <div class = "row"></div>
+                <div class = "row"></div>
+                  <h4 class = "montserrat center-align">First Name</h4>
+              <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+              <label for="first_name">First Name</label>
+              <div class = "row"></div>
+                <div class = "row"></div>
+            </div>
+            <div ng-show="howCanWeHelp"class="input-field col s6" style="border:1px solid white;">
+                    <div class = "row"></div>
+                    <div class = "row"></div>
+                      <h4 class = "montserrat center-align">First Name</h4>
+                  <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                  <label for="first_name">First Name</label>
+                  <div class = "row"></div>
+                    <div class = "row"></div>
+                </div>
           <div class="input-field col s3">
            
           </div>
         
         <div class = "col s4"></div>
         <div class = "col s4 grey lighten-5 " >
-        <a  ng-click="testButton()" class="montserrat flow-text black-text" style="font-size:30px; ">View More &nbsp        <img class="animated pulse infinite" style="position:relative; top:1rem;"src="./images/moredetails.svg">
+        <a  ng-click="testContact()" class="montserrat flow-text black-text" style="font-size:30px; ">View More &nbsp        <img class="animated pulse infinite" style="position:relative; top:1rem;"src="./images/moredetails.svg">
         </a>
         </div>
         <div class = "col s4"></div>

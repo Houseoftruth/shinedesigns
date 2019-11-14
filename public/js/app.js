@@ -100,7 +100,23 @@
         $scope.fadeOutHill = false;
         $scope.fadeInBar = false;
         $scope.fadeOutBar = false;
-        // $timeout(function () {
+        $scope.firstName = true;
+        $scope.contactEmail = false;
+        $scope.howCanWeHelp = false;
+        $scope.testContact = function(){
+            if($scope.firstName){
+                $scope.contactEmail = true;
+                $scope.firstName = false;
+            }else if($scope.contactEmail){
+                $scope.contactEmail = false;
+                $scope.howCanWeHelp = true;
+
+            }else if ($scope.howCanWeHelp ){
+                $scope.howCanWeHelp = false;
+                $scope.firstName= true;
+            }
+
+        }        // $timeout(function () {
         //  $scope.fadeInBar = true;
         //$scope.barChart = true;
         // },3000)
