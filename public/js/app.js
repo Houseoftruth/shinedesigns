@@ -103,6 +103,11 @@
         $scope.firstName = true;
         $scope.contactEmail = false;
         $scope.howCanWeHelp = false;
+        $scope.contactData = {
+            fname: "",
+            hcwh:"",
+            email:""
+        }
         $scope.testContact = function(){
             if($scope.firstName){
                 $scope.contactEmail = true;
@@ -114,7 +119,11 @@
             }else if ($scope.howCanWeHelp ){
                 $scope.howCanWeHelp = false;
                 $scope.firstName= true;
+                User.addQuery($scope.contactData).then(function(data){
+                    console.log(data)
+                })
             }
+            console.log($scope.contactData)
 
         }        // $timeout(function () {
         //  $scope.fadeInBar = true;

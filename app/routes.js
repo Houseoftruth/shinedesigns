@@ -22,6 +22,19 @@ module.exports = function (app) {
     })*/
     
    
+    app.post('/locations/addquery', function(req,res){
+        var location = new Location();
+        location.cname = req.params.name
+        location.email = req.params.email
+        location.hcwh = req.params.hcwh
+        location.save(function (err, location) {
+            if (err) {
+                res.json({ success: false, message: "Save failed.." })
+            } else {
+                res.json({ success: true, message: "Save successfull...", location: location })
+            }
+
+    })
     app.get('/users/getip', function(req,res){
         var ip = req.connection.remoteAddress;
       
