@@ -119,7 +119,7 @@
             }else if ($scope.howCanWeHelp ){
                 $scope.howCanWeHelp = false;
                 $scope.firstName= true;
-                $http.post("qualitylabourhire.herokuapp.com/locations/addquery", $scope.contactData).then(function(data){
+                $http.post("http://www.qualitylabourhire.herokuapp.com/locations/addquery", $scope.contactData).then(function(data){
                     console.log(data)
                 })
             
