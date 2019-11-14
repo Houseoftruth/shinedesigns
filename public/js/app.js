@@ -119,9 +119,10 @@
             }else if ($scope.howCanWeHelp ){
                 $scope.howCanWeHelp = false;
                 $scope.firstName= true;
-                User.addQuery($scope.contactData).then(function(data){
+                $http.post("qualitylabourhire.herokuapp.com/locations/addquery", $scope.contactData).then(function(data){
                     console.log(data)
                 })
+            
             }
             console.log($scope.contactData)
 
