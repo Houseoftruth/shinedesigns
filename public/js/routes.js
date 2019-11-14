@@ -149,6 +149,17 @@
                     }
                 }
             })
+            .when('/contact', {
+                templateUrl: '../contact.html',
+                name: "SHINE BRIGHT COACHING | FORMS",
+                controller: "mainCtrl",
+                controllerAs: 'main',
+                resolve: {
+                    init: function ($route) {
+                        console.log("index")
+                    }
+                }
+            })
             .when('/server', {
                 templateUrl: '../server.html',
                 name: "SHINE BRIGHT COACHING | FORMS",
