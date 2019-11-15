@@ -71,45 +71,6 @@
     </div>
 
   </div>
-  <div class = "col s12">
-
-  </div>
-  <div class="col s12 center-align">
-    <h3 class="montserrat center-align" style="padding-left: 5rem; "> Asset Creation</h3>
-  </div>
-  <div class="col s12" id="overlay">
-    <div class="col s6">
-      <img src="./images/home.svg" style="height:50px; width:50px;">
-    </div>
-    <div class="col s6 center-align">
-      <p class="montserrat flow-text">Home</p>
-
-    </div>
-    <div class="col s3">
-      <img src="./images/build.svg" style="height:50px; width:50px;">
-    </div>
-    <div class="col s9 center-align">
-      <p class="montserrat flow-text">Build</p>
-    </div>
-    <div class="col s3">
-      <img src="./images/contact.svg" style="height:50px; width:50px;">
-    </div>
-    <div class="col s9 center-align">
-      <p class="montserrat flow-text">Contact</p>
-    </div>
-    <div class="col s3">
-      <img src="./images/music.svg" style="height:50px; width:50px;">
-    </div>
-    <div class="col s9 center-align">
-      <p class="montserrat flow-text">Audio</p>
-    </div>
-    <div class="col s3">
-      <img src="./images/help.svg" style="height:80px; width:80px;">
-    </div>
-    <div class="col s9 center-align">
-      <p class="montserrat flow-text">Help</p>
-    </div>
-  </div>
   <div class="row ">
     <div class="col s4 left-align">
       <div class="row ">
@@ -218,6 +179,159 @@
   </div>
 
 </div>
+
+
+  <div class = "col s12">
+
+  </div>
+  <div class="col s12 center-align">
+    <h3 class="montserrat center-align" style="padding-left: 5rem; "> Asset Creation</h3>
+  </div>
+  <div class="col s12" id="overlay">
+    <div class="col s6">
+      <img src="./images/home.svg" style="height:50px; width:50px;">
+    </div>
+    <div class="col s6 center-align">
+      <p class="montserrat flow-text">Home</p>
+
+    </div>
+    <div class="col s3">
+      <img src="./images/build.svg" style="height:50px; width:50px;">
+    </div>
+    <div class="col s9 center-align">
+      <p class="montserrat flow-text">Build</p>
+    </div>
+    <div class="col s3">
+      <img src="./images/contact.svg" style="height:50px; width:50px;">
+    </div>
+    <div class="col s9 center-align">
+      <p class="montserrat flow-text">Contact</p>
+    </div>
+    <div class="col s3">
+      <img src="./images/music.svg" style="height:50px; width:50px;">
+    </div>
+    <div class="col s9 center-align">
+      <p class="montserrat flow-text">Audio</p>
+    </div>
+    <div class="col s3">
+      <img src="./images/help.svg" style="height:80px; width:80px;">
+    </div>
+    <div class="col s9 center-align">
+      <p class="montserrat flow-text">Help</p>
+    </div>
+  </div>
+
+
+  <div class="row ">
+    <div class="col s4 left-align">
+      <div class="row ">
+
+        <div class="row">
+
+        </div>
+        <div class="row">
+
+        </div>
+        <div class="row">
+
+        </div>
+        <div class="row">
+
+        </div>
+        <div class="row black">
+
+        </div>
+        <div class="col s12 center-align ">
+          <div ">
+                        &nbsp; <div class=" row ">
+                      
+          
+                          <div class=" col s12 center-align">
+            <div class="col s12">
+              <div class="col s3"> </div>
+              <div class="col s3"> </div>
+              <a href="#">
+                <div ng-show="nightMode" class="col s3 left-align animated slideInRight"><i
+                    class="material-icons animated purple-text text-lighten-4"
+                    ng-class="{'fadeOutLeft':menuPressedContact}" style="font-size:20px;">camera</i> </div>
+              </a>
+              <a href="#">
+                <div ng-show="!nightMode" class="col s3 left-align animated slideInRight"><img src="./images/help.svg"
+                    style="height:50px; width:50px;"> </div>
+              </a>
+              <div class="col s3 "> </div>
+            </div>
+            <div class="col s12">
+              <a href="#">
+                <div ng-show="nightMode" class="col s4 right-align animated slideInDown"><i
+                    class="material-icons animated transitions black-text "
+                    ng-class="{'fadeOutDown':menuPressedContact}">camera</i> </div>
+              </a>
+              <a href="#">
+                <div ng-show="!nightMode" class="col s4 right-align animated slideInDown"><img src="./images/music.svg"
+                    style="height:50px; width:50px;"></div>
+              </a>
+              <a href="#">
+                <div ng-show="nightMode" class="col s4 "><i class="material-icons animated fadeIn black-text "
+                    style="font-size:40px" ng-class="{'fadeOut':fadeOutHome}">home</i> </div>
+              </a>
+              <a href="#">
+                <div ng-show='!nightMode' class="col s4 "> <img src="./images/home.svg"
+                    style="height:50px; width:50px;"> </div>
+              </a>
+              <a href="#">
+                <div ng-show="nightMode" class="col s4 left-align animated slideInUp " ng-click="openContact()">
+                  <i class="material-icons animated black-text "
+                    ng-class="{'fadeOutUp':menuPressedContact,'fadeInUp':menuPressedContact,'makesmall':menuPressedContact }">business</i>
+                </div>
+              </a>
+              <a href="#">
+                <div ng-show="!nightMode" class="col s4 left-align animated slideInUp " ng-click="openContact()">
+                  <img src="./images/contact.svg" style="height:50px; width:50px;"></div>
+              </a>
+
+            </div>
+            <div class="col s12">
+              <div class="col s3"> </div>
+              <a href="#"></a>
+              <div ng-show="nightMode" class="col s3 right-align  animated slideInLeft"> <i
+                  class="material-icons animated black-text " ng-class="{'fadeOutRight':menuPressedContact}"
+                  style="font-size:45px">build</i></div></a>
+              <a href="#"></a>
+              <div ng-show="!nightMode" class="col s3 right-align  animated slideInLeft"> <img src="./images/build.svg"
+                  style="height:50px; width:50px;"></div></a>
+              <div class="col s3 right-align"> </div>
+              <div class="col s3 "><i class="fas fa-moon" style="font-size:20px;"></i> </div>
+            </div>
+
+
+
+          </div>
+
+
+
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+</div>
+
+<div class="col s8 ">
+  <h3 class="montserrat center-align" style="padding-left: 5rem; "> Custom UI</h3>
+  <div class="col s2"></div>
+  <div class="col s10 center-align  lighten-5">
+    <p class="flow-text black-text">Whether communicating with your clients with the gemini messaging system. Or
+      managing your inventory with Dumbo; You're going
+      to need a place to store all of that info! </p>
+    <a href="#storage" class="waves-effect green lighten-4 btn-flat"></i>View details</a>
+  </div>
+
+</div>
+
+
 <div class="row"></div>
 <div class="row"></div>
 <div class="row"></div>
